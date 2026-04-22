@@ -1,0 +1,147 @@
+---
+interface Props {
+	transparent?: boolean;
+}
+const { transparent = false } = Astro.props;
+---
+
+<nav id="main-nav" class:list={[
+	"fixed top-0 left-0 right-0 z-[60] transition-all duration-300",
+	transparent ? "bg-transparent" : "bg-white shadow-md"
+]} data-transparent={transparent}>
+	<div class="max-w-11/12 mx-auto flex items-center justify-between px-6 py-5">
+		<a href="/" class:list={[
+			"font-geologica text-3xl font-bold uppercase tracking-wide transition-colors duration-300 nav-brand",
+			transparent ? "text-white" : "text-red-800"
+		]}>ΡΙΖΟΣ</a>
+
+		<!-- Desktop links -->
+		<ul class="hidden md:flex gap-10 md:gap-16 list-none m-0 p-0 text-lg font-alegreya">
+			<li><a href="/about" class:list={["no-underline transition-colors duration-300 nav-link", transparent ? "text-white/90 hover:text-white" : "text-stone-700 hover:text-stone-900"]}>Σχετικά με μας</a></li>
+			<li><a href="/products" class:list={["no-underline transition-colors duration-300 nav-link", transparent ? "text-white/90 hover:text-white" : "text-stone-700 hover:text-stone-900"]}>Προϊόντα</a></li>
+			<li><a href="/factory" class:list={["no-underline transition-colors duration-300 nav-link", transparent ? "text-white/90 hover:text-white" : "text-stone-700 hover:text-stone-900"]}>Εγκαταστάσεις</a></li>
+			<li><a href="/contact" class:list={["no-underline transition-colors duration-300 nav-link", transparent ? "text-white/90 hover:text-white" : "text-stone-700 hover:text-stone-900"]}>Επικοινωνία</a></li>
+		</ul>
+
+		<!-- Mobile hamburger (2 lines) -->
+		<button id="mobile-menu-btn" class="md:hidden flex flex-col justify-center gap-[7px] w-9 h-9 cursor-pointer bg-transparent border-none z-[60]" aria-label="Menu">
+			<span class:list={["hamburger-line block w-full h-[2px] transition-all duration-300", transparent ? "bg-white" : "bg-stone-800"]}></span>
+			<span class:list={["hamburger-line block w-full h-[2px] transition-all duration-300", transparent ? "bg-white" : "bg-stone-800"]}></span>
+		</button>
+	</div>
+</nav>
+
+<!-- Fullscreen mobile menu -->
+<div id="mobile-menu" class="fixed inset-0 z-[55] bg-red-800 flex flex-col items-center justify-center gap-8 opacity-0 pointer-events-none transition-opacity duration-300">
+	<a href="/about" class="text-white text-3xl font-alegreya no-underline hover:opacity-80 transition-opacity">Σχετικά με μας</a>
+	<a href="/products" class="text-white text-3xl font-alegreya no-underline hover:opacity-80 transition-opacity">Προϊόντα</a>
+	<a href="/factory" class="text-white text-3xl font-alegreya no-underline hover:opacity-80 transition-opacity">Εγκαταστάσεις</a>
+	<a href="/contact" class="text-white text-3xl font-alegreya no-underline hover:opacity-80 transition-opacity">Επικοινωνία</a>
+</div>
+
+<script>
+	document.addEventListener('astro:page-load', () => {
+		const nav = document.getElementById('main-nav');
+		if (!nav) return;
+
+		const brand = nav.querySelector('.nav-brand') as HTMLElement;
+		const links = nav.querySelectorAll('.nav-link');
+		const hamburgerLines = nav.querySelectorAll('.hamburger-line');
+		const menuBtn = document.getElementById('mobile-menu-btn');
+		const mobileMenu = document.getElementById('mobile-menu');
+		let menuOpen = false;
+
+		function updateHamburgerColor(scrolled: boolean) {
+			if (menuOpen) return; // always white when menu open
+			const color = scrolled ? 'bg-stone-800' : 'bg-white';
+			const removeColor = scrolled ? 'bg-white' : 'bg-stone-800';
+			hamburgerLines.forEach(l => {
+				l.classList.remove(removeColor);
+				l.classList.add(color);
+			});
+		}
+
+		function toggleMenu() {
+			menuOpen = !menuOpen;
+			if (menuOpen) {
+				mobileMenu!.classList.remove('opacity-0', 'pointer-events-none');
+				mobileMenu!.classList.add('opacity-100', 'pointer-events-auto');
+				// Make navbar red to match menu
+				nav!.classList.remove('bg-transparent', 'bg-white', 'shadow-md');
+				nav!.classList.add('bg-red-800');
+				brand?.classList.remove('text-red-800');
+				brand?.classList.add('text-white');
+				hamburgerLines.forEach(l => {
+					l.classList.remove('bg-stone-800');
+					l.classList.add('bg-white');
+				});
+				// Animate to X: rotate lines
+				const lines = Array.from(hamburgerLines) as HTMLElement[];
+				lines[0].style.transform = 'translateY(4.5px) rotate(45deg)';
+				lines[1].style.transform = 'translateY(-4.5px) rotate(-45deg)';
+				document.body.style.overflow = 'hidden';
+			} else {
+				mobileMenu!.classList.add('opacity-0', 'pointer-events-none');
+				mobileMenu!.classList.remove('opacity-100', 'pointer-events-auto');
+				// Restore navbar appearance
+				nav!.classList.remove('bg-red-800');
+				if (isTransparent && window.scrollY <= 80) {
+					nav!.classList.add('bg-transparent');
+					brand?.classList.remove('text-red-800');
+					brand?.classList.add('text-white');
+				} else {
+					nav!.classList.add('bg-white', 'shadow-md');
+					brand?.classList.remove('text-white');
+					brand?.classList.add('text-red-800');
+				}
+				const lines = Array.from(hamburgerLines) as HTMLElement[];
+				lines[0].style.transform = '';
+				lines[1].style.transform = '';
+				document.body.style.overflow = '';
+				updateHamburgerColor(window.scrollY > 80);
+			}
+		}
+
+		menuBtn?.addEventListener('click', toggleMenu);
+
+		// Close menu on link click
+		mobileMenu?.querySelectorAll('a').forEach(a => {
+			a.addEventListener('click', () => {
+				if (menuOpen) toggleMenu();
+			});
+		});
+
+		const isTransparent = nav!.dataset.transparent === 'true';
+
+		function onScroll() {
+			if (!isTransparent) return; // solid navbar — no scroll changes needed
+			const scrolled = window.scrollY > 80;
+			if (scrolled) {
+				nav!.classList.remove('bg-transparent');
+				nav!.classList.add('bg-white', 'shadow-md');
+				nav!.style.padding = '';
+				brand?.classList.remove('text-white');
+				brand?.classList.add('text-red-800');
+				links.forEach(l => {
+					l.classList.remove('text-white/90', 'hover:text-white');
+					l.classList.add('text-stone-700', 'hover:text-stone-900');
+				});
+			} else {
+				nav!.classList.add('bg-transparent');
+				nav!.classList.remove('bg-white', 'shadow-md');
+				brand?.classList.add('text-white');
+				brand?.classList.remove('text-red-800');
+				links.forEach(l => {
+					l.classList.add('text-white/90', 'hover:text-white');
+					l.classList.remove('text-stone-700', 'hover:text-stone-900');
+				});
+			}
+			updateHamburgerColor(scrolled);
+		}
+
+		if (isTransparent) {
+			window.addEventListener('scroll', onScroll, { passive: true });
+			onScroll();
+		}
+	});
+</script>

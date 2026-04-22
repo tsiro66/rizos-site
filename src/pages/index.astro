@@ -1,17 +1,207 @@
 ---
-
+import MainLayout from '../layouts/MainLayout.astro';
+import { Image } from 'astro:assets';
+import products from '../assets/products.jpg';
+import factory from '../assets/factory.jpg';
+import sheep from '../assets/sheep.jpg';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<MainLayout title="Ρίζος — Αγνά & Φυσικά Προϊόντα" transparentNav>
+	<!-- Hero -->
+	<section class="relative h-screen overflow-hidden">
+		<Image
+			src={sheep}
+			alt="Πρόβατα στη φύση"
+			width={1920}
+			format="webp"
+			quality={80}
+			class="absolute inset-0 w-full h-full object-cover scale-105"
+		/>
+		<div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
+		<div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
+			<h1 class="text-5xl md:text-7xl lg:text-8xl font-geologica font-bold text-white leading-tight max-w-4xl drop-shadow-lg">
+				Τα πιο αγνά και φυσικά προϊόντα
+			</h1>
+			<p class="mt-6 text-lg md:text-2xl font-alegreya text-white/90 max-w-2xl leading-relaxed">
+				Από τα βουνά της Ελλάδας στο τραπέζι σας — με σεβασμό στη φύση και την παράδοση.
+			</p>
+			<a
+				href="/products"
+				class="mt-10 inline-block bg-red-800 text-white font-geologica font-semibold text-lg px-10 py-4 rounded-full hover:bg-red-900 hover:scale-105 transition-all duration-300 shadow-lg"
+			>
+				Δείτε τα προϊόντα μας
+			</a>
+		</div>
+		<!-- Scroll indicator -->
+		<div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
+			<svg class="w-8 h-8 text-white/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+			</svg>
+		</div>
+	</section>
+
+	<!-- Products Section -->
+	<section class="grid grid-cols-1 md:grid-cols-2 min-h-[80vh]">
+		<div class="overflow-hidden group">
+			<Image
+				src={products}
+				alt="Προϊόντα Ρίζος"
+				width={960}
+				format="webp"
+				quality={80}
+				loading="lazy"
+				class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+			/>
+		</div>
+		<div class="flex flex-col justify-center px-10 py-16 md:px-16 lg:px-24 bg-stone-50">
+			<span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4">Προϊόντα</span>
+			<h2 class="text-3xl md:text-5xl font-geologica font-bold leading-tight text-stone-900">
+				Γεύσεις που ξεχωρίζουν
+			</h2>
+			<p class="mt-6 text-lg md:text-xl font-alegreya text-stone-600 max-w-md leading-relaxed">
+				Γαλακτοκομικά προϊόντα φτιαγμένα με αγάπη, από φρέσκο γάλα ελεύθερης βοσκής. Κάθε μπουκιά μια γεύση από τη φύση.
+			</p>
+			<a
+				href="/products"
+				class="mt-8 inline-flex items-center gap-2 text-red-800 font-geologica font-semibold text-lg hover:gap-4 transition-all duration-300"
+			>
+				Ανακαλύψτε περισσότερα
+				<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+				</svg>
+			</a>
+		</div>
+	</section>
+
+	<!-- Factory Section (reversed) -->
+	<section class="grid grid-cols-1 md:grid-cols-2 min-h-[80vh]">
+		<div class="flex flex-col justify-center px-10 py-16 md:px-16 lg:px-24 bg-white order-2 md:order-1">
+			<span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4">Εγκαταστάσεις</span>
+			<h2 class="text-3xl md:text-5xl font-geologica font-bold leading-tight text-stone-900">
+				Οι εγκαταστάσεις μας
+			</h2>
+			<p class="mt-6 text-lg md:text-xl font-alegreya text-stone-600 max-w-md leading-relaxed">
+				Σύγχρονες εγκαταστάσεις με σεβασμό στην παράδοση. Κάθε στάδιο παραγωγής ελέγχεται για να εξασφαλίζουμε κορυφαία ποιότητα.
+			</p>
+			<a
+				href="/factory"
+				class="mt-8 inline-flex items-center gap-2 text-red-800 font-geologica font-semibold text-lg hover:gap-4 transition-all duration-300"
+			>
+				Δείτε τις εγκαταστάσεις
+				<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+				</svg>
+			</a>
+		</div>
+		<div class="overflow-hidden group order-1 md:order-2">
+			<Image
+				src={factory}
+				alt="Εγκαταστάσεις Ρίζος"
+				width={960}
+				format="webp"
+				quality={80}
+				loading="lazy"
+				class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+			/>
+		</div>
+	</section>
+
+	<!-- Highlights Strip -->
+	<section class="bg-red-800 py-16">
+		<div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+			<div>
+				<span class="text-4xl md:text-5xl font-geologica font-bold text-white">30+</span>
+				<p class="mt-2 text-sm font-geologica font-medium tracking-wide uppercase text-red-200">Χρόνια Εμπειρίας</p>
+			</div>
+			<div>
+				<span class="text-4xl md:text-5xl font-geologica font-bold text-white">100%</span>
+				<p class="mt-2 text-sm font-geologica font-medium tracking-wide uppercase text-red-200">Φυσικά Υλικά</p>
+			</div>
+			<div>
+				<span class="text-4xl md:text-5xl font-geologica font-bold text-white">50+</span>
+				<p class="mt-2 text-sm font-geologica font-medium tracking-wide uppercase text-red-200">Προϊόντα</p>
+			</div>
+			<div>
+				<span class="text-4xl md:text-5xl font-geologica font-bold text-white">1000+</span>
+				<p class="mt-2 text-sm font-geologica font-medium tracking-wide uppercase text-red-200">Ευχαριστημένοι Πελάτες</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Values Section -->
+	<section class="py-24 bg-stone-50">
+		<div class="max-w-6xl mx-auto px-6">
+			<div class="text-center mb-16">
+				<span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">Γιατί Ρίζος</span>
+				<h2 class="text-3xl md:text-5xl font-geologica font-bold text-stone-900">
+					Οι αξίες μας
+				</h2>
+			</div>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+				<div class="text-center">
+					<div class="w-16 h-16 mx-auto mb-6 rounded-full bg-red-100 flex items-center justify-center">
+						<svg class="w-8 h-8 text-red-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+						</svg>
+					</div>
+					<h3 class="text-xl font-geologica font-bold text-stone-900 mb-3">Φυσική Καθαρότητα</h3>
+					<p class="font-alegreya text-stone-600 leading-relaxed">
+						Χωρίς συντηρητικά, χρωστικές ή τεχνητά πρόσθετα. Μόνο αγνές πρώτες ύλες από τη φύση.
+					</p>
+				</div>
+				<div class="text-center">
+					<div class="w-16 h-16 mx-auto mb-6 rounded-full bg-red-100 flex items-center justify-center">
+						<svg class="w-8 h-8 text-red-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+						</svg>
+					</div>
+					<h3 class="text-xl font-geologica font-bold text-stone-900 mb-3">Παράδοση & Αγάπη</h3>
+					<p class="font-alegreya text-stone-600 leading-relaxed">
+						Συνταγές που περνούν από γενιά σε γενιά, φτιαγμένες με μεράκι και σεβασμό στην τέχνη.
+					</p>
+				</div>
+				<div class="text-center">
+					<div class="w-16 h-16 mx-auto mb-6 rounded-full bg-red-100 flex items-center justify-center">
+						<svg class="w-8 h-8 text-red-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+						</svg>
+					</div>
+					<h3 class="text-xl font-geologica font-bold text-stone-900 mb-3">Εγγυημένη Ποιότητα</h3>
+					<p class="font-alegreya text-stone-600 leading-relaxed">
+						Πιστοποιημένες διαδικασίες παραγωγής και αυστηροί έλεγχοι σε κάθε στάδιο.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CTA Section -->
+	<section class="relative py-24 bg-stone-900 overflow-hidden">
+		<div class="absolute inset-0 opacity-10">
+			<div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-red-800 to-transparent"></div>
+		</div>
+		<div class="relative z-10 max-w-3xl mx-auto px-6 text-center">
+			<h2 class="text-3xl md:text-5xl font-geologica font-bold text-white leading-tight">
+				Θέλετε να δοκιμάσετε τα προϊόντα μας;
+			</h2>
+			<p class="mt-6 text-lg md:text-xl font-alegreya text-stone-300 leading-relaxed">
+				Επικοινωνήστε μαζί μας για παραγγελίες, συνεργασίες ή οποιαδήποτε ερώτηση.
+			</p>
+			<div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+				<a
+					href="/contact"
+					class="inline-block bg-red-800 text-white font-geologica font-semibold text-lg px-10 py-4 rounded-full hover:bg-red-900 hover:scale-105 transition-all duration-300 shadow-lg"
+				>
+					Επικοινωνία
+				</a>
+				<a
+					href="/products"
+					class="inline-block border-2 border-stone-500 text-stone-300 font-geologica font-semibold text-lg px-10 py-4 rounded-full hover:border-white hover:text-white hover:scale-105 transition-all duration-300"
+				>
+					Όλα τα Προϊόντα
+				</a>
+			</div>
+		</div>
+	</section>
+
+</MainLayout>

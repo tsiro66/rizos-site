@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@utility font-geologica {
+	font-family: var(--font-geologica), sans-serif;
+}
+
+@utility font-alegreya {
+	font-family: var(--font-alegreya), serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+}
