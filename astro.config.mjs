@@ -14,6 +14,7 @@ export default defineConfig({
   //     quality: 80,
   //   },
   // },
+  output: 'static',
   image: {
     service: { entrypoint: "astro/assets/services/cloudflare" },
   },
