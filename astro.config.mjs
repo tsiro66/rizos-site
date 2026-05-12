@@ -7,16 +7,16 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  // image: {
-  //   service: { entrypoint: 'astro/assets/services/sharp' },
-  //   defaults: {
-  //     format: 'webp',
-  //     quality: 80,
-  //   },
-  // },
   image: {
-    service: { entrypoint: "astro/assets/services/cloudflare" },
+    service: { entrypoint: 'astro/assets/services/sharp' },
+    defaults: {
+      format: 'webp',
+      quality: 80,
+    },
   },
+  // image: {
+  //   service: { entrypoint: "astro/assets/services/cloudflare" },
+  // },
   fonts: [
     {
       name: "Geologica",
