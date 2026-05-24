@@ -6,30 +6,32 @@ import '../styles/global.css';
 import { Font } from 'astro:assets';
 
 interface Props {
-	title?: string;
-	transparentNav?: boolean;
+  title?: string;
+  transparentNav?: boolean;
+  t: (key: string) => string;
+  locale: string;
 }
 
-const { title = 'Rizos', transparentNav = false } = Astro.props;
+const { title = 'Rizos', transparentNav = false, t, locale } = Astro.props;
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-		<Font cssVariable='--font-geologica'/>
-		<Font cssVariable='--font-alegreya'/>
-		<ClientRouter />
-	</head>
-	<body>
-		<Navbar transparent={transparentNav} />
-		<main class="relative z-10 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
-			<slot />
-		</main>
-		<Footer />
-	</body>
+<html lang={locale === 'el' ? 'el' : locale}>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <Font cssVariable='--font-geologica'/>
+    <Font cssVariable='--font-alegreya'/>
+    <ClientRouter />
+  </head>
+  <body>
+    <Navbar transparent={transparentNav} t={t} locale={locale} />
+    <main class="relative z-10 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
+      <slot />
+    </main>
+    <Footer t={t} locale={locale} />
+  </body>
 </html>

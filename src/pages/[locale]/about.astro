@@ -1,0 +1,14 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import AboutContent from '../../components/pages/AboutContent.astro';
+import { useTranslations, getStaticPaths } from '../../i18n/utils';
+
+export { getStaticPaths };
+
+const { locale } = Astro.params;
+const { t } = useTranslations(locale!);
+---
+
+<MainLayout title={t('about.pageTitle')} t={t} locale={locale}>
+  <AboutContent t={t} locale={locale} />
+</MainLayout>

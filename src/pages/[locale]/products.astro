@@ -1,0 +1,14 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import ProductsContent from '../../components/pages/ProductsContent.astro';
+import { useTranslations, getStaticPaths } from '../../i18n/utils';
+
+export { getStaticPaths };
+
+const { locale } = Astro.params;
+const { t } = useTranslations(locale!);
+---
+
+<MainLayout title={t('products.pageTitle')} t={t} locale={locale}>
+  <ProductsContent t={t} locale={locale} />
+</MainLayout>
