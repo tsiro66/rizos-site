@@ -3,7 +3,7 @@ import { localizedPath, locales } from '../i18n/utils';
 
 interface Props {
   transparent?: boolean;
-  t: (key: string) => string;
+  t: <T = unknown>(key: string) => T;
   locale: string;
 }
 const { transparent = false, t, locale } = Astro.props;

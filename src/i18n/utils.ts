@@ -11,12 +11,12 @@ export function getStaticPaths() {
 }
 
 export function useTranslations(locale: string) {
-  const t = (key: string): string => {
+  const t = <T = unknown>(key: string): T => {
     const value = key.split('.').reduce<unknown>((obj, k) => {
       if (obj && typeof obj === 'object' && k in obj) return (obj as Record<string, unknown>)[k];
       return undefined;
     }, translations[locale]);
-    return (value as string) ?? key;
+    return (value as T) ?? (key as T);
   };
   return { t };
 }

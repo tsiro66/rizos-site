@@ -1,6 +1,6 @@
 ---
 interface Props {
-  t: (key: string) => string;
+  t: <T = unknown>(key: string) => T;
   locale: string;
 }
 
@@ -12,7 +12,7 @@ const { t, locale } = Astro.props;
   <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_70%_50%,_var(--tw-gradient-stops))] from-red-800 to-transparent"></div>
   <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
     <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-300 mb-4 block">{t('factory.hero.label')}</span>
-    <h1 class="text-4xl md:text-6xl font-majestic font-bold text-white leading-tight">
+    <h1 class="text-4xl md:text-6xl font-bold font-geologica text-white leading-tight">
       {t('factory.hero.title')}
     </h1>
     <p class="mt-6 text-lg md:text-xl font-alegreya text-stone-300 max-w-2xl mx-auto leading-relaxed">
@@ -52,7 +52,7 @@ const { t, locale } = Astro.props;
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       {
-        t('factory.features.items').map((feature: { title: string; description: string }, i: number) => (
+        (t('factory.features.items') as { title: string; description: string }[]).map((feature: { title: string; description: string }, i: number) => (
           <div class="bg-white rounded-2xl p-8 shadow-sm">
             <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
               {

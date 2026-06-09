@@ -6,7 +6,7 @@ import sheep from '../../assets/sheep.jpg';
 import { localizedPath } from '../../i18n/utils';
 
 interface Props {
-  t: (key: string) => string;
+  t: <T = unknown>(key: string) => T;
   locale: string;
 }
 
@@ -25,7 +25,7 @@ const { t, locale } = Astro.props;
   />
   <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
   <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
-    <h1 class="text-6xl md:text-8xl lg:text-9xl font-majestic font-bold text-white max-w-4xl drop-shadow-lg">
+    <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold font-geologica text-white max-w-5xl drop-shadow-lg">
       {t('home.hero.title')}
     </h1>
     <p class="mt-6 text-lg md:text-2xl font-alegreya text-white/90 max-w-2xl leading-relaxed">
@@ -115,7 +115,7 @@ const { t, locale } = Astro.props;
 <section class="bg-red-800 py-16">
   <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
     {
-      t('home.highlights').map((h: { number: string; label: string }) => (
+      (t('home.highlights') as { number: string; label: string }[]).map((h: { number: string; label: string }) => (
         <div>
           <span class="text-4xl md:text-5xl font-geologica font-bold text-white">{h.number}</span>
           <p class="mt-2 text-sm font-geologica font-medium tracking-wide uppercase text-red-200">{h.label}</p>
@@ -136,7 +136,7 @@ const { t, locale } = Astro.props;
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
       {
-        t('home.values.cards').map((card: { title: string; description: string }, i: number) => (
+        (t('home.values.cards') as { title: string; description: string }[]).map((card: { title: string; description: string }, i: number) => (
           <div class="text-center">
             <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-red-100 flex items-center justify-center">
               {

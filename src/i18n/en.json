@@ -211,38 +211,102 @@
       {
         "name": "Traditional Feta",
         "description": "Authentic feta from free-range milk, aged in wooden barrels.",
-        "imageAlt": "Product photo"
+        "imageAlt": "Traditional Feta",
+        "image": "feta"
       },
       {
-        "name": "Strained Yogurt",
-        "description": "Rich strained yogurt with velvety texture and authentic flavor.",
-        "imageAlt": "Product photo"
-      },
-      {
-        "name": "Kasseri Epirus",
-        "description": "Semi-hard cheese with rich flavor, ideal for saganaki or plain.",
-        "imageAlt": "Product photo"
-      },
-      {
-        "name": "Fresh Anthotyro",
-        "description": "Light and creamy, ideal for salads and light meals.",
-        "imageAlt": "Product photo"
-      },
-      {
-        "name": "Kefalotyri",
-        "description": "Hard cheese with intense flavor, perfect grated or for saganaki.",
-        "imageAlt": "Product photo"
-      },
-      {
-        "name": "Cow Butter",
-        "description": "Fresh butter from cow's milk, without additives or preservatives.",
-        "imageAlt": "Product photo"
+        "name": "Leuko Turi",
+        "description": "A traditional white brined cheese with a smooth, creamy texture and mild salty flavor.",
+        "imageAlt": "Leuko Turi",
+        "image": "leuko-turi"
       }
     ],
     "cta": {
       "title": "Interested in our products?",
       "subtitle": "Contact us for wholesale or retail prices.",
       "btn": "Contact Us"
+    },
+    "detail": {
+      "feta": {
+        "pageTitle": "Traditional Feta | Rizos",
+        "hero": {
+          "label": "Our Products",
+          "title": "Traditional Feta",
+          "subtitle": "Authentic feta from free-range milk, aged in wooden barrels."
+        },
+        "overview": {
+          "label": "The Original",
+          "title": "A cheese with history",
+          "para1": "Our Traditional Feta is made from fresh free-range sheep and goat milk, sourced directly from local herders in the mountains of Epirus. Each batch is aged slowly in wooden barrels, allowing the flavors to develop naturally.",
+          "para2": "The barrel-aging process gives our feta its characteristic rich aroma, crumbly yet creamy texture, and the tangy depth that has made it a staple of Greek cuisine for centuries."
+        },
+        "features": {
+          "title": "What Makes It Special",
+          "items": [
+            {
+              "title": "Barrel-Aged",
+              "description": "Slowly matured in wooden barrels for a deeper, more complex flavor profile."
+            },
+            {
+              "title": "Free-Range Milk",
+              "description": "Made exclusively from milk of sheep and goats grazing freely in the Epirus mountains."
+            },
+            {
+              "title": "No Preservatives",
+              "description": "Only milk, rennet, and salt — nothing else. Pure and natural as tradition demands."
+            },
+            {
+              "title": "PDO Certified",
+              "description": "Produced in Epirus according to the strict standards of the Protected Designation of Origin."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Want to try our Traditional Feta?",
+          "subtitle": "Contact us for wholesale or retail orders.",
+          "btn": "Contact Us"
+        }
+      },
+      "leuko-turi": {
+        "pageTitle": "Leuko Turi | Rizos",
+        "hero": {
+          "label": "Our Products",
+          "title": "Leuko Turi",
+          "subtitle": "A traditional white brined cheese with a smooth, creamy texture and mild salty flavor."
+        },
+        "overview": {
+          "label": "Smooth & Mild",
+          "title": "The everyday white cheese",
+          "para1": "Leuko Turi is a traditional white cheese aged in brine, with a silky-smooth texture and a gentle, balanced saltiness. It's the cheese that graces every Greek table — from a simple breakfast to a festive spread.",
+          "para2": "Carefully crafted from fresh free-range milk, it pairs perfectly with olive oil, tomatoes, and warm bread. A versatile favorite that brings people together."
+        },
+        "features": {
+          "title": "What Makes It Special",
+          "items": [
+            {
+              "title": "Creamy Texture",
+              "description": "Silky-smooth and spreadable, perfect for salads, sandwiches, or enjoying on its own."
+            },
+            {
+              "title": "Mild Flavor",
+              "description": "A gentle, balanced saltiness that makes it approachable and delicious for every palate."
+            },
+            {
+              "title": "Versatile",
+              "description": "From breakfast to dinner, in salads, pastries, or straight from the brine — always a perfect fit."
+            },
+            {
+              "title": "Fresh Ingredients",
+              "description": "Made daily from fresh free-range milk with no artificial additives or preservatives."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Want to try Leuko Turi?",
+          "subtitle": "Contact us for wholesale or retail orders.",
+          "btn": "Contact Us"
+        }
+      }
     }
   }
 }

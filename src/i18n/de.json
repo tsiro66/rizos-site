@@ -211,38 +211,102 @@
       {
         "name": "Traditioneller Feta",
         "description": "Authentischer Feta aus Weidemilch, in Holzfässern gereift.",
-        "imageAlt": "Produktfoto"
+        "imageAlt": "Traditioneller Feta",
+        "image": "feta"
       },
       {
-        "name": "Griechischer Joghurt",
-        "description": "Reichhaltiger, cremiger Joghurt mit samtiger Textur und authentischem Geschmack.",
-        "imageAlt": "Produktfoto"
-      },
-      {
-        "name": "Kasseri aus Epirus",
-        "description": "Halbharter Käse mit reichem Geschmack, ideal für Saganaki oder pur.",
-        "imageAlt": "Produktfoto"
-      },
-      {
-        "name": "Frischer Anthotyro",
-        "description": "Leicht und cremig, ideal für Salate und leichte Mahlzeiten.",
-        "imageAlt": "Produktfoto"
-      },
-      {
-        "name": "Kefalotyri",
-        "description": "Hartkäse mit intensivem Geschmack, perfekt gerieben oder für Saganaki.",
-        "imageAlt": "Produktfoto"
-      },
-      {
-        "name": "Kuhmilchbutter",
-        "description": "Frische Butter aus Kuhmilch, ohne Zusatzstoffe oder Konservierungsmittel.",
-        "imageAlt": "Produktfoto"
+        "name": "Weißkäse (Leuko Turi)",
+        "description": "Traditioneller weißer Käse in Salzlake mit glatter, cremiger Textur und mildem Salzgeschmack.",
+        "imageAlt": "Weißkäse",
+        "image": "leuko-turi"
       }
     ],
     "cta": {
       "title": "Interessiert an unseren Produkten?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelspreise.",
       "btn": "Kontakt"
+    },
+    "detail": {
+      "feta": {
+        "pageTitle": "Traditioneller Feta | Rizos",
+        "hero": {
+          "label": "Unsere Produkte",
+          "title": "Traditioneller Feta",
+          "subtitle": "Authentischer Feta aus Weidemilch, in Holzfässern gereift."
+        },
+        "overview": {
+          "label": "Das Original",
+          "title": "Ein Käse mit Geschichte",
+          "para1": "Unser Traditioneller Feta wird aus frischer Weidemilch von Schafen und Ziegen hergestellt, direkt von lokalen Hirten in den Bergen von Epirus. Jede Charge reift langsam in Holzfässern, wodurch sich die Aromen natürlich entwickeln.",
+          "para2": "Die Fassreifung verleiht unserem Feta sein charakteristisches volles Aroma, die krümelige, aber cremige Textur und die tiefgründige Würze, die ihn seit Jahrhunderten zu einem Grundpfeiler der griechischen Küche macht."
+        },
+        "features": {
+          "title": "Was ihn besonders macht",
+          "items": [
+            {
+              "title": "Fassgereift",
+              "description": "Langsam in Holzfässern gereift für ein tieferes, komplexeres Geschmacksprofil."
+            },
+            {
+              "title": "Weidemilch",
+              "description": "Ausschließlich aus Milch von frei weidenden Schafen und Ziegen aus den Bergen Epirus."
+            },
+            {
+              "title": "Ohne Konservierungsstoffe",
+              "description": "Nur Milch, Lab und Salz — nichts sonst. Rein und natürlich, wie die Tradition es verlangt."
+            },
+            {
+              "title": "g.g.A. Zertifiziert",
+              "description": "In Epirus nach den strengen Standards der geschützten geografischen Angabe hergestellt."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Möchten Sie unseren Traditionellen Feta probieren?",
+          "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+          "btn": "Kontakt"
+        }
+      },
+      "leuko-turi": {
+        "pageTitle": "Weißkäse (Leuko Turi) | Rizos",
+        "hero": {
+          "label": "Unsere Produkte",
+          "title": "Weißkäse (Leuko Turi)",
+          "subtitle": "Traditioneller weißer Käse in Salzlake mit glatter, cremiger Textur und mildem Salzgeschmack."
+        },
+        "overview": {
+          "label": "Cremig & Mild",
+          "title": "Der weiße Käse für jeden Tag",
+          "para1": "Leuko Turi ist ein traditioneller weißer Käse, der in Salzlake reift, mit einer seidig-glatten Textur und einer sanften, ausbalancierten Salzigkeit. Er ist der Käse, der jeden griechischen Tisch ziert — vom einfachen Frühstück bis zum festlichen Buffet.",
+          "para2": "Sorgfältig aus frischer Weidemilch hergestellt, harmoniert er perfekt mit Olivenöl, Tomaten und warmem Brot. Ein vielseitiger Favorit, der Menschen zusammenbringt."
+        },
+        "features": {
+          "title": "Was ihn besonders macht",
+          "items": [
+            {
+              "title": "Cremige Textur",
+              "description": "Seidig-glatt und streichfähig, perfekt für Salate, Sandwiches oder puren Genuss."
+            },
+            {
+              "title": "Milder Geschmack",
+              "description": "Eine sanfte, ausbalancierte Salzigkeit, die ihn zugänglich und köstlich für jeden Gaumen macht."
+            },
+            {
+              "title": "Vielseitig",
+              "description": "Vom Frühstück bis zum Abendessen, in Salaten, Teigtaschen oder direkt aus der Lake — immer passend."
+            },
+            {
+              "title": "Frische Zutaten",
+              "description": "Täglich aus frischer Weidemilch hergestellt, ohne künstliche Zusätze oder Konservierungsstoffe."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Möchten Sie Leuko Turi probieren?",
+          "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+          "btn": "Kontakt"
+        }
+      }
     }
   }
 }

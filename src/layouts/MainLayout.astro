@@ -8,7 +8,7 @@ import { Font } from 'astro:assets';
 interface Props {
   title?: string;
   transparentNav?: boolean;
-  t: (key: string) => string;
+  t: <T = unknown>(key: string) => T;
   locale: string;
 }
 

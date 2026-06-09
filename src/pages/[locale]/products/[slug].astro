@@ -1,0 +1,21 @@
+---
+import MainLayout from '../../../layouts/MainLayout.astro';
+import ProductDetailContent from '../../../components/pages/ProductDetailContent.astro';
+import { useTranslations } from '../../../i18n/utils';
+
+export function getStaticPaths() {
+  return [
+    { params: { locale: 'en', slug: 'feta' } },
+    { params: { locale: 'en', slug: 'leuko-turi' } },
+    { params: { locale: 'de', slug: 'feta' } },
+    { params: { locale: 'de', slug: 'leuko-turi' } },
+  ];
+}
+
+const { locale, slug } = Astro.params;
+const { t } = useTranslations(locale!);
+---
+
+<MainLayout title={t('products.detail.' + slug + '.pageTitle')} t={t} locale={locale!}>
+  <ProductDetailContent t={t} locale={locale!} slug={slug!} />
+</MainLayout>
