@@ -1,5 +1,7 @@
 ---
+import { Image } from 'astro:assets';
 import { localizedPath } from '../i18n/utils';
+import logoImg from '../assets/logo.png';
 
 interface Props {
   t: <T = unknown>(key: string) => T;
@@ -10,13 +12,15 @@ const { t, locale } = Astro.props;
 ---
 
 <footer id="site-footer" class="fixed bottom-0 left-0 right-0 z-0 bg-red-800 text-white">
-  <div class="max-w-11/12 mx-auto px-6 py-16 md:py-24">
+  <div class="max-w-11/12 mx-auto px-6 py-16 md:py-26">
     <!-- Top row -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
       <!-- Brand -->
       <div>
-        <a href={localizedPath('/', locale)} class="hidden md:inline font-geologica text-4xl font-bold uppercase tracking-wide text-white">{t('nav.brand')}</a>
-        <p class="mt-4 font-alegreya text-lg text-white/70 max-w-xs leading-relaxed">
+        <a href={localizedPath('/', locale)} class="inline-block mb-4">
+          <Image src={logoImg} alt="Rizos" class="h-16 w-auto" />
+        </a>
+        <p class="font-alegreya text-lg text-white/70 max-w-xs leading-relaxed">
           {t('footer.description')}
         </p>
       </div>
