@@ -1,0 +1,125 @@
+{
+  "el": {
+    "pageTitle": "Εγκαταστάσεις | Ρίζος",
+    "hero": {
+      "label": "Εγκαταστάσεις",
+      "title": "Οι εγκαταστάσεις μας",
+      "subtitle": "Σύγχρονοι χώροι παραγωγής με σεβασμό στην παράδοση και το περιβάλλον."
+    },
+    "overview": {
+      "label": "Παραγωγή",
+      "title": "Από το γάλα στο τελικό προϊόν",
+      "para1": "Η μονάδα μας βρίσκεται στην καρδιά της Ηπείρου, κοντά στους κτηνοτρόφους που μας προμηθεύουν φρέσκο γάλα καθημερινά. Κάθε στάδιο της παραγωγής ελέγχεται αυστηρά.",
+      "para2": "Συνδυάζουμε παραδοσιακές τεχνικές με σύγχρονο εξοπλισμό για να εξασφαλίζουμε κορυφαία ποιότητα σε κάθε παρτίδα.",
+      "imageAlt": "Φωτογραφία εγκαταστάσεων"
+    },
+    "features": {
+      "title": "Τι μας ξεχωρίζει",
+      "items": [
+        {
+          "title": "Πιστοποιήσεις",
+          "description": "Πιστοποιημένη μονάδα κατά ISO 22000 και HACCP. Τηρούμε τα αυστηρότερα πρότυπα ασφάλειας τροφίμων."
+        },
+        {
+          "title": "Περιβαλλοντική Ευθύνη",
+          "description": "Ελαχιστοποίηση αποβλήτων, ανακύκλωση νερού και χρήση ανανεώσιμων πηγών ενέργειας στις εγκαταστάσεις μας."
+        },
+        {
+          "title": "Εργαστηριακός Έλεγχος",
+          "description": "Ιδιόκτητο εργαστήριο ελέγχου ποιότητας. Κάθε παρτίδα ελέγχεται πριν φτάσει στο ράφι."
+        },
+        {
+          "title": "Έμπειρο Προσωπικό",
+          "description": "Τυροκόμοι με δεκαετίες εμπειρίας που μεταφέρουν την τέχνη τους στα προϊόντα μας."
+        }
+      ]
+    },
+    "gallery": {
+      "label": "Γκαλερί",
+      "title": "Μέσα στις εγκαταστάσεις",
+      "imageAlt": "Φωτογραφία"
+    }
+  },
+  "en": {
+    "pageTitle": "Facilities | Rizos",
+    "hero": {
+      "label": "Facilities",
+      "title": "Our Facilities",
+      "subtitle": "Modern production spaces with respect for tradition and the environment."
+    },
+    "overview": {
+      "label": "Production",
+      "title": "From milk to finished product",
+      "para1": "Our unit is located in the heart of Epirus, close to the livestock farmers who supply us with fresh milk daily. Every production stage is strictly controlled.",
+      "para2": "We combine traditional techniques with modern equipment to ensure top quality in every batch.",
+      "imageAlt": "Facilities photo"
+    },
+    "features": {
+      "title": "What Sets Us Apart",
+      "items": [
+        {
+          "title": "Certifications",
+          "description": "Certified unit according to ISO 22000 and HACCP. We adhere to the strictest food safety standards."
+        },
+        {
+          "title": "Environmental Responsibility",
+          "description": "Waste minimization, water recycling and use of renewable energy sources in our facilities."
+        },
+        {
+          "title": "Laboratory Testing",
+          "description": "In-house quality control laboratory. Every batch is tested before reaching the shelf."
+        },
+        {
+          "title": "Experienced Staff",
+          "description": "Cheesemakers with decades of experience who pour their craft into our products."
+        }
+      ]
+    },
+    "gallery": {
+      "label": "Gallery",
+      "title": "Inside the facilities",
+      "imageAlt": "Photo"
+    }
+  },
+  "de": {
+    "pageTitle": "Anlagen | Rizos",
+    "hero": {
+      "label": "Anlagen",
+      "title": "Unsere Anlagen",
+      "subtitle": "Moderne Produktionsstätten mit Respekt vor Tradition und Umwelt."
+    },
+    "overview": {
+      "label": "Produktion",
+      "title": "Von der Milch zum fertigen Produkt",
+      "para1": "Unsere Produktionsstätte befindet sich im Herzen von Epirus, nah bei den Viehzüchtern, die uns täglich mit frischer Milch versorgen. Jede Produktionsstufe wird streng kontrolliert.",
+      "para2": "Wir kombinieren traditionelle Techniken mit moderner Ausrüstung, um höchste Qualität in jeder Charge zu gewährleisten.",
+      "imageAlt": "Foto der Anlagen"
+    },
+    "features": {
+      "title": "Was uns auszeichnet",
+      "items": [
+        {
+          "title": "Zertifizierungen",
+          "description": "Zertifizierte Anlage nach ISO 22000 und HACCP. Wir halten die strengsten Lebensmittelsicherheitsstandards ein."
+        },
+        {
+          "title": "Umweltverantwortung",
+          "description": "Abfallminimierung, Wasserrecycling und Nutzung erneuerbarer Energien in unseren Anlagen."
+        },
+        {
+          "title": "Labortests",
+          "description": "Eigenes Qualitätskontrolllabor. Jede Charge wird geprüft, bevor sie ins Regal kommt."
+        },
+        {
+          "title": "Erfahrenes Personal",
+          "description": "Käsermeister mit jahrzehntelanger Erfahrung, die ihr Handwerk in unsere Produkte einfließen lassen."
+        }
+      ]
+    },
+    "gallery": {
+      "label": "Galerie",
+      "title": "Ein Blick in die Anlagen",
+      "imageAlt": "Foto"
+    }
+  }
+}

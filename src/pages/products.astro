@@ -2,10 +2,11 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import ProductsContent from '../components/pages/ProductsContent.astro';
 import { useTranslations } from '../i18n/utils';
+import productsContent from '../content/products.json';
 
-const { t } = useTranslations('el');
+const { t } = useTranslations('el', productsContent.el as Record<string, unknown>);
 ---
 
-<MainLayout title={t('products.pageTitle')} t={t} locale='el'>
+<MainLayout title={t('pageTitle') as string} t={t} locale='el'>
   <ProductsContent t={t} locale='el' />
 </MainLayout>

@@ -49,7 +49,7 @@ const { t, locale } = Astro.props;
 
     <!-- Divider -->
     <div class="mt-16 pt-8 border-t border-white/20 flex flex-col md:flex-row items-center justify-between gap-4">
-      <p class="font-alegreya text-sm text-white/60">{t('footer.copyright').replace('{year}', String(new Date().getFullYear()))}</p>
+      <p class="font-alegreya text-sm text-white/60">{String(t('footer.copyright')).replace('{year}', String(new Date().getFullYear()))}</p>
       <p class="font-alegreya text-sm text-white/40">{t('footer.madeIn')}</p>
     </div>
   </div>

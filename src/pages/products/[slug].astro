@@ -2,6 +2,13 @@
 import MainLayout from '../../layouts/MainLayout.astro';
 import ProductDetailContent from '../../components/pages/ProductDetailContent.astro';
 import { useTranslations } from '../../i18n/utils';
+import fetaContent from '../../content/products/feta.json';
+import leukoTuriContent from '../../content/products/leuko-turi.json';
+
+const productMap: Record<string, any> = {
+  feta: fetaContent,
+  'leuko-turi': leukoTuriContent,
+};
 
 export function getStaticPaths() {
   return [
@@ -11,9 +18,11 @@ export function getStaticPaths() {
 }
 
 const { slug } = Astro.params;
-const { t } = useTranslations('el');
+const productData = productMap[slug!];
+const localeData = productData.el as Record<string, unknown>;
+const { t } = useTranslations('el', localeData);
 ---
 
-<MainLayout title={t('products.detail.' + slug + '.pageTitle')} t={t} locale='el'>
+<MainLayout title={t('pageTitle') as string} t={t} locale='el'>
   <ProductDetailContent t={t} locale='el' slug={slug} />
 </MainLayout>

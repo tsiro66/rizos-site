@@ -14,10 +14,6 @@ export default defineConfig({
   },
   image: {
     service: { entrypoint: 'astro/assets/services/sharp' },
-    defaults: {
-      format: 'webp',
-      quality: 80,
-    },
   },
   fonts: [
     {

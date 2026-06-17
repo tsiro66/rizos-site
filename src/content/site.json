@@ -1,0 +1,80 @@
+{
+  "el": {
+    "site": {
+      "title": "Ρίζος — Αγνά & Φυσικά Προϊόντα"
+    },
+    "nav": {
+      "brand": "ΡΙΖΟΣ",
+      "about": "Σχετικά με μας",
+      "products": "Προϊόντα",
+      "factory": "Εγκαταστάσεις",
+      "contact": "Επικοινωνία"
+    },
+    "footer": {
+      "description": "Αγνά και φυσικά προϊόντα, από τα βουνά της Ελλάδας στο τραπέζι σας.",
+      "navTitle": "Πλοήγηση",
+      "contactTitle": "Επικοινωνία",
+      "about": "Σχετικά με μας",
+      "products": "Προϊόντα",
+      "factory": "Εγκαταστάσεις",
+      "contact": "Επικοινωνία",
+      "email": "info@rizos.gr",
+      "phone": "+30 210 000 0000",
+      "country": "Ελλάδα",
+      "copyright": "© {year} Ρίζος. Όλα τα δικαιώματα κατοχυρωμένα.",
+      "madeIn": "Φτιαγμένο με αγάπη στην Ελλάδα"
+    }
+  },
+  "en": {
+    "site": {
+      "title": "Rizos — Pure & Natural Products"
+    },
+    "nav": {
+      "brand": "RIZOS",
+      "about": "About Us",
+      "products": "Products",
+      "factory": "Facilities",
+      "contact": "Contact"
+    },
+    "footer": {
+      "description": "Pure and natural products, from the mountains of Greece to your table.",
+      "navTitle": "Navigation",
+      "contactTitle": "Contact",
+      "about": "About Us",
+      "products": "Products",
+      "factory": "Facilities",
+      "contact": "Contact",
+      "email": "info@rizos.gr",
+      "phone": "+30 210 000 0000",
+      "country": "Greece",
+      "copyright": "© {year} Rizos. All rights reserved.",
+      "madeIn": "Made with love in Greece"
+    }
+  },
+  "de": {
+    "site": {
+      "title": "Rizos — Reine & Natürliche Produkte"
+    },
+    "nav": {
+      "brand": "RIZOS",
+      "about": "Über uns",
+      "products": "Produkte",
+      "factory": "Anlagen",
+      "contact": "Kontakt"
+    },
+    "footer": {
+      "description": "Reine und natürliche Produkte, von den Bergen Griechenlands auf Ihren Tisch.",
+      "navTitle": "Navigation",
+      "contactTitle": "Kontakt",
+      "about": "Über uns",
+      "products": "Produkte",
+      "factory": "Anlagen",
+      "contact": "Kontakt",
+      "email": "info@rizos.gr",
+      "phone": "+30 210 000 0000",
+      "country": "Griechenland",
+      "copyright": "© {year} Rizos. Alle Rechte vorbehalten.",
+      "madeIn": "Mit Liebe in Griechenland hergestellt"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "el": {
+    "name": "Φέτα Παραδοσιακή",
+    "description": "Αυθεντική φέτα από γάλα ελεύθερης βοσκής, ωριμασμένη σε ξύλινα βαρέλια.",
+    "imageAlt": "Φέτα Παραδοσιακή",
+    "image": "feta",
+    "pageTitle": "Φέτα Παραδοσιακή | Ρίζος",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Φέτα Παραδοσιακή",
+      "subtitle": "Αυθεντική φέτα από γάλα ελεύθερης βοσκής, ωριμασμένη σε ξύλινα βαρέλια."
+    },
+    "overview": {
+      "label": "Το Αυθεντικό",
+      "title": "Ένα τυρί με ιστορία",
+      "para1": "Η Παραδοσιακή μας Φέτα φτιάχνεται από φρέσκο γάλα ελεύθερης βοσκής προβάτων και αγελάδων, από τοπικούς κτηνοτρόφους στα βουνά της Ηπείρου. Κάθε παρτίδα ωριμάζει αργά σε ξύλινα βαρέλια, επιτρέποντας στις γεύσεις να αναπτυχθούν φυσικά.",
+      "para2": "Η ωρίμανση σε βαρέλια δίνει στη φέτα μας το χαρακτηριστικό πλούσιο άρωμα, την κρεμώδη αλλά θρυπτή υφή και το βάθος γεύσης που τη κάνει αναπόσπαστο κομμάτι της ελληνικής κουζίνας εδώ και αιώνες."
+    },
+    "features": {
+      "title": "Τι τη ξεχωρίζει",
+      "items": [
+        {
+          "title": "Ωρίμανση σε Βαρέλι",
+          "description": "Αργή ωρίμανση σε ξύλινα βαρέλια για βαθύτερο, πιο σύνθετο προφίλ γεύσης."
+        },
+        {
+          "title": "Γάλα Ελεύθερης Βοσκής",
+          "description": "Αποκλειστικά από γάλα προβάτων και αγελάδων που βόσκουν ελεύθερα στα βουνά της Ηπείρου."
+        },
+        {
+          "title": "Χωρίς Συντηρητικά",
+          "description": "Μόνο γάλα, πυτιά και αλάτι — τίποτα άλλο. Αγνό και φυσικό, όπως επιβάλλει η παράδοση."
+        },
+        {
+          "title": "ΠΟΠ Πιστοποίηση",
+          "description": "Παράγεται στην Ήπειρο σύμφωνα με τους αυστηρούς κανόνες της Προστατευόμενης Ονομασίας Προέλευσης."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε την Παραδοσιακή μας Φέτα;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Traditional Feta",
+    "description": "Authentic feta from free-range milk, aged in wooden barrels.",
+    "imageAlt": "Traditional Feta",
+    "image": "feta",
+    "pageTitle": "Traditional Feta | Rizos",
+    "hero": {
+      "label": "Our Products",
+      "title": "Traditional Feta",
+      "subtitle": "Authentic feta from free-range milk, aged in wooden barrels."
+    },
+    "overview": {
+      "label": "The Original",
+      "title": "A cheese with history",
+      "para1": "Our Traditional Feta is made from fresh free-range sheep and goat milk, sourced directly from local herders in the mountains of Epirus. Each batch is aged slowly in wooden barrels, allowing the flavors to develop naturally.",
+      "para2": "The barrel-aging process gives our feta its characteristic rich aroma, crumbly yet creamy texture, and the tangy depth that has made it a staple of Greek cuisine for centuries."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        {
+          "title": "Barrel-Aged",
+          "description": "Slowly matured in wooden barrels for a deeper, more complex flavor profile."
+        },
+        {
+          "title": "Free-Range Milk",
+          "description": "Made exclusively from milk of sheep and goats grazing freely in the Epirus mountains."
+        },
+        {
+          "title": "No Preservatives",
+          "description": "Only milk, rennet, and salt — nothing else. Pure and natural as tradition demands."
+        },
+        {
+          "title": "PDO Certified",
+          "description": "Produced in Epirus according to the strict standards of the Protected Designation of Origin."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Traditional Feta?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Traditioneller Feta",
+    "description": "Authentischer Feta aus Weidemilch, in Holzfässern gereift.",
+    "imageAlt": "Traditioneller Feta",
+    "image": "feta",
+    "pageTitle": "Traditioneller Feta | Rizos",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Traditioneller Feta",
+      "subtitle": "Authentischer Feta aus Weidemilch, in Holzfässern gereift."
+    },
+    "overview": {
+      "label": "Das Original",
+      "title": "Ein Käse mit Geschichte",
+      "para1": "Unser Traditioneller Feta wird aus frischer Weidemilch von Schafen und Ziegen hergestellt, direkt von lokalen Hirten in den Bergen von Epirus. Jede Charge reift langsam in Holzfässern, wodurch sich die Aromen natürlich entwickeln.",
+      "para2": "Die Fassreifung verleiht unserem Feta sein charakteristisches volles Aroma, die krümelige, aber cremige Textur und die tiefgründige Würze, die ihn seit Jahrhunderten zu einem Grundpfeiler der griechischen Küche macht."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        {
+          "title": "Fassgereift",
+          "description": "Langsam in Holzfässern gereift für ein tieferes, komplexeres Geschmacksprofil."
+        },
+        {
+          "title": "Weidemilch",
+          "description": "Ausschließlich aus Milch von frei weidenden Schafen und Ziegen aus den Bergen Epirus."
+        },
+        {
+          "title": "Ohne Konservierungsstoffe",
+          "description": "Nur Milch, Lab und Salz — nichts sonst. Rein und natürlich, wie die Tradition es verlangt."
+        },
+        {
+          "title": "g.g.A. Zertifiziert",
+          "description": "In Epirus nach den strengen Standards der geschützten geografischen Angabe hergestellt."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unseren Traditionellen Feta probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

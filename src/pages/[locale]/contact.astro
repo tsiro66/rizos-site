@@ -2,13 +2,15 @@
 import MainLayout from '../../layouts/MainLayout.astro';
 import ContactContent from '../../components/pages/ContactContent.astro';
 import { useTranslations, getStaticPaths } from '../../i18n/utils';
+import contactContent from '../../content/contact.json';
 
 export { getStaticPaths };
 
 const { locale } = Astro.params;
-const { t } = useTranslations(locale!);
+const localeData = (contactContent as Record<string, Record<string, unknown>>)[locale!];
+const { t } = useTranslations(locale!, localeData);
 ---
 
-<MainLayout title={t('contact.pageTitle')} t={t} locale={locale}>
-  <ContactContent t={t} locale={locale} />
+<MainLayout title={t('pageTitle') as string} t={t} locale={locale!}>
+  <ContactContent t={t} locale={locale!} />
 </MainLayout>

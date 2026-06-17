@@ -4,19 +4,19 @@ interface Props {
   locale: string;
 }
 
-const { t, locale } = Astro.props;
+const { t } = Astro.props;
 ---
 
 <!-- Hero -->
 <section class="relative py-32 bg-stone-900 overflow-hidden">
   <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_50%_50%,_var(--tw-gradient-stops))] from-red-800 to-transparent"></div>
   <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
-    <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-300 mb-4 block">{t('about.hero.label')}</span>
+    <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-300 mb-4 block">{t('hero.label')}</span>
     <h1 class="text-4xl md:text-6xl font-bold font-geologica text-white leading-tight">
-      {t('about.hero.title')}
+      {t('hero.title')}
     </h1>
     <p class="mt-6 text-lg md:text-xl font-alegreya text-stone-300 max-w-2xl mx-auto leading-relaxed">
-      {t('about.hero.subtitle')}
+      {t('hero.subtitle')}
     </p>
   </div>
 </section>
@@ -25,18 +25,18 @@ const { t, locale } = Astro.props;
 <section class="py-24 bg-white">
   <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
     <div class="aspect-[4/3] bg-stone-200 rounded-2xl flex items-center justify-center">
-      <span class="text-stone-400 font-geologica text-sm">{t('about.story.imageAlt')}</span>
+      <span class="text-stone-400 font-geologica text-sm">{t('story.imageAlt')}</span>
     </div>
     <div>
-      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('about.story.label')}</span>
+      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('story.label')}</span>
       <h2 class="text-3xl md:text-4xl font-geologica font-bold text-stone-900 leading-tight">
-        {t('about.story.title')}
+        {t('story.title')}
       </h2>
       <p class="mt-6 text-lg font-alegreya text-stone-600 leading-relaxed">
-        {t('about.story.para1')}
+        {t('story.para1')}
       </p>
       <p class="mt-4 text-lg font-alegreya text-stone-600 leading-relaxed">
-        {t('about.story.para2')}
+        {t('story.para2')}
       </p>
     </div>
   </div>
@@ -47,12 +47,12 @@ const { t, locale } = Astro.props;
   <div class="max-w-3xl mx-auto px-6">
     <div class="text-center mb-16">
       <h2 class="text-3xl md:text-4xl font-geologica font-bold text-stone-900">
-        {t('about.timeline.title')}
+        {t('timeline.title')}
       </h2>
     </div>
     <div class="space-y-12">
       {
-        (t('about.timeline.items') as { year: string; title: string; description: string }[]).map((item: { year: string; title: string; description: string }, i: number, arr: unknown[]) => (
+        (t('timeline.items') as { year: string; title: string; description: string }[]).map((item: { year: string; title: string; description: string }, i: number, arr: unknown[]) => (
           <div class="flex gap-6">
             <div class="flex flex-col items-center">
               <div class="w-12 h-12 rounded-full bg-red-800 flex items-center justify-center shrink-0">
@@ -77,17 +77,17 @@ const { t, locale } = Astro.props;
 <section class="py-24 bg-white">
   <div class="max-w-6xl mx-auto px-6">
     <div class="text-center mb-16">
-      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('about.team.label')}</span>
+      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('team.label')}</span>
       <h2 class="text-3xl md:text-4xl font-geologica font-bold text-stone-900">
-        {t('about.team.title')}
+        {t('team.title')}
       </h2>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
       {
-        (t('about.team.members') as { name: string; role: string }[]).map((member: { name: string; role: string }) => (
+        (t('team.members') as { name: string; role: string }[]).map((member: { name: string; role: string }) => (
           <div class="text-center">
             <div class="w-40 h-40 mx-auto rounded-full bg-stone-200 flex items-center justify-center mb-4">
-              <span class="text-stone-400 font-geologica text-sm">{t('about.team.imageAlt')}</span>
+              <span class="text-stone-400 font-geologica text-sm">{t('team.imageAlt')}</span>
             </div>
             <h3 class="text-lg font-geologica font-bold text-stone-900">{member.name}</h3>
             <p class="text-sm font-geologica text-red-800">{member.role}</p>

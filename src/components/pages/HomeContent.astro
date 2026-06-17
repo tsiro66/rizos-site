@@ -17,7 +17,7 @@ const { t, locale } = Astro.props;
 <section class="relative h-screen overflow-hidden">
   <Image
     src={sheep}
-    alt={t('home.hero.imageAlt')}
+    alt={t('hero.imageAlt')}
     width={1920}
     format="webp"
     quality={80}
@@ -26,16 +26,16 @@ const { t, locale } = Astro.props;
   <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
   <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
     <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold font-geologica text-white max-w-5xl drop-shadow-lg">
-      {t('home.hero.title')}
+      {t('hero.title')}
     </h1>
     <p class="mt-6 text-lg md:text-2xl font-alegreya text-white/90 max-w-2xl leading-relaxed">
-      {t('home.hero.subtitle')}
+      {t('hero.subtitle')}
     </p>
     <a
       href={localizedPath('/products', locale)}
       class="mt-10 inline-block bg-red-800 text-white font-geologica font-semibold text-lg px-10 py-4 rounded-full hover:bg-red-900 hover:scale-105 transition-all duration-300 shadow-lg"
     >
-      {t('home.hero.cta')}
+      {t('hero.cta')}
     </a>
   </div>
   <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
@@ -50,7 +50,7 @@ const { t, locale } = Astro.props;
   <div class="overflow-hidden group">
     <Image
       src={products}
-      alt={t('home.section1.imageAlt')}
+      alt={t('section1.imageAlt')}
       width={960}
       format="webp"
       quality={80}
@@ -59,18 +59,18 @@ const { t, locale } = Astro.props;
     />
   </div>
   <div class="flex flex-col justify-center px-10 py-16 md:px-16 lg:px-24 bg-stone-50">
-    <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4">{t('home.section1.label')}</span>
+    <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4">{t('section1.label')}</span>
     <h2 class="text-3xl md:text-5xl font-geologica font-bold leading-tight text-stone-900">
-      {t('home.section1.title')}
+      {t('section1.title')}
     </h2>
     <p class="mt-6 text-lg md:text-xl font-alegreya text-stone-600 max-w-md leading-relaxed">
-      {t('home.section1.description')}
+      {t('section1.description')}
     </p>
     <a
       href={localizedPath('/products', locale)}
       class="mt-8 inline-flex items-center gap-2 text-red-800 font-geologica font-semibold text-lg hover:gap-4 transition-all duration-300"
     >
-      {t('home.section1.cta')}
+      {t('section1.cta')}
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
       </svg>
@@ -81,18 +81,18 @@ const { t, locale } = Astro.props;
 <!-- Factory Section (reversed) -->
 <section class="grid grid-cols-1 md:grid-cols-2 min-h-[80vh]">
   <div class="flex flex-col justify-center px-10 py-16 md:px-16 lg:px-24 bg-white order-2 md:order-1">
-    <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4">{t('home.section2.label')}</span>
+    <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4">{t('section2.label')}</span>
     <h2 class="text-3xl md:text-5xl font-geologica font-bold leading-tight text-stone-900">
-      {t('home.section2.title')}
+      {t('section2.title')}
     </h2>
     <p class="mt-6 text-lg md:text-xl font-alegreya text-stone-600 max-w-md leading-relaxed">
-      {t('home.section2.description')}
+      {t('section2.description')}
     </p>
     <a
       href={localizedPath('/factory', locale)}
       class="mt-8 inline-flex items-center gap-2 text-red-800 font-geologica font-semibold text-lg hover:gap-4 transition-all duration-300"
     >
-      {t('home.section2.cta')}
+      {t('section2.cta')}
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
       </svg>
@@ -101,7 +101,7 @@ const { t, locale } = Astro.props;
   <div class="overflow-hidden group order-1 md:order-2">
     <Image
       src={factory}
-      alt={t('home.section2.imageAlt')}
+      alt={t('section2.imageAlt')}
       width={960}
       format="webp"
       quality={80}
@@ -115,7 +115,7 @@ const { t, locale } = Astro.props;
 <section class="bg-red-800 py-16">
   <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
     {
-      (t('home.highlights') as { number: string; label: string }[]).map((h: { number: string; label: string }) => (
+      (t('highlights') as { number: string; label: string }[]).map((h: { number: string; label: string }) => (
         <div>
           <span class="text-4xl md:text-5xl font-geologica font-bold text-white">{h.number}</span>
           <p class="mt-2 text-sm font-geologica font-medium tracking-wide uppercase text-red-200">{h.label}</p>
@@ -129,14 +129,14 @@ const { t, locale } = Astro.props;
 <section class="py-24 bg-stone-50">
   <div class="max-w-6xl mx-auto px-6">
     <div class="text-center mb-16">
-      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('home.values.label')}</span>
+      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('values.label')}</span>
       <h2 class="text-3xl md:text-5xl font-geologica font-bold text-stone-900">
-        {t('home.values.title')}
+        {t('values.title')}
       </h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
       {
-        (t('home.values.cards') as { title: string; description: string }[]).map((card: { title: string; description: string }, i: number) => (
+        (t('values.cards') as { title: string; description: string }[]).map((card: { title: string; description: string }, i: number) => (
           <div class="text-center">
             <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-red-100 flex items-center justify-center">
               {
@@ -173,23 +173,23 @@ const { t, locale } = Astro.props;
   </div>
   <div class="relative z-10 max-w-3xl mx-auto px-6 text-center">
     <h2 class="text-3xl md:text-5xl font-geologica font-bold text-white leading-tight">
-      {t('home.cta.title')}
+      {t('cta.title')}
     </h2>
     <p class="mt-6 text-lg md:text-xl font-alegreya text-stone-300 leading-relaxed">
-      {t('home.cta.subtitle')}
+      {t('cta.subtitle')}
     </p>
     <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
       <a
         href={localizedPath('/contact', locale)}
         class="inline-block bg-red-800 text-white font-geologica font-semibold text-lg px-10 py-4 rounded-full hover:bg-red-900 hover:scale-105 transition-all duration-300 shadow-lg"
       >
-        {t('home.cta.btn1')}
+        {t('cta.btn1')}
       </a>
       <a
         href={localizedPath('/products', locale)}
         class="inline-block border-2 border-stone-500 text-stone-300 font-geologica font-semibold text-lg px-10 py-4 rounded-full hover:border-white hover:text-white hover:scale-105 transition-all duration-300"
       >
-        {t('home.cta.btn2')}
+        {t('cta.btn2')}
       </a>
     </div>
   </div>

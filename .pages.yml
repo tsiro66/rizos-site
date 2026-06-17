@@ -1,0 +1,1746 @@
+media:
+  input: src/assets
+  output: /src/assets
+
+components:
+  locale-nav:
+    type: object
+    label: Navigation
+    fields:
+      - name: brand
+        type: string
+        label: Brand Name
+        required: true
+      - name: about
+        type: string
+        label: About Link
+        required: true
+      - name: products
+        type: string
+        label: Products Link
+        required: true
+      - name: factory
+        type: string
+        label: Facilities Link
+        required: true
+      - name: contact
+        type: string
+        label: Contact Link
+        required: true
+
+  locale-footer:
+    type: object
+    label: Footer
+    fields:
+      - name: description
+        type: text
+        label: Description
+        required: true
+      - name: navTitle
+        type: string
+        label: Navigation Title
+        required: true
+      - name: contactTitle
+        type: string
+        label: Contact Title
+        required: true
+      - name: about
+        type: string
+        label: About Link
+        required: true
+      - name: products
+        type: string
+        label: Products Link
+        required: true
+      - name: factory
+        type: string
+        label: Facilities Link
+        required: true
+      - name: contact
+        type: string
+        label: Contact Link
+        required: true
+      - name: email
+        type: string
+        label: Email
+        required: true
+      - name: phone
+        type: string
+        label: Phone
+        required: true
+      - name: country
+        type: string
+        label: Country
+        required: true
+      - name: copyright
+        type: string
+        label: Copyright Text
+        description: Use {year} as a placeholder for the current year
+        required: true
+      - name: madeIn
+        type: string
+        label: Made In Text
+        required: true
+
+  hero-section:
+    type: object
+    label: Hero Section
+    fields:
+      - name: label
+        type: string
+        label: Label
+      - name: title
+        type: string
+        label: Title
+        required: true
+      - name: subtitle
+        type: text
+        label: Subtitle
+        required: true
+
+  cta-section:
+    type: object
+    label: Call to Action
+    fields:
+      - name: title
+        type: string
+        label: Title
+        required: true
+      - name: subtitle
+        type: text
+        label: Subtitle
+      - name: btn
+        type: string
+        label: Button Text
+        required: true
+
+  cta-section-two-btns:
+    type: object
+    label: Call to Action
+    fields:
+      - name: title
+        type: string
+        label: Title
+        required: true
+      - name: subtitle
+        type: text
+        label: Subtitle
+      - name: btn1
+        type: string
+        label: Primary Button Text
+        required: true
+      - name: btn2
+        type: string
+        label: Secondary Button Text
+        required: true
+
+  highlight-item:
+    type: object
+    label: Highlight
+    fields:
+      - name: number
+        type: string
+        label: Number
+        required: true
+      - name: label
+        type: string
+        label: Label
+        required: true
+
+  value-card:
+    type: object
+    label: Value Card
+    fields:
+      - name: title
+        type: string
+        label: Title
+        required: true
+      - name: description
+        type: text
+        label: Description
+        required: true
+
+  feature-item:
+    type: object
+    label: Feature
+    fields:
+      - name: title
+        type: string
+        label: Title
+        required: true
+      - name: description
+        type: text
+        label: Description
+        required: true
+
+  timeline-item:
+    type: object
+    label: Timeline Entry
+    fields:
+      - name: year
+        type: string
+        label: Year Abbreviation
+        required: true
+      - name: title
+        type: string
+        label: Title
+        required: true
+      - name: description
+        type: text
+        label: Description
+        required: true
+
+  team-member:
+    type: object
+    label: Team Member
+    fields:
+      - name: name
+        type: string
+        label: Name
+        required: true
+      - name: role
+        type: string
+        label: Role
+        required: true
+
+content:
+  - name: pages
+    label: Pages
+    type: group
+    items:
+      - name: site
+        label: Site Settings
+        type: file
+        path: src/content/site.json
+        format: json
+        fields:
+          - name: el
+            type: object
+            label: Ελληνικά
+            fields:
+              - name: site
+                type: object
+                label: Site
+                fields:
+                  - name: title
+                    type: string
+                    label: Site Title
+                    required: true
+              - name: nav
+                component: locale-nav
+                label: Navigation
+              - name: footer
+                component: locale-footer
+                label: Footer
+          - name: en
+            type: object
+            label: English
+            fields:
+              - name: site
+                type: object
+                label: Site
+                fields:
+                  - name: title
+                    type: string
+                    label: Site Title
+                    required: true
+              - name: nav
+                component: locale-nav
+                label: Navigation
+              - name: footer
+                component: locale-footer
+                label: Footer
+          - name: de
+            type: object
+            label: Deutsch
+            fields:
+              - name: site
+                type: object
+                label: Site
+                fields:
+                  - name: title
+                    type: string
+                    label: Site Title
+                    required: true
+              - name: nav
+                component: locale-nav
+                label: Navigation
+              - name: footer
+                component: locale-footer
+                label: Footer
+
+      - name: home
+        label: Home
+        type: file
+        path: src/content/home.json
+        format: json
+        fields:
+          - name: el
+            type: object
+            label: Ελληνικά
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                type: object
+                label: Hero
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: subtitle
+                    type: text
+                    label: Subtitle
+                    required: true
+                  - name: cta
+                    type: string
+                    label: CTA Button Text
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Hero Image Alt Text
+              - name: section1
+                type: object
+                label: Products Section
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: description
+                    type: text
+                    label: Description
+                    required: true
+                  - name: cta
+                    type: string
+                    label: CTA Link Text
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: section2
+                type: object
+                label: Facilities Section
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: description
+                    type: text
+                    label: Description
+                    required: true
+                  - name: cta
+                    type: string
+                    label: CTA Link Text
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: highlights
+                type: object
+                label: Highlights
+                list: true
+                fields:
+                  - name: number
+                    type: string
+                    label: Number
+                    required: true
+                  - name: label
+                    type: string
+                    label: Label
+                    required: true
+              - name: values
+                type: object
+                label: Values Section
+                fields:
+                  - name: label
+                    type: string
+                    label: Section Label
+                  - name: title
+                    type: string
+                    label: Section Title
+                    required: true
+                  - name: cards
+                    type: object
+                    label: Value Cards
+                    list: true
+                    fields:
+                      - name: title
+                        type: string
+                        label: Title
+                        required: true
+                      - name: description
+                        type: text
+                        label: Description
+                        required: true
+              - name: cta
+                type: object
+                label: Call to Action
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: subtitle
+                    type: text
+                    label: Subtitle
+                  - name: btn1
+                    type: string
+                    label: Primary Button
+                    required: true
+                  - name: btn2
+                    type: string
+                    label: Secondary Button
+                    required: true
+          - name: en
+            type: object
+            label: English
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                type: object
+                label: Hero
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: subtitle
+                    type: text
+                    label: Subtitle
+                    required: true
+                  - name: cta
+                    type: string
+                    label: CTA Button Text
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Hero Image Alt Text
+              - name: section1
+                type: object
+                label: Products Section
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: description
+                    type: text
+                    label: Description
+                    required: true
+                  - name: cta
+                    type: string
+                    label: CTA Link Text
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: section2
+                type: object
+                label: Facilities Section
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: description
+                    type: text
+                    label: Description
+                    required: true
+                  - name: cta
+                    type: string
+                    label: CTA Link Text
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: highlights
+                type: object
+                label: Highlights
+                list: true
+                fields:
+                  - name: number
+                    type: string
+                    label: Number
+                    required: true
+                  - name: label
+                    type: string
+                    label: Label
+                    required: true
+              - name: values
+                type: object
+                label: Values Section
+                fields:
+                  - name: label
+                    type: string
+                    label: Section Label
+                  - name: title
+                    type: string
+                    label: Section Title
+                    required: true
+                  - name: cards
+                    type: object
+                    label: Value Cards
+                    list: true
+                    fields:
+                      - name: title
+                        type: string
+                        label: Title
+                        required: true
+                      - name: description
+                        type: text
+                        label: Description
+                        required: true
+              - name: cta
+                type: object
+                label: Call to Action
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: subtitle
+                    type: text
+                    label: Subtitle
+                  - name: btn1
+                    type: string
+                    label: Primary Button
+                    required: true
+                  - name: btn2
+                    type: string
+                    label: Secondary Button
+                    required: true
+          - name: de
+            type: object
+            label: Deutsch
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                type: object
+                label: Hero
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: subtitle
+                    type: text
+                    label: Subtitle
+                    required: true
+                  - name: cta
+                    type: string
+                    label: CTA Button Text
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Hero Image Alt Text
+              - name: section1
+                type: object
+                label: Products Section
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: description
+                    type: text
+                    label: Description
+                    required: true
+                  - name: cta
+                    type: string
+                    label: CTA Link Text
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: section2
+                type: object
+                label: Facilities Section
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: description
+                    type: text
+                    label: Description
+                    required: true
+                  - name: cta
+                    type: string
+                    label: CTA Link Text
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: highlights
+                type: object
+                label: Highlights
+                list: true
+                fields:
+                  - name: number
+                    type: string
+                    label: Number
+                    required: true
+                  - name: label
+                    type: string
+                    label: Label
+                    required: true
+              - name: values
+                type: object
+                label: Values Section
+                fields:
+                  - name: label
+                    type: string
+                    label: Section Label
+                  - name: title
+                    type: string
+                    label: Section Title
+                    required: true
+                  - name: cards
+                    type: object
+                    label: Value Cards
+                    list: true
+                    fields:
+                      - name: title
+                        type: string
+                        label: Title
+                        required: true
+                      - name: description
+                        type: text
+                        label: Description
+                        required: true
+              - name: cta
+                type: object
+                label: Call to Action
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: subtitle
+                    type: text
+                    label: Subtitle
+                  - name: btn1
+                    type: string
+                    label: Primary Button
+                    required: true
+                  - name: btn2
+                    type: string
+                    label: Secondary Button
+                    required: true
+
+      - name: about
+        label: About
+        type: file
+        path: src/content/about.json
+        format: json
+        fields:
+          - name: el
+            type: object
+            label: Ελληνικά
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: story
+                type: object
+                label: Story
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: para1
+                    type: text
+                    label: Paragraph 1
+                    required: true
+                  - name: para2
+                    type: text
+                    label: Paragraph 2
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: timeline
+                type: object
+                label: Timeline
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: items
+                    type: object
+                    label: Entries
+                    list: true
+                    fields:
+                      - name: year
+                        type: string
+                        label: Year Abbreviation
+                        required: true
+                      - name: title
+                        type: string
+                        label: Title
+                        required: true
+                      - name: description
+                        type: text
+                        label: Description
+                        required: true
+              - name: team
+                type: object
+                label: Team
+                fields:
+                  - name: label
+                    type: string
+                    label: Section Label
+                  - name: title
+                    type: string
+                    label: Section Title
+                    required: true
+                  - name: members
+                    type: object
+                    label: Members
+                    list: true
+                    fields:
+                      - name: name
+                        type: string
+                        label: Name
+                        required: true
+                      - name: role
+                        type: string
+                        label: Role
+                        required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+          - name: en
+            type: object
+            label: English
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: story
+                type: object
+                label: Story
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: para1
+                    type: text
+                    label: Paragraph 1
+                    required: true
+                  - name: para2
+                    type: text
+                    label: Paragraph 2
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: timeline
+                type: object
+                label: Timeline
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: items
+                    type: object
+                    label: Entries
+                    list: true
+                    fields:
+                      - name: year
+                        type: string
+                        label: Year Abbreviation
+                        required: true
+                      - name: title
+                        type: string
+                        label: Title
+                        required: true
+                      - name: description
+                        type: text
+                        label: Description
+                        required: true
+              - name: team
+                type: object
+                label: Team
+                fields:
+                  - name: label
+                    type: string
+                    label: Section Label
+                  - name: title
+                    type: string
+                    label: Section Title
+                    required: true
+                  - name: members
+                    type: object
+                    label: Members
+                    list: true
+                    fields:
+                      - name: name
+                        type: string
+                        label: Name
+                        required: true
+                      - name: role
+                        type: string
+                        label: Role
+                        required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+          - name: de
+            type: object
+            label: Deutsch
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: story
+                type: object
+                label: Story
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: para1
+                    type: text
+                    label: Paragraph 1
+                    required: true
+                  - name: para2
+                    type: text
+                    label: Paragraph 2
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: timeline
+                type: object
+                label: Timeline
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: items
+                    type: object
+                    label: Entries
+                    list: true
+                    fields:
+                      - name: year
+                        type: string
+                        label: Year Abbreviation
+                        required: true
+                      - name: title
+                        type: string
+                        label: Title
+                        required: true
+                      - name: description
+                        type: text
+                        label: Description
+                        required: true
+              - name: team
+                type: object
+                label: Team
+                fields:
+                  - name: label
+                    type: string
+                    label: Section Label
+                  - name: title
+                    type: string
+                    label: Section Title
+                    required: true
+                  - name: members
+                    type: object
+                    label: Members
+                    list: true
+                    fields:
+                      - name: name
+                        type: string
+                        label: Name
+                        required: true
+                      - name: role
+                        type: string
+                        label: Role
+                        required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+
+      - name: products
+        label: Products
+        type: file
+        path: src/content/products.json
+        format: json
+        fields:
+          - name: el
+            type: object
+            label: Ελληνικά
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: cta
+                component: cta-section
+                label: Call to Action
+          - name: en
+            type: object
+            label: English
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: cta
+                component: cta-section
+                label: Call to Action
+          - name: de
+            type: object
+            label: Deutsch
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: cta
+                component: cta-section
+                label: Call to Action
+
+      - name: factory
+        label: Facilities
+        type: file
+        path: src/content/factory.json
+        format: json
+        fields:
+          - name: el
+            type: object
+            label: Ελληνικά
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: overview
+                type: object
+                label: Overview
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: para1
+                    type: text
+                    label: Paragraph 1
+                    required: true
+                  - name: para2
+                    type: text
+                    label: Paragraph 2
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: features
+                type: object
+                label: Features
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: items
+                    type: object
+                    label: Feature Items
+                    list: true
+                    fields:
+                      - name: title
+                        type: string
+                        label: Title
+                        required: true
+                      - name: description
+                        type: text
+                        label: Description
+                        required: true
+              - name: gallery
+                type: object
+                label: Gallery
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+          - name: en
+            type: object
+            label: English
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: overview
+                type: object
+                label: Overview
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: para1
+                    type: text
+                    label: Paragraph 1
+                    required: true
+                  - name: para2
+                    type: text
+                    label: Paragraph 2
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: features
+                type: object
+                label: Features
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: items
+                    type: object
+                    label: Feature Items
+                    list: true
+                    fields:
+                      - name: title
+                        type: string
+                        label: Title
+                        required: true
+                      - name: description
+                        type: text
+                        label: Description
+                        required: true
+              - name: gallery
+                type: object
+                label: Gallery
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+          - name: de
+            type: object
+            label: Deutsch
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: overview
+                type: object
+                label: Overview
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: para1
+                    type: text
+                    label: Paragraph 1
+                    required: true
+                  - name: para2
+                    type: text
+                    label: Paragraph 2
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+              - name: features
+                type: object
+                label: Features
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: items
+                    type: object
+                    label: Feature Items
+                    list: true
+                    fields:
+                      - name: title
+                        type: string
+                        label: Title
+                        required: true
+                      - name: description
+                        type: text
+                        label: Description
+                        required: true
+              - name: gallery
+                type: object
+                label: Gallery
+                fields:
+                  - name: label
+                    type: string
+                    label: Label
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: imageAlt
+                    type: string
+                    label: Image Alt Text
+
+      - name: contact
+        label: Contact
+        type: file
+        path: src/content/contact.json
+        format: json
+        fields:
+          - name: el
+            type: object
+            label: Ελληνικά
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: form
+                type: object
+                label: Contact Form
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: nameLabel
+                    type: string
+                    label: Name Label
+                    required: true
+                  - name: namePlaceholder
+                    type: string
+                    label: Name Placeholder
+                  - name: emailLabel
+                    type: string
+                    label: Email Label
+                    required: true
+                  - name: emailPlaceholder
+                    type: string
+                    label: Email Placeholder
+                  - name: phoneLabel
+                    type: string
+                    label: Phone Label
+                  - name: phonePlaceholder
+                    type: string
+                    label: Phone Placeholder
+                  - name: messageLabel
+                    type: string
+                    label: Message Label
+                    required: true
+                  - name: messagePlaceholder
+                    type: text
+                    label: Message Placeholder
+                  - name: submit
+                    type: string
+                    label: Submit Button Text
+                    required: true
+              - name: info
+                type: object
+                label: Contact Info
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: addressTitle
+                    type: string
+                    label: Address Title
+                    required: true
+                  - name: address
+                    type: string
+                    label: Address
+                    required: true
+                  - name: phoneTitle
+                    type: string
+                    label: Phone Title
+                  - name: phone
+                    type: string
+                    label: Phone Number
+                  - name: emailTitle
+                    type: string
+                    label: Email Title
+                  - name: email
+                    type: string
+                    label: Email Address
+                  - name: hoursTitle
+                    type: string
+                    label: Hours Title
+                  - name: weekdays
+                    type: string
+                    label: Weekday Hours
+                  - name: weekend
+                    type: string
+                    label: Weekend Hours
+              - name: mapAlt
+                type: string
+                label: Map Alt Text
+          - name: en
+            type: object
+            label: English
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: form
+                type: object
+                label: Contact Form
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: nameLabel
+                    type: string
+                    label: Name Label
+                    required: true
+                  - name: namePlaceholder
+                    type: string
+                    label: Name Placeholder
+                  - name: emailLabel
+                    type: string
+                    label: Email Label
+                    required: true
+                  - name: emailPlaceholder
+                    type: string
+                    label: Email Placeholder
+                  - name: phoneLabel
+                    type: string
+                    label: Phone Label
+                  - name: phonePlaceholder
+                    type: string
+                    label: Phone Placeholder
+                  - name: messageLabel
+                    type: string
+                    label: Message Label
+                    required: true
+                  - name: messagePlaceholder
+                    type: text
+                    label: Message Placeholder
+                  - name: submit
+                    type: string
+                    label: Submit Button Text
+                    required: true
+              - name: info
+                type: object
+                label: Contact Info
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: addressTitle
+                    type: string
+                    label: Address Title
+                    required: true
+                  - name: address
+                    type: string
+                    label: Address
+                    required: true
+                  - name: phoneTitle
+                    type: string
+                    label: Phone Title
+                  - name: phone
+                    type: string
+                    label: Phone Number
+                  - name: emailTitle
+                    type: string
+                    label: Email Title
+                  - name: email
+                    type: string
+                    label: Email Address
+                  - name: hoursTitle
+                    type: string
+                    label: Hours Title
+                  - name: weekdays
+                    type: string
+                    label: Weekday Hours
+                  - name: weekend
+                    type: string
+                    label: Weekend Hours
+              - name: mapAlt
+                type: string
+                label: Map Alt Text
+          - name: de
+            type: object
+            label: Deutsch
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.hero.title}"
+            fields:
+              - name: pageTitle
+                type: string
+                label: Page Title
+                required: true
+              - name: hero
+                component: hero-section
+                label: Hero
+              - name: form
+                type: object
+                label: Contact Form
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: nameLabel
+                    type: string
+                    label: Name Label
+                    required: true
+                  - name: namePlaceholder
+                    type: string
+                    label: Name Placeholder
+                  - name: emailLabel
+                    type: string
+                    label: Email Label
+                    required: true
+                  - name: emailPlaceholder
+                    type: string
+                    label: Email Placeholder
+                  - name: phoneLabel
+                    type: string
+                    label: Phone Label
+                  - name: phonePlaceholder
+                    type: string
+                    label: Phone Placeholder
+                  - name: messageLabel
+                    type: string
+                    label: Message Label
+                    required: true
+                  - name: messagePlaceholder
+                    type: text
+                    label: Message Placeholder
+                  - name: submit
+                    type: string
+                    label: Submit Button Text
+                    required: true
+              - name: info
+                type: object
+                label: Contact Info
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: addressTitle
+                    type: string
+                    label: Address Title
+                    required: true
+                  - name: address
+                    type: string
+                    label: Address
+                    required: true
+                  - name: phoneTitle
+                    type: string
+                    label: Phone Title
+                  - name: phone
+                    type: string
+                    label: Phone Number
+                  - name: emailTitle
+                    type: string
+                    label: Email Title
+                  - name: email
+                    type: string
+                    label: Email Address
+                  - name: hoursTitle
+                    type: string
+                    label: Hours Title
+                  - name: weekdays
+                    type: string
+                    label: Weekday Hours
+                  - name: weekend
+                    type: string
+                    label: Weekend Hours
+              - name: mapAlt
+                type: string
+                label: Map Alt Text
+
+  - name: product-details
+    label: Product Details
+    type: collection
+    path: src/content/products
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: name
+    fields:
+      - name: el
+        type: object
+        label: Ελληνικά
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.name}"
+        fields:
+          - name: name
+            type: string
+            label: Product Name (Listing)
+            required: true
+          - name: description
+            type: text
+            label: Short Description (Listing)
+            required: true
+          - name: imageAlt
+            type: string
+            label: Image Alt Text
+          - name: image
+            type: string
+            label: Image Filename
+            description: Filename of the product image in src/assets (without extension), e.g. "feta"
+          - name: pageTitle
+            type: string
+            label: Page Title
+            required: true
+          - name: hero
+            component: hero-section
+            label: Hero Section
+          - name: overview
+            type: object
+            label: Overview
+            fields:
+              - name: label
+                type: string
+                label: Label
+              - name: title
+                type: string
+                label: Title
+                required: true
+              - name: para1
+                type: text
+                label: Paragraph 1
+                required: true
+              - name: para2
+                type: text
+                label: Paragraph 2
+                required: true
+          - name: features
+            type: object
+            label: Features
+            fields:
+              - name: title
+                type: string
+                label: Section Title
+                required: true
+              - name: items
+                type: object
+                label: Feature Items
+                list: true
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: description
+                    type: text
+                    label: Description
+                    required: true
+          - name: cta
+            component: cta-section
+            label: Call to Action
+      - name: en
+        type: object
+        label: English
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.name}"
+        fields:
+          - name: name
+            type: string
+            label: Product Name (Listing)
+            required: true
+          - name: description
+            type: text
+            label: Short Description (Listing)
+            required: true
+          - name: imageAlt
+            type: string
+            label: Image Alt Text
+          - name: image
+            type: string
+            label: Image Filename
+            hidden: true
+          - name: pageTitle
+            type: string
+            label: Page Title
+            required: true
+          - name: hero
+            component: hero-section
+            label: Hero Section
+          - name: overview
+            type: object
+            label: Overview
+            fields:
+              - name: label
+                type: string
+                label: Label
+              - name: title
+                type: string
+                label: Title
+                required: true
+              - name: para1
+                type: text
+                label: Paragraph 1
+                required: true
+              - name: para2
+                type: text
+                label: Paragraph 2
+                required: true
+          - name: features
+            type: object
+            label: Features
+            fields:
+              - name: title
+                type: string
+                label: Section Title
+                required: true
+              - name: items
+                type: object
+                label: Feature Items
+                list: true
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: description
+                    type: text
+                    label: Description
+                    required: true
+          - name: cta
+            component: cta-section
+            label: Call to Action
+      - name: de
+        type: object
+        label: Deutsch
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.name}"
+        fields:
+          - name: name
+            type: string
+            label: Product Name (Listing)
+            required: true
+          - name: description
+            type: text
+            label: Short Description (Listing)
+            required: true
+          - name: imageAlt
+            type: string
+            label: Image Alt Text
+          - name: image
+            type: string
+            label: Image Filename
+            hidden: true
+          - name: pageTitle
+            type: string
+            label: Page Title
+            required: true
+          - name: hero
+            component: hero-section
+            label: Hero Section
+          - name: overview
+            type: object
+            label: Overview
+            fields:
+              - name: label
+                type: string
+                label: Label
+              - name: title
+                type: string
+                label: Title
+                required: true
+              - name: para1
+                type: text
+                label: Paragraph 1
+                required: true
+              - name: para2
+                type: text
+                label: Paragraph 2
+                required: true
+          - name: features
+            type: object
+            label: Features
+            fields:
+              - name: title
+                type: string
+                label: Section Title
+                required: true
+              - name: items
+                type: object
+                label: Feature Items
+                list: true
+                fields:
+                  - name: title
+                    type: string
+                    label: Title
+                    required: true
+                  - name: description
+                    type: text
+                    label: Description
+                    required: true
+          - name: cta
+            component: cta-section
+            label: Call to Action

@@ -1,0 +1,101 @@
+{
+  "el": {
+    "pageTitle": "Επικοινωνία | Ρίζος",
+    "hero": {
+      "label": "Επικοινωνία",
+      "title": "Επικοινωνήστε μαζί μας",
+      "subtitle": "Είμαστε εδώ για κάθε ερώτηση, παραγγελία ή πρόταση συνεργασίας."
+    },
+    "form": {
+      "title": "Στείλτε μας μήνυμα",
+      "nameLabel": "Ονοματεπώνυμο",
+      "namePlaceholder": "π.χ. Γιώργος Παπαδόπουλος",
+      "emailLabel": "Email",
+      "emailPlaceholder": "example@email.com",
+      "phoneLabel": "Τηλέφωνο",
+      "phonePlaceholder": "69XXXXXXXX",
+      "messageLabel": "Μήνυμα",
+      "messagePlaceholder": "Γράψτε το μήνυμά σας...",
+      "submit": "Αποστολή"
+    },
+    "info": {
+      "title": "Στοιχεία Επικοινωνίας",
+      "addressTitle": "Διεύθυνση",
+      "address": "Placeholder Οδός 123, Ιωάννινα 45221, Ελλάδα",
+      "phoneTitle": "Τηλέφωνο",
+      "phone": "+30 26X XXX XXXX",
+      "emailTitle": "Email",
+      "email": "info@rizos.gr",
+      "hoursTitle": "Ωράριο",
+      "weekdays": "Δευ - Παρ: 08:00 - 16:00",
+      "weekend": "Σαβ - Κυρ: Κλειστά"
+    },
+    "mapAlt": "Google Maps Embed"
+  },
+  "en": {
+    "pageTitle": "Contact | Rizos",
+    "hero": {
+      "label": "Contact",
+      "title": "Get in Touch",
+      "subtitle": "We are here for any questions, orders or partnership proposals."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "e.g. John Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "example@email.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "+30 69XXXXXXXX",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message...",
+      "submit": "Send"
+    },
+    "info": {
+      "title": "Contact Information",
+      "addressTitle": "Address",
+      "address": "Placeholder Street 123, Ioannina 45221, Greece",
+      "phoneTitle": "Phone",
+      "phone": "+30 26X XXX XXXX",
+      "emailTitle": "Email",
+      "email": "info@rizos.gr",
+      "hoursTitle": "Hours",
+      "weekdays": "Mon - Fri: 08:00 - 16:00",
+      "weekend": "Sat - Sun: Closed"
+    },
+    "mapAlt": "Google Maps Embed"
+  },
+  "de": {
+    "pageTitle": "Kontakt | Rizos",
+    "hero": {
+      "label": "Kontakt",
+      "title": "Nehmen Sie Kontakt auf",
+      "subtitle": "Wir sind für Fragen, Bestellungen oder Kooperationsvorschläge da."
+    },
+    "form": {
+      "title": "Nachricht senden",
+      "nameLabel": "Vollständiger Name",
+      "namePlaceholder": "z. B. Max Mustermann",
+      "emailLabel": "E-Mail",
+      "emailPlaceholder": "example@email.com",
+      "phoneLabel": "Telefon",
+      "phonePlaceholder": "+30 69XXXXXXXX",
+      "messageLabel": "Nachricht",
+      "messagePlaceholder": "Schreiben Sie Ihre Nachricht...",
+      "submit": "Senden"
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "addressTitle": "Adresse",
+      "address": "Musterstraße 123, Ioannina 45221, Griechenland",
+      "phoneTitle": "Telefon",
+      "phone": "+30 26X XXX XXXX",
+      "emailTitle": "E-Mail",
+      "email": "info@rizos.gr",
+      "hoursTitle": "Öffnungszeiten",
+      "weekdays": "Mo - Fr: 08:00 - 16:00",
+      "weekend": "Sa - So: Geschlossen"
+    },
+    "mapAlt": "Google Maps Karte"
+  }
+}

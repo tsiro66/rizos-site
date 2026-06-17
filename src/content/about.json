@@ -1,0 +1,152 @@
+{
+  "el": {
+    "pageTitle": "Σχετικά με εμάς | Ρίζος",
+    "hero": {
+      "label": "Η Ιστορία μας",
+      "title": "Σχετικά με εμάς",
+      "subtitle": "Μια οικογενειακή επιχείρηση με ρίζες βαθιές στην ελληνική γη."
+    },
+    "story": {
+      "label": "Από το 1990",
+      "title": "Η ιστορία μας ξεκινά από τα βουνά",
+      "para1": "Η Ρίζος ξεκίνησε ως μια μικρή οικογενειακή τυροκομική μονάδα στην Ήπειρο. Με σεβασμό στις παραδοσιακές συνταγές και αγάπη για τη φύση, δημιουργήσαμε προϊόντα που ξεχωρίζουν.",
+      "para2": "Σήμερα, τρεις γενιές αργότερα, συνεχίζουμε με το ίδιο πάθος — φέρνοντας στο τραπέζι σας τα πιο αγνά γαλακτοκομικά προϊόντα.",
+      "imageAlt": "Φωτογραφία οικογένειας"
+    },
+    "timeline": {
+      "title": "Η πορεία μας",
+      "items": [
+        {
+          "year": "90",
+          "title": "1990 — Η αρχή",
+          "description": "Ίδρυση της πρώτης μονάδας παραγωγής στην Ήπειρο. Ξεκινάμε με φέτα και γιαούρτι."
+        },
+        {
+          "year": "05",
+          "title": "2005 — Επέκταση",
+          "description": "Νέες εγκαταστάσεις, νέα προϊόντα. Η γκάμα μας μεγαλώνει με κασέρι, κεφαλοτύρι και ανθότυρο."
+        },
+        {
+          "year": "15",
+          "title": "2015 — Πιστοποιήσεις",
+          "description": "Λαμβάνουμε πιστοποιήσεις ISO 22000 και HACCP. Εξαγωγές σε 5 χώρες."
+        },
+        {
+          "year": "Σ",
+          "title": "Σήμερα",
+          "description": "50+ προϊόντα, 1000+ πελάτες και η ίδια αγάπη για ποιότητα από την πρώτη μέρα."
+        }
+      ]
+    },
+    "team": {
+      "label": "Η Ομάδα",
+      "title": "Οι άνθρωποι πίσω από τη Ρίζος",
+      "members": [
+        { "name": "Γιώργος Ρίζος", "role": "Ιδρυτής" },
+        { "name": "Μαρία Ρίζου", "role": "Διεύθυνση Παραγωγής" },
+        { "name": "Νίκος Ρίζος", "role": "Υπεύθυνος Ποιότητας" }
+      ],
+      "imageAlt": "Φωτογραφία"
+    }
+  },
+  "en": {
+    "pageTitle": "About Us | Rizos",
+    "hero": {
+      "label": "Our Story",
+      "title": "About Us",
+      "subtitle": "A family business with deep roots in Greek soil."
+    },
+    "story": {
+      "label": "Since 1990",
+      "title": "Our story starts in the mountains",
+      "para1": "Rizos started as a small family cheese-making unit in Epirus. With respect for traditional recipes and love for nature, we created products that stand out.",
+      "para2": "Today, three generations later, we continue with the same passion — bringing the purest dairy products to your table.",
+      "imageAlt": "Family photo"
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "items": [
+        {
+          "year": "90",
+          "title": "1990 — The Beginning",
+          "description": "Establishment of the first production unit in Epirus. Starting with feta and yogurt."
+        },
+        {
+          "year": "05",
+          "title": "2005 — Expansion",
+          "description": "New facilities, new products. Our range grows with kasseri, kefalotyri and anthotyro."
+        },
+        {
+          "year": "15",
+          "title": "2015 — Certifications",
+          "description": "We obtain ISO 22000 and HACCP certifications. Exports to 5 countries."
+        },
+        {
+          "year": "N",
+          "title": "Today",
+          "description": "50+ products, 1000+ customers and the same love for quality from day one."
+        }
+      ]
+    },
+    "team": {
+      "label": "The Team",
+      "title": "The people behind Rizos",
+      "members": [
+        { "name": "Giorgos Rizos", "role": "Founder" },
+        { "name": "Maria Rizou", "role": "Production Director" },
+        { "name": "Nikos Rizos", "role": "Quality Manager" }
+      ],
+      "imageAlt": "Photo"
+    }
+  },
+  "de": {
+    "pageTitle": "Über uns | Rizos",
+    "hero": {
+      "label": "Unsere Geschichte",
+      "title": "Über uns",
+      "subtitle": "Ein Familienunternehmen mit tiefen Wurzeln in der griechischen Erde."
+    },
+    "story": {
+      "label": "Seit 1990",
+      "title": "Unsere Geschichte beginnt in den Bergen",
+      "para1": "Rizos begann als kleine familiengeführte Käserei in Epirus. Mit Respekt vor traditionellen Rezepten und Liebe zur Natur schufen wir Produkte, die herausragen.",
+      "para2": "Heute, drei Generationen später, setzen wir mit derselben Leidenschaft fort — und bringen die reinsten Milchprodukte auf Ihren Tisch.",
+      "imageAlt": "Familienfoto"
+    },
+    "timeline": {
+      "title": "Unser Weg",
+      "items": [
+        {
+          "year": "90",
+          "title": "1990 — Der Anfang",
+          "description": "Gründung der ersten Produktionsstätte in Epirus. Wir beginnen mit Feta und Joghurt."
+        },
+        {
+          "year": "05",
+          "title": "2005 — Expansion",
+          "description": "Neue Anlagen, neue Produkte. Unser Sortiment wächst um Kasseri, Kefalotyri und Anthotyro."
+        },
+        {
+          "year": "15",
+          "title": "2015 — Zertifizierungen",
+          "description": "Wir erhalten ISO 22000- und HACCP-Zertifizierungen. Export in 5 Länder."
+        },
+        {
+          "year": "H",
+          "title": "Heute",
+          "description": "50+ Produkte, 1000+ Kunden und die gleiche Liebe zur Qualität wie am ersten Tag."
+        }
+      ]
+    },
+    "team": {
+      "label": "Das Team",
+      "title": "Die Menschen hinter Rizos",
+      "members": [
+        { "name": "Giorgos Rizos", "role": "Gründer" },
+        { "name": "Maria Rizou", "role": "Produktionsleitung" },
+        { "name": "Nikos Rizos", "role": "Qualitätsmanager" }
+      ],
+      "imageAlt": "Foto"
+    }
+  }
+}

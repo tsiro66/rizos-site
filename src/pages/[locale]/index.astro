@@ -2,13 +2,15 @@
 import MainLayout from '../../layouts/MainLayout.astro';
 import HomeContent from '../../components/pages/HomeContent.astro';
 import { useTranslations, getStaticPaths } from '../../i18n/utils';
+import homeContent from '../../content/home.json';
 
 export { getStaticPaths };
 
 const { locale } = Astro.params;
-const { t } = useTranslations(locale!);
+const localeData = (homeContent as Record<string, Record<string, unknown>>)[locale!];
+const { t } = useTranslations(locale!, localeData);
 ---
 
-<MainLayout title={t('home.pageTitle')} transparentNav t={t} locale={locale}>
-  <HomeContent t={t} locale={locale} />
+<MainLayout title={t('pageTitle') as string} transparentNav t={t} locale={locale!}>
+  <HomeContent t={t} locale={locale!} />
 </MainLayout>

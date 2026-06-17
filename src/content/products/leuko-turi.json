@@ -1,0 +1,134 @@
+{
+  "el": {
+    "name": "Λευκό Τυρί",
+    "description": "Παραδοσιακό λευκό τυρί σε άλμη με λεία, κρεμώδη υφή και ήπια αλμυρή γεύση.",
+    "imageAlt": "Λευκό Τυρί",
+    "image": "leuko-turi",
+    "pageTitle": "Λευκό Τυρί | Ρίζος",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Λευκό Τυρί",
+      "subtitle": "Παραδοσιακό λευκό τυρί σε άλμη με λεία, κρεμώδη υφή και ήπια αλμυρή γεύση."
+    },
+    "overview": {
+      "label": "Λείο & Ήπιο",
+      "title": "Το λευκό τυρί κάθε μέρας",
+      "para1": "Το Λευκό Τυρί είναι ένα παραδοσιακό λευκό τυρί που ωριμάζει σε άλμη, με μεταξένια υφή και μια ήπια, ισορροπημένη αλμυρότητα. Είναι το τυρί που κοσμεί κάθε ελληνικό τραπέζι — από ένα απλό πρωινό μέχρι ένα εορταστικό γεύμα.",
+      "para2": "Φτιαγμένο με φροντίδα από φρέσκο γάλα ελεύθερης βοσκής, συνδυάζεται τέλεια με ελαιόλαδο, ντομάτα και ζεστό ψωμί. Ένα versatile αγαπημένο που ενώνει τους ανθρώπους."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        {
+          "title": "Κρεμώδη Υφή",
+          "description": "Μεταξένια και απλωτή, τέλεια για σαλάτες, σάντουιτς ή από μόνο του."
+        },
+        {
+          "title": "Ήπια Γεύση",
+          "description": "Μια ήπια, ισορροπημένη αλμυρότητα που το κάνει προσιτό και νόστιμο για κάθε ουρανίσκο."
+        },
+        {
+          "title": "Πολυσχιμαστό",
+          "description": "Από το πρωινό μέχρι το δείπνο, σε σαλάτες, πίτες ή κατευθείαν από την άλμη — πάντα τέλειο."
+        },
+        {
+          "title": "Φρέσκα Υλικά",
+          "description": "Φτιαγμένο καθημερινά από φρέσκο γάλα ελεύθερης βοσκής, χωρίς τεχνητά πρόσθετα ή συντηρητικά."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Λευκό Τυρί;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Leuko Turi",
+    "description": "A traditional white brined cheese with a smooth, creamy texture and mild salty flavor.",
+    "imageAlt": "Leuko Turi",
+    "image": "leuko-turi",
+    "pageTitle": "Leuko Turi | Rizos",
+    "hero": {
+      "label": "Our Products",
+      "title": "Leuko Turi",
+      "subtitle": "A traditional white brined cheese with a smooth, creamy texture and mild salty flavor."
+    },
+    "overview": {
+      "label": "Smooth & Mild",
+      "title": "The everyday white cheese",
+      "para1": "Leuko Turi is a traditional white cheese aged in brine, with a silky-smooth texture and a gentle, balanced saltiness. It's the cheese that graces every Greek table — from a simple breakfast to a festive spread.",
+      "para2": "Carefully crafted from fresh free-range milk, it pairs perfectly with olive oil, tomatoes, and warm bread. A versatile favorite that brings people together."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        {
+          "title": "Creamy Texture",
+          "description": "Silky-smooth and spreadable, perfect for salads, sandwiches, or enjoying on its own."
+        },
+        {
+          "title": "Mild Flavor",
+          "description": "A gentle, balanced saltiness that makes it approachable and delicious for every palate."
+        },
+        {
+          "title": "Versatile",
+          "description": "From breakfast to dinner, in salads, pastries, or straight from the brine — always a perfect fit."
+        },
+        {
+          "title": "Fresh Ingredients",
+          "description": "Made daily from fresh free-range milk with no artificial additives or preservatives."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try Leuko Turi?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Weißkäse (Leuko Turi)",
+    "description": "Traditioneller weißer Käse in Salzlake mit glatter, cremiger Textur und mildem Salzgeschmack.",
+    "imageAlt": "Weißkäse",
+    "image": "leuko-turi",
+    "pageTitle": "Weißkäse (Leuko Turi) | Rizos",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Weißkäse (Leuko Turi)",
+      "subtitle": "Traditioneller weißer Käse in Salzlake mit glatter, cremiger Textur und mildem Salzgeschmack."
+    },
+    "overview": {
+      "label": "Cremig & Mild",
+      "title": "Der weiße Käse für jeden Tag",
+      "para1": "Leuko Turi ist ein traditioneller weißer Käse, der in Salzlake reift, mit einer seidig-glatten Textur und einer sanften, ausbalancierten Salzigkeit. Er ist der Käse, der jeden griechischen Tisch ziert — vom einfachen Frühstück bis zum festlichen Buffet.",
+      "para2": "Sorgfältig aus frischer Weidemilch hergestellt, harmoniert er perfekt mit Olivenöl, Tomaten und warmem Brot. Ein vielseitiger Favorit, der Menschen zusammenbringt."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        {
+          "title": "Cremige Textur",
+          "description": "Seidig-glatt und streichfähig, perfekt für Salate, Sandwiches oder puren Genuss."
+        },
+        {
+          "title": "Milder Geschmack",
+          "description": "Eine sanfte, ausbalancierte Salzigkeit, die ihn zugänglich und köstlich für jeden Gaumen macht."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Vom Frühstück bis zum Abendessen, in Salaten, Teigtaschen oder direkt aus der Lake — immer passend."
+        },
+        {
+          "title": "Frische Zutaten",
+          "description": "Täglich aus frischer Weidemilch hergestellt, ohne künstliche Zusätze oder Konservierungsstoffe."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie Leuko Turi probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "el": {
+    "pageTitle": "Ρίζος — Αγνά & Φυσικά Προϊόντα",
+    "hero": {
+      "title": "Τα πιο αγνα και φυσικα προιοντα",
+      "subtitle": "Από τα βουνά της Ελλάδας στο τραπέζι σας — με σεβασμό στη φύση και την παράδοση.",
+      "cta": "Δείτε τα προϊόντα μας",
+      "imageAlt": "Πρόβατα στη φύση"
+    },
+    "section1": {
+      "label": "Προϊόντα",
+      "title": "Γεύσεις που ξεχωρίζουν",
+      "description": "Γαλακτοκομικά προϊόντα φτιαγμένα με αγάπη, από φρέσκο γάλα ελεύθερης βοσκής. Κάθε μπουκιά μια γεύση από τη φύση.",
+      "cta": "Ανακαλύψτε περισσότερα",
+      "imageAlt": "Προϊόντα Ρίζος"
+    },
+    "section2": {
+      "label": "Εγκαταστάσεις",
+      "title": "Οι εγκαταστάσεις μας",
+      "description": "Σύγχρονες εγκαταστάσεις με σεβασμό στην παράδοση. Κάθε στάδιο παραγωγής ελέγχεται για να εξασφαλίζουμε κορυφαία ποιότητα.",
+      "cta": "Δείτε τις εγκαταστάσεις",
+      "imageAlt": "Εγκαταστάσεις Ρίζος"
+    },
+    "highlights": [
+      { "number": "30+", "label": "Χρόνια Εμπειρίας" },
+      { "number": "100%", "label": "Φυσικά Υλικά" },
+      { "number": "50+", "label": "Προϊόντα" },
+      { "number": "1000+", "label": "Ευχαριστημένοι Πελάτες" }
+    ],
+    "values": {
+      "label": "Γιατί Ρίζος",
+      "title": "Οι αξίες μας",
+      "cards": [
+        {
+          "title": "Φυσική Καθαρότητα",
+          "description": "Χωρίς συντηρητικά, χρωστικές ή τεχνητά πρόσθετα. Μόνο αγνές πρώτες ύλες από τη φύση."
+        },
+        {
+          "title": "Παράδοση & Αγάπη",
+          "description": "Συνταγές που περνούν από γενιά σε γενιά, φτιαγμένες με μεράκι και σεβασμό στην τέχνη."
+        },
+        {
+          "title": "Εγγυημένη Ποιότητα",
+          "description": "Πιστοποιημένες διαδικασίες παραγωγής και αυστηροί έλεγχοι σε κάθε στάδιο."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε τα προϊόντα μας;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες, συνεργασίες ή οποιαδήποτε ερώτηση.",
+      "btn1": "Επικοινωνία",
+      "btn2": "Όλα τα Προϊόντα"
+    }
+  },
+  "en": {
+    "pageTitle": "Rizos — Pure & Natural Products",
+    "hero": {
+      "title": "The purest and most natural products",
+      "subtitle": "From the mountains of Greece to your table — with respect for nature and tradition.",
+      "cta": "View Our Products",
+      "imageAlt": "Sheep in nature"
+    },
+    "section1": {
+      "label": "Products",
+      "title": "Distinctive Flavors",
+      "description": "Dairy products made with love, from fresh free-range milk. Every bite tastes of nature.",
+      "cta": "Discover More",
+      "imageAlt": "Rizos Products"
+    },
+    "section2": {
+      "label": "Facilities",
+      "title": "Our Facilities",
+      "description": "Modern facilities with respect for tradition. Every production stage is controlled to ensure top quality.",
+      "cta": "View Facilities",
+      "imageAlt": "Rizos Facilities"
+    },
+    "highlights": [
+      { "number": "30+", "label": "Years of Experience" },
+      { "number": "100%", "label": "Natural Ingredients" },
+      { "number": "50+", "label": "Products" },
+      { "number": "1000+", "label": "Happy Customers" }
+    ],
+    "values": {
+      "label": "Why Rizos",
+      "title": "Our Values",
+      "cards": [
+        {
+          "title": "Natural Purity",
+          "description": "No preservatives, colorings or artificial additives. Only pure raw ingredients from nature."
+        },
+        {
+          "title": "Tradition & Love",
+          "description": "Recipes passed down through generations, made with passion and respect for the craft."
+        },
+        {
+          "title": "Guaranteed Quality",
+          "description": "Certified production processes and strict controls at every stage."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our products?",
+      "subtitle": "Contact us for orders, partnerships or any questions.",
+      "btn1": "Contact Us",
+      "btn2": "All Products"
+    }
+  },
+  "de": {
+    "pageTitle": "Rizos — Reine & Natürliche Produkte",
+    "hero": {
+      "title": "Die reinsten und natürlichsten Produkte",
+      "subtitle": "Von den Bergen Griechenlands auf Ihren Tisch — mit Respekt vor der Natur und Tradition.",
+      "cta": "Entdecken Sie unsere Produkte",
+      "imageAlt": "Schafe in der Natur"
+    },
+    "section1": {
+      "label": "Produkte",
+      "title": "Geschmackserlebnisse, die begeistern",
+      "description": "Mit Liebe hergestellte Milchprodukte aus frischer Weidemilch. Jeder Bissen ein Geschmack der Natur.",
+      "cta": "Mehr entdecken",
+      "imageAlt": "Rizos Produkte"
+    },
+    "section2": {
+      "label": "Anlagen",
+      "title": "Unsere Anlagen",
+      "description": "Moderne Anlagen mit Respekt vor der Tradition. Jede Produktionsstufe wird kontrolliert, um höchste Qualität zu gewährleisten.",
+      "cta": "Anlagen ansehen",
+      "imageAlt": "Rizos Anlagen"
+    },
+    "highlights": [
+      { "number": "30+", "label": "Jahre Erfahrung" },
+      { "number": "100%", "label": "Natürliche Zutaten" },
+      { "number": "50+", "label": "Produkte" },
+      { "number": "1000+", "label": "Zufriedene Kunden" }
+    ],
+    "values": {
+      "label": "Warum Rizos",
+      "title": "Unsere Werte",
+      "cards": [
+        {
+          "title": "Natürliche Reinheit",
+          "description": "Keine Konservierungsstoffe, Farbstoffe oder künstliche Zusätze. Nur reine Rohstoffe aus der Natur."
+        },
+        {
+          "title": "Tradition & Liebe",
+          "description": "Von Generation zu Generation weitergegebene Rezepte, mit Leidenschaft und Respekt für das Handwerk zubereitet."
+        },
+        {
+          "title": "Garantierte Qualität",
+          "description": "Zertifizierte Produktionsprozesse und strenge Kontrollen in jeder Phase."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unsere Produkte probieren?",
+      "subtitle": "Kontaktieren Sie uns für Bestellungen, Partnerschaften oder Fragen.",
+      "btn1": "Kontakt",
+      "btn2": "Alle Produkte"
+    }
+  }
+}

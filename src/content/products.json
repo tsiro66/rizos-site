@@ -1,0 +1,41 @@
+{
+  "el": {
+    "pageTitle": "Προϊόντα | Ρίζος",
+    "hero": {
+      "label": "Προϊόντα",
+      "title": "Τα προϊόντα μας",
+      "subtitle": "Γαλακτοκομικά προϊόντα φτιαγμένα με αγνές πρώτες ύλες και παραδοσιακές μεθόδους."
+    },
+    "cta": {
+      "title": "Ενδιαφέρεστε για τα προϊόντα μας;",
+      "subtitle": "Επικοινωνήστε μαζί μας για τιμές χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "pageTitle": "Products | Rizos",
+    "hero": {
+      "label": "Products",
+      "title": "Our Products",
+      "subtitle": "Dairy products made with pure ingredients and traditional methods."
+    },
+    "cta": {
+      "title": "Interested in our products?",
+      "subtitle": "Contact us for wholesale or retail prices.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "pageTitle": "Produkte | Rizos",
+    "hero": {
+      "label": "Produkte",
+      "title": "Unsere Produkte",
+      "subtitle": "Milchprodukte aus reinen Zutaten und nach traditionellen Methoden hergestellt."
+    },
+    "cta": {
+      "title": "Interessiert an unseren Produkten?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelspreise.",
+      "btn": "Kontakt"
+    }
+  }
+}
