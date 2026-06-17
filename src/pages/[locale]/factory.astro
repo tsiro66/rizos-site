@@ -1,7 +1,7 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
 import FactoryContent from '../../components/pages/FactoryContent.astro';
-import { useTranslations, getStaticPaths } from '../../i18n/utils';
+import { useTranslations, getStaticPaths, pageTitles } from '../../i18n/utils';
 import factoryContent from '../../content/factory.json';
 
 export { getStaticPaths };
@@ -11,6 +11,6 @@ const localeData = (factoryContent as Record<string, Record<string, unknown>>)[l
 const { t } = useTranslations(locale!, localeData);
 ---
 
-<MainLayout title={t('pageTitle') as string} t={t} locale={locale!}>
+<MainLayout title={(pageTitles.factory as Record<string, string>)[locale!] ?? 'Rizos'} t={t} locale={locale!}>
   <FactoryContent t={t} locale={locale!} />
 </MainLayout>

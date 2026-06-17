@@ -1,10 +1,22 @@
 ---
+import { Image } from 'astro:assets';
+
+const allImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/*.{jpg,jpeg,png,webp}', { eager: true });
+const imageMap: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(allImages)) {
+  const filename = path.split('/').pop()!.split('.')[0];
+  imageMap[filename] = mod.default;
+}
+
 interface Props {
   t: <T = unknown>(key: string) => T;
   locale: string;
 }
 
 const { t } = Astro.props;
+
+const storyImageKey = t('story.image') as string;
+const storyImage = storyImageKey && imageMap[storyImageKey] ? imageMap[storyImageKey] : null;
 ---
 
 <!-- Hero -->
@@ -24,8 +36,14 @@ const { t } = Astro.props;
 <!-- Story -->
 <section class="py-24 bg-white">
   <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-    <div class="aspect-[4/3] bg-stone-200 rounded-2xl flex items-center justify-center">
-      <span class="text-stone-400 font-geologica text-sm">{t('story.imageAlt')}</span>
+    <div class="aspect-[4/3] rounded-2xl overflow-hidden">
+      {storyImage ? (
+        <Image src={storyImage} alt={t('story.imageAlt')} width={800} format="webp" quality={80} class="w-full h-full object-cover" />
+      ) : (
+        <div class="w-full h-full bg-stone-200 flex items-center justify-center">
+          <span class="text-stone-400 font-geologica text-sm">{t('story.imageAlt')}</span>
+        </div>
+      )}
     </div>
     <div>
       <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('story.label')}</span>
@@ -84,15 +102,24 @@ const { t } = Astro.props;
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
       {
-        (t('team.members') as { name: string; role: string }[]).map((member: { name: string; role: string }) => (
-          <div class="text-center">
-            <div class="w-40 h-40 mx-auto rounded-full bg-stone-200 flex items-center justify-center mb-4">
-              <span class="text-stone-400 font-geologica text-sm">{t('team.imageAlt')}</span>
+        (t('team.members') as { name: string; role: string; image: string }[]).map((member: { name: string; role: string; image: string }) => {
+          const memberImg = member.image && imageMap[member.image] ? imageMap[member.image] : null;
+          return (
+            <div class="text-center">
+              <div class="w-40 h-40 mx-auto rounded-full overflow-hidden mb-4">
+                {memberImg ? (
+                  <Image src={memberImg} alt={member.name} width={320} format="webp" quality={80} class="w-full h-full object-cover" />
+                ) : (
+                  <div class="w-full h-full bg-stone-200 flex items-center justify-center">
+                    <span class="text-stone-400 font-geologica text-sm">{member.name}</span>
+                  </div>
+                )}
+              </div>
+              <h3 class="text-lg font-geologica font-bold text-stone-900">{member.name}</h3>
+              <p class="text-sm font-geologica text-red-800">{member.role}</p>
             </div>
-            <h3 class="text-lg font-geologica font-bold text-stone-900">{member.name}</h3>
-            <p class="text-sm font-geologica text-red-800">{member.role}</p>
-          </div>
-        ))
+          );
+        })
       }
     </div>
   </div>

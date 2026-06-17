@@ -1,12 +1,12 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 import FactoryContent from '../components/pages/FactoryContent.astro';
-import { useTranslations } from '../i18n/utils';
+import { useTranslations, pageTitles } from '../i18n/utils';
 import factoryContent from '../content/factory.json';
 
 const { t } = useTranslations('el', factoryContent.el as Record<string, unknown>);
 ---
 
-<MainLayout title={t('pageTitle') as string} t={t} locale='el'>
+<MainLayout title={pageTitles.factory.el} t={t} locale='el'>
   <FactoryContent t={t} locale='el' />
 </MainLayout>

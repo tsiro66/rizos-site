@@ -1,6 +1,5 @@
 {
   "el": {
-    "pageTitle": "Εγκαταστάσεις | Ρίζος",
     "hero": {
       "label": "Εγκαταστάσεις",
       "title": "Οι εγκαταστάσεις μας",
@@ -11,7 +10,8 @@
       "title": "Από το γάλα στο τελικό προϊόν",
       "para1": "Η μονάδα μας βρίσκεται στην καρδιά της Ηπείρου, κοντά στους κτηνοτρόφους που μας προμηθεύουν φρέσκο γάλα καθημερινά. Κάθε στάδιο της παραγωγής ελέγχεται αυστηρά.",
       "para2": "Συνδυάζουμε παραδοσιακές τεχνικές με σύγχρονο εξοπλισμό για να εξασφαλίζουμε κορυφαία ποιότητα σε κάθε παρτίδα.",
-      "imageAlt": "Φωτογραφία εγκαταστάσεων"
+      "imageAlt": "Φωτογραφία εγκαταστάσεων",
+      "image": "factory"
     },
     "features": {
       "title": "Τι μας ξεχωρίζει",
@@ -37,11 +37,17 @@
     "gallery": {
       "label": "Γκαλερί",
       "title": "Μέσα στις εγκαταστάσεις",
-      "imageAlt": "Φωτογραφία"
+      "items": [
+        { "image": "", "alt": "Φωτογραφία" },
+        { "image": "", "alt": "Φωτογραφία" },
+        { "image": "", "alt": "Φωτογραφία" },
+        { "image": "", "alt": "Φωτογραφία" },
+        { "image": "", "alt": "Φωτογραφία" },
+        { "image": "", "alt": "Φωτογραφία" }
+      ]
     }
   },
   "en": {
-    "pageTitle": "Facilities | Rizos",
     "hero": {
       "label": "Facilities",
       "title": "Our Facilities",
@@ -52,7 +58,8 @@
       "title": "From milk to finished product",
       "para1": "Our unit is located in the heart of Epirus, close to the livestock farmers who supply us with fresh milk daily. Every production stage is strictly controlled.",
       "para2": "We combine traditional techniques with modern equipment to ensure top quality in every batch.",
-      "imageAlt": "Facilities photo"
+      "imageAlt": "Facilities photo",
+      "image": "factory"
     },
     "features": {
       "title": "What Sets Us Apart",
@@ -78,11 +85,17 @@
     "gallery": {
       "label": "Gallery",
       "title": "Inside the facilities",
-      "imageAlt": "Photo"
+      "items": [
+        { "image": "", "alt": "Photo" },
+        { "image": "", "alt": "Photo" },
+        { "image": "", "alt": "Photo" },
+        { "image": "", "alt": "Photo" },
+        { "image": "", "alt": "Photo" },
+        { "image": "", "alt": "Photo" }
+      ]
     }
   },
   "de": {
-    "pageTitle": "Anlagen | Rizos",
     "hero": {
       "label": "Anlagen",
       "title": "Unsere Anlagen",
@@ -93,7 +106,8 @@
       "title": "Von der Milch zum fertigen Produkt",
       "para1": "Unsere Produktionsstätte befindet sich im Herzen von Epirus, nah bei den Viehzüchtern, die uns täglich mit frischer Milch versorgen. Jede Produktionsstufe wird streng kontrolliert.",
       "para2": "Wir kombinieren traditionelle Techniken mit moderner Ausrüstung, um höchste Qualität in jeder Charge zu gewährleisten.",
-      "imageAlt": "Foto der Anlagen"
+      "imageAlt": "Foto der Anlagen",
+      "image": "factory"
     },
     "features": {
       "title": "Was uns auszeichnet",
@@ -119,7 +133,14 @@
     "gallery": {
       "label": "Galerie",
       "title": "Ein Blick in die Anlagen",
-      "imageAlt": "Foto"
+      "items": [
+        { "image": "", "alt": "Foto" },
+        { "image": "", "alt": "Foto" },
+        { "image": "", "alt": "Foto" },
+        { "image": "", "alt": "Foto" },
+        { "image": "", "alt": "Foto" },
+        { "image": "", "alt": "Foto" }
+      ]
     }
   }
 }

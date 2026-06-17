@@ -1,8 +1,5 @@
 {
   "el": {
-    "site": {
-      "title": "Ρίζος — Αγνά & Φυσικά Προϊόντα"
-    },
     "nav": {
       "brand": "ΡΙΖΟΣ",
       "about": "Σχετικά με μας",
@@ -26,9 +23,6 @@
     }
   },
   "en": {
-    "site": {
-      "title": "Rizos — Pure & Natural Products"
-    },
     "nav": {
       "brand": "RIZOS",
       "about": "About Us",
@@ -52,9 +46,6 @@
     }
   },
   "de": {
-    "site": {
-      "title": "Rizos — Reine & Natürliche Produkte"
-    },
     "nav": {
       "brand": "RIZOS",
       "about": "Über uns",

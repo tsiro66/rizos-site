@@ -2,29 +2,48 @@
 import MainLayout from '../../../layouts/MainLayout.astro';
 import ProductDetailContent from '../../../components/pages/ProductDetailContent.astro';
 import { useTranslations } from '../../../i18n/utils';
-import fetaContent from '../../../content/products/feta.json';
-import leukoTuriContent from '../../../content/products/leuko-turi.json';
 
-const productMap: Record<string, any> = {
-  feta: fetaContent,
-  'leuko-turi': leukoTuriContent,
+const productModules = import.meta.glob<{ default: Record<string, any> }>('../../../content/products/*.json', { eager: true });
+const productMap: Record<string, any> = {};
+for (const [path, mod] of Object.entries(productModules)) {
+  const slug = path.split('/').pop()!.replace('.json', '');
+  productMap[slug] = mod.default;
+}
+
+const localeTitles: Record<string, Record<string, string>> = {
+  en: {
+    feta: 'Traditional Feta | Rizos',
+    'leuko-turi': 'Leuko Turi | Rizos',
+  },
+  de: {
+    feta: 'Traditioneller Feta | Rizos',
+    'leuko-turi': 'Weißkäse (Leuko Turi) | Rizos',
+  },
 };
 
 export function getStaticPaths() {
-  return [
-    { params: { locale: 'en', slug: 'feta' } },
-    { params: { locale: 'en', slug: 'leuko-turi' } },
-    { params: { locale: 'de', slug: 'feta' } },
-    { params: { locale: 'de', slug: 'leuko-turi' } },
-  ];
+  const modules = import.meta.glob<{ default: Record<string, any> }>('../../../content/products/*.json', { eager: true });
+  const slugs: string[] = [];
+  for (const [path] of Object.entries(modules)) {
+    slugs.push(path.split('/').pop()!.replace('.json', ''));
+  }
+  const locales = ['en', 'de'];
+  const paths = [];
+  for (const locale of locales) {
+    for (const slug of slugs) {
+      paths.push({ params: { locale, slug } });
+    }
+  }
+  return paths;
 }
 
 const { locale, slug } = Astro.params;
 const productData = productMap[slug!];
 const localeData = productData[locale!] as Record<string, unknown>;
 const { t } = useTranslations(locale!, localeData);
+const title = localeTitles[locale!]?.[slug!] ?? 'Rizos';
 ---
 
-<MainLayout title={t('pageTitle') as string} t={t} locale={locale!}>
+<MainLayout title={title} t={t} locale={locale!}>
   <ProductDetailContent t={t} locale={locale!} slug={slug!} />
 </MainLayout>

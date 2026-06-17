@@ -1,12 +1,12 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 import AboutContent from '../components/pages/AboutContent.astro';
-import { useTranslations } from '../i18n/utils';
+import { useTranslations, pageTitles } from '../i18n/utils';
 import aboutContent from '../content/about.json';
 
 const { t } = useTranslations('el', aboutContent.el as Record<string, unknown>);
 ---
 
-<MainLayout title={t('pageTitle') as string} t={t} locale='el'>
+<MainLayout title={pageTitles.about.el} t={t} locale='el'>
   <AboutContent t={t} locale='el' />
 </MainLayout>

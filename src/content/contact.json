@@ -1,6 +1,5 @@
 {
   "el": {
-    "pageTitle": "Επικοινωνία | Ρίζος",
     "hero": {
       "label": "Επικοινωνία",
       "title": "Επικοινωνήστε μαζί μας",
@@ -33,7 +32,6 @@
     "mapAlt": "Google Maps Embed"
   },
   "en": {
-    "pageTitle": "Contact | Rizos",
     "hero": {
       "label": "Contact",
       "title": "Get in Touch",
@@ -66,7 +64,6 @@
     "mapAlt": "Google Maps Embed"
   },
   "de": {
-    "pageTitle": "Kontakt | Rizos",
     "hero": {
       "label": "Kontakt",
       "title": "Nehmen Sie Kontakt auf",

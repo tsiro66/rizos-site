@@ -1,12 +1,12 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 import ContactContent from '../components/pages/ContactContent.astro';
-import { useTranslations } from '../i18n/utils';
+import { useTranslations, pageTitles } from '../i18n/utils';
 import contactContent from '../content/contact.json';
 
 const { t } = useTranslations('el', contactContent.el as Record<string, unknown>);
 ---
 
-<MainLayout title={t('pageTitle') as string} t={t} locale='el'>
+<MainLayout title={pageTitles.contact.el} t={t} locale='el'>
   <ContactContent t={t} locale='el' />
 </MainLayout>

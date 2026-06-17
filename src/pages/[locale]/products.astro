@@ -1,7 +1,7 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
 import ProductsContent from '../../components/pages/ProductsContent.astro';
-import { useTranslations, getStaticPaths } from '../../i18n/utils';
+import { useTranslations, getStaticPaths, pageTitles } from '../../i18n/utils';
 import productsContent from '../../content/products.json';
 
 export { getStaticPaths };
@@ -11,6 +11,6 @@ const localeData = (productsContent as Record<string, Record<string, unknown>>)[
 const { t } = useTranslations(locale!, localeData);
 ---
 
-<MainLayout title={t('pageTitle') as string} t={t} locale={locale!}>
+<MainLayout title={(pageTitles.products as Record<string, string>)[locale!] ?? 'Rizos'} t={t} locale={locale!}>
   <ProductsContent t={t} locale={locale!} />
 </MainLayout>

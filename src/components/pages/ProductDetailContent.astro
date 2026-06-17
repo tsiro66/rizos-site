@@ -1,13 +1,13 @@
 ---
 import { Image } from 'astro:assets';
 import { localizedPath } from '../../i18n/utils';
-import fetaImg from '../../assets/feta.jpg';
-import leukoTuriImg from '../../assets/leuko-turi.jpg';
 
-const productImages: Record<string, ImageMetadata> = {
-  feta: fetaImg,
-  'leuko-turi': leukoTuriImg,
-};
+const allImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/*.{jpg,jpeg,png,webp}', { eager: true });
+const productImages: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(allImages)) {
+  const filename = path.split('/').pop()!.split('.')[0];
+  productImages[filename] = mod.default;
+}
 
 interface Props {
   t: <T = unknown>(key: string) => T;

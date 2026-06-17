@@ -1,6 +1,5 @@
 {
   "el": {
-    "pageTitle": "Σχετικά με εμάς | Ρίζος",
     "hero": {
       "label": "Η Ιστορία μας",
       "title": "Σχετικά με εμάς",
@@ -11,7 +10,8 @@
       "title": "Η ιστορία μας ξεκινά από τα βουνά",
       "para1": "Η Ρίζος ξεκίνησε ως μια μικρή οικογενειακή τυροκομική μονάδα στην Ήπειρο. Με σεβασμό στις παραδοσιακές συνταγές και αγάπη για τη φύση, δημιουργήσαμε προϊόντα που ξεχωρίζουν.",
       "para2": "Σήμερα, τρεις γενιές αργότερα, συνεχίζουμε με το ίδιο πάθος — φέρνοντας στο τραπέζι σας τα πιο αγνά γαλακτοκομικά προϊόντα.",
-      "imageAlt": "Φωτογραφία οικογένειας"
+      "imageAlt": "Φωτογραφία οικογένειας",
+      "image": ""
     },
     "timeline": {
       "title": "Η πορεία μας",
@@ -42,15 +42,15 @@
       "label": "Η Ομάδα",
       "title": "Οι άνθρωποι πίσω από τη Ρίζος",
       "members": [
-        { "name": "Γιώργος Ρίζος", "role": "Ιδρυτής" },
-        { "name": "Μαρία Ρίζου", "role": "Διεύθυνση Παραγωγής" },
-        { "name": "Νίκος Ρίζος", "role": "Υπεύθυνος Ποιότητας" }
+        { "name": "Γιώργος Ρίζος", "role": "Ιδρυτής", "image": "" },
+        { "name": "Μαρία Ρίζου", "role": "Διεύθυνση Παραγωγής", "image": "" },
+        { "name": "Νίκος Ρίζος", "role": "Υπεύθυνος Ποιότητας", "image": "" }
       ],
-      "imageAlt": "Φωτογραφία"
+      "imageAlt": "Φωτογραφία",
+      "image": ""
     }
   },
   "en": {
-    "pageTitle": "About Us | Rizos",
     "hero": {
       "label": "Our Story",
       "title": "About Us",
@@ -61,7 +61,8 @@
       "title": "Our story starts in the mountains",
       "para1": "Rizos started as a small family cheese-making unit in Epirus. With respect for traditional recipes and love for nature, we created products that stand out.",
       "para2": "Today, three generations later, we continue with the same passion — bringing the purest dairy products to your table.",
-      "imageAlt": "Family photo"
+      "imageAlt": "Family photo",
+      "image": ""
     },
     "timeline": {
       "title": "Our Journey",
@@ -92,15 +93,15 @@
       "label": "The Team",
       "title": "The people behind Rizos",
       "members": [
-        { "name": "Giorgos Rizos", "role": "Founder" },
-        { "name": "Maria Rizou", "role": "Production Director" },
-        { "name": "Nikos Rizos", "role": "Quality Manager" }
+        { "name": "Giorgos Rizos", "role": "Founder", "image": "" },
+        { "name": "Maria Rizou", "role": "Production Director", "image": "" },
+        { "name": "Nikos Rizos", "role": "Quality Manager", "image": "" }
       ],
-      "imageAlt": "Photo"
+      "imageAlt": "Photo",
+      "image": ""
     }
   },
   "de": {
-    "pageTitle": "Über uns | Rizos",
     "hero": {
       "label": "Unsere Geschichte",
       "title": "Über uns",
@@ -111,7 +112,8 @@
       "title": "Unsere Geschichte beginnt in den Bergen",
       "para1": "Rizos begann als kleine familiengeführte Käserei in Epirus. Mit Respekt vor traditionellen Rezepten und Liebe zur Natur schufen wir Produkte, die herausragen.",
       "para2": "Heute, drei Generationen später, setzen wir mit derselben Leidenschaft fort — und bringen die reinsten Milchprodukte auf Ihren Tisch.",
-      "imageAlt": "Familienfoto"
+      "imageAlt": "Familienfoto",
+      "image": ""
     },
     "timeline": {
       "title": "Unser Weg",
@@ -142,11 +144,12 @@
       "label": "Das Team",
       "title": "Die Menschen hinter Rizos",
       "members": [
-        { "name": "Giorgos Rizos", "role": "Gründer" },
-        { "name": "Maria Rizou", "role": "Produktionsleitung" },
-        { "name": "Nikos Rizos", "role": "Qualitätsmanager" }
+        { "name": "Giorgos Rizos", "role": "Gründer", "image": "" },
+        { "name": "Maria Rizou", "role": "Produktionsleitung", "image": "" },
+        { "name": "Nikos Rizos", "role": "Qualitätsmanager", "image": "" }
       ],
-      "imageAlt": "Foto"
+      "imageAlt": "Foto",
+      "image": ""
     }
   }
 }

@@ -202,6 +202,23 @@ components:
         type: string
         label: Role
         required: true
+      - name: image
+        type: string
+        label: Image Filename
+        description: Filename in src/assets (without extension), e.g. "team-giorgos"
+
+  gallery-item:
+    type: object
+    label: Gallery Item
+    fields:
+      - name: image
+        type: string
+        label: Image Filename
+        description: Filename in src/assets (without extension), e.g. "factory-1"
+      - name: alt
+        type: string
+        label: Alt Text
+        required: true
 
 content:
   - name: pages
@@ -218,14 +235,6 @@ content:
             type: object
             label: Ελληνικά
             fields:
-              - name: site
-                type: object
-                label: Site
-                fields:
-                  - name: title
-                    type: string
-                    label: Site Title
-                    required: true
               - name: nav
                 component: locale-nav
                 label: Navigation
@@ -236,14 +245,6 @@ content:
             type: object
             label: English
             fields:
-              - name: site
-                type: object
-                label: Site
-                fields:
-                  - name: title
-                    type: string
-                    label: Site Title
-                    required: true
               - name: nav
                 component: locale-nav
                 label: Navigation
@@ -254,14 +255,6 @@ content:
             type: object
             label: Deutsch
             fields:
-              - name: site
-                type: object
-                label: Site
-                fields:
-                  - name: title
-                    type: string
-                    label: Site Title
-                    required: true
               - name: nav
                 component: locale-nav
                 label: Navigation
@@ -279,10 +272,6 @@ content:
             type: object
             label: Ελληνικά
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 type: object
                 label: Hero
@@ -299,6 +288,10 @@ content:
                     type: string
                     label: CTA Button Text
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension), e.g. "sheep"
                   - name: imageAlt
                     type: string
                     label: Hero Image Alt Text
@@ -321,6 +314,10 @@ content:
                     type: string
                     label: CTA Link Text
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -343,6 +340,10 @@ content:
                     type: string
                     label: CTA Link Text
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -406,10 +407,6 @@ content:
             type: object
             label: English
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 type: object
                 label: Hero
@@ -426,6 +423,10 @@ content:
                     type: string
                     label: CTA Button Text
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Hero Image Alt Text
@@ -448,6 +449,10 @@ content:
                     type: string
                     label: CTA Link Text
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -470,6 +475,10 @@ content:
                     type: string
                     label: CTA Link Text
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -533,10 +542,6 @@ content:
             type: object
             label: Deutsch
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 type: object
                 label: Hero
@@ -553,6 +558,10 @@ content:
                     type: string
                     label: CTA Button Text
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Hero Image Alt Text
@@ -575,6 +584,10 @@ content:
                     type: string
                     label: CTA Link Text
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -597,6 +610,10 @@ content:
                     type: string
                     label: CTA Link Text
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -667,10 +684,6 @@ content:
             type: object
             label: Ελληνικά
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -693,6 +706,10 @@ content:
                     type: text
                     label: Paragraph 2
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -745,17 +762,14 @@ content:
                         type: string
                         label: Role
                         required: true
-                  - name: imageAlt
-                    type: string
-                    label: Image Alt Text
+                      - name: image
+                        type: string
+                        label: Image Filename
+                        description: Filename in src/assets (without extension)
           - name: en
             type: object
             label: English
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -778,6 +792,10 @@ content:
                     type: text
                     label: Paragraph 2
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -830,17 +848,14 @@ content:
                         type: string
                         label: Role
                         required: true
-                  - name: imageAlt
-                    type: string
-                    label: Image Alt Text
+                      - name: image
+                        type: string
+                        label: Image Filename
+                        description: Filename in src/assets (without extension)
           - name: de
             type: object
             label: Deutsch
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -863,6 +878,10 @@ content:
                     type: text
                     label: Paragraph 2
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -915,9 +934,10 @@ content:
                         type: string
                         label: Role
                         required: true
-                  - name: imageAlt
-                    type: string
-                    label: Image Alt Text
+                      - name: image
+                        type: string
+                        label: Image Filename
+                        description: Filename in src/assets (without extension)
 
       - name: products
         label: Products
@@ -929,10 +949,6 @@ content:
             type: object
             label: Ελληνικά
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -943,10 +959,6 @@ content:
             type: object
             label: English
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -957,10 +969,6 @@ content:
             type: object
             label: Deutsch
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -978,10 +986,6 @@ content:
             type: object
             label: Ελληνικά
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -1004,6 +1008,10 @@ content:
                     type: text
                     label: Paragraph 2
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -1039,17 +1047,23 @@ content:
                     type: string
                     label: Title
                     required: true
-                  - name: imageAlt
-                    type: string
-                    label: Image Alt Text
+                  - name: items
+                    type: object
+                    label: Gallery Items
+                    list: true
+                    fields:
+                      - name: image
+                        type: string
+                        label: Image Filename
+                        description: Filename in src/assets (without extension)
+                      - name: alt
+                        type: string
+                        label: Alt Text
+                        required: true
           - name: en
             type: object
             label: English
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -1072,6 +1086,10 @@ content:
                     type: text
                     label: Paragraph 2
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -1107,17 +1125,23 @@ content:
                     type: string
                     label: Title
                     required: true
-                  - name: imageAlt
-                    type: string
-                    label: Image Alt Text
+                  - name: items
+                    type: object
+                    label: Gallery Items
+                    list: true
+                    fields:
+                      - name: image
+                        type: string
+                        label: Image Filename
+                        description: Filename in src/assets (without extension)
+                      - name: alt
+                        type: string
+                        label: Alt Text
+                        required: true
           - name: de
             type: object
             label: Deutsch
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -1140,6 +1164,10 @@ content:
                     type: text
                     label: Paragraph 2
                     required: true
+                  - name: image
+                    type: string
+                    label: Image Filename
+                    description: Filename in src/assets (without extension)
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
@@ -1175,9 +1203,19 @@ content:
                     type: string
                     label: Title
                     required: true
-                  - name: imageAlt
-                    type: string
-                    label: Image Alt Text
+                  - name: items
+                    type: object
+                    label: Gallery Items
+                    list: true
+                    fields:
+                      - name: image
+                        type: string
+                        label: Image Filename
+                        description: Filename in src/assets (without extension)
+                      - name: alt
+                        type: string
+                        label: Alt Text
+                        required: true
 
       - name: contact
         label: Contact
@@ -1189,10 +1227,6 @@ content:
             type: object
             label: Ελληνικά
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -1279,10 +1313,6 @@ content:
             type: object
             label: English
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -1369,10 +1399,6 @@ content:
             type: object
             label: Deutsch
             fields:
-              - name: pageTitle
-                type: string
-                label: Page Title
-                required: true
               - name: hero
                 component: hero-section
                 label: Hero
@@ -1484,10 +1510,6 @@ content:
             type: string
             label: Image Filename
             description: Filename of the product image in src/assets (without extension), e.g. "feta"
-          - name: pageTitle
-            type: string
-            label: Page Title
-            required: true
           - name: hero
             component: hero-section
             label: Hero Section
@@ -1553,10 +1575,6 @@ content:
             type: string
             label: Image Filename
             hidden: true
-          - name: pageTitle
-            type: string
-            label: Page Title
-            required: true
           - name: hero
             component: hero-section
             label: Hero Section
@@ -1622,10 +1640,6 @@ content:
             type: string
             label: Image Filename
             hidden: true
-          - name: pageTitle
-            type: string
-            label: Page Title
-            required: true
           - name: hero
             component: hero-section
             label: Hero Section

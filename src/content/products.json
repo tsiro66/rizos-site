@@ -1,6 +1,5 @@
 {
   "el": {
-    "pageTitle": "Προϊόντα | Ρίζος",
     "hero": {
       "label": "Προϊόντα",
       "title": "Τα προϊόντα μας",
@@ -13,7 +12,6 @@
     }
   },
   "en": {
-    "pageTitle": "Products | Rizos",
     "hero": {
       "label": "Products",
       "title": "Our Products",
@@ -26,7 +24,6 @@
     }
   },
   "de": {
-    "pageTitle": "Produkte | Rizos",
     "hero": {
       "label": "Produkte",
       "title": "Unsere Produkte",

@@ -1,20 +1,20 @@
 ---
 import { localizedPath } from '../../i18n/utils';
 import { Image } from 'astro:assets';
-import fetaImg from '../../assets/feta.jpg';
-import leukoTuriImg from '../../assets/leuko-turi.jpg';
-import fetaContent from '../../content/products/feta.json';
-import leukoTuriContent from '../../content/products/leuko-turi.json';
 
-const productImages: Record<string, ImageMetadata> = {
-  feta: fetaImg,
-  'leuko-turi': leukoTuriImg,
-};
+const allImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/*.{jpg,jpeg,png,webp}', { eager: true });
+const productImages: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(allImages)) {
+  const filename = path.split('/').pop()!.split('.')[0];
+  productImages[filename] = mod.default;
+}
 
-const productCollection: Record<string, any> = {
-  feta: fetaContent,
-  'leuko-turi': leukoTuriContent,
-};
+const productCollection = import.meta.glob<{ default: Record<string, any> }>('../../content/products/*.json', { eager: true });
+const productList: { slug: string; data: Record<string, any> }[] = [];
+for (const [path, mod] of Object.entries(productCollection)) {
+  const slug = path.split('/').pop()!.replace('.json', '');
+  productList.push({ slug, data: mod.default });
+}
 
 interface Props {
   t: <T = unknown>(key: string) => T;
@@ -23,8 +23,8 @@ interface Props {
 
 const { t, locale } = Astro.props;
 
-const productItems = Object.entries(productCollection).map(([slug, data]) => {
-  const localeData = (data as Record<string, { name: string; description: string; imageAlt: string; image: string }>)[locale];
+const productItems = productList.map(({ slug, data }) => {
+  const localeData = data[locale] as { name: string; description: string; imageAlt: string; image: string };
   return { slug, ...localeData };
 });
 ---
@@ -52,7 +52,7 @@ const productItems = Object.entries(productCollection).map(([slug, data]) => {
           <a href={localizedPath(`/products/${product.slug}`, locale)} class="group rounded-2xl overflow-hidden bg-stone-50 shadow-sm hover:shadow-lg transition-shadow duration-300 block">
             <div class="aspect-square bg-stone-200 flex items-center justify-center overflow-hidden">
               {product.image && productImages[product.image] ? (
-                <Image src={productImages[product.image]} alt={product.imageAlt} class="w-full h-full object-cover" />
+                <Image src={productImages[product.image]} alt={product.imageAlt} />
               ) : (
                 <span class="text-stone-400 font-geologica text-sm">{product.imageAlt}</span>
               )}

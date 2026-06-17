@@ -1,9 +1,13 @@
 ---
 import { Image } from 'astro:assets';
-import products from '../../assets/products.jpg';
-import factory from '../../assets/factory.jpg';
-import sheep from '../../assets/sheep.jpg';
 import { localizedPath } from '../../i18n/utils';
+
+const allImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/*.{jpg,jpeg,png,webp}', { eager: true });
+const imageMap: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(allImages)) {
+  const filename = path.split('/').pop()!.split('.')[0];
+  imageMap[filename] = mod.default;
+}
 
 interface Props {
   t: <T = unknown>(key: string) => T;
@@ -16,7 +20,7 @@ const { t, locale } = Astro.props;
 <!-- Hero -->
 <section class="relative h-screen overflow-hidden">
   <Image
-    src={sheep}
+    src={imageMap[t('hero.image') as string] ?? imageMap['sheep']}
     alt={t('hero.imageAlt')}
     width={1920}
     format="webp"
@@ -49,7 +53,7 @@ const { t, locale } = Astro.props;
 <section class="grid grid-cols-1 md:grid-cols-2 min-h-[80vh]">
   <div class="overflow-hidden group">
     <Image
-      src={products}
+      src={imageMap[t('section1.image') as string] ?? imageMap['products']}
       alt={t('section1.imageAlt')}
       width={960}
       format="webp"
@@ -100,7 +104,7 @@ const { t, locale } = Astro.props;
   </div>
   <div class="overflow-hidden group order-1 md:order-2">
     <Image
-      src={factory}
+      src={imageMap[t('section2.image') as string] ?? imageMap['factory']}
       alt={t('section2.imageAlt')}
       width={960}
       format="webp"

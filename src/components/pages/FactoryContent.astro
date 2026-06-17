@@ -1,10 +1,23 @@
 ---
+import { Image } from 'astro:assets';
+
+const allImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/*.{jpg,jpeg,png,webp}', { eager: true });
+const imageMap: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(allImages)) {
+  const filename = path.split('/').pop()!.split('.')[0];
+  imageMap[filename] = mod.default;
+}
+
 interface Props {
   t: <T = unknown>(key: string) => T;
   locale: string;
 }
 
 const { t } = Astro.props;
+
+const overviewImageKey = t('overview.image') as string;
+const overviewImage = overviewImageKey && imageMap[overviewImageKey] ? imageMap[overviewImageKey] : null;
+const galleryItems = t('gallery.items') as { image: string; alt: string }[];
 ---
 
 <!-- Hero -->
@@ -36,8 +49,14 @@ const { t } = Astro.props;
         {t('overview.para2')}
       </p>
     </div>
-    <div class="aspect-[4/3] bg-stone-200 rounded-2xl flex items-center justify-center">
-      <span class="text-stone-400 font-geologica text-sm">{t('overview.imageAlt')}</span>
+    <div class="aspect-[4/3] rounded-2xl overflow-hidden">
+      {overviewImage ? (
+        <Image src={overviewImage} alt={t('overview.imageAlt')} width={960} format="webp" quality={80} class="w-full h-full object-cover" />
+      ) : (
+        <div class="w-full h-full bg-stone-200 flex items-center justify-center">
+          <span class="text-stone-400 font-geologica text-sm">{t('overview.imageAlt')}</span>
+        </div>
+      )}
     </div>
   </div>
 </section>
@@ -86,7 +105,7 @@ const { t } = Astro.props;
   </div>
 </section>
 
-<!-- Gallery Placeholder -->
+<!-- Gallery -->
 <section class="py-24 bg-white">
   <div class="max-w-6xl mx-auto px-6">
     <div class="text-center mb-16">
@@ -97,11 +116,20 @@ const { t } = Astro.props;
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
       {
-        [0, 1, 2, 3, 4, 5].map(() => (
-          <div class="aspect-square bg-stone-200 rounded-xl flex items-center justify-center">
-            <span class="text-stone-400 font-geologica text-sm">{t('gallery.imageAlt')}</span>
-          </div>
-        ))
+        galleryItems.map((item: { image: string; alt: string }) => {
+          const img = item.image && imageMap[item.image] ? imageMap[item.image] : null;
+          return (
+            <div class="aspect-square rounded-xl overflow-hidden">
+              {img ? (
+                <Image src={img} alt={item.alt} width={600} format="webp" quality={80} class="w-full h-full object-cover" />
+              ) : (
+                <div class="w-full h-full bg-stone-200 flex items-center justify-center">
+                  <span class="text-stone-400 font-geologica text-sm">{item.alt}</span>
+                </div>
+              )}
+            </div>
+          );
+        })
       }
     </div>
   </div>

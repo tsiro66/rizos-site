@@ -2,27 +2,35 @@
 import MainLayout from '../../layouts/MainLayout.astro';
 import ProductDetailContent from '../../components/pages/ProductDetailContent.astro';
 import { useTranslations } from '../../i18n/utils';
-import fetaContent from '../../content/products/feta.json';
-import leukoTuriContent from '../../content/products/leuko-turi.json';
 
-const productMap: Record<string, any> = {
-  feta: fetaContent,
-  'leuko-turi': leukoTuriContent,
+const productModules = import.meta.glob<{ default: Record<string, any> }>('../../content/products/*.json', { eager: true });
+const productMap: Record<string, any> = {};
+for (const [path, mod] of Object.entries(productModules)) {
+  const slug = path.split('/').pop()!.replace('.json', '');
+  productMap[slug] = mod.default;
+}
+
+const elTitles: Record<string, string> = {
+  feta: 'Φέτα Παραδοσιακή | Ρίζος',
+  'leuko-turi': 'Λευκό Τυρί | Ρίζος',
 };
 
 export function getStaticPaths() {
-  return [
-    { params: { slug: 'feta' } },
-    { params: { slug: 'leuko-turi' } },
-  ];
+  const modules = import.meta.glob<{ default: Record<string, any> }>('../../content/products/*.json', { eager: true });
+  const slugs: string[] = [];
+  for (const [path] of Object.entries(modules)) {
+    slugs.push(path.split('/').pop()!.replace('.json', ''));
+  }
+  return slugs.map((slug) => ({ params: { slug } }));
 }
 
 const { slug } = Astro.params;
 const productData = productMap[slug!];
 const localeData = productData.el as Record<string, unknown>;
 const { t } = useTranslations('el', localeData);
+const title = elTitles[slug!] ?? 'Ρίζος';
 ---
 
-<MainLayout title={t('pageTitle') as string} t={t} locale='el'>
+<MainLayout title={title} t={t} locale='el'>
   <ProductDetailContent t={t} locale='el' slug={slug} />
 </MainLayout>

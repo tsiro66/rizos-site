@@ -1,25 +1,27 @@
 {
   "el": {
-    "pageTitle": "Ρίζος — Αγνά & Φυσικά Προϊόντα",
     "hero": {
       "title": "Τα πιο αγνα και φυσικα προιοντα",
       "subtitle": "Από τα βουνά της Ελλάδας στο τραπέζι σας — με σεβασμό στη φύση και την παράδοση.",
       "cta": "Δείτε τα προϊόντα μας",
-      "imageAlt": "Πρόβατα στη φύση"
+      "imageAlt": "Πρόβατα στη φύση",
+      "image": "sheep"
     },
     "section1": {
       "label": "Προϊόντα",
       "title": "Γεύσεις που ξεχωρίζουν",
       "description": "Γαλακτοκομικά προϊόντα φτιαγμένα με αγάπη, από φρέσκο γάλα ελεύθερης βοσκής. Κάθε μπουκιά μια γεύση από τη φύση.",
       "cta": "Ανακαλύψτε περισσότερα",
-      "imageAlt": "Προϊόντα Ρίζος"
+      "imageAlt": "Προϊόντα Ρίζος",
+      "image": "products"
     },
     "section2": {
       "label": "Εγκαταστάσεις",
       "title": "Οι εγκαταστάσεις μας",
       "description": "Σύγχρονες εγκαταστάσεις με σεβασμό στην παράδοση. Κάθε στάδιο παραγωγής ελέγχεται για να εξασφαλίζουμε κορυφαία ποιότητα.",
       "cta": "Δείτε τις εγκαταστάσεις",
-      "imageAlt": "Εγκαταστάσεις Ρίζος"
+      "imageAlt": "Εγκαταστάσεις Ρίζος",
+      "image": "factory"
     },
     "highlights": [
       { "number": "30+", "label": "Χρόνια Εμπειρίας" },
@@ -53,26 +55,28 @@
     }
   },
   "en": {
-    "pageTitle": "Rizos — Pure & Natural Products",
     "hero": {
       "title": "The purest and most natural products",
       "subtitle": "From the mountains of Greece to your table — with respect for nature and tradition.",
       "cta": "View Our Products",
-      "imageAlt": "Sheep in nature"
+      "imageAlt": "Sheep in nature",
+      "image": "sheep"
     },
     "section1": {
       "label": "Products",
       "title": "Distinctive Flavors",
       "description": "Dairy products made with love, from fresh free-range milk. Every bite tastes of nature.",
       "cta": "Discover More",
-      "imageAlt": "Rizos Products"
+      "imageAlt": "Rizos Products",
+      "image": "products"
     },
     "section2": {
       "label": "Facilities",
       "title": "Our Facilities",
       "description": "Modern facilities with respect for tradition. Every production stage is controlled to ensure top quality.",
       "cta": "View Facilities",
-      "imageAlt": "Rizos Facilities"
+      "imageAlt": "Rizos Facilities",
+      "image": "factory"
     },
     "highlights": [
       { "number": "30+", "label": "Years of Experience" },
@@ -106,26 +110,28 @@
     }
   },
   "de": {
-    "pageTitle": "Rizos — Reine & Natürliche Produkte",
     "hero": {
       "title": "Die reinsten und natürlichsten Produkte",
       "subtitle": "Von den Bergen Griechenlands auf Ihren Tisch — mit Respekt vor der Natur und Tradition.",
       "cta": "Entdecken Sie unsere Produkte",
-      "imageAlt": "Schafe in der Natur"
+      "imageAlt": "Schafe in der Natur",
+      "image": "sheep"
     },
     "section1": {
       "label": "Produkte",
       "title": "Geschmackserlebnisse, die begeistern",
       "description": "Mit Liebe hergestellte Milchprodukte aus frischer Weidemilch. Jeder Bissen ein Geschmack der Natur.",
       "cta": "Mehr entdecken",
-      "imageAlt": "Rizos Produkte"
+      "imageAlt": "Rizos Produkte",
+      "image": "products"
     },
     "section2": {
       "label": "Anlagen",
       "title": "Unsere Anlagen",
       "description": "Moderne Anlagen mit Respekt vor der Tradition. Jede Produktionsstufe wird kontrolliert, um höchste Qualität zu gewährleisten.",
       "cta": "Anlagen ansehen",
-      "imageAlt": "Rizos Anlagen"
+      "imageAlt": "Rizos Anlagen",
+      "image": "factory"
     },
     "highlights": [
       { "number": "30+", "label": "Jahre Erfahrung" },
