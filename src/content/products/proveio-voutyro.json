@@ -1,0 +1,131 @@
+{
+  "el": {
+    "name": "Πρόβειο Βούτυρο",
+    "description": "Φρέσκο βούτυρο από πρόβειο γάλα, με πλούσιο άρωμα και μαλακή, κρεμώδη υφή.",
+    "imageAlt": "Πρόβειο Βούτυρο",
+    "image": "proveio-voutyro",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Πρόβειο Βούτυρο",
+      "subtitle": "Φρέσκο βούτυρο από πρόβειο γάλα, με πλούσιο άρωμα και μαλακή, κρεμώδη υφή."
+    },
+    "overview": {
+      "label": "Φρέσκο & Αρωματικό",
+      "title": "Το βούτυρο με χαρακτήρα",
+      "para1": "Το Πρόβειο Βούτυρο παρασκευάζεται από καθαρό πρόβειο γάλα ελεύθερης βοσκής. Έχει πλούσιο, χαρακτηριστικό άρωμα και μαλακή, κρεμώδη υφή που λιώνει εύκολα. Ένα παραδοσιακό προϊόν με βαθιά ιστορία στην ελληνική κουζίνα.",
+      "para2": "Ιδανικό για ψήσιμο και μαγειρική — δίνει πλούσια γεύση σε πίτες, ζύμες, γλυκά και σάλτσες. Φτιαγμένο με παραδοσιακό χτύπημα της κρέμας γάλακτος, χωρίς χρώματα ή συντηρητικά."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        {
+          "title": "100% Πρόβειο Γάλα",
+          "description": "Καθαρό πρόβειο γάλα ελεύθερης βοσκής από τα βουνά της Ηπείρου."
+        },
+        {
+          "title": "Πλούσιο Άρωμα",
+          "description": "Χαρακτηριστικό, δυνατό άρωμα και κρεμώδης υφή που λιώνει εύκολα."
+        },
+        {
+          "title": "Παραδοσιακή Παρασκευή",
+          "description": "Φτιαγμένο με χτύπημα της κρέμας γάλακτος — όπως παλιά, χωρίς πρόσθετα."
+        },
+        {
+          "title": "Τέλειο για Μαγειρική",
+          "description": "Δίνει πλούσια γεύση σε πίτες, ζύμες, γλυκά και σάλτσες."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Πρόβειο Βούτυρο;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Sheep's Butter (Proveio Voutyro)",
+    "description": "Fresh butter from sheep's milk, with a rich aroma and a soft, creamy texture.",
+    "imageAlt": "Sheep's Butter",
+    "image": "proveio-voutyro",
+    "hero": {
+      "label": "Our Products",
+      "title": "Sheep's Butter (Proveio Voutyro)",
+      "subtitle": "Fresh butter from sheep's milk, with a rich aroma and a soft, creamy texture."
+    },
+    "overview": {
+      "label": "Fresh & Aromatic",
+      "title": "Butter with character",
+      "para1": "Sheep's Butter is made from pure free-range sheep's milk. It has a rich, distinctive aroma and a soft, creamy texture that melts easily. A traditional product with a long history in Greek cuisine.",
+      "para2": "Ideal for baking and cooking — it gives rich flavor to pies, doughs, desserts, and sauces. Made by traditional churning of milk cream, with no colors or preservatives."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        {
+          "title": "100% Sheep's Milk",
+          "description": "Pure free-range sheep's milk from the mountains of Epirus."
+        },
+        {
+          "title": "Rich Aroma",
+          "description": "Distinctive, full aroma and a creamy texture that melts easily."
+        },
+        {
+          "title": "Traditional Making",
+          "description": "Made by churning milk cream — the old way, with no additives."
+        },
+        {
+          "title": "Perfect for Cooking",
+          "description": "Adds rich flavor to pies, doughs, desserts, and sauces."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Sheep's Butter?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Schafsbutter (Proveio Voutyro)",
+    "description": "Frische Butter aus Schafsmilch, mit vollem Aroma und weicher, cremiger Textur.",
+    "imageAlt": "Schafsbutter",
+    "image": "proveio-voutyro",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Schafsbutter (Proveio Voutyro)",
+      "subtitle": "Frische Butter aus Schafsmilch, mit vollem Aroma und weicher, cremiger Textur."
+    },
+    "overview": {
+      "label": "Frisch & Aromatisch",
+      "title": "Butter mit Charakter",
+      "para1": "Schafsbutter wird aus reiner Weideschafsmilch hergestellt. Sie hat ein volles, unverwechselbares Aroma und eine weiche, cremige Textur, die leicht schmilzt. Ein traditionelles Produkt mit langer Geschichte in der griechischen Küche.",
+      "para2": "Ideal zum Backen und Kochen — verleiht Teigtaschen, Teigen, Desserts und Saucen reichen Geschmack. Traditionell durch Schlagen der Milchrahm hergestellt, ohne Farbstoffe oder Konservierungsstoffe."
+    },
+    "features": {
+      "title": "Was sie besonders macht",
+      "items": [
+        {
+          "title": "100% Schafsmilch",
+          "description": "Reine Weideschafsmilch aus den Bergen Epirus."
+        },
+        {
+          "title": "Volles Aroma",
+          "description": "Unverwechselbares, kräftiges Aroma und cremige Textur, die leicht schmilzt."
+        },
+        {
+          "title": "Traditionelle Herstellung",
+          "description": "Durch Schlagen des Milchrahms hergestellt — wie früher, ohne Zusätze."
+        },
+        {
+          "title": "Perfekt zum Kochen",
+          "description": "Verleiht Teigtaschen, Teigen, Desserts und Saucen reichen Geschmack."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unsere Schafsbutter probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

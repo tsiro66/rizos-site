@@ -1,0 +1,131 @@
+{
+  "el": {
+    "name": "Κατσικίσιο Τυρί",
+    "description": "Λευκό τυρί σε άλμη από καθαρό κατσικίσιο γάλα, με έντονο άρωμα και χαρακτήρα.",
+    "imageAlt": "Κατσικίσιο Τυρί",
+    "image": "katsikisio-tyri",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Κατσικίσιο Τυρί",
+      "subtitle": "Λευκό τυρί σε άλμη από καθαρό κατσικίσιο γάλα, με έντονο άρωμα και χαρακτήρα."
+    },
+    "overview": {
+      "label": "Έντονο Χαρακτήρα",
+      "title": "Το τυρί με ψυχή",
+      "para1": "Το Κατσικίσιο Τυρί παρασκευάζεται από 100% κατσικίσιο γάλα ελεύθερης βοσκής. Ωριμάζει σε άλμη και αναπτύσσει έναν χαρακτηριστικό, έντονο χαρακτήρα — πικάντικο, με ξινές νότες και επίμονη επίγευση που δεν ξεχνιέται εύκολα.",
+      "para2": "Οι κατσίκες της Ηπείρου βόσκουν ελεύθερα στα βουνά, τρεφόμενες με αυτοφυή βότανα και φασκόμηλο — γεγονός που δίνει στο γάλα και στο τυρί ιδιαίτερο, αρωματικό προφίλ. Ένα τυρί για όσους αγαπούν τις έντονες, με χαρακτήρα γεύσεις."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        {
+          "title": "100% Κατσικίσιο Γάλα",
+          "description": "Καθαρό κατσικίσιο γάλα από ελεύθερες κατσίκες στα βουνά της Ηπείρου."
+        },
+        {
+          "title": "Έντονο Άρωμα",
+          "description": "Πικάντικο, με νότες ξινών και αρωματικών βοτάνων — γεμάτο χαρακτήρα."
+        },
+        {
+          "title": "Παραδοσιακός Τύπος",
+          "description": "Φτιαγμένο με παραδοσιακές μεθόδους και ωρίμανση σε άλμη, όπως παλιά."
+        },
+        {
+          "title": "Ιδανικό για Σαλάτες",
+          "description": "Τέλειο σε σαλάτες, με ελαιόλαδο ή με φρέσκο ψωμί — πάντα με παρουσία."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Κατσικίσιο Τυρί;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Goat Cheese (Katsikisio Tyri)",
+    "description": "White brined cheese from pure goat's milk, with a distinctive aroma and character.",
+    "imageAlt": "Goat Cheese (Katsikisio Tyri)",
+    "image": "katsikisio-tyri",
+    "hero": {
+      "label": "Our Products",
+      "title": "Goat Cheese (Katsikisio Tyri)",
+      "subtitle": "White brined cheese from pure goat's milk, with a distinctive aroma and character."
+    },
+    "overview": {
+      "label": "Full of Character",
+      "title": "The cheese with soul",
+      "para1": "Goat Cheese is made from 100% free-range goat's milk. Aged in brine, it develops a distinctive, bold character — tangy, with piquant notes and a lingering finish that is unforgettable.",
+      "para2": "The goats of Epirus graze freely in the mountains, feeding on wild herbs and sage — giving the milk and the cheese a unique aromatic profile. A cheese for those who love bold, characterful flavors."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        {
+          "title": "100% Goat's Milk",
+          "description": "Pure goat's milk from free-range goats in the mountains of Epirus."
+        },
+        {
+          "title": "Distinctive Aroma",
+          "description": "Tangy, with notes of herbs and piquancy — full of character."
+        },
+        {
+          "title": "Traditional Type",
+          "description": "Made with traditional methods and aged in brine, the old-fashioned way."
+        },
+        {
+          "title": "Ideal for Salads",
+          "description": "Perfect in salads, with olive oil, or with fresh bread — always present."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Goat Cheese?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Ziegenkäse (Katsikisio Tyri)",
+    "description": "Weißer Käse in Salzlake aus reiner Ziegenmilch, mit unverwechselbarem Aroma und Charakter.",
+    "imageAlt": "Ziegenkäse",
+    "image": "katsikisio-tyri",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Ziegenkäse (Katsikisio Tyri)",
+      "subtitle": "Weißer Käse in Salzlake aus reiner Ziegenmilch, mit unverwechselbarem Aroma und Charakter."
+    },
+    "overview": {
+      "label": "Voller Charakter",
+      "title": "Der Käse mit Seele",
+      "para1": "Ziegenkäse wird aus 100% Weideziegenmilch hergestellt. In Salzlake gereift, entwickelt er einen unverwechselbaren, kräftigen Charakter — würzig, mit pikanten Noten und einem unvergesslichen Abgang.",
+      "para2": "Die Ziegen Epirus weiden frei in den Bergen, ernähren sich von wilden Kräutern und Salbei — was Milch und Käse ein einzigartiges, aromatisches Profil verleiht. Käse für Liebhaber markanter Geschmäcker."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        {
+          "title": "100% Ziegenmilch",
+          "description": "Reine Ziegenmilch von freilaufenden Ziegen in den Bergen Epirus."
+        },
+        {
+          "title": "Unverwechselbares Aroma",
+          "description": "Würzig, mit Kräuternoten und Pikanz — voller Charakter."
+        },
+        {
+          "title": "Traditionelle Art",
+          "description": "Nach traditionellen Methoden hergestellt und in Salzlake gereift."
+        },
+        {
+          "title": "Ideal für Salate",
+          "description": "Perfekt in Salaten, mit Olivenöl oder frischem Brot — immer präsent."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unseren Ziegenkäse probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

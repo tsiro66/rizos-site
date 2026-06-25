@@ -2,11 +2,14 @@
 import { Image } from 'astro:assets';
 import { localizedPath } from '../../i18n/utils';
 
-const allImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/*.{jpg,jpeg,png,webp}', { eager: true });
+const allImages = {
+  ...import.meta.glob<{ default: ImageMetadata }>('../../assets/*.{jpg,jpeg,png,webp}', { eager: true }),
+  ...import.meta.glob<{ default: ImageMetadata }>('../../assets/products/*.{jpg,jpeg,png,webp}', { eager: true }),
+};
 const productImages: Record<string, ImageMetadata> = {};
 for (const [path, mod] of Object.entries(allImages)) {
   const filename = path.split('/').pop()!.split('.')[0];
-  productImages[filename] = mod.default;
+  if (!productImages[filename]) productImages[filename] = mod.default;
 }
 
 interface Props {
@@ -18,6 +21,7 @@ interface Props {
 const { t, locale, slug } = Astro.props;
 
 const features = t('features.items') as { title: string; description: string }[];
+const imageKey = (t('image') as string) ?? slug;
 ---
 
 <!-- Hero -->
@@ -51,7 +55,7 @@ const features = t('features.items') as { title: string; description: string }[]
     </div>
     <div class="overflow-hidden rounded-2xl group">
       <Image
-        src={productImages[slug]}
+        src={productImages[imageKey]}
         alt={t('hero.title') as string}
         width={960}
         format="webp"

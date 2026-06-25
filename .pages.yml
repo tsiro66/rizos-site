@@ -698,13 +698,10 @@ content:
                     type: string
                     label: Title
                     required: true
-                  - name: para1
+                  - name: paragraphs
                     type: text
-                    label: Paragraph 1
-                    required: true
-                  - name: para2
-                    type: text
-                    label: Paragraph 2
+                    label: Paragraphs
+                    list: true
                     required: true
                   - name: image
                     type: string
@@ -713,59 +710,6 @@ content:
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
-              - name: timeline
-                type: object
-                label: Timeline
-                fields:
-                  - name: title
-                    type: string
-                    label: Title
-                    required: true
-                  - name: items
-                    type: object
-                    label: Entries
-                    list: true
-                    fields:
-                      - name: year
-                        type: string
-                        label: Year Abbreviation
-                        required: true
-                      - name: title
-                        type: string
-                        label: Title
-                        required: true
-                      - name: description
-                        type: text
-                        label: Description
-                        required: true
-              - name: team
-                type: object
-                label: Team
-                fields:
-                  - name: label
-                    type: string
-                    label: Section Label
-                  - name: title
-                    type: string
-                    label: Section Title
-                    required: true
-                  - name: members
-                    type: object
-                    label: Members
-                    list: true
-                    fields:
-                      - name: name
-                        type: string
-                        label: Name
-                        required: true
-                      - name: role
-                        type: string
-                        label: Role
-                        required: true
-                      - name: image
-                        type: string
-                        label: Image Filename
-                        description: Filename in src/assets (without extension)
           - name: en
             type: object
             label: English
@@ -784,13 +728,10 @@ content:
                     type: string
                     label: Title
                     required: true
-                  - name: para1
+                  - name: paragraphs
                     type: text
-                    label: Paragraph 1
-                    required: true
-                  - name: para2
-                    type: text
-                    label: Paragraph 2
+                    label: Paragraphs
+                    list: true
                     required: true
                   - name: image
                     type: string
@@ -799,59 +740,6 @@ content:
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
-              - name: timeline
-                type: object
-                label: Timeline
-                fields:
-                  - name: title
-                    type: string
-                    label: Title
-                    required: true
-                  - name: items
-                    type: object
-                    label: Entries
-                    list: true
-                    fields:
-                      - name: year
-                        type: string
-                        label: Year Abbreviation
-                        required: true
-                      - name: title
-                        type: string
-                        label: Title
-                        required: true
-                      - name: description
-                        type: text
-                        label: Description
-                        required: true
-              - name: team
-                type: object
-                label: Team
-                fields:
-                  - name: label
-                    type: string
-                    label: Section Label
-                  - name: title
-                    type: string
-                    label: Section Title
-                    required: true
-                  - name: members
-                    type: object
-                    label: Members
-                    list: true
-                    fields:
-                      - name: name
-                        type: string
-                        label: Name
-                        required: true
-                      - name: role
-                        type: string
-                        label: Role
-                        required: true
-                      - name: image
-                        type: string
-                        label: Image Filename
-                        description: Filename in src/assets (without extension)
           - name: de
             type: object
             label: Deutsch
@@ -870,13 +758,10 @@ content:
                     type: string
                     label: Title
                     required: true
-                  - name: para1
+                  - name: paragraphs
                     type: text
-                    label: Paragraph 1
-                    required: true
-                  - name: para2
-                    type: text
-                    label: Paragraph 2
+                    label: Paragraphs
+                    list: true
                     required: true
                   - name: image
                     type: string
@@ -885,59 +770,6 @@ content:
                   - name: imageAlt
                     type: string
                     label: Image Alt Text
-              - name: timeline
-                type: object
-                label: Timeline
-                fields:
-                  - name: title
-                    type: string
-                    label: Title
-                    required: true
-                  - name: items
-                    type: object
-                    label: Entries
-                    list: true
-                    fields:
-                      - name: year
-                        type: string
-                        label: Year Abbreviation
-                        required: true
-                      - name: title
-                        type: string
-                        label: Title
-                        required: true
-                      - name: description
-                        type: text
-                        label: Description
-                        required: true
-              - name: team
-                type: object
-                label: Team
-                fields:
-                  - name: label
-                    type: string
-                    label: Section Label
-                  - name: title
-                    type: string
-                    label: Section Title
-                    required: true
-                  - name: members
-                    type: object
-                    label: Members
-                    list: true
-                    fields:
-                      - name: name
-                        type: string
-                        label: Name
-                        required: true
-                      - name: role
-                        type: string
-                        label: Role
-                        required: true
-                      - name: image
-                        type: string
-                        label: Image Filename
-                        description: Filename in src/assets (without extension)
 
       - name: products
         label: Products

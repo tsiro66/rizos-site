@@ -1,0 +1,131 @@
+{
+  "el": {
+    "name": "Γραβιέρα Αγελάδινη (Κεφάλι)",
+    "description": "Ολόκληρη φέτα γραβιέρας αγελάδινης, ώριμη και πλούσια — το παραδοσιακό κεφάλι του σπιτιού.",
+    "imageAlt": "Γραβιέρα Αγελάδινη Κεφάλι",
+    "image": "graviera-ageladinh-kefali",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Γραβιέρα Αγελάδινη (Κεφάλι)",
+      "subtitle": "Ολόκληρη φέτα γραβιέρας αγελάδινης, ώριμη και πλούσια — το παραδοσιακό κεφάλι του σπιτιού."
+    },
+    "overview": {
+      "label": "Το Κεφάλι",
+      "title": "Το τυρί ολόκληρο, όπως παλιά",
+      "para1": "Το κεφάλι της γραβιέρας είναι η μεγαλύτερη, ολόκληρη φέτα που κόβεται από τον τυρότρουχο. Είναι η πιο ώριμη και πλούσια μορφή της αγελάδινης γραβιέρας, με βαθύτερο άρωμα και πιο σύνθετη γεύση από τα κομμένα κομμάτια.",
+      "para2": "Στα παραδοσιακά σπίτια της Ηπείρου, το κεφάλι γραβιέρας ήταν σύμβολο φιλοξενίας και αφθονίας. Κόβεται σε φέτες για το τραπέζι, τρίβεται για μαγειρική ή αποθηκεύεται σε λάδι για μεγαλύτερη διάρκεια."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        {
+          "title": "Ολόκληρη Φέτα",
+          "description": "Η μεγαλύτερη, πιο ώριμη φέτα — βαθύτερο άρωμα και πιο σύνθετη γεύση."
+        },
+        {
+          "title": "Παραδοσιακή Μορφή",
+          "description": "Σύμβολο φιλοξενίας και αφθονίας στα σπίτια της Ηπείρου εδώ και γενιές."
+        },
+        {
+          "title": "Μεγάλη Διάρκεια",
+          "description": "Διατηρείται περισσότερο από τα κομμένα κομμάτια — ιδανικό για αποθήκη σπιτιού."
+        },
+        {
+          "title": "Πολλαπλές Χρήσεις",
+          "description": "Φέτες για τραπέζι, τρίψη για μαγειρική ή συντήρηση σε λάδι."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Κεφάλι Γραβιέρας;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Cow's Graviera — Whole Wheel (Kefali)",
+    "description": "A whole wedge of cow's graviera, aged and rich — the traditional wheel of the household.",
+    "imageAlt": "Cow's Graviera Whole Wheel",
+    "image": "graviera-ageladinh-kefali",
+    "hero": {
+      "label": "Our Products",
+      "title": "Cow's Graviera — Whole Wheel (Kefali)",
+      "subtitle": "A whole wedge of cow's graviera, aged and rich — the traditional wheel of the household."
+    },
+    "overview": {
+      "label": "The Wheel",
+      "title": "The whole cheese, as it used to be",
+      "para1": "The kefali is the largest, whole wedge cut from the cheese wheel. It is the most aged and rich form of cow's graviera, with a deeper aroma and more complex flavor than the cut pieces.",
+      "para2": "In the traditional houses of Epirus, the graviera wheel was a symbol of hospitality and abundance. Sliced for the table, grated for cooking, or stored in oil for longer keeping."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        {
+          "title": "Whole Wedge",
+          "description": "The largest, most aged wedge — deeper aroma and more complex flavor."
+        },
+        {
+          "title": "Traditional Form",
+          "description": "A symbol of hospitality and abundance in Epirus homes for generations."
+        },
+        {
+          "title": "Longer Keeping",
+          "description": "Lasts longer than cut pieces — ideal for a household pantry."
+        },
+        {
+          "title": "Multiple Uses",
+          "description": "Sliced for the table, grated for cooking, or preserved in oil."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try the Graviera Wheel?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Kuh-Graviera — ganzer Laib (Kefali)",
+    "description": "Ein ganzer Keil Kuh-Graviera, gereift und vollmundig — der traditionelle Laib des Haushalts.",
+    "imageAlt": "Kuh-Graviera ganzer Laib",
+    "image": "graviera-ageladinh-kefali",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Kuh-Graviera — ganzer Laib (Kefali)",
+      "subtitle": "Ein ganzer Keil Kuh-Graviera, gereift und vollmundig — der traditionelle Laib des Haushalts."
+    },
+    "overview": {
+      "label": "Der Laib",
+      "title": "Der ganze Käse, wie früher",
+      "para1": "Der Kefali ist der größte, ganze Keil, der vom Käselaib geschnitten wird. Es ist die gereifteste und vollmundigste Form der Kuh-Graviera, mit tieferem Aroma und komplexerem Geschmack als die geschnittenen Stücke.",
+      "para2": "In den traditionellen Häusern Epirus war der Graviera-Laib ein Symbol für Gastfreundschaft und Überfluss. In Scheiben für den Tisch, gerieben zum Kochen oder in Öl eingelegt zur längeren Haltbarkeit."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        {
+          "title": "Ganzer Keil",
+          "description": "Der größte, gereifteste Keil — tieferes Aroma und komplexerer Geschmack."
+        },
+        {
+          "title": "Traditionelle Form",
+          "description": "Seit Generationen ein Symbol für Gastfreundschaft und Überfluss in Epirus."
+        },
+        {
+          "title": "Länger haltbar",
+          "description": "Hält länger als geschnittene Stücke — ideal für die Vorratskammer."
+        },
+        {
+          "title": "Vielseitig verwendbar",
+          "description": "In Scheiben für den Tisch, gerieben zum Kochen oder in Öl konserviert."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie den Graviera-Laib probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

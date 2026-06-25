@@ -1,0 +1,131 @@
+{
+  "el": {
+    "name": "Ανθότυρο",
+    "description": "Φρέσκο μαλακό τυρί από ορό γάλακτος με προσθήκη γάλακτος, με απαλή, ελαφρώς γλυκιά γεύση.",
+    "imageAlt": "Ανθότυρο",
+    "image": "anthotiro",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Ανθότυρο",
+      "subtitle": "Φρέσκο μαλακό τυρί από ορό γάλακτος με προσθήκη γάλακτος, με απαλή, ελαφρώς γλυκιά γεύση."
+    },
+    "overview": {
+      "label": "Φρέσκο & Απαλό",
+      "title": "Το τυρί της αυγής",
+      "para1": "Το Ανθότυρο είναι ένα παραδοσιακό φρέσκο τυρί που παρασκευάζεται από ορό γάλακτος, με προσθήκη φρέσκου γάλακτος. Η απαλή, κρεμώδης υφή του και η ελαφρώς γλυκιά, ξινή γεύση το καθιστούν ένα από τα πιο αγαπημένα τυριά για πρωινό και ελαφριά γεύματα.",
+      "para2": "Φτιαγμένο παραδοσιακά από φρέσκο γάλα ελεύθερης βοσκής των βουνών της Ηπείρου, σερβίρεται ιδανικά με φρέσκο ψωμί, μέλι και καρπούς. Ελαφρύ, θρεπτικό και πανεύκολο να χωνέψει."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        {
+          "title": "Φρέσκο Μαλακό Τυρί",
+          "description": "Παρασκευάζεται καθημερινά από φρέσκο ορό και γάλα, χωρίς ωρίμανση — απλό και αγνό."
+        },
+        {
+          "title": "Απαλή Γεύση",
+          "description": "Ελαφρώς γλυκιά και ξινιά, ιδανική για παιδιά και όποιον προτιμά τις λεπτές γεύσεις."
+        },
+        {
+          "title": "Ελαφρύ & Χωνευτικό",
+          "description": "Χαμηλό σε λιπαρά και αλάτι, εύκολο στην πέψη — τέλειο για πρωινό ή ελαφρύ σνακ."
+        },
+        {
+          "title": "Πολυσχιμαστό",
+          "description": "Συνδυάζεται με μέλι, φρούτα, ψωμί ή σε γλυκά και πίτες — παντού τέλειο."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Ανθότυρο;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Anthotyro",
+    "description": "Fresh soft whey cheese with added milk, with a delicate, mildly sweet flavor.",
+    "imageAlt": "Anthotyro",
+    "image": "anthotiro",
+    "hero": {
+      "label": "Our Products",
+      "title": "Anthotyro",
+      "subtitle": "Fresh soft whey cheese with added milk, with a delicate, mildly sweet flavor."
+    },
+    "overview": {
+      "label": "Fresh & Delicate",
+      "title": "The morning cheese",
+      "para1": "Anthotyro is a traditional fresh cheese made from whey with the addition of fresh milk. Its soft, creamy texture and mildly sweet, slightly tangy taste make it one of the most beloved cheeses for breakfast and light meals.",
+      "para2": "Crafted the traditional way from fresh free-range milk of the Epirus mountains, it pairs beautifully with fresh bread, honey, and fruit. Light, nourishing, and easy to digest."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        {
+          "title": "Fresh Soft Cheese",
+          "description": "Made daily from fresh whey and milk, with no aging — simple and pure."
+        },
+        {
+          "title": "Delicate Flavor",
+          "description": "Mildly sweet and tangy, ideal for children and anyone who loves subtle flavors."
+        },
+        {
+          "title": "Light & Digestible",
+          "description": "Low in fat and salt, gentle on the stomach — perfect for breakfast or a light snack."
+        },
+        {
+          "title": "Versatile",
+          "description": "Pairs with honey, fruit, and bread, or in desserts and pastries — always perfect."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try Anthotyro?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Anthotyro",
+    "description": "Frischer weicher Molkenkäse mit Milchzusatz, mit zartem, mild süßlichem Geschmack.",
+    "imageAlt": "Anthotyro",
+    "image": "anthotiro",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Anthotyro",
+      "subtitle": "Frischer weicher Molkenkäse mit Milchzusatz, mit zartem, mild süßlichem Geschmack."
+    },
+    "overview": {
+      "label": "Frisch & Zart",
+      "title": "Der Käse für den Morgen",
+      "para1": "Anthotyro ist ein traditioneller frischer Käse aus Molke mit Zusatz frischer Milch. Seine weiche, cremige Textur und der mild süßliche, leicht säuerliche Geschmack machen ihn zu einem der beliebtesten Käse für Frühstück und leichte Mahlzeiten.",
+      "para2": "Traditionell aus frischer Weidemilch der Berge Epirus hergestellt, harmoniert er wunderbar mit frischem Brot, Honig und Obst. Leicht, nahrhaft und bekömmlich."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        {
+          "title": "Frischer Weichkäse",
+          "description": "Täglich aus frischer Molke und Milch hergestellt, ohne Reifung — einfach und rein."
+        },
+        {
+          "title": "Zarter Geschmack",
+          "description": "Mild süßlich und säuerlich, ideal für Kinder und alle, die dezente Aromen schätzen."
+        },
+        {
+          "title": "Leicht & Bekömmlich",
+          "description": "Fett- und salzarm, magenschonend — perfekt für Frühstück oder leichten Snack."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Passt zu Honig, Obst, Brot oder in Desserts und Gebäck — immer perfekt."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie Anthotyro probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

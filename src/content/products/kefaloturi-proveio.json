@@ -1,0 +1,131 @@
+{
+  "el": {
+    "name": "Κεφαλοτύρι Πρόβειο",
+    "description": "Σκληρό, αλμυρό τυρί από πρόβειο γάλα — τέλειο για τρίψιμο και για τηγάνι.",
+    "imageAlt": "Κεφαλοτύρι Πρόβειο",
+    "image": "kefaloturi-proveio",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Κεφαλοτύρι Πρόβειο",
+      "subtitle": "Σκληρό, αλμυρό τυρί από πρόβειο γάλα — τέλειο για τρίψιμο και για τηγάνι."
+    },
+    "overview": {
+      "label": "Σκληρό & Αλμυρό",
+      "title": "Το τυρί για τηγάνι",
+      "para1": "Το Κεφαλοτύρι Πρόβειο είναι ένα σκληρό, αλμυρό τυρί που παρασκευάζεται από καθαρό πρόβειο γάλα ελεύθερης βοσκής. Ωριμάζει για μήνες, αποκτώντας σταθερή υφή και έντονη, αλμυρή γεύση με πλούσιο άρωμα.",
+      "para2": "Είναι το τυρί που δεν λιώνει εύκολα, ιδανικό για τηγάνι — το διάσημο σαγανάκι — αλλά και για τρίψιμο πάνω από ζύμες, μακαρονάδες και σαλάτες. Ένα από τα πιο παλιά και χαρακτηριστικά ελληνικά τυριά."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        {
+          "title": "100% Πρόβειο Γάλα",
+          "description": "Καθαρό πρόβειο γάλα ελεύθερης βοσκής από τα βουνά της Ηπείρου."
+        },
+        {
+          "title": "Σκληρό & Αλμυρό",
+          "description": "Σταθερή υφή και έντονη, αλμυρή γεύση για όσους αγαπούν τα χαρακτήρα."
+        },
+        {
+          "title": "Τέλειο για Τηγάνι",
+          "description": "Δεν λιώνει εύκολα — ιδανικό για σαγανάκι και για ψήσιμο στο τηγάνι."
+        },
+        {
+          "title": "Εξαιρετικό για Τρίψιμο",
+          "description": "Πανέμορφο τριμμένο πάνω σε ζύμες, μακαρονάδες και σαλάτες."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Κεφαλοτύρι Πρόβειο;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Sheep's Kefalotyri (Kefaloturi Proveio)",
+    "description": "Hard, salty cheese from sheep's milk — perfect for grating and frying.",
+    "imageAlt": "Sheep's Kefalotyri",
+    "image": "kefaloturi-proveio",
+    "hero": {
+      "label": "Our Products",
+      "title": "Sheep's Kefalotyri (Kefaloturi Proveio)",
+      "subtitle": "Hard, salty cheese from sheep's milk — perfect for grating and frying."
+    },
+    "overview": {
+      "label": "Hard & Salty",
+      "title": "The frying cheese",
+      "para1": "Sheep's Kefalotyri is a hard, salty cheese made from pure free-range sheep's milk. It is aged for months, developing a firm texture and a strong, salty flavor with a rich aroma.",
+      "para2": "It is the cheese that doesn't melt easily, ideal for frying — the famous saganaki — and for grating over pastas, pasta dishes, and salads. One of the oldest and most distinctive Greek cheeses."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        {
+          "title": "100% Sheep's Milk",
+          "description": "Pure free-range sheep's milk from the mountains of Epirus."
+        },
+        {
+          "title": "Hard & Salty",
+          "description": "Firm texture and a strong, salty flavor for lovers of bold tastes."
+        },
+        {
+          "title": "Perfect for Frying",
+          "description": "Doesn't melt easily — ideal for saganaki and pan-frying."
+        },
+        {
+          "title": "Great for Grating",
+          "description": "Beautiful grated over pasta dishes, pies, and salads."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Sheep's Kefalotyri?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Schaf-Kefalotyri (Kefaloturi Proveio)",
+    "description": "Harter, salziger Käse aus Schafsmilch — perfekt zum Reiben und Braten.",
+    "imageAlt": "Schaf-Kefalotyri",
+    "image": "kefaloturi-proveio",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Schaf-Kefalotyri (Kefaloturi Proveio)",
+      "subtitle": "Harter, salziger Käse aus Schafsmilch — perfekt zum Reiben und Braten."
+    },
+    "overview": {
+      "label": "Hart & Salzig",
+      "title": "Der Käse zum Braten",
+      "para1": "Schaf-Kefalotyri ist ein harter, salziger Käse aus reiner Weideschafsmilch. Er reift monatelang und entwickelt eine feste Textur sowie einen kräftigen, salzigen Geschmack mit vollem Aroma.",
+      "para2": "Ein Käse, der nicht leicht schmilzt — ideal zum Braten, für das berühmte Saganaki, und zum Reiben über Teigwaren, Nudeln und Salate. Einer der ältesten und markantesten griechischen Käse."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        {
+          "title": "100% Schafsmilch",
+          "description": "Reine Weideschafsmilch aus den Bergen Epirus."
+        },
+        {
+          "title": "Hart & Salzig",
+          "description": "Feste Textur und kräftiger, salziger Geschmack für Liebhaber markanter Aromen."
+        },
+        {
+          "title": "Perfekt zum Braten",
+          "description": "Schmilzt nicht leicht — ideal für Saganaki und Pfannengerichte."
+        },
+        {
+          "title": "Hervorragend zum Reiben",
+          "description": "Schön gerieben über Teigwaren, Nudelgerichte und Salate."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unser Schaf-Kefalotyri probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

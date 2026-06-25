@@ -1,0 +1,131 @@
+{
+  "el": {
+    "name": "Παραδοσιακό Πρόβειο Γιαούρτι 250g",
+    "description": "Στραγγιστό γιαούρτι από πρόβειο γάλα, πλούσιο και κρεμώδες — σε ατομική συσκευασία 250g.",
+    "imageAlt": "Παραδοσιακό Πρόβειο Γιαούρτι 250g",
+    "image": "paradosiako-proveio-giaourti-250",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Παραδοσιακό Πρόβειο Γιαούρτι 250g",
+      "subtitle": "Στραγγιστό γιαούρτι από πρόβειο γάλα, πλούσιο και κρεμώδες — σε ατομική συσκευασία 250g."
+    },
+    "overview": {
+      "label": "Ατομική Μερίδα",
+      "title": "Το γιαούρτι για κάθε μέρα",
+      "para1": "Το Παραδοσιακό Πρόβειο Γιαούρτι σε ατομική συσκευασία 250g — ίδια πλούσια, κρεμώδης συνταγή και βαθιά γεύση με τη χαρακτηριστική, ελαφρώς ξινή επίγευση του πρόβειου γάλακτος. Τέλειο για πρωινό, σνακ ή ελαφρύ γεύμα.",
+      "para2": "Πρακτικό μέγεθος για ένα άτομο — στο γραφείο, στο σχολείο ή στο σπίτι. Απλά, φυσικό και θρεπτικό, φτιαγμένο από καθαρό πρόβειο γάλα ελεύθερης βοσκής της Ηπείρου."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        {
+          "title": "100% Πρόβειο Γάλα",
+          "description": "Καθαρό πρόβειο γάλα ελεύθερης βοσκής από τα βουνά της Ηπείρου."
+        },
+        {
+          "title": "Ατομική Συσκευασία",
+          "description": "Πρακτικό μέγεθος 250g για ένα άτομο — στο γραφείο, στο σχολείο ή στο σπίτι."
+        },
+        {
+          "title": "Πλούσια & Κρεμώδης",
+          "description": "Στραγγισμένο παραδοσιακά, με πλούσια υφή και βαθιά γεύση."
+        },
+        {
+          "title": "Φυσικό & Θρεπτικό",
+          "description": "Χωρίς πρόσθετα — απλά γάλα και τα χαρίσματα της φύσης."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Πρόβειο Γιαούρτι 250g;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Traditional Sheep's Yogurt 250g",
+    "description": "Strained yogurt from sheep's milk, rich and creamy — in an individual 250g package.",
+    "imageAlt": "Traditional Sheep's Yogurt 250g",
+    "image": "paradosiako-proveio-giaourti-250",
+    "hero": {
+      "label": "Our Products",
+      "title": "Traditional Sheep's Yogurt 250g",
+      "subtitle": "Strained yogurt from sheep's milk, rich and creamy — in an individual 250g package."
+    },
+    "overview": {
+      "label": "Individual Portion",
+      "title": "The everyday yogurt",
+      "para1": "Traditional Sheep's Yogurt in an individual 250g package — the same rich, creamy recipe and deep flavor with the characteristic, slightly tangy finish of sheep's milk. Perfect for breakfast, a snack, or a light meal.",
+      "para2": "A practical size for one — at the office, at school, or at home. Simple, natural, and nourishing, made from pure free-range sheep's milk of Epirus."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        {
+          "title": "100% Sheep's Milk",
+          "description": "Pure free-range sheep's milk from the mountains of Epirus."
+        },
+        {
+          "title": "Individual Package",
+          "description": "A practical 250g size for one — at the office, at school, or at home."
+        },
+        {
+          "title": "Rich & Creamy",
+          "description": "Strained the traditional way, with rich texture and deep flavor."
+        },
+        {
+          "title": "Natural & Nourishing",
+          "description": "No additives — simply milk and the gifts of nature."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Sheep's Yogurt 250g?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Traditioneller Schafjoghurt 250g",
+    "description": "Abgetropfter Joghurt aus Schafsmilch, reichhaltig und cremig — in einzelner 250g-Packung.",
+    "imageAlt": "Traditioneller Schafjoghurt 250g",
+    "image": "paradosiako-proveio-giaourti-250",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Traditioneller Schafjoghurt 250g",
+      "subtitle": "Abgetropfter Joghurt aus Schafsmilch, reichhaltig und cremig — in einzelner 250g-Packung."
+    },
+    "overview": {
+      "label": "Einzelne Portion",
+      "title": "Der Joghurt für jeden Tag",
+      "para1": "Der Traditionelle Schafjoghurt in einzelner 250g-Packung — dasselbe reiche, cremige Rezept und der tiefe Geschmack mit dem charakteristischen, leicht säuerlichen Abgang der Schafsmilch. Perfekt für Frühstück, Snack oder eine leichte Mahlzeit.",
+      "para2": "Praktische Größe für eine Person — im Büro, in der Schule oder zu Hause. Einfach, natürlich und nahrhaft, aus reiner Weideschafsmilch Epirus."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        {
+          "title": "100% Schafsmilch",
+          "description": "Reine Weideschafsmilch aus den Bergen Epirus."
+        },
+        {
+          "title": "Einzelne Packung",
+          "description": "Praktische 250g-Größe für eine Person — im Büro, in der Schule oder zu Hause."
+        },
+        {
+          "title": "Reichhaltig & Cremig",
+          "description": "Auf traditionelle Weise abgetropft, mit reicher Textur und tiefem Geschmack."
+        },
+        {
+          "title": "Natürlich & Nahrhaft",
+          "description": "Ohne Zusätze — einfach Milch und die Gaben der Natur."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unseren Schafjoghurt 250g probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

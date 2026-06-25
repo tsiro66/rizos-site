@@ -1,0 +1,131 @@
+{
+  "el": {
+    "name": "Γραβιέρα Αγελάδινη",
+    "description": "Σκληρό κίτρινο τυρί από αγελαδινό γάλα, με πλούσιο άρωμα και ελαφρώς ξινή, ξηρή γεύση.",
+    "imageAlt": "Γραβιέρα Αγελάδινη",
+    "image": "graviera-ageladinh",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Γραβιέρα Αγελάδινη",
+      "subtitle": "Σκληρό κίτρινο τυρί από αγελαδινό γάλα, με πλούσιο άρωμα και ελαφρώς ξινή, ξηρή γεύση."
+    },
+    "overview": {
+      "label": "Σκληρό & Ώριμο",
+      "title": "Το τυρί του τραπεζιού",
+      "para1": "Η Γραβιέρα Αγελάδινη παρασκευάζεται από φρέσκο αγελαδινό γάλα ελεύθερης βοσκής και ωριμάζει αργά για αρκετούς μήνες. Αποκτά σταθερή, σκληρή υφή, πλούσιο άρωμα και μια ισορροπημένη γεύση με νότες ξηρών καρπών και ελαφριάς ξινής.",
+      "para2": "Στην Ήπειρο, η γραβιέρα είναι το τυρί του καθημερινού τραπεζιού. Τέλεια για τρίψιμο, για σάντουιτς, για πολλά μαγειρικά — από πίτες μέχρι κρέπες — και για παρέα με κρασί."
+    },
+    "features": {
+      "title": "Τι την ξεχωρίζει",
+      "items": [
+        {
+          "title": "Αγελαδινό Γάλα",
+          "description": "Φτιαγμένη 100% από φρέσκο αγελαδινό γάλα ελεύθερης βοσκής στα βουνά της Ηπείρου."
+        },
+        {
+          "title": "Αργή Ωρίμανση",
+          "description": "Ωριμάζει για μήνες σε ελεγχόμενες συνθήκες, αναπτύσσοντας βάθος γεύσης και άρωμα."
+        },
+        {
+          "title": "Πλούσια Γεύση",
+          "description": "Ισορροπημένη με νότες ξηρών καρπών και ελαφριάς ξινής — ικανοποιητική σε κάθε δαγκωμα."
+        },
+        {
+          "title": "Πολυσχιμαστή",
+          "description": "Τέλεια για τρίψιμο, σάντουιτς, μαγειρική ή με φρούτα και κρασί."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε τη Γραβιέρα Αγελάδινη;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Cow's Graviera (Graviera Ageladinh)",
+    "description": "Hard yellow cheese from cow's milk, with rich aroma and a slightly tangy, dry flavor.",
+    "imageAlt": "Cow's Graviera (Graviera Ageladinh)",
+    "image": "graviera-ageladinh",
+    "hero": {
+      "label": "Our Products",
+      "title": "Cow's Graviera (Graviera Ageladinh)",
+      "subtitle": "Hard yellow cheese from cow's milk, with rich aroma and a slightly tangy, dry flavor."
+    },
+    "overview": {
+      "label": "Hard & Aged",
+      "title": "The table cheese",
+      "para1": "Cow's Graviera is made from fresh free-range cow's milk and aged slowly for several months. It develops a firm, hard texture, a rich aroma, and a balanced flavor with notes of nuts and a light tang.",
+      "para2": "In Epirus, graviera is the cheese of the everyday table. Perfect for grating, sandwiches, and countless recipes — from pies to gratins — and to enjoy with a glass of wine."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        {
+          "title": "Cow's Milk",
+          "description": "Made 100% from fresh free-range cow's milk in the mountains of Epirus."
+        },
+        {
+          "title": "Slow Aging",
+          "description": "Aged for months under controlled conditions, developing depth of flavor and aroma."
+        },
+        {
+          "title": "Rich Flavor",
+          "description": "Balanced, with nutty notes and a light tang — satisfying in every bite."
+        },
+        {
+          "title": "Versatile",
+          "description": "Perfect for grating, sandwiches, cooking, or with fruit and wine."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Cow's Graviera?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Kuh-Graviera (Graviera Ageladinh)",
+    "description": "Hartgelber Käse aus Kuhmilch mit vollem Aroma und leicht würzigem, trockenem Geschmack.",
+    "imageAlt": "Kuh-Graviera",
+    "image": "graviera-ageladinh",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Kuh-Graviera (Graviera Ageladinh)",
+      "subtitle": "Hartgelber Käse aus Kuhmilch mit vollem Aroma und leicht würzigem, trockenem Geschmack."
+    },
+    "overview": {
+      "label": "Hart & Gereift",
+      "title": "Der Käse für jeden Tisch",
+      "para1": "Die Kuh-Graviera wird aus frischer Weidekuhmilch hergestellt und reift langsam über mehrere Monate. Sie entwickelt eine feste, harte Textur, ein volles Aroma und einen ausgewogenen Geschmack mit nussigen Noten und einer leichten Würze.",
+      "para2": "In Epirus ist Graviera der Käse für die tägliche Tafel. Perfekt zum Reiben, für Sandwiches und unzählige Rezepte — von Teigtaschen bis Gratin — und zum Genießen mit einem Glas Wein."
+    },
+    "features": {
+      "title": "Was sie besonders macht",
+      "items": [
+        {
+          "title": "Kuhmilch",
+          "description": "100% aus frischer Weidekuhmilch aus den Bergen Epirus."
+        },
+        {
+          "title": "Langsame Reifung",
+          "description": "Monatelang unter kontrollierten Bedingungen gereift für Tiefgang und Aroma."
+        },
+        {
+          "title": "Voller Geschmack",
+          "description": "Ausgewogen, mit nussigen Noten und leichter Würze — befriedigend in jedem Bissen."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Perfekt zum Reiben, für Sandwiches, zum Kochen oder mit Obst und Wein."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unsere Kuh-Graviera probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

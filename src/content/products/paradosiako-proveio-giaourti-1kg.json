@@ -1,0 +1,131 @@
+{
+  "el": {
+    "name": "Παραδοσιακό Πρόβειο Γιαούρτι 1kg",
+    "description": "Στραγγιστό γιαούρτι από πρόβειο γάλα, πλούσιο και κρεμώδες — σε συσκευασία 1kg.",
+    "imageAlt": "Παραδοσιακό Πρόβειο Γιαούρτι 1kg",
+    "image": "paradosiako-proveio-giaourti-1kg",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Παραδοσιακό Πρόβειο Γιαούρτι 1kg",
+      "subtitle": "Στραγγιστό γιαούρτι από πρόβειο γάλα, πλούσιο και κρεμώδες — σε συσκευασία 1kg."
+    },
+    "overview": {
+      "label": "Στραγγιστό & Πλούσιο",
+      "title": "Το γιαούρτι όπως πρέπει",
+      "para1": "Το Παραδοσιακό Πρόβειο Γιαούρτι παρασκευάζεται από καθαρό πρόβειο γάλα ελεύθερης βοσκής και στραγγίζεται παραδοσιακά, χτισμένο σε πήλινα δοχεία. Αποκτά πλούσια, κρεμώδη υφή και βαθιά γεύση με τη χαρακτηριστική, ελαφρώς ξινή επίγευση του πρόβειου γάλακτος.",
+      "para2": "Μεγάλη συσκευασία 1kg για την οικογένεια και το σπίτι. Τέλειο για πρωινό με μέλι και ξηρούς καρπούς, για σάλτσες, για γλυκά ή και μόνο του. Ελαφρύ, θρεπτικό και φυσικό, χωρίς πρόσθετα."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        {
+          "title": "100% Πρόβειο Γάλα",
+          "description": "Καθαρό πρόβειο γάλα ελεύθερης βοσκής από τα βουνά της Ηπείρου."
+        },
+        {
+          "title": "Στραγγιστό Παραδοσιακά",
+          "description": "Στραγγίζεται με παραδοσιακό τρόπο — πλούσια, κρεμώδης υφή, χωρίς πρόσθετα."
+        },
+        {
+          "title": "Οικογενειακή Συσκευασία",
+          "description": "Χτιστικό μέγεθος 1kg για όλο το σπίτι — πρακτικό και οικονομικό."
+        },
+        {
+          "title": "Πολυσχιμαστό",
+          "description": "Για πρωινό, μαγειρική, σάλτσες, γλυκά ή μόνο του — παντού τέλειο."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Πρόβειο Γιαούρτι 1kg;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Traditional Sheep's Yogurt 1kg",
+    "description": "Strained yogurt from sheep's milk, rich and creamy — in a 1kg package.",
+    "imageAlt": "Traditional Sheep's Yogurt 1kg",
+    "image": "paradosiako-proveio-giaourti-1kg",
+    "hero": {
+      "label": "Our Products",
+      "title": "Traditional Sheep's Yogurt 1kg",
+      "subtitle": "Strained yogurt from sheep's milk, rich and creamy — in a 1kg package."
+    },
+    "overview": {
+      "label": "Strained & Rich",
+      "title": "Yogurt as it should be",
+      "para1": "Traditional Sheep's Yogurt is made from pure free-range sheep's milk and strained the traditional way, set in clay pots. It develops a rich, creamy texture and a deep flavor with the characteristic, slightly tangy finish of sheep's milk.",
+      "para2": "A large 1kg package for the family and home. Perfect for breakfast with honey and nuts, for sauces, for desserts, or on its own. Light, nourishing, and natural, with no additives."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        {
+          "title": "100% Sheep's Milk",
+          "description": "Pure free-range sheep's milk from the mountains of Epirus."
+        },
+        {
+          "title": "Traditionally Strained",
+          "description": "Strained the traditional way — rich, creamy texture, with no additives."
+        },
+        {
+          "title": "Family Package",
+          "description": "A practical 1kg size for the whole home — convenient and economical."
+        },
+        {
+          "title": "Versatile",
+          "description": "For breakfast, cooking, sauces, desserts, or on its own — always perfect."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Sheep's Yogurt 1kg?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Traditioneller Schafjoghurt 1kg",
+    "description": "Abgetropfter Joghurt aus Schafsmilch, reichhaltig und cremig — in 1kg-Packung.",
+    "imageAlt": "Traditioneller Schafjoghurt 1kg",
+    "image": "paradosiako-proveio-giaourti-1kg",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Traditioneller Schafjoghurt 1kg",
+      "subtitle": "Abgetropfter Joghurt aus Schafsmilch, reichhaltig und cremig — in 1kg-Packung."
+    },
+    "overview": {
+      "label": "Abgetropft & Reichhaltig",
+      "title": "Joghurt, wie er sein soll",
+      "para1": "Der Traditionelle Schafjoghurt wird aus reiner Weideschafsmilch hergestellt und auf traditionelle Weise abgetropft, in Tongefäßen gesetzt. Er entwickelt eine reiche, cremige Textur und einen tiefen Geschmack mit dem charakteristischen, leicht säuerlichen Abgang der Schafsmilch.",
+      "para2": "Eine große 1kg-Packung für die Familie und den Haushalt. Perfekt fürs Frühstück mit Honig und Nüssen, für Saucen, für Desserts oder pur. Leicht, nahrhaft und natürlich, ohne Zusätze."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        {
+          "title": "100% Schafsmilch",
+          "description": "Reine Weideschafsmilch aus den Bergen Epirus."
+        },
+        {
+          "title": "Traditionell abgetropft",
+          "description": "Auf traditionelle Weise abgetropft — reiche, cremige Textur, ohne Zusätze."
+        },
+        {
+          "title": "Familienpackung",
+          "description": "Praktische 1kg-Größe für den ganzen Haushalt — bequem und wirtschaftlich."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Für Frühstück, Kochen, Saucen, Desserts oder pur — immer perfekt."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unseren Schafjoghurt 1kg probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

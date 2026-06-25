@@ -3,7 +3,7 @@
     "name": "Φέτα Παραδοσιακή",
     "description": "Αυθεντική φέτα από γάλα ελεύθερης βοσκής, ωριμασμένη σε ξύλινα βαρέλια.",
     "imageAlt": "Φέτα Παραδοσιακή",
-    "image": "feta",
+    "image": "feta-tenekes",
     "hero": {
       "label": "Τα Προϊόντα μας",
       "title": "Φέτα Παραδοσιακή",
@@ -46,7 +46,7 @@
     "name": "Traditional Feta",
     "description": "Authentic feta from free-range milk, aged in wooden barrels.",
     "imageAlt": "Traditional Feta",
-    "image": "feta",
+    "image": "feta-tenekes",
     "hero": {
       "label": "Our Products",
       "title": "Traditional Feta",
@@ -89,7 +89,7 @@
     "name": "Traditioneller Feta",
     "description": "Authentischer Feta aus Weidemilch, in Holzfässern gereift.",
     "imageAlt": "Traditioneller Feta",
-    "image": "feta",
+    "image": "feta-tenekes",
     "hero": {
       "label": "Unsere Produkte",
       "title": "Traditioneller Feta",
