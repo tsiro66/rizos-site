@@ -8,33 +8,9 @@
     "story": {
       "label": "Από το 1940",
       "title": "Από την Πίνδο του 1940 μέχρι σήμερα",
-      "generations": [
-        {
-          "period": "1940",
-          "title": "Η καταγωγή",
-          "text": "Η ιστορία μας ξεκινά το 1940, στα ορεινά μονοπάτια της Πίνδου και συγκεκριμένα από την Αβδέλα Γρεβενών. Εκεί, ο παππούς μας, ο Σωτήρης Ρίζος, μεγάλωσε ανάμεσα στα κοπάδια και έμαθε από νωρίς την τέχνη της τυροκομίας. Παρά τις δύσκολες συνθήκες της εποχής και τα χρόνια του πολέμου, συνέχισε με επιμονή και μεράκι να παράγει παραδοσιακά τυριά, με ιδιαίτερη αγάπη στο κασέρι, ακολουθώντας τις αυθεντικές συνταγές και τις αξίες που κληρονόμησε.",
-          "image": "",
-          "imageAlt": "Σωτήρης Ρίζος – Αβδέλα Γρεβενών, 1940"
-        },
-        {
-          "period": "Η δεύτερη γενιά",
-          "title": "Απόστολος Ρίζος",
-          "text": "Με το πέρασμα των χρόνων, τη σκυτάλη πήρε η δεύτερη γενιά. Ο Απόστολος Ρίζος δημιούργησε ένα σύγχρονο τυροκομείο στον Τύρναβο, συνδυάζοντας την παράδοση με την εξέλιξη και θέτοντας ως προτεραιότητα την ποιότητα και την αυθεντικότητα των προϊόντων. Η πολυετής του προσφορά στον κλάδο της ελληνικής τυροκομίας αναγνωρίστηκε έμπρακτα, καθώς διετέλεσε Πρόεδρος των Τυροκόμων Ελλάδος, συμβάλλοντας ενεργά στην ανάπτυξη και την ανάδειξη της ελληνικής τυροκομικής παράδοσης τόσο στην Ελλάδα όσο και στο εξωτερικό.",
-          "image": "",
-          "imageAlt": "Απόστολος Ρίζος – Τύρναβος"
-        },
-        {
-          "period": "Σήμερα",
-          "title": "Σωτήρης Ρίζος",
-          "text": "Σήμερα, η τρίτη γενιά συνεχίζει με την ίδια αγάπη και αφοσίωση. Ο Σωτήρης Ρίζος, απόφοιτος της Αμερικανικής Γεωργικής Σχολής και Τεχνολόγος Τροφίμων, συνδυάζει τις σύγχρονες επιστημονικές γνώσεις με την πολύτιμη εμπειρία και την παράδοση που κληρονόμησε από τις προηγούμενες γενιές. Με όραμα, υπευθυνότητα και σεβασμό στην πρώτη ύλη, συνεχίζει να εξελίσσει την οικογενειακή επιχείρηση, διατηρώντας αναλλοίωτη την ποιότητα και τη γνήσια γεύση των προϊόντων μας.",
-          "image": "",
-          "imageAlt": "Σωτήρης Ρίζος – σήμερα"
-        }
-      ],
-      "closing": [
-        "Με περισσότερα από 80 χρόνια ιστορίας, παραμένουμε πιστοί στις ίδιες αρχές που μας οδήγησαν από τα βουνά της Πίνδου μέχρι σήμερα: αγνά υλικά, αυθεντικές γεύσεις και αδιάκοπη προσπάθεια για το καλύτερο.",
-        "Για εμάς, η τυροκομία δεν είναι απλώς μια δουλειά. Είναι η κληρονομιά μας, η ταυτότητά μας και η υπόσχεσή μας να συνεχίσουμε να δημιουργούμε προϊόντα που τιμούν τον τόπο μας και τους ανθρώπους που μας εμπιστεύονται.",
-        "Από την Πίνδο του 1940 μέχρι σήμερα, η παράδοση συνεχίζεται με την ίδια αγάπη, το ίδιο μεράκι και την ίδια αφοσίωση στην τέχνη του καλού τυριού."
+      "paragraphs": [
+        "\nΗ ιστορία μας ξεκινά το 1940, στα ορεινά μονοπάτια της Πίνδου και συγκεκριμένα από την Αβδέλα Γρεβενών. Εκεί, ο παππούς μας, ο Σωτήρης Ρίζος, μεγάλωσε ανάμεσα στα κοπάδια και έμαθε από νωρίς την τέχνη της τυροκομίας. Παρά τις δύσκολες συνθήκες της εποχής και τα χρόνια του πολέμου, συνέχισε με επιμονή και μεράκι να παράγει παραδοσιακά τυριά, με ιδιαίτερη αγάπη στο κασέρι, ακολουθώντας τις αυθεντικές συνταγές και τις αξίες που κληρονόμησε.\n\nΜε το πέρασμα των χρόνων, τη σκυτάλη πήρε η δεύτερη γενιά. Ο Απόστολος Ρίζος δημιούργησε ένα σύγχρονο τυροκομείο στον Τύρναβο, συνδυάζοντας την παράδοση με την εξέλιξη και θέτοντας ως προτεραιότητα την ποιότητα και την αυθεντικότητα των προϊόντων. Η πολυετής του προσφορά στον κλάδο της ελληνικής τυροκομίας αναγνωρίστηκε έμπρακτα, καθώς διετέλεσε Πρόεδρος των Τυροκόμων Ελλάδος, συμβάλλοντας ενεργά στην ανάπτυξη και την ανάδειξη της ελληνικής τυροκομικής παράδοσης τόσο στην Ελλάδα όσο και στο εξωτερικό.\n\n",
+        "Σήμερα, η τρίτη γενιά συνεχίζει με την ίδια αγάπη και αφοσίωση. Ο Σωτήρης Ρίζος, απόφοιτος της Αμερικανικής Γεωργικής Σχολής και Τεχνολόγος Τροφίμων, συνδυάζει τις σύγχρονες επιστημονικές γνώσεις με την πολύτιμη εμπειρία και την παράδοση που κληρονόμησε από τις προηγούμενες γενιές. Με όραμα, υπευθυνότητα και σεβασμό στην πρώτη ύλη, συνεχίζει να εξελίσσει την οικογενειακή επιχείρηση, διατηρώντας αναλλοίωτη την ποιότητα και τη γνήσια γεύση των προϊόντων μας.\n\nΜε περισσότερα από 80 χρόνια ιστορίας, παραμένουμε πιστοί στις ίδιες αρχές που μας οδήγησαν από τα βουνά της Πίνδου μέχρι σήμερα: αγνά υλικά, αυθεντικές γεύσεις και αδιάκοπη προσπάθεια για το καλύτερο.\n\nΓια εμάς, η τυροκομία δεν είναι απλώς μια δουλειά. Είναι η κληρονομιά μας, η ταυτότητά μας και η υπόσχεσή μας να συνεχίσουμε να δημιουργούμε προϊόντα που τιμούν τον τόπο μας και τους ανθρώπους που μας εμπιστεύονται.\n\nΑπό την Πίνδο του 1940 μέχρι σήμερα, η παράδοση συνεχίζεται με την ίδια αγάπη, το ίδιο μεράκι και την ίδια αφοσίωση στην τέχνη του καλού τυριού."
       ]
     }
   },
@@ -47,33 +23,9 @@
     "story": {
       "label": "Since 1940",
       "title": "From the Pindus of 1940 to today",
-      "generations": [
-        {
-          "period": "1940",
-          "title": "The beginnings",
-          "text": "Our story begins in 1940, on the mountain paths of the Pindus range, and more specifically in Avdela, Grevena. There, our grandfather, Sotiris Rizos, grew up among the flocks and learned the art of cheese-making early on. Despite the hardships of the times and the war years, he carried on with perseverance and passion, crafting traditional cheeses — with a particular love for kasseri — following the authentic recipes and the values he had inherited.",
-          "image": "",
-          "imageAlt": "Sotiris Rizos — Avdela, Grevena, 1940"
-        },
-        {
-          "period": "Second generation",
-          "title": "Apostolos Rizos",
-          "text": "As the years went by, the second generation took the baton. Apostolos Rizos built a modern cheese factory in Tyrnavos, marrying tradition with progress and making quality and authenticity his priorities. His long-standing contribution to the Greek cheese-making industry was formally recognized: he served as President of the Cheesemakers of Greece, helping to advance and promote Greece's cheese-making heritage both at home and abroad.",
-          "image": "",
-          "imageAlt": "Apostolos Rizos — Tyrnavos"
-        },
-        {
-          "period": "Today",
-          "title": "Sotiris Rizos",
-          "text": "Today, the third generation carries on with the same love and dedication. Sotiris Rizos, a graduate of the American Farm School and a Food Technologist, blends modern scientific knowledge with the invaluable experience and tradition passed down from previous generations. With vision, responsibility and respect for the raw material, he keeps evolving the family business while keeping the quality and genuine taste of our products unchanged.",
-          "image": "",
-          "imageAlt": "Sotiris Rizos — today"
-        }
-      ],
-      "closing": [
-        "With more than 80 years of history behind us, we stay true to the same principles that carried us from the mountains of Pindus to today: pure ingredients, authentic flavors and an unending drive to do better.",
-        "For us, cheese-making is not just a job. It is our heritage, our identity, and our promise to keep creating products that honor our land and the people who trust us.",
-        "From the Pindus of 1940 to today, the tradition lives on — with the same love, the same dedication, and the same devotion to the art of good cheese."
+      "paragraphs": [
+        "Our story begins in 1940, in the mountainous trails of Pindos, and specifically in Avdella, Grevena. There, our grandfather, Sotiris Rizος, grew up among the herds and learned the art of cheesemaking from an early age. Despite the hardships of the era and the war years, he persevered with passion and dedication to produce traditional cheeses—with a particular love for kasseri—faithfully following the authentic recipes and values he inherited.\n\nOver the years, the baton was passed to the second generation. Apostolos Rizos established a modern dairy in Tyrnavos, blending tradition with innovation while prioritizing product quality and authenticity. His long-standing contribution to the Greek cheesemaking sector was widely recognized, leading him to serve as President of the Hellenic Cheesemakers Association, where he actively contributed to the growth and promotion of Greek cheesemaking traditions both in Greece and abroad.",
+        "Today, the third generation carries on with the same love and commitment. Sotiris Rizos, a graduate of the American Farm School and a Food Technologist, combines modern scientific knowledge with the invaluable experience and heritage passed down through generations. Driven by vision, responsibility, and respect for the raw materials, he continues to evolve the family business, keeping the quality and genuine taste of our products unaltered.\n\nWith more than 80 years of history, we remain true to the very principles that have guided us from the mountains of Pindos to this day: pure ingredients, authentic flavors, and an unceasing commitment to excellence.\n\nFor us, cheesemaking is not just a job. It is our heritage, our identity, and our promise to keep creating products that honor our land and the people who trust us.\n\nFrom the Pindos mountains of 1940 to the present day, the tradition continues with the same love, the same passion, and the same devotion to the art of fine cheese."
       ]
     }
   },
@@ -86,33 +38,9 @@
     "story": {
       "label": "Seit 1940",
       "title": "Vom Pindus 1940 bis heute",
-      "generations": [
-        {
-          "period": "1940",
-          "title": "Der Ursprung",
-          "text": "Unsere Geschichte beginnt im Jahr 1940, auf den Bergpfaden des Pindus-Gebirges, genauer gesagt in Avdela, Grevena. Dort wuchs unser Großvater Sotiris Rizos unter den Herden auf und lernte früh die Kunst der Käseherstellung. Trotz der harten Bedingungen jener Zeit und der Kriegsjahre machte er mit Beharrlichkeit und Hingabe weiter und stellte traditionelle Käsesorten her — mit besonderer Liebe zum Kasseri — nach den authentischen Rezepten und Werten, die er geerbt hatte.",
-          "image": "",
-          "imageAlt": "Sotiris Rizos — Avdela, Grevena, 1940"
-        },
-        {
-          "period": "Zweite Generation",
-          "title": "Apostolos Rizos",
-          "text": "Im Laufe der Jahre übernahm die zweite Generation den Staffelstab. Apostolos Rizos errichtete eine moderne Käserei in Tyrnavos, verbindet Tradition mit Fortschritt und stellt Qualität und Authentizität der Produkte an oberste Stelle. Sein jahrzehntelanger Beitrag zur griechischen Käsebranche wurde offiziell anerkannt: Er amtierte als Präsident der Käsemacher Griechenlands und trug maßgeblich zur Entwicklung und Förderung der griechischen Käsetradition im In- und Ausland bei.",
-          "image": "",
-          "imageAlt": "Apostolos Rizos — Tyrnavos"
-        },
-        {
-          "period": "Heute",
-          "title": "Sotiris Rizos",
-          "text": "Heute führt die dritte Generation mit der gleichen Liebe und Hingabe weiter. Sotiris Rizos, Absolvent der Amerikanischen Landwirtschaftsschule und Lebensmitteltechnologe, verbindet modernes wissenschaftliches Wissen mit der wertvollen Erfahrung und Tradition früherer Generationen. Mit Vision, Verantwortung und Respekt vor dem Rohstoff treibt er das Familienunternehmen weiter voran und bewahrt dabei die Qualität und den echten Geschmack unserer Produkte unverändert.",
-          "image": "",
-          "imageAlt": "Sotiris Rizos — heute"
-        }
-      ],
-      "closing": [
-        "Mit über 80 Jahren Geschichte bleiben wir denselben Prinzipien treu, die uns von den Bergen des Pindus bis heute gebracht haben: reine Zutaten, authentische Aromen und das ständige Streben nach dem Besten.",
-        "Für uns ist die Käseherstellung nicht einfach ein Beruf. Sie ist unser Erbe, unsere Identität und unser Versprechen, weiter Produkte zu schaffen, die unserem Land und den Menschen ehren, die uns vertrauen.",
-        "Vom Pindus des Jahres 1940 bis heute lebt die Tradition weiter — mit der gleichen Liebe, der gleichen Hingabe und der gleichen Treue zur Kunst des guten Käses."
+      "paragraphs": [
+        "Unsere Geschichte beginnt im Jahr 1940 auf den Bergpfaden des Pindos-Gebirges, genauer gesagt in Avdella bei Grevena. Dort wuchs unser Großvater, Sotiris Rizos, inmitten von Herden auf und erlernte von klein auf die Kunst der Käseherstellung. Trotz der schwierigen Bedingungen jener Zeit und den Kriegsjahren produzierte er mit unermüdlicher Ausdauer und Leidenschaft weiterhin traditionelle Käsesorten – mit einer besonderen Liebe zum Kasseri-Käse – und folgte dabei stets den authentischen Rezepten und Werten, die er geerbt hatte.\n\nIm Laufe der Jahre übernahm die zweite Generation das Zepter. Apostolos Rizos gründete eine moderne Käserei in Tyrnavos, die Tradition mit Fortschritt verbindet und bei der die Qualität und Authentizität der Produkte an erster Stelle stehen. Sein langjähriger Beitrag zur griechischen Käsebranche fand große Anerkennung: Er war als Präsident des Verbandes der griechischen Käser tätig und trug aktiv zur Entwicklung und Förderung der griechischen Käsetradition im In- und Ausland bei.",
+        "Heute führt die dritte Generation das Erbe mit der gleichen Liebe und Hingabe fort. Sotiris Rizos, Absolvent der American Farm School und Lebensmitteltechnologe, verbindet modernes wissenschaftliches Wissen mit der wertvollen Erfahrung und Tradition der vorherigen Generationen. Mit Vision, Verantwortungsbewusstsein und Respekt vor dem Rohstoff entwickelt er das Familienunternehmen stetig weiter und bewahrt dabei die unveränderte Qualität und den unverfälschten Geschmack unserer Produkte.\n\nMit einer über 80-jährigen Geschichte bleiben wir den Prinzipien treu, die uns von den Bergen des Pindos bis heute geleitet haben: reine Zutaten, authentische Aromen und das unaufhörliche Streben nach dem Besten.\n\nFür uns ist die Käseherstellung nicht einfach nur ein Beruf. Sie ist unser Erbe, unsere Identität und unser Versprechen, weiterhin Produkte herzustellen, die unsere Heimat und die Menschen, die uns vertrauen, ehren.\n\nVon den Pindos-Bergen des Jahres 1940 bis heute – die Tradition wird mit derselben Liebe, derselben Leidenschaft und derselben Hingabe an die Kunst des guten Käses fortgeführt."
       ]
     }
   }
