@@ -48,9 +48,10 @@ const { t, locale } = Astro.props;
     </div>
 
     <!-- Divider -->
-    <div class="mt-16 pt-8 border-t border-white/20 flex flex-col md:flex-row items-center justify-between gap-4">
-      <p class="font-alegreya text-sm text-white/60">{String(t('footer.copyright')).replace('{year}', String(new Date().getFullYear()))}</p>
-      <p class="font-alegreya text-sm text-white/40">{t('footer.madeIn')}</p>
+    <div class="mt-16 pt-8 border-t border-white/20 grid grid-cols-1 md:grid-cols-3 items-center gap-4">
+      <p class="font-alegreya text-sm text-white/60 md:text-left text-center">{String(t('footer.copyright')).replace('{year}', String(new Date().getFullYear()))}</p>
+      <p class="font-alegreya text-sm text-white/40 text-center">Made by <a href="https://flux-web.com" target="_blank" rel="noopener noreferrer" style="font-family: 'Syne', sans-serif; font-weight: 800;" class="text-white/40 hover:text-white transition-colors duration-300">FLUX</a></p>
+      <p class="font-alegreya text-sm text-white/40 md:text-right text-center">{t('footer.madeIn')}</p>
     </div>
   </div>
 </footer>
