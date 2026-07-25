@@ -14,11 +14,25 @@
       ]
     },
     "timeline": {
-      "label": "Οι Γενιές μας",
       "items": [
-        { "year": "1940", "title": "Σωτήρης Ρίζος", "role": "Ιδρυτής · Αβδέλλα Γρεβενών", "text": "Οι ρίζες μας στην Πίνδο. Παραδοσιακή τυροκομία με αγάπη για το κασέρι και σεβασμό στις αυθεντικές συνταγές." },
-        { "year": "Δεκαετία '80", "title": "Απόστολος Ρίζος", "role": "Τύρναβος · Πρόεδρος Τυροκόμων Ελλάδος", "text": "Σύγχρονο τυροκομείο στον Τύρναβο — παράδοση συνδυασμένη με εξέλιξη, με προτεραιότητα την ποιότητα και την αυθεντικότητα." },
-        { "year": "Σήμερα", "title": "Σωτήρης Ρίζος", "role": "3η Γενιά · Αμερικανική Γεωργική Σχολή", "text": "Τεχνολόγος Τροφίμων που συνδυάζει σύγχρονη επιστήμη με την κληρονομική παράδοση — 80+ χρόνια ιστορίας." }
+        {
+          "year": "1940",
+          "title": "Σωτήρης Ρίζος",
+          "role": "Ιδρυτής · Αβδέλλα Γρεβενών",
+          "text": "Οι ρίζες μας στην Πίνδο. Παραδοσιακή τυροκομία με αγάπη για το κασέρι και σεβασμό στις αυθεντικές συνταγές."
+        },
+        {
+          "year": "Δεκαετία '80",
+          "title": "Απόστολος Ρίζος",
+          "role": "Τύρναβος · Πρόεδρος Τυροκόμων Ελλάδος",
+          "text": "Σύγχρονο τυροκομείο στον Τύρναβο — παράδοση συνδυασμένη με εξέλιξη, με προτεραιότητα την ποιότητα και την αυθεντικότητα."
+        },
+        {
+          "year": "Σήμερα",
+          "title": "Σωτήρης Ρίζος",
+          "role": "3η Γενιά · Αμερικανική Γεωργική Σχολή",
+          "text": "Τεχνολόγος Τροφίμων που συνδυάζει σύγχρονη επιστήμη με την κληρονομική παράδοση — 80+ χρόνια ιστορίας."
+        }
       ]
     }
   },
@@ -37,11 +51,25 @@
       ]
     },
     "timeline": {
-      "label": "Our Generations",
       "items": [
-        { "year": "1940", "title": "Sotiris Rizos", "role": "Founder · Avdella, Grevena", "text": "Our roots in the Pindus mountains. Traditional cheesemaking with a love for kasseri and respect for authentic recipes." },
-        { "year": "1980s", "title": "Apostolos Rizos", "role": "Tyrnavos · President of Hellenic Cheesemakers", "text": "A modern dairy in Tyrnavos — tradition combined with innovation, prioritizing quality and authenticity." },
-        { "year": "Today", "title": "Sotiris Rizos", "role": "3rd Generation · American Farm School", "text": "Food Technologist combining modern science with inherited tradition — 80+ years of history." }
+        {
+          "year": "1940",
+          "title": "Sotiris Rizos",
+          "role": "Founder · Avdella, Grevena",
+          "text": "Our roots in the Pindus mountains. Traditional cheesemaking with a love for kasseri and respect for authentic recipes."
+        },
+        {
+          "year": "1980s",
+          "title": "Apostolos Rizos",
+          "role": "Tyrnavos · President of Hellenic Cheesemakers",
+          "text": "A modern dairy in Tyrnavos — tradition combined with innovation, prioritizing quality and authenticity."
+        },
+        {
+          "year": "Today",
+          "title": "Sotiris Rizos",
+          "role": "3rd Generation · American Farm School",
+          "text": "Food Technologist combining modern science with inherited tradition — 80+ years of history."
+        }
       ]
     }
   },
@@ -60,11 +88,25 @@
       ]
     },
     "timeline": {
-      "label": "Unsere Generationen",
       "items": [
-        { "year": "1940", "title": "Sotiris Rizos", "role": "Gründer · Avdella, Grevena", "text": "Unsere Wurzeln im Pindos-Gebirge. Traditionelle Käserei mit Liebe zum Kasseri und Respekt vor authentischen Rezepten." },
-        { "year": "1980er", "title": "Apostolos Rizos", "role": "Tyrnavos · Präsident der griechischen Käser", "text": "Eine moderne Käserei in Tyrnavos — Tradition verbunden mit Fortschritt, mit Priorität auf Qualität und Authentizität." },
-        { "year": "Heute", "title": "Sotiris Rizos", "role": "3. Generation · American Farm School", "text": "Lebensmitteltechnologe, der moderne Wissenschaft mit ererbter Tradition verbindet — über 80 Jahre Geschichte." }
+        {
+          "year": "1940",
+          "title": "Sotiris Rizos",
+          "role": "Gründer · Avdella, Grevena",
+          "text": "Unsere Wurzeln im Pindos-Gebirge. Traditionelle Käserei mit Liebe zum Kasseri und Respekt vor authentischen Rezepten."
+        },
+        {
+          "year": "1980er",
+          "title": "Apostolos Rizos",
+          "role": "Tyrnavos · Präsident der griechischen Käser",
+          "text": "Eine moderne Käserei in Tyrnavos — Tradition verbunden mit Fortschritt, mit Priorität auf Qualität und Authentizität."
+        },
+        {
+          "year": "Heute",
+          "title": "Sotiris Rizos",
+          "role": "3. Generation · American Farm School",
+          "text": "Lebensmitteltechnologe, der moderne Wissenschaft mit ererbter Tradition verbindet — über 80 Jahre Geschichte."
+        }
       ]
     }
   }

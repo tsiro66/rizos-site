@@ -21,29 +21,23 @@
       "cta": "Όλα τα Προϊόντα"
     },
     "highlights": [
-      { "title": "100% Ελληνικό Γάλα", "description": "Συνεργαζόμαστε με επιλεγμένους κτηνοτρόφους της Θεσσαλίας." },
-      { "title": "Χωρίς Συντηρητικά", "description": "Παράγουμε φυσικά τυριά, χωρίς πρόσθετα και συντηρητικά." },
-      { "title": "Παραδοσιακή Συνταγή", "description": "Με μεράκι και εμπειρία 3 γενεών από το 1940." },
-      { "title": "Ελληνικό Προϊόν", "description": "Παράγεται στον Τύρναβο με σεβασμό στην ποιότητα." }
+      {
+        "title": "100% Ελληνικό Γάλα",
+        "description": "Συνεργαζόμαστε με επιλεγμένους κτηνοτρόφους της Θεσσαλίας."
+      },
+      {
+        "title": "Χωρίς Συντηρητικά",
+        "description": "Παράγουμε φυσικά τυριά, χωρίς πρόσθετα και συντηρητικά."
+      },
+      {
+        "title": "Παραδοσιακή Συνταγή",
+        "description": "Με μεράκι και εμπειρία 3 γενεών από το 1940."
+      },
+      {
+        "title": "Ελληνικό Προϊόν",
+        "description": "Παράγεται στον Τύρναβο με σεβασμό στην ποιότητα."
+      }
     ],
-    "values": {
-      "label": "Γιατί Ρίζος",
-      "title": "Οι αξίες μας",
-      "cards": [
-        {
-          "title": "Φυσική Καθαρότητα",
-          "description": "Χωρίς συντηρητικά, χρωστικές ή τεχνητά πρόσθετα. Μόνο αγνές πρώτες ύλες από τη φύση."
-        },
-        {
-          "title": "Παράδοση & Αγάπη",
-          "description": "Συνταγές που περνούν από γενιά σε γενιά, φτιαγμένες με μεράκι και σεβασμό στην τέχνη."
-        },
-        {
-          "title": "Εγγυημένη Ποιότητα",
-          "description": "Πιστοποιημένες διαδικασίες παραγωγής και αυστηροί έλεγχοι σε κάθε στάδιο."
-        }
-      ]
-    },
     "cta": {
       "eyebrow": "ΕΠΙΚΟΙΝΩΝΙΑ",
       "title": "Θέλετε να δοκιμάσετε τα προϊόντα μας;",
@@ -74,29 +68,23 @@
       "cta": "View All Products"
     },
     "highlights": [
-      { "title": "100% Greek Milk", "description": "We partner with selected livestock farmers in Thessaly." },
-      { "title": "No Preservatives", "description": "We produce natural cheeses with no additives or preservatives." },
-      { "title": "Traditional Recipe", "description": "Crafted with care and the experience of 3 generations since 1940." },
-      { "title": "Greek Product", "description": "Produced in Tyrnavos with respect for quality." }
+      {
+        "title": "100% Greek Milk",
+        "description": "We partner with selected livestock farmers in Thessaly."
+      },
+      {
+        "title": "No Preservatives",
+        "description": "We produce natural cheeses with no additives or preservatives."
+      },
+      {
+        "title": "Traditional Recipe",
+        "description": "Crafted with care and the experience of 3 generations since 1940."
+      },
+      {
+        "title": "Greek Product",
+        "description": "Produced in Tyrnavos with respect for quality."
+      }
     ],
-    "values": {
-      "label": "Why Rizos",
-      "title": "Our Values",
-      "cards": [
-        {
-          "title": "Natural Purity",
-          "description": "No preservatives, colorings or artificial additives. Only pure raw ingredients from nature."
-        },
-        {
-          "title": "Tradition & Love",
-          "description": "Recipes passed down through generations, made with passion and respect for the craft."
-        },
-        {
-          "title": "Guaranteed Quality",
-          "description": "Certified production processes and strict controls at every stage."
-        }
-      ]
-    },
     "cta": {
       "eyebrow": "GET IN TOUCH",
       "title": "Want to try our products?",
@@ -127,29 +115,23 @@
       "cta": "Alle Produkte ansehen"
     },
     "highlights": [
-      { "title": "100% Griechische Milch", "description": "Wir arbeiten mit ausgewählten Viehzüchtern in Thessalien zusammen." },
-      { "title": "Ohne Konservierungsstoffe", "description": "Wir produzieren natürliche Käse ohne Zusatz- und Konservierungsstoffe." },
-      { "title": "Traditionelles Rezept", "description": "Mit Hingabe und der Erfahrung von 3 Generationen, seit 1940." },
-      { "title": "Griechisches Produkt", "description": "Hergestellt in Tyrnavos mit Respekt vor der Qualität." }
+      {
+        "title": "100% Griechische Milch",
+        "description": "Wir arbeiten mit ausgewählten Viehzüchtern in Thessalien zusammen."
+      },
+      {
+        "title": "Ohne Konservierungsstoffe",
+        "description": "Wir produzieren natürliche Käse ohne Zusatz- und Konservierungsstoffe."
+      },
+      {
+        "title": "Traditionelles Rezept",
+        "description": "Mit Hingabe und der Erfahrung von 3 Generationen, seit 1940."
+      },
+      {
+        "title": "Griechisches Produkt",
+        "description": "Hergestellt in Tyrnavos mit Respekt vor der Qualität."
+      }
     ],
-    "values": {
-      "label": "Warum Rizos",
-      "title": "Unsere Werte",
-      "cards": [
-        {
-          "title": "Natürliche Reinheit",
-          "description": "Keine Konservierungsstoffe, Farbstoffe oder künstliche Zusätze. Nur reine Rohstoffe aus der Natur."
-        },
-        {
-          "title": "Tradition & Liebe",
-          "description": "Von Generation zu Generation weitergegebene Rezepte, mit Leidenschaft und Respekt für das Handwerk zubereitet."
-        },
-        {
-          "title": "Garantierte Qualität",
-          "description": "Zertifizierte Produktionsprozesse und strenge Kontrollen in jeder Phase."
-        }
-      ]
-    },
     "cta": {
       "eyebrow": "KONTAKT",
       "title": "Möchten Sie unsere Produkte probieren?",

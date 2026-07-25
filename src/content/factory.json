@@ -13,37 +13,34 @@
       "imageAlt": "Φωτογραφία εγκαταστάσεων",
       "image": "factory"
     },
-    "features": {
-      "title": "Τι μας ξεχωρίζει",
-      "items": [
-        {
-          "title": "Πιστοποιήσεις",
-          "description": "Πιστοποιημένη μονάδα κατά ISO 22000 και HACCP. Τηρούμε τα αυστηρότερα πρότυπα ασφάλειας τροφίμων."
-        },
-        {
-          "title": "Περιβαλλοντική Ευθύνη",
-          "description": "Ελαχιστοποίηση αποβλήτων, ανακύκλωση νερού και χρήση ανανεώσιμων πηγών ενέργειας στις εγκαταστάσεις μας."
-        },
-        {
-          "title": "Εργαστηριακός Έλεγχος",
-          "description": "Ιδιόκτητο εργαστήριο ελέγχου ποιότητας. Κάθε παρτίδα ελέγχεται πριν φτάσει στο ράφι."
-        },
-        {
-          "title": "Έμπειρο Προσωπικό",
-          "description": "Τυροκόμοι με δεκαετίες εμπειρίας που μεταφέρουν την τέχνη τους στα προϊόντα μας."
-        }
-      ]
-    },
     "gallery": {
       "label": "Γκαλερί",
       "title": "Μέσα στις εγκαταστάσεις",
       "items": [
-        { "image": "", "alt": "Φωτογραφία" },
-        { "image": "", "alt": "Φωτογραφία" },
-        { "image": "", "alt": "Φωτογραφία" },
-        { "image": "", "alt": "Φωτογραφία" },
-        { "image": "", "alt": "Φωτογραφία" },
-        { "image": "", "alt": "Φωτογραφία" }
+        {
+          "image": "",
+          "alt": "Φωτογραφία"
+        },
+        {
+          "image": "",
+          "alt": "Φωτογραφία"
+        },
+        {
+          "image": "",
+          "alt": "Φωτογραφία"
+        },
+        {
+          "image": "",
+          "alt": "Φωτογραφία"
+        },
+        {
+          "image": "",
+          "alt": "Φωτογραφία"
+        },
+        {
+          "image": "",
+          "alt": "Φωτογραφία"
+        }
       ]
     }
   },
@@ -61,37 +58,34 @@
       "imageAlt": "Facilities photo",
       "image": "factory"
     },
-    "features": {
-      "title": "What Sets Us Apart",
-      "items": [
-        {
-          "title": "Certifications",
-          "description": "Certified unit according to ISO 22000 and HACCP. We adhere to the strictest food safety standards."
-        },
-        {
-          "title": "Environmental Responsibility",
-          "description": "Waste minimization, water recycling and use of renewable energy sources in our facilities."
-        },
-        {
-          "title": "Laboratory Testing",
-          "description": "In-house quality control laboratory. Every batch is tested before reaching the shelf."
-        },
-        {
-          "title": "Experienced Staff",
-          "description": "Cheesemakers with decades of experience who pour their craft into our products."
-        }
-      ]
-    },
     "gallery": {
       "label": "Gallery",
       "title": "Inside the facilities",
       "items": [
-        { "image": "", "alt": "Photo" },
-        { "image": "", "alt": "Photo" },
-        { "image": "", "alt": "Photo" },
-        { "image": "", "alt": "Photo" },
-        { "image": "", "alt": "Photo" },
-        { "image": "", "alt": "Photo" }
+        {
+          "image": "",
+          "alt": "Photo"
+        },
+        {
+          "image": "",
+          "alt": "Photo"
+        },
+        {
+          "image": "",
+          "alt": "Photo"
+        },
+        {
+          "image": "",
+          "alt": "Photo"
+        },
+        {
+          "image": "",
+          "alt": "Photo"
+        },
+        {
+          "image": "",
+          "alt": "Photo"
+        }
       ]
     }
   },
@@ -109,37 +103,34 @@
       "imageAlt": "Foto der Anlagen",
       "image": "factory"
     },
-    "features": {
-      "title": "Was uns auszeichnet",
-      "items": [
-        {
-          "title": "Zertifizierungen",
-          "description": "Zertifizierte Anlage nach ISO 22000 und HACCP. Wir halten die strengsten Lebensmittelsicherheitsstandards ein."
-        },
-        {
-          "title": "Umweltverantwortung",
-          "description": "Abfallminimierung, Wasserrecycling und Nutzung erneuerbarer Energien in unseren Anlagen."
-        },
-        {
-          "title": "Labortests",
-          "description": "Eigenes Qualitätskontrolllabor. Jede Charge wird geprüft, bevor sie ins Regal kommt."
-        },
-        {
-          "title": "Erfahrenes Personal",
-          "description": "Käsermeister mit jahrzehntelanger Erfahrung, die ihr Handwerk in unsere Produkte einfließen lassen."
-        }
-      ]
-    },
     "gallery": {
       "label": "Galerie",
       "title": "Ein Blick in die Anlagen",
       "items": [
-        { "image": "", "alt": "Foto" },
-        { "image": "", "alt": "Foto" },
-        { "image": "", "alt": "Foto" },
-        { "image": "", "alt": "Foto" },
-        { "image": "", "alt": "Foto" },
-        { "image": "", "alt": "Foto" }
+        {
+          "image": "",
+          "alt": "Foto"
+        },
+        {
+          "image": "",
+          "alt": "Foto"
+        },
+        {
+          "image": "",
+          "alt": "Foto"
+        },
+        {
+          "image": "",
+          "alt": "Foto"
+        },
+        {
+          "image": "",
+          "alt": "Foto"
+        },
+        {
+          "image": "",
+          "alt": "Foto"
+        }
       ]
     }
   }

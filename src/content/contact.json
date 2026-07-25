@@ -19,8 +19,6 @@
       "submit": "Αποστολή"
     },
     "info": {
-      "label": "ΣΤΟΙΧΕΙΑ",
-      "title": "Στοιχεία Επικοινωνίας",
       "addressTitle": "Διεύθυνση",
       "address": "Placeholder Οδός 123, Ιωάννινα 45221, Ελλάδα",
       "phoneTitle": "Τηλέφωνο",
@@ -53,8 +51,6 @@
       "submit": "Send"
     },
     "info": {
-      "label": "DETAILS",
-      "title": "Contact Information",
       "addressTitle": "Address",
       "address": "Placeholder Street 123, Ioannina 45221, Greece",
       "phoneTitle": "Phone",
@@ -87,8 +83,6 @@
       "submit": "Senden"
     },
     "info": {
-      "label": "KONTAKTDATEN",
-      "title": "Kontaktinformationen",
       "addressTitle": "Adresse",
       "address": "Musterstraße 123, Ioannina 45221, Griechenland",
       "phoneTitle": "Telefon",
