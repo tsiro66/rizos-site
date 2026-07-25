@@ -1,0 +1,95 @@
+{
+  "el": {
+    "name": "Γιαούρτι Αγελαδινό",
+    "description": "Παραδοσιακό στραγγιστό γιαούρτι από αγελαδινό γάλα, πλούσιο και κρεμώδες.",
+    "imageAlt": "Γιαούρτι Αγελαδινό",
+    "image": "giaourti-ageladino",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Γιαούρτι Αγελαδινό",
+      "subtitle": "Παραδοσιακό στραγγιστό γιαούρτι από αγελαδινό γάλα, πλούσιο και κρεμώδες."
+    },
+    "overview": {
+      "label": "Πλούσιο & Κρεμώδες",
+      "title": "Το γιαούρτι της καθημερινότητας",
+      "para1": "Το Αγελαδινό Γιαούρτι παρασκευάζεται από καθαρό αγελαδινό γάλα ελεύθερης βοσκής. Στραγγίζεται παραδοσιακά για πυκνή, κρεμώδη υφή και φυσική, ήπια ξινάδα.",
+      "para2": "Δεν περιέχει ζελατίνη, πήκτες ή συντηρητικά — μόνο γάλα και ζύμωση. Ιδανικό για πρωινό, με μέλι και καρπούς, ή ως βάση για σάλτσες και μαρινάδες."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        { "title": "100% Αγελαδινό Γάλα", "description": "Καθαρό αγελαδινό γάλα ελεύθερης βοσκής από επιλεγμένους κτηνοτρόφους." },
+        { "title": "Στραγγιστή Υφή", "description": "Πυκνή, κρεμώδης υφή με παραδοσιακό στράγγισμα." },
+        { "title": "Χωρίς Πρόσθετα", "description": "Καμία ζελατίνη, πήκτης ή συντηρητικά — μόνο γάλα και ζύμωση." },
+        { "title": "Πολυσχιμαστό", "description": "Για πρωινό, μέλι, φρούτα, ή βάση για σάλτσες και μαρινάδες." }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Αγελαδινό Γιαούρτι;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Cow's Yogurt",
+    "description": "Traditional strained yogurt from cow's milk, rich and creamy.",
+    "imageAlt": "Cow's Yogurt",
+    "image": "giaourti-ageladino",
+    "hero": {
+      "label": "Our Products",
+      "title": "Cow's Yogurt",
+      "subtitle": "Traditional strained yogurt from cow's milk, rich and creamy."
+    },
+    "overview": {
+      "label": "Rich & Creamy",
+      "title": "The yogurt for every day",
+      "para1": "Cow's Yogurt is made from pure free-range cow's milk. It is strained the traditional way for a thick, creamy texture and a natural, mild tang.",
+      "para2": "It contains no gelatin, thickeners, or preservatives — only milk and fermentation. Ideal for breakfast with honey and nuts, or as a base for sauces and marinades."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        { "title": "100% Cow's Milk", "description": "Pure free-range cow's milk from selected livestock farmers." },
+        { "title": "Strained Texture", "description": "Thick, creamy texture from traditional straining." },
+        { "title": "No Additives", "description": "No gelatin, thickeners, or preservatives — only milk and fermentation." },
+        { "title": "Versatile", "description": "For breakfast, honey, fruit, or as a base for sauces and marinades." }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Cow's Yogurt?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Kuhmilch-Joghurt",
+    "description": "Traditioneller abgetropfter Joghurt aus Kuhmilch, reich und cremig.",
+    "imageAlt": "Kuhmilch-Joghurt",
+    "image": "giaourti-ageladino",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Kuhmilch-Joghurt",
+      "subtitle": "Traditioneller abgetropfter Joghurt aus Kuhmilch, reich und cremig."
+    },
+    "overview": {
+      "label": "Reich & Cremig",
+      "title": "Der Joghurt für jeden Tag",
+      "para1": "Der Kuhmilch-Joghurt wird aus reiner Weide-Kuhmilch hergestellt. Er wird traditionell abgetropft für eine dicke, cremige Textur und eine natürliche, milde Säure.",
+      "para2": "Er enthält keine Gelatine, Verdickungsmittel oder Konservierungsstoffe — nur Milch und Fermentation. Ideal zum Frühstück mit Honig und Nüssen oder als Basis für Saucen und Marinaden."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        { "title": "100% Kuhmilch", "description": "Reine Weide-Kuhmilch von ausgewählten Viehhaltern." },
+        { "title": "Abgetropfte Textur", "description": "Dicke, cremige Textur durch traditionelles Abtropfen." },
+        { "title": "Ohne Zusätze", "description": "Keine Gelatine, Verdickungsmittel oder Konservierungsstoffe — nur Milch und Fermentation." },
+        { "title": "Vielseitig", "description": "Für Frühstück, Honig, Obst oder als Basis für Saucen und Marinaden." }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unseren Kuhmilch-Joghurt probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

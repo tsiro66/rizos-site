@@ -1,0 +1,95 @@
+{
+  "el": {
+    "name": "Αγελαδινό Βούτυρο",
+    "description": "Φρέσκο βούτυρο από αγελαδινό γάλα, με απαλή κρεμώδη υφή και ήπιο άρωμα.",
+    "imageAlt": "Αγελαδινό Βούτυρο",
+    "image": "ageladino-voutyro",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Αγελαδινό Βούτυρο",
+      "subtitle": "Φρέσκο βούτυρο από αγελαδινό γάλα, με απαλή κρεμώδη υφή και ήπιο άρωμα."
+    },
+    "overview": {
+      "label": "Φρέσκο & Απαλό",
+      "title": "Το βούτυρο της καθημερινής κουζίνας",
+      "para1": "Το Αγελαδινό Βούτυρο παρασκευάζεται από καθαρό αγελαδινό γάλα ελεύθερης βοσκής. Έχει απαλή, κρεμώδη υφή και ήπιο άρωμα που λιώνει εύκολα — ιδανικό για καθημερινή χρήση.",
+      "para2": "Φτιαγμένο με παραδοσιακό χτύπημα της κρέμας γάλακτος, χωρίς χρώματα ή συντηρητικά. Τέλειο για ψήσιμο, ζύμες, γλυκά και σάλτσες."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        { "title": "100% Αγελαδινό Γάλα", "description": "Καθαρό αγελαδινό γάλα ελεύθερης βοσκής από επιλεγμένους κτηνοτρόφους." },
+        { "title": "Απαλή Γεύση", "description": "Ήπιο άρωμα και κρεμώδης υφή που λιώνει εύκολα." },
+        { "title": "Παραδοσιακή Παρασκευή", "description": "Φτιαγμένο με κλασικό χτύπημα κρέμας γάλακτος, χωρίς πρόσθετα." },
+        { "title": "Τέλειο για Μαγειρική", "description": "Ιδανικό για ψήσιμο, ζύμες, γλυκά και σάλτσες." }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Αγελαδινό Βούτυρο;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Cow's Butter",
+    "description": "Fresh butter from cow's milk, with a soft creamy texture and mild aroma.",
+    "imageAlt": "Cow's Butter",
+    "image": "ageladino-voutyro",
+    "hero": {
+      "label": "Our Products",
+      "title": "Cow's Butter",
+      "subtitle": "Fresh butter from cow's milk, with a soft creamy texture and mild aroma."
+    },
+    "overview": {
+      "label": "Fresh & Mild",
+      "title": "The butter for everyday cooking",
+      "para1": "Cow's Butter is made from pure free-range cow's milk. It has a soft, creamy texture and a mild aroma that melts easily — perfect for everyday use.",
+      "para2": "Made by traditional churning of milk cream, with no colors or preservatives. Ideal for baking, doughs, desserts, and sauces."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        { "title": "100% Cow's Milk", "description": "Pure free-range cow's milk from selected livestock farmers." },
+        { "title": "Mild Flavor", "description": "Gentle aroma and a creamy texture that melts easily." },
+        { "title": "Traditional Making", "description": "Made by classic churning of milk cream, with no additives." },
+        { "title": "Perfect for Cooking", "description": "Ideal for baking, doughs, desserts, and sauces." }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Cow's Butter?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Kuhbutter",
+    "description": "Frische Kuhmilchbutter, mit weicher cremiger Textur und mildem Aroma.",
+    "imageAlt": "Kuhbutter",
+    "image": "ageladino-voutyro",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Kuhbutter",
+      "subtitle": "Frische Kuhmilchbutter mit weicher cremiger Textur und mildem Aroma."
+    },
+    "overview": {
+      "label": "Frisch & Mild",
+      "title": "Die Butter für die tägliche Küche",
+      "para1": "Kuhbutter wird aus reiner Weide-Kuhmilch hergestellt. Sie hat eine weiche, cremige Textur und ein mildes Aroma, das leicht schmilzt — ideal für den täglichen Gebrauch.",
+      "para2": "Traditionell durch Schlagen des Milchrahms hergestellt, ohne Farbstoffe oder Konservierungsstoffe. Perfekt zum Backen, für Teige, Desserts und Saucen."
+    },
+    "features": {
+      "title": "Was sie besonders macht",
+      "items": [
+        { "title": "100% Kuhmilch", "description": "Reine Weide-Kuhmilch von ausgewählten Viehhaltern." },
+        { "title": "Milder Geschmack", "description": "Sanftes Aroma und cremige Textur, die leicht schmilzt." },
+        { "title": "Traditionelle Herstellung", "description": "Klassisch durch Schlagen des Milchrahms hergestellt, ohne Zusätze." },
+        { "title": "Perfekt zum Kochen", "description": "Ideal zum Backen, für Teige, Desserts und Saucen." }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unsere Kuhbutter probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

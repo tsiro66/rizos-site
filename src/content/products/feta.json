@@ -4,6 +4,14 @@
     "description": "Αυθεντική φέτα από γάλα ελεύθερης βοσκής, ωριμασμένη σε ξύλινα βαρέλια.",
     "imageAlt": "Φέτα Παραδοσιακή",
     "image": "feta-tenekes",
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        { "weight": "250g", "note": "Ιδανική για δοκιμή ή 1-2 άτομα — μικρή συσκευασία." },
+        { "weight": "500g", "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση." },
+        { "weight": "1kg", "note": "Μεγάλη συσκευασία / τένηκες — για επαγγελματίες και μεγάλες οικογένειες." }
+      ]
+    },
     "hero": {
       "label": "Τα Προϊόντα μας",
       "title": "Φέτα Παραδοσιακή",
@@ -47,6 +55,14 @@
     "description": "Authentic feta from free-range milk, aged in wooden barrels.",
     "imageAlt": "Traditional Feta",
     "image": "feta-tenekes",
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        { "weight": "250g", "note": "Ideal for a taste or 1-2 people — small pack." },
+        { "weight": "500g", "note": "Family pack — for everyday use." },
+        { "weight": "1kg", "note": "Large pack / tin — for professionals and large families." }
+      ]
+    },
     "hero": {
       "label": "Our Products",
       "title": "Traditional Feta",
@@ -90,6 +106,14 @@
     "description": "Authentischer Feta aus Weidemilch, in Holzfässern gereift.",
     "imageAlt": "Traditioneller Feta",
     "image": "feta-tenekes",
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        { "weight": "250g", "note": "Ideal zum Probieren oder für 1-2 Personen — kleine Packung." },
+        { "weight": "500g", "note": "Familienpackung — für den täglichen Gebrauch." },
+        { "weight": "1kg", "note": "Große Packung / Blech — für Profis und große Familien." }
+      ]
+    },
     "hero": {
       "label": "Unsere Produkte",
       "title": "Traditioneller Feta",

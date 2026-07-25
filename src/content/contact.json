@@ -6,6 +6,7 @@
       "subtitle": "Είμαστε εδώ για κάθε ερώτηση, παραγγελία ή πρόταση συνεργασίας."
     },
     "form": {
+      "label": "ΦόΡΜΑ ΕΠΙΚΟΙΝΩΝΙΑΣ",
       "title": "Στείλτε μας μήνυμα",
       "nameLabel": "Ονοματεπώνυμο",
       "namePlaceholder": "π.χ. Γιώργος Παπαδόπουλος",
@@ -18,6 +19,7 @@
       "submit": "Αποστολή"
     },
     "info": {
+      "label": "ΣΤΟΙΧΕΙΑ",
       "title": "Στοιχεία Επικοινωνίας",
       "addressTitle": "Διεύθυνση",
       "address": "Placeholder Οδός 123, Ιωάννινα 45221, Ελλάδα",
@@ -38,6 +40,7 @@
       "subtitle": "We are here for any questions, orders or partnership proposals."
     },
     "form": {
+      "label": "CONTACT FORM",
       "title": "Send Us a Message",
       "nameLabel": "Full Name",
       "namePlaceholder": "e.g. John Doe",
@@ -50,6 +53,7 @@
       "submit": "Send"
     },
     "info": {
+      "label": "DETAILS",
       "title": "Contact Information",
       "addressTitle": "Address",
       "address": "Placeholder Street 123, Ioannina 45221, Greece",
@@ -70,6 +74,7 @@
       "subtitle": "Wir sind für Fragen, Bestellungen oder Kooperationsvorschläge da."
     },
     "form": {
+      "label": "KONTAKTFORMULAR",
       "title": "Nachricht senden",
       "nameLabel": "Vollständiger Name",
       "namePlaceholder": "z. B. Max Mustermann",
@@ -82,6 +87,7 @@
       "submit": "Senden"
     },
     "info": {
+      "label": "KONTAKTDATEN",
       "title": "Kontaktinformationen",
       "addressTitle": "Adresse",
       "address": "Musterstraße 123, Ioannina 45221, Griechenland",

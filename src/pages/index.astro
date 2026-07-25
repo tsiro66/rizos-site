@@ -7,6 +7,6 @@ import homeContent from '../content/home.json';
 const { t } = useTranslations('el', homeContent.el as Record<string, unknown>);
 ---
 
-<MainLayout title={pageTitles.home.el} transparentNav t={t} locale='el'>
+<MainLayout title={pageTitles.home.el} t={t} locale='el'>
   <HomeContent t={t} locale='el' />
 </MainLayout>

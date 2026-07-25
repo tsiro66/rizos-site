@@ -1,0 +1,95 @@
+{
+  "el": {
+    "name": "Λιωμένο Βούτυρο",
+    "description": "Λιωμένο (καθαρισμένο) βούτυρο από πρόβειο γάλα, με πλούσιο άρωμα και υψηλό σημείο καπνού.",
+    "imageAlt": "Λιωμένο Βούτυρο",
+    "image": "liomeno-voutyro",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Λιωμένο Βούτυρο",
+      "subtitle": "Λιωμένο (καθαρισμένο) βούτυρο από πρόβειο γάλα, με πλούσιο άρωμα και υψηλό σημείο καπνού."
+    },
+    "overview": {
+      "label": "Πλούσιο & Ανθεκτικό",
+      "title": "Το βούτυρο των ζυμαρικών και των πίτες",
+      "para1": "Το Λιωμένο Βούτυρο παρασκευάζεται με παραδοσιακό καθαρισμό του βουτύρου από τα στερεά, οπότε αναδίνει βαθύτερο άρωμα, αντέχει περισσότερο και έχει υψηλότερο σημείο καπνού.",
+      "para2": "Ιδανικό για φύλλο, πίτες, γλυκά του ταψιού και παραδοσιακή μαγειρική. Δίνει πλούσια, βουτυρώδη γεύση σε κάθε παρασκευή."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        { "title": "Πλούσιο Άρωμα", "description": "Βαθύτερο, πιο έντονο βουτυρώδες άρωμα από τον καθαρισμό." },
+        { "title": "Ανθεκτικό", "description": "Διατηρείται περισσότερο από το φρέσκο βούτυρο, χωρίς ψυγείο." },
+        { "title": "Υψηλό Σημείο Καπνού", "description": "Ιδανικό για ψήσιμο και τηγάνισμα χωρίς να καίγεται." },
+        { "title": "Παραδοσιακή Μαγειρική", "description": "Τέλειο για φύλλο, πίτες, γλυκά και σαλάτες." }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Λιωμένο Βούτυρο;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Clarified Butter",
+    "description": "Clarified butter from sheep's milk, with a rich aroma and a high smoke point.",
+    "imageAlt": "Clarified Butter",
+    "image": "liomeno-voutyro",
+    "hero": {
+      "label": "Our Products",
+      "title": "Clarified Butter",
+      "subtitle": "Clarified butter from sheep's milk, with a rich aroma and a high smoke point."
+    },
+    "overview": {
+      "label": "Rich & Long-Lasting",
+      "title": "The butter for phyllo and pies",
+      "para1": "Clarified Butter is made by traditional clarification of butter, removing the milk solids. The result is a deeper aroma, a longer shelf life, and a higher smoke point.",
+      "para2": "Ideal for phyllo, pies, sheet-pan desserts, and traditional cooking. It gives a rich, buttery flavor to every dish."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        { "title": "Rich Aroma", "description": "Deeper, fuller buttery aroma from clarification." },
+        { "title": "Long-Lasting", "description": "Keeps longer than fresh butter, without refrigeration." },
+        { "title": "High Smoke Point", "description": "Ideal for baking and frying without burning." },
+        { "title": "Traditional Cooking", "description": "Perfect for phyllo, pies, desserts, and sautés." }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Clarified Butter?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Klarierte Butter",
+    "description": "Klarierte Butter aus Schafsmilch, mit vollem Aroma und hohem Rauchpunkt.",
+    "imageAlt": "Klarierte Butter",
+    "image": "liomeno-voutyro",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Klarierte Butter",
+      "subtitle": "Klarierte Butter aus Schafsmilch, mit vollem Aroma und hohem Rauchpunkt."
+    },
+    "overview": {
+      "label": "Reich & Haltbar",
+      "title": "Die Butter für Strudelteig und Pasteten",
+      "para1": "Die klarierte Butter wird durch traditionelles Klären der Butter gewonnen, wobei die Milchfeststoffe entfernt werden. Das Ergebnis ist ein tieferes Aroma, längere Haltbarkeit und ein höherer Rauchpunkt.",
+      "para2": "Ideal für Strudelteig, Pasteten, Blechkuchen und traditionelles Kochen. Verleiht jedem Gericht reichen Buttergeschmack."
+    },
+    "features": {
+      "title": "Was sie besonders macht",
+      "items": [
+        { "title": "Volles Aroma", "description": "Tieferes, intensiveres Butteraroma durch das Klären." },
+        { "title": "Haltbar", "description": "Hält länger als frische Butter, ohne Kühlung." },
+        { "title": "Hoher Rauchpunkt", "description": "Ideal zum Backen und Braten, ohne zu verbrennen." },
+        { "title": "Traditionelle Küche", "description": "Perfekt für Strudelteig, Pasteten, Desserts und zum Anbraten." }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unsere klarierte Butter probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

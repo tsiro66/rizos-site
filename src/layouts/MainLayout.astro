@@ -7,12 +7,11 @@ import { Font } from 'astro:assets';
 
 interface Props {
   title?: string;
-  transparentNav?: boolean;
   t: <T = unknown>(key: string) => T;
   locale: string;
 }
 
-const { title = 'Rizos', transparentNav = false, t, locale } = Astro.props;
+const { title = 'Rizos', t, locale } = Astro.props;
 ---
 
 <html lang={locale === 'el' ? 'el' : locale}>
@@ -25,11 +24,12 @@ const { title = 'Rizos', transparentNav = false, t, locale } = Astro.props;
     <title>{title}</title>
     <Font cssVariable='--font-geologica'/>
     <Font cssVariable='--font-alegreya'/>
+    <Font cssVariable='--font-noto-sans'/>
     <ClientRouter />
   </head>
   <body>
-    <Navbar transparent={transparentNav} t={t} locale={locale} />
-    <main class="relative z-10 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
+    <Navbar t={t} locale={locale} />
+    <main class="relative z-10 bg-amber-50 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
       <slot />
     </main>
     <Footer t={t} locale={locale} />

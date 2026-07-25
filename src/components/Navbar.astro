@@ -2,11 +2,10 @@
 import { localizedPath, locales } from '../i18n/utils';
 
 interface Props {
-  transparent?: boolean;
   t: <T = unknown>(key: string) => T;
   locale: string;
 }
-const { transparent = false, t, locale } = Astro.props;
+const { t, locale } = Astro.props;
 
 const currentPath = (() => {
   const pathname = Astro.url.pathname;
@@ -14,24 +13,28 @@ const currentPath = (() => {
   const prefix = `/${locale}`;
   return pathname.startsWith(prefix) ? (pathname.slice(prefix.length) || '/') : pathname;
 })();
+
+const isActive = (p: string) => currentPath === p || currentPath.startsWith(p !== '/' ? `${p}/` : '__none__');
+const navLinkClass = (p: string) => [
+  'transition-colors duration-300 nav-link',
+  isActive(p) ? 'text-red-800 underline' : 'text-olive-700 no-underline hover:text-red-800',
+].join(' ');
 ---
 
-<nav id="main-nav" class:list={[
-  "fixed top-0 left-0 right-0 z-[60] transition-all duration-300",
-  transparent ? "bg-transparent" : "bg-white shadow-md"
-]} data-transparent={transparent}>
-  <div class="max-w-11/12 mx-auto flex items-center justify-between px-6 py-5">
-    <a href={localizedPath('/', locale)} class:list={[
-      "font-geologica text-3xl font-bold uppercase tracking-wide transition-colors duration-300 nav-brand",
-      transparent ? "text-white" : "text-red-800"
-    ]}>{t('nav.brand')}</a>
+<nav id="main-nav" class="fixed top-0 left-0 right-0 z-[60] bg-amber-50 shadow-md">
+  <div class="max-w-11/12 mx-auto flex items-center justify-between px-6 py-3">
+    <a href={localizedPath('/', locale)} class="inline-flex flex-col items-center leading-none transition-colors duration-300 nav-brand text-red-800">
+      <span class="nav-tagline w-full text-[10px] font-geologica tracking-[0.03em] uppercase whitespace-nowrap text-center text-olive-700 mb-0.5">{t('nav.tagline')}</span>
+      <span class="font-geologica text-5xl font-bold uppercase tracking-wide leading-none">{t('nav.brand')}</span>
+      <span class="nav-since text-sm font-alegreya italic text-olive-700 -mt-1">— {t('nav.since')} —</span>
+    </a>
 
     <!-- Desktop links -->
     <ul class="hidden md:flex gap-10 md:gap-16 list-none m-0 p-0 text-lg font-alegreya">
-      <li><a href={localizedPath('/about', locale)} class:list={["no-underline transition-colors duration-300 nav-link", transparent ? "text-white/90 hover:text-white" : "text-stone-700 hover:text-stone-900"]}>{t('nav.about')}</a></li>
-      <li><a href={localizedPath('/products', locale)} class:list={["no-underline transition-colors duration-300 nav-link", transparent ? "text-white/90 hover:text-white" : "text-stone-700 hover:text-stone-900"]}>{t('nav.products')}</a></li>
-      <li><a href={localizedPath('/factory', locale)} class:list={["no-underline transition-colors duration-300 nav-link", transparent ? "text-white/90 hover:text-white" : "text-stone-700 hover:text-stone-900"]}>{t('nav.factory')}</a></li>
-      <li><a href={localizedPath('/contact', locale)} class:list={["no-underline transition-colors duration-300 nav-link", transparent ? "text-white/90 hover:text-white" : "text-stone-700 hover:text-stone-900"]}>{t('nav.contact')}</a></li>
+      <li><a href={localizedPath('/about', locale)} class={navLinkClass('/about')}>{t('nav.about')}</a></li>
+      <li><a href={localizedPath('/products', locale)} class={navLinkClass('/products')}>{t('nav.products')}</a></li>
+      <li><a href={localizedPath('/factory', locale)} class={navLinkClass('/factory')}>{t('nav.factory')}</a></li>
+      <li><a href={localizedPath('/contact', locale)} class={navLinkClass('/contact')}>{t('nav.contact')}</a></li>
     </ul>
 
     <!-- Locale switcher - desktop -->
@@ -40,10 +43,10 @@ const currentPath = (() => {
         locales.map((l, i) => {
           const label = { el: 'ΕΛ', en: 'EN', de: 'DE' }[l];
           return [
-            i > 0 && <span class:list={["locale-pipe transition-colors duration-300", transparent ? "text-white/20" : "text-stone-300"]}>|</span>,
+            i > 0 && <span class="locale-pipe transition-colors duration-300 text-stone-300">|</span>,
             l === locale
-              ? <span class:list={["locale-active transition-colors duration-300 font-semibold", transparent ? "text-white" : "text-stone-900"]}>{label}</span>
-              : <a href={localizedPath(currentPath, l)} class:list={["locale-link no-underline transition-colors duration-300", transparent ? "text-white/60 hover:text-white" : "text-stone-500 hover:text-stone-900"]}>{label}</a>
+              ? <span class="locale-active transition-colors duration-300 font-semibold text-red-800 underline">{label}</span>
+              : <a href={localizedPath(currentPath, l)} class="locale-link no-underline transition-colors duration-300 text-olive-700 hover:text-red-800">{label}</a>
           ];
         })
       }
@@ -51,8 +54,8 @@ const currentPath = (() => {
 
     <!-- Mobile hamburger (2 lines) -->
     <button id="mobile-menu-btn" class="md:hidden flex flex-col justify-center gap-[7px] w-9 h-9 cursor-pointer bg-transparent border-none z-[60]" aria-label="Menu">
-      <span class:list={["hamburger-line block w-full h-[2px] transition-all duration-300", transparent ? "bg-white" : "bg-stone-800"]}></span>
-      <span class:list={["hamburger-line block w-full h-[2px] transition-all duration-300", transparent ? "bg-white" : "bg-stone-800"]}></span>
+      <span class="hamburger-line block w-full h-[2px] transition-all duration-300 bg-stone-800"></span>
+      <span class="hamburger-line block w-full h-[2px] transition-all duration-300 bg-stone-800"></span>
     </button>
   </div>
 </nav>
@@ -85,50 +88,19 @@ const currentPath = (() => {
     const nav = document.getElementById('main-nav');
     if (!nav) return;
 
-    const brand = nav.querySelector('.nav-brand') as HTMLElement;
-    const links = nav.querySelectorAll('.nav-link');
-    const localeLinks = nav.querySelectorAll('.locale-link');
-    const localePipes = nav.querySelectorAll('.locale-pipe');
-    const localeActive = nav.querySelectorAll('.locale-active');
     const hamburgerLines = nav.querySelectorAll('.hamburger-line');
     const menuBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
     let menuOpen = false;
-
-    function updateHamburgerColor(scrolled: boolean) {
-      if (menuOpen) return;
-      const color = scrolled ? 'bg-stone-800' : 'bg-white';
-      const removeColor = scrolled ? 'bg-white' : 'bg-stone-800';
-      hamburgerLines.forEach(l => {
-        l.classList.remove(removeColor);
-        l.classList.add(color);
-      });
-    }
 
     function toggleMenu() {
       menuOpen = !menuOpen;
       if (menuOpen) {
         mobileMenu!.classList.remove('opacity-0', 'pointer-events-none');
         mobileMenu!.classList.add('opacity-100', 'pointer-events-auto');
-        nav!.classList.remove('bg-transparent', 'bg-white', 'shadow-md');
-        nav!.classList.add('bg-red-800');
-        brand?.classList.remove('text-red-800');
-        brand?.classList.add('text-white');
         hamburgerLines.forEach(l => {
           l.classList.remove('bg-stone-800');
           l.classList.add('bg-white');
-        });
-        localeLinks.forEach(l => {
-          l.classList.remove('text-stone-500', 'hover:text-stone-900');
-          l.classList.add('text-white/60', 'hover:text-white');
-        });
-        localePipes.forEach(l => {
-          l.classList.remove('text-stone-300');
-          l.classList.add('text-white/20');
-        });
-        localeActive.forEach(l => {
-          l.classList.remove('text-stone-900');
-          l.classList.add('text-white');
         });
         const lines = Array.from(hamburgerLines) as HTMLElement[];
         lines[0].style.transform = 'translateY(4.5px) rotate(45deg)';
@@ -137,49 +109,14 @@ const currentPath = (() => {
       } else {
         mobileMenu!.classList.add('opacity-0', 'pointer-events-none');
         mobileMenu!.classList.remove('opacity-100', 'pointer-events-auto');
-        nav!.classList.remove('bg-red-800');
-        if (isTransparent && window.scrollY <= 80) {
-          nav!.classList.add('bg-transparent');
-          brand?.classList.remove('text-red-800');
-          brand?.classList.add('text-white');
-          localeLinks.forEach(l => {
-            l.classList.remove('text-stone-500', 'hover:text-stone-900');
-            l.classList.add('text-white/60', 'hover:text-white');
-          });
-          localePipes.forEach(l => {
-            l.classList.remove('text-stone-300');
-            l.classList.add('text-white/20');
-          });
-          localeActive.forEach(l => {
-            l.classList.remove('text-stone-900');
-            l.classList.add('text-white');
-          });
-        } else {
-          nav!.classList.add('bg-white', 'shadow-md');
-          brand?.classList.remove('text-white');
-          brand?.classList.add('text-red-800');
-          links.forEach(l => {
-            l.classList.remove('text-white/90', 'hover:text-white');
-            l.classList.add('text-stone-700', 'hover:text-stone-900');
-          });
-          localeLinks.forEach(l => {
-            l.classList.remove('text-white/60', 'hover:text-white');
-            l.classList.add('text-stone-500', 'hover:text-stone-900');
-          });
-          localePipes.forEach(l => {
-            l.classList.remove('text-white/20');
-            l.classList.add('text-stone-300');
-          });
-          localeActive.forEach(l => {
-            l.classList.remove('text-white');
-            l.classList.add('text-stone-900');
-          });
-        }
+        hamburgerLines.forEach(l => {
+          l.classList.remove('bg-white');
+          l.classList.add('bg-stone-800');
+        });
         const lines = Array.from(hamburgerLines) as HTMLElement[];
         lines[0].style.transform = '';
         lines[1].style.transform = '';
         document.body.style.overflow = '';
-        updateHamburgerColor(window.scrollY > 80);
       }
     }
 
@@ -190,62 +127,6 @@ const currentPath = (() => {
         if (menuOpen) toggleMenu();
       });
     });
-
-    const isTransparent = nav!.dataset.transparent === 'true';
-
-    function onScroll() {
-      if (!isTransparent) return;
-      const scrolled = window.scrollY > 80;
-      if (scrolled) {
-        nav!.classList.remove('bg-transparent');
-        nav!.classList.add('bg-white', 'shadow-md');
-        nav!.style.padding = '';
-        brand?.classList.remove('text-white');
-        brand?.classList.add('text-red-800');
-        links.forEach(l => {
-          l.classList.remove('text-white/90', 'hover:text-white');
-          l.classList.add('text-stone-700', 'hover:text-stone-900');
-        });
-        localeLinks.forEach(l => {
-          l.classList.remove('text-white/60', 'hover:text-white');
-          l.classList.add('text-stone-500', 'hover:text-stone-900');
-        });
-        localePipes.forEach(l => {
-          l.classList.remove('text-white/20');
-          l.classList.add('text-stone-300');
-        });
-        localeActive.forEach(l => {
-          l.classList.remove('text-white');
-          l.classList.add('text-stone-900');
-        });
-      } else {
-        nav!.classList.add('bg-transparent');
-        nav!.classList.remove('bg-white', 'shadow-md');
-        brand?.classList.add('text-white');
-        brand?.classList.remove('text-red-800');
-        links.forEach(l => {
-          l.classList.add('text-white/90', 'hover:text-white');
-          l.classList.remove('text-stone-700', 'hover:text-stone-900');
-        });
-        localeLinks.forEach(l => {
-          l.classList.add('text-white/60', 'hover:text-white');
-          l.classList.remove('text-stone-500', 'hover:text-stone-900');
-        });
-        localePipes.forEach(l => {
-          l.classList.add('text-white/20');
-          l.classList.remove('text-stone-300');
-        });
-        localeActive.forEach(l => {
-          l.classList.add('text-white');
-          l.classList.remove('text-stone-900');
-        });
-      }
-      updateHamburgerColor(scrolled);
-    }
-
-    if (isTransparent) {
-      window.addEventListener('scroll', onScroll, { passive: true });
-      onScroll();
-    }
   });
 </script>
+

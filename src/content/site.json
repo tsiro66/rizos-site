@@ -2,6 +2,8 @@
   "el": {
     "nav": {
       "brand": "ΡΙΖΟΣ",
+      "tagline": "ΠΑΡΑΔΟΣΙΑΚΑ ΤΥΡΟΚΟΜΙΚΑ ΠΡΟΪΟΝΤΑ",
+      "since": "Από το 1940",
       "about": "Σχετικά με μας",
       "products": "Προϊόντα",
       "factory": "Εγκαταστάσεις",
@@ -25,6 +27,8 @@
   "en": {
     "nav": {
       "brand": "RIZOS",
+      "tagline": "TRADITIONAL DAIRY PRODUCTS",
+      "since": "Since 1940",
       "about": "About Us",
       "products": "Products",
       "factory": "Facilities",
@@ -48,6 +52,8 @@
   "de": {
     "nav": {
       "brand": "RIZOS",
+      "tagline": "TRADITIONELLE MILCHPRODUKTE",
+      "since": "Seit 1940",
       "about": "Über uns",
       "products": "Produkte",
       "factory": "Anlagen",

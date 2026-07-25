@@ -1,0 +1,95 @@
+{
+  "el": {
+    "name": "Τρίμμα Φέτας",
+    "description": "Φέτα σε τρίμμα, φρέσκα θρυμματισμένη, έτοιμη για σαλάτες, πίτες και κάθε χρήση.",
+    "imageAlt": "Τρίμμα Φέτας",
+    "image": "trima-fetas",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Τρίμμα Φέτας",
+      "subtitle": "Φέτα σε τρίμμα, φρέσκα θρυμματισμένη, έτοιμη για σαλάτες, πίτες και κάθε χρήση."
+    },
+    "overview": {
+      "label": "Έτοιμο & Πρακτικό",
+      "title": "Η φέτα, σε τρίμμα",
+      "para1": "Το Τρίμμα Φέτας είναι η ίδια αγνή φέτα μας, φρέσκα θρυμματισμένη για πρακτική χρήση. Διατηρεί την αυθεντική γεύση και υφή, χωρίς φθορά κατά την προετοιμασία.",
+      "para2": "Ιδανικό για σαλάτες, πίτες, γέμιση, αλλά και για σάντουιτς. Έτοιμο προς χρήση — ανοίξε το και χρησιμοποιήστε το άμεσα."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        { "title": "Φρέσκα Θρυμματισμένη", "description": "Φρέσκα θρυμματισμένη — έτοιμη προς χρήση, χωρίς κόπο." },
+        { "title": "Αυθεντική Φέτα", "description": "Από 100% πρόβειο και κατσικίσιο γάλα, όπως η φέτα." },
+        { "title": "Πρακτική Χρήση", "description": "Τέλειο για σαλάτες, πίτες, γέμιση και σάντουιτς." },
+        { "title": "Σωστή Κράση", "description": "Διατηρεί την υφή και την αλμυρή γεύση της φέτας." }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Τρίμμα Φέτας;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Crumbled Feta",
+    "description": "Feta in crumbles, freshly crumbled and ready for salads, pies, and any use.",
+    "imageAlt": "Crumbled Feta",
+    "image": "trima-fetas",
+    "hero": {
+      "label": "Our Products",
+      "title": "Crumbled Feta",
+      "subtitle": "Feta in crumbles, freshly crumbled and ready for salads, pies, and any use."
+    },
+    "overview": {
+      "label": "Ready & Practical",
+      "title": "Feta, crumbled",
+      "para1": "Crumbled Feta is the same pure feta of ours, freshly crumbled for practical use. It keeps the authentic taste and texture, with no prep waste.",
+      "para2": "Ideal for salads, pies, fillings, and sandwiches. Ready to use — open and serve."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        { "title": "Freshly Crumbled", "description": "Freshly crumbled — ready to use, no prep." },
+        { "title": "Authentic Feta", "description": "From 100% sheep's and goat's milk, like our feta." },
+        { "title": "Practical", "description": "Perfect for salads, pies, fillings, and sandwiches." },
+        { "title": "True Character", "description": "Keeps the texture and salty bite of feta." }
+      ]
+    },
+    "cta": {
+      "title": "Want to try our Crumbled Feta?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Krümelfeta",
+    "description": "Feta in Krümeln, frisch gekrümelt und bereit für Salate, Pasteten und jede Verwendung.",
+    "imageAlt": "Krümelfeta",
+    "image": "trima-fetas",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Krümelfeta",
+      "subtitle": "Feta in Krümeln, frisch gekrümelt und bereit für Salate, Pasteten und jede Verwendung."
+    },
+    "overview": {
+      "label": "Praktisch & Bereit",
+      "title": "Feta, gekrümelt",
+      "para1": "Die Krümelfeta ist derselbe reine Feta von uns, frisch gekrümelt für die praktische Verwendung. Sie bewahrt den authentischen Geschmack und die Textur, ohne Zubereitungsverlust.",
+      "para2": "Ideal für Salate, Pasteten, Füllungen und belegte Brote. Gebrauchsfertig — öffnen und verwenden."
+    },
+    "features": {
+      "title": "Was sie besonders macht",
+      "items": [
+        { "title": "Frisch Gekrümelt", "description": "Keine Zubereitung — sofort einsatzfähig, kein Abfall." },
+        { "title": "Authentischer Feta", "description": "Aus 100% Schaf- und Ziegenmilch, wie unser Feta." },
+        { "title": "Praktisch", "description": "Perfekt für Salate, Pasteten, Füllungen und belegte Brote." },
+        { "title": "Echter Charakter", "description": "Bewahrt Textur und salzigen Biss des Feta." }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie unsere Krümelfeta probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

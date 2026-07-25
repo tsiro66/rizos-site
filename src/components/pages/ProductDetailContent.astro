@@ -22,36 +22,64 @@ const { t, locale, slug } = Astro.props;
 
 const features = t('features.items') as { title: string; description: string }[];
 const imageKey = (t('image') as string) ?? slug;
+const sizesRaw = t('sizes.items');
+const sizes = Array.isArray(sizesRaw) ? (sizesRaw as { weight: string; note: string }[]) : null;
+const sizesLabel = sizes ? (t('sizes.label') as string) : '';
 ---
 
 <!-- Hero -->
-<section class="relative py-32 bg-stone-900 overflow-hidden">
-  <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_30%_50%,_var(--tw-gradient-stops))] from-red-800 to-transparent"></div>
-  <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
-    <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-300 mb-4 block">{t('hero.label')}</span>
-    <h1 class="text-4xl md:text-6xl font-bold font-geologica text-white leading-tight">
+<section class="bg-amber-50 pt-32 pb-16">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('hero.label')}</span>
+    <h1 class="text-4xl md:text-6xl font-alegreya font-bold text-stone-900 leading-tight">
       {t('hero.title')}
     </h1>
-    <p class="mt-6 text-lg md:text-xl font-alegreya text-stone-300 max-w-2xl mx-auto leading-relaxed">
+    <p class="mt-6 text-lg md:text-xl font-noto-sans text-stone-600 max-w-2xl mx-auto leading-relaxed">
       {t('hero.subtitle')}
     </p>
   </div>
 </section>
 
 <!-- Overview -->
-<section class="py-24 bg-white">
+<section class="py-24 bg-amber-50">
   <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
     <div>
       <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('overview.label')}</span>
-      <h2 class="text-3xl md:text-4xl font-geologica font-bold text-stone-900 leading-tight">
+      <h2 class="text-3xl md:text-4xl font-alegreya font-bold text-stone-900 leading-tight">
         {t('overview.title')}
       </h2>
-      <p class="mt-6 text-lg font-alegreya text-stone-600 leading-relaxed">
+      <p class="mt-6 text-lg font-noto-sans text-stone-600 leading-relaxed">
         {t('overview.para1')}
       </p>
-      <p class="mt-4 text-lg font-alegreya text-stone-600 leading-relaxed">
+      <p class="mt-4 text-lg font-noto-sans text-stone-600 leading-relaxed">
         {t('overview.para2')}
       </p>
+      {sizes && (
+        <div class="mt-8">
+          <span class="block text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-3">{sizesLabel}</span>
+          <div class="flex flex-wrap gap-2" role="tablist" aria-label={sizesLabel}>
+            {sizes.map((s, i) => (
+              <button
+                type="button"
+                role="tab"
+                aria-selected={i === 0}
+                data-size-tab
+                data-size-index={i}
+                class={`size-tab font-geologica font-semibold tracking-widest uppercase text-sm px-5 py-2.5 border transition-colors duration-200 ${i === 0 ? 'bg-olive-800 text-white border-olive-800' : 'border-stone-300 text-stone-700 hover:border-stone-900 hover:text-stone-900'}`}
+              >
+                {s.weight}
+              </button>
+            ))}
+          </div>
+          <div class="mt-4">
+            {sizes.map((s, i) => (
+              <p class={`text-base font-noto-sans text-stone-600 leading-relaxed size-note ${i === 0 ? '' : 'hidden'}`} data-size-note={i}>
+                {s.note}
+              </p>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
     <div class="overflow-hidden rounded-2xl group">
       <Image
@@ -68,17 +96,17 @@ const imageKey = (t('image') as string) ?? slug;
 </section>
 
 <!-- Features -->
-<section class="py-24 bg-stone-50">
+<section class="py-24 bg-amber-50">
   <div class="max-w-6xl mx-auto px-6">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-geologica font-bold text-stone-900">
+      <h2 class="text-3xl md:text-4xl font-alegreya font-bold text-stone-900">
         {t('features.title')}
       </h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       {
         features.map((feature: { title: string; description: string }, i: number) => (
-          <div class="bg-white rounded-2xl p-8 shadow-sm">
+          <div class="bg-amber-100 rounded-2xl p-8 shadow-sm">
             <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
               {
                 i === 0 ? (
@@ -100,8 +128,8 @@ const imageKey = (t('image') as string) ?? slug;
                 )
               }
             </div>
-            <h3 class="text-xl font-geologica font-bold text-stone-900 mb-2">{feature.title}</h3>
-            <p class="font-alegreya text-stone-600 leading-relaxed">
+            <h3 class="text-xl font-alegreya font-bold text-stone-900 mb-2">{feature.title}</h3>
+            <p class="font-noto-sans text-stone-600 leading-relaxed">
               {feature.description}
             </p>
           </div>
@@ -112,19 +140,44 @@ const imageKey = (t('image') as string) ?? slug;
 </section>
 
 <!-- CTA -->
-<section class="py-20 bg-stone-50">
+<section class="py-20 bg-amber-50">
   <div class="max-w-3xl mx-auto px-6 text-center">
-    <h2 class="text-2xl md:text-4xl font-geologica font-bold text-stone-900">
+    <h2 class="text-2xl md:text-4xl font-alegreya font-bold text-stone-900">
       {t('cta.title')}
     </h2>
-    <p class="mt-4 text-lg font-alegreya text-stone-600">
+    <p class="mt-4 text-lg font-noto-sans text-stone-600">
       {t('cta.subtitle')}
     </p>
     <a
       href={localizedPath('/contact', locale)}
-      class="mt-8 inline-block bg-red-800 text-white font-geologica font-semibold text-lg px-10 py-4 rounded-full hover:bg-red-900 hover:scale-105 transition-all duration-300 shadow-lg"
+      class="mt-8 inline-block bg-olive-800 text-white font-geologica font-semibold tracking-widest uppercase text-sm px-10 py-4 hover:bg-olive-900 transition-colors duration-300 shadow-lg"
     >
       {t('cta.btn')}
     </a>
   </div>
 </section>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    const tabs = document.querySelectorAll('[data-size-tab]');
+    if (!tabs.length) return;
+    const notes = document.querySelectorAll('[data-size-note]');
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const idx = tab.getAttribute('data-size-index');
+        tabs.forEach((tb) => {
+          const active = tb === tab;
+          tb.setAttribute('aria-selected', String(active));
+          tb.classList.toggle('bg-olive-800', active);
+          tb.classList.toggle('text-white', active);
+          tb.classList.toggle('border-olive-800', active);
+          tb.classList.toggle('border-stone-300', !active);
+          tb.classList.toggle('text-stone-700', !active);
+        });
+        notes.forEach((n) => {
+          n.classList.toggle('hidden', n.getAttribute('data-size-note') !== idx);
+        });
+      });
+    });
+  });
+</script>

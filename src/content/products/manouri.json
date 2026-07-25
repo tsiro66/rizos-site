@@ -1,0 +1,95 @@
+{
+  "el": {
+    "name": "Μανούρι",
+    "description": "Φρέσκο κρεμώδες τυρί από ορό γάλακτος με προσθήκη φρέσκιας κρέμας γάλακτος, μαλακό και βουτυρώδες.",
+    "imageAlt": "Μανούρι",
+    "image": "manouri",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Μανούρι",
+      "subtitle": "Φρέσκο κρεμώδες τυρί από ορό γάλακτος με προσθήκη φρέσκιας κρέμας γάλακτος, μαλακό και βουτυρώδες."
+    },
+    "overview": {
+      "label": "Φρέσκο & Βουτυρώδες",
+      "title": "Το κρεμώδες τυρί της παράδοσης",
+      "para1": "Το Μανούρι παρασκευάζεται από ορό γάλακτος με προσθήκη φρέσκιας κρέμας γάλακτος. Έχει μαλακή, κρεμώδη υφή και απαλή, βουτυρώδη γεύση χωρίς παλαίωση.",
+      "para2": "Σερβίρεται φρέσκο, σε φέτες, με μέλι, φρούτα ή σε σαλάτες. Είναι επίσης ιδανικό για γέμιση σε πίτες και γλυκά."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        { "title": "Φρέσκο & Κρεμώδες", "description": "Μαλακό, βουτυρώδες τυρί χωρίς παλαίωση." },
+        { "title": "Με Φρέσκια Κρέμα", "description": "Παρασκευάζεται με προσθήκη κρέμας γάλακτος για πλούσια υφή." },
+        { "title": "Απαλή Γεύση", "description": "Ήπια, βουτυρώδη γεύση, αγαπητή σε όλες τις ηλικίες." },
+        { "title": "Πολυσχιμαστό", "description": "Με μέλι και φρούτα, σε σαλάτες, ή για γέμιση πίτες και γλυκά." }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Μανούρι;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Manouri",
+    "description": "Fresh creamy whey cheese with fresh milk cream added, soft and buttery.",
+    "imageAlt": "Manouri",
+    "image": "manouri",
+    "hero": {
+      "label": "Our Products",
+      "title": "Manouri",
+      "subtitle": "Fresh creamy whey cheese with fresh milk cream added, soft and buttery."
+    },
+    "overview": {
+      "label": "Fresh & Buttery",
+      "title": "The creamy cheese of tradition",
+      "para1": "Manouri is made from whey with the addition of fresh milk cream. It has a soft, creamy texture and a delicate, buttery flavor, with no aging.",
+      "para2": "Served fresh, in slices, with honey and fruit or in salads. It is also ideal as a filling for pies and desserts."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        { "title": "Fresh & Creamy", "description": "Soft, buttery cheese with no aging." },
+        { "title": "With Fresh Cream", "description": "Made with added milk cream for a rich texture." },
+        { "title": "Delicate Flavor", "description": "Mild, buttery taste loved by all ages." },
+        { "title": "Versatile", "description": "With honey and fruit, in salads, or as a filling for pies and desserts." }
+      ]
+    },
+    "cta": {
+      "title": "Want to try Manouri?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Manouri",
+    "description": "Frischer cremiger Molkenkäse mit Zusatz frischem Milchrahm, weich und butterig.",
+    "imageAlt": "Manouri",
+    "image": "manouri",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Manouri",
+      "subtitle": "Frischer cremiger Molkenkäse mit Zusatz frischem Milchrahm, weich und butterig."
+    },
+    "overview": {
+      "label": "Frisch & Butterig",
+      "title": "Der cremige Käse der Tradition",
+      "para1": "Manouri wird aus Molke mit Zusatz frischem Milchrahm hergestellt. Er hat eine weiche, cremige Textur und ein zartes, butteriges Aroma, ohne Reifung.",
+      "para2": "Frisch in Scheiben serviert, mit Honig und Obst oder in Salaten. Auch ideal als Füllung für Pasteten und Desserts."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        { "title": "Frisch & Cremig", "description": "Weicher, butteriger Käse ohne Reifung." },
+        { "title": "Mit Frischem Rahm", "description": "Mit Milchrahmzusatz für reiche Textur." },
+        { "title": "Zarter Geschmack", "description": "Mildes, butteriges Aroma, bei allen Altersgruppen beliebt." },
+        { "title": "Vielseitig", "description": "Mit Honig und Obst, in Salaten oder als Füllung für Pasteten und Desserts." }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie Manouri probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

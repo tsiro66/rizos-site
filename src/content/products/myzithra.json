@@ -1,0 +1,95 @@
+{
+  "el": {
+    "name": "Μυζήθρα",
+    "description": "Παραδοσιακό τυρί από ορό γάλακτος — φρέσκο, απαλό και κρεμώδες, ή ξερό για τρίψιμο.",
+    "imageAlt": "Μυζήθρα",
+    "image": "myzithra",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Μυζήθρα",
+      "subtitle": "Παραδοσιακό τυρί από ορό γάλακτος — φρέσκο, απαλό και κρεμώδες, ή ξερό για τρίψιμο."
+    },
+    "overview": {
+      "label": "Φρέσκο ή Ξερό",
+      "title": "Το τυρί των δύο μορφών",
+      "para1": "Η Μυζήθρα παρασκευάζεται από ορό γάλακτος και διατίθεται σε δύο μορφές: φρέσκια, απαλή και κρεμώδης, ή ξερή, αλμυρή και σκληρή, ιδανική για τρίψιμο.",
+      "para2": "Η φρέσκια ταιριάζει με μέλι και φρούτα ή σε σαλάτες. Ξερή δίνει ένταση σε ζυμαρικά, σαλάτες και πίτες — ένα παραδοσιακό, πολυσχιμαστό τυρί."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        { "title": "Δύο Μορφές", "description": "Φρέσκια, κρεμώδης ή ξερή, για τρίψιμο." },
+        { "title": "Από Ορό Γάλακτος", "description": "Παραδοσιακό τυρί από ορό, με φυσική παρασκευή." },
+        { "title": "Φρέσκια: Απαλή", "description": "Μαλακή, κρεμώδης υφή για σαλάτες και γλυκά." },
+        { "title": "Ξερή: Για Τρίψιμο", "description": "Σκληρή, αλμυρή — τέλεια για ζυμαρικά και πίτες." }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε τη Μυζήθρα;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Mizithra",
+    "description": "Traditional whey cheese — fresh, soft and creamy, or dry for grating.",
+    "imageAlt": "Mizithra",
+    "image": "myzithra",
+    "hero": {
+      "label": "Our Products",
+      "title": "Mizithra",
+      "subtitle": "Traditional whey cheese — fresh, soft and creamy, or dry for grating."
+    },
+    "overview": {
+      "label": "Fresh or Dry",
+      "title": "The cheese of two forms",
+      "para1": "Mizithra is made from whey and comes in two forms: fresh, soft and creamy, or dry, salty and firm, ideal for grating.",
+      "para2": "The fresh pairs with honey and fruit, or in salads. The dry adds bite to pasta, salads, and pies — a traditional, versatile cheese."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        { "title": "Two Forms", "description": "Fresh and creamy, or dry for grating." },
+        { "title": "From Whey", "description": "Traditional whey cheese, made the natural way." },
+        { "title": "Fresh: Soft", "description": "Soft, creamy texture for salads and desserts." },
+        { "title": "Dry: Grating", "description": "Firm and salty — perfect for pasta and pies." }
+      ]
+    },
+    "cta": {
+      "title": "Want to try Mizithra?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Mizithra",
+    "description": "Traditioneller Molkenkäse — frisch, weich und cremig, oder trocken zum Reiben.",
+    "imageAlt": "Mizithra",
+    "image": "myzithra",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Mizithra",
+      "subtitle": "Traditioneller Molkenkäse — frisch, weich und cremig, oder trocken zum Reiben."
+    },
+    "overview": {
+      "label": "Frisch oder Trocken",
+      "title": "Der Käse in zwei Formen",
+      "para1": "Mizithra wird aus Molke hergestellt und in zwei Formen angeboten: frisch, weich und cremig, oder trocken, salzig und fest, ideal zum Reiben.",
+      "para2": "Die frische passt zu Honig und Obst oder in Salate. Die trockene verleiht Pasta, Salaten und Pasteten Pfiff — ein traditioneller, vielseitiger Käse."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        { "title": "Zwei Formen", "description": "Frisch und cremig, oder trocken zum Reiben." },
+        { "title": "Aus Molke", "description": "Traditioneller Molkenkäse, natürlich hergestellt." },
+        { "title": "Frisch: Weich", "description": "Weiche, cremige Textur für Salate und Desserts." },
+        { "title": "Trocken: Zum Reiben", "description": "Fest und salzig — perfekt für Pasta und Pasteten." }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie Mizithra probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

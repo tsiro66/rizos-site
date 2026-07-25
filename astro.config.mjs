@@ -32,6 +32,14 @@ export default defineConfig({
       subsets: ['latin', 'greek'],
       display: 'swap',
     },
+    {
+      name: 'Noto Sans',
+      cssVariable: '--font-noto-sans',
+      provider: fontProviders.google(),
+      weights: [400, 500, 700],
+      subsets: ['latin', 'greek'],
+      display: 'swap',
+    },
   ],
   vite: {
     plugins: [tailwindcss()]

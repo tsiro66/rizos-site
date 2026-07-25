@@ -1,0 +1,95 @@
+{
+  "el": {
+    "name": "Ξινότυρο",
+    "description": "Παραδοσιακό ξινό τυρί από ορό γάλακτος, με ελαφρώς ξινή γεύση και τριψή υφή.",
+    "imageAlt": "Ξινότυρο",
+    "image": "ksinoturi",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Ξινότυρο",
+      "subtitle": "Παραδοσιακό ξινό τυρί από ορό γάλακτος, με ελαφρώς ξινή γεύση και τριψή υφή."
+    },
+    "overview": {
+      "label": "Φρέσκο & Ξινό",
+      "title": "Το τυρί με χαρακτήρα",
+      "para1": "Το Ξινότυρο παρασκευάζεται από ορό γάλακτος, με φυσική ζύμωση που του δίνει τη χαρακτηριστική ξινάδα και την τριψή, ελαφριά υφή. Ένα από τα παλιότερα παραδοσιακά τυριά.",
+      "para2": "Χαμηλό σε λιπαρά και θρεπτικό, συνδυάζεται με φρέσκα φρούτα, μέλι, ή σε πίτες και σαλάτες. Φτιαγμένο χωρίς πρόσθετα, όπως παλιά."
+    },
+    "features": {
+      "title": "Τι το ξεχωρίζει",
+      "items": [
+        { "title": "Από Ορό Γάλακτος", "description": "Παραδοσιακό τυρί από ορό, με φυσική ζύμωση." },
+        { "title": "Ξινή Γεύση", "description": "Χαρακτηριστική, φρέσκια ξινάδα με τριψή υφή." },
+        { "title": "Ελαφρύ & Χωνευτικό", "description": "Χαμηλό σε λιπαρά και αλάτι, εύκολο στην πέψη." },
+        { "title": "Παραδοσιακό", "description": "Φτιαγμένο όπως παλιά — χωρίς χρώματα ή συντηρητικά." }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Ξινότυρο;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    }
+  },
+  "en": {
+    "name": "Xynotyro",
+    "description": "Traditional sour whey cheese, with a mildly tangy flavor and crumbly texture.",
+    "imageAlt": "Xynotyro",
+    "image": "ksinoturi",
+    "hero": {
+      "label": "Our Products",
+      "title": "Xynotyro",
+      "subtitle": "Traditional sour whey cheese, with a mildly tangy flavor and crumbly texture."
+    },
+    "overview": {
+      "label": "Fresh & Tangy",
+      "title": "The cheese with character",
+      "para1": "Xynotyro is made from whey, with natural fermentation that gives it its characteristic tang and a light, crumbly texture. One of the oldest traditional cheeses.",
+      "para2": "Low in fat and nourishing, it pairs with fresh fruit and honey, or in pies and salads. Made with no additives, the old way."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        { "title": "From Whey", "description": "Traditional cheese from whey, with natural fermentation." },
+        { "title": "Tangy Flavor", "description": "Characteristic fresh tang and crumbly texture." },
+        { "title": "Light & Digestible", "description": "Low in fat and salt, easy to digest." },
+        { "title": "Traditional", "description": "Made the old way — no colors or preservatives." }
+      ]
+    },
+    "cta": {
+      "title": "Want to try Xynotyro?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    }
+  },
+  "de": {
+    "name": "Xynotyro",
+    "description": "Traditioneller säuerlicher Molkenkäse, mit mild säuerlichem Geschmack und bröseliger Textur.",
+    "imageAlt": "Xynotyro",
+    "image": "ksinoturi",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Xynotyro",
+      "subtitle": "Traditioneller säuerlicher Molkenkäse, mit mild säuerlichem Geschmack und bröseliger Textur."
+    },
+    "overview": {
+      "label": "Frisch & Säuerlich",
+      "title": "Der Käse mit Charakter",
+      "para1": "Xynotyro wird aus Molke hergestellt, mit natürlicher Fermentation, die ihm die charakteristische Säure und eine leichte, bröselige Textur verleiht. Einer der ältesten traditionellen Käse.",
+      "para2": "Fettarm und nahrhaft, passt er zu frischem Obst und Honig oder in Teigtaschen und Salaten. Ohne Zusätze hergestellt, wie früher."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        { "title": "Aus Molke", "description": "Traditioneller Käse aus Molke, mit natürlicher Fermentation." },
+        { "title": "Säuerlicher Geschmack", "description": "Charakteristische frische Säure und bröselige Textur." },
+        { "title": "Leicht & Bekömmlich", "description": "Fett- und salzarm, leicht verdaulich." },
+        { "title": "Traditionell", "description": "Wie früher hergestellt — ohne Farbstoffe oder Konservierungsstoffe." }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie Xynotyro probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    }
+  }
+}

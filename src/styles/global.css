@@ -1,11 +1,29 @@
 @import "tailwindcss";
 
+@theme {
+	--color-olive-50: #f0f7ed;
+	--color-olive-100: #d9e8d2;
+	--color-olive-200: #b3d1a3;
+	--color-olive-300: #84b57e;
+	--color-olive-400: #4d8a45;
+	--color-olive-500: #006400;
+	--color-olive-600: #005300;
+	--color-olive-700: #003f00;
+	--color-olive-800: #002b00;
+	--color-olive-900: #001900;
+	--color-olive-950: #000a00;
+}
+
 @utility font-geologica {
 	font-family: var(--font-geologica), sans-serif;
 }
 
 @utility font-alegreya {
 	font-family: var(--font-alegreya), serif;
+}
+
+@utility font-noto-sans {
+	font-family: var(--font-noto-sans), sans-serif;
 }
 
 html {
