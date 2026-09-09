@@ -29,8 +29,8 @@ const navLinkClass = (p: string) => [
   id="main-nav"
   data-transparent-scroll={isHome}
   class:list={[
-    'fixed top-0 left-0 right-0 z-[60] transition-colors duration-300',
-    isHome ? 'nav-transparent bg-transparent shadow-none' : 'bg-amber-50 shadow-md',
+    'fixed top-0 left-0 right-0 z-[60] transition-[background-color,box-shadow] duration-300',
+    isHome ? 'nav-transparent bg-transparent shadow-none' : 'bg-amber-50 shadow-none',
   ]}
 >
   <div class="relative max-w-11/12 mx-auto flex items-center justify-between px-6 py-3">
@@ -102,8 +102,9 @@ const navLinkClass = (p: string) => [
     const mobileMenu = document.getElementById('mobile-menu');
     let menuOpen = false;
 
-    // Transparent-at-top <-> solid-on-scroll (home only). Nav is re-rendered on
-    // view transitions but `window` persists, so drop any previous handler.
+    // Scroll-linked nav state (shadow, and transparency on home). Nav is
+    // re-rendered on view transitions but `window` persists, so drop any
+    // previous handler.
     const transparentScroll = nav.dataset.transparentScroll === 'true';
     function applyNavState(solid: boolean) {
       if (solid) {
@@ -116,9 +117,15 @@ const navLinkClass = (p: string) => [
     }
     function updateNavOnScroll() {
       if (menuOpen) return;
-      const solid = window.scrollY > 24;
-      applyNavState(solid);
-      const lightText = !solid;
+      // Home: transparent + light text at top, solid + shadow after 24px.
+      // Other pages: amber bg always, shadow only once scrolled.
+      const solid = window.scrollY > (transparentScroll ? 24 : 0);
+      if (transparentScroll) applyNavState(solid);
+      else {
+        nav.classList.toggle('shadow-md', solid);
+        nav.classList.toggle('shadow-none', !solid);
+      }
+      const lightText = transparentScroll && !solid;
       hamburgerLines.forEach((l) => {
         l.classList.toggle('bg-white', lightText);
         l.classList.toggle('bg-stone-800', !lightText);
@@ -128,13 +135,9 @@ const navLinkClass = (p: string) => [
       window.removeEventListener('scroll', window.__navScrollHandler);
       window.__navScrollHandler = undefined;
     }
-    if (transparentScroll) {
-      window.__navScrollHandler = updateNavOnScroll;
-      window.addEventListener('scroll', updateNavOnScroll, { passive: true });
-      updateNavOnScroll();
-    } else {
-      applyNavState(true);
-    }
+    window.__navScrollHandler = updateNavOnScroll;
+    window.addEventListener('scroll', updateNavOnScroll, { passive: true });
+    updateNavOnScroll();
 
     function toggleMenu() {
       menuOpen = !menuOpen;
@@ -157,8 +160,7 @@ const navLinkClass = (p: string) => [
         lines[0].style.transform = '';
         lines[1].style.transform = '';
         document.body.style.overflow = '';
-        if (transparentScroll) updateNavOnScroll();
-        else applyNavState(true);
+        updateNavOnScroll();
       }
     }
 
