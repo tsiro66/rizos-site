@@ -1,29 +1,37 @@
 {
   "el": {
-    "name": "Μυζήθρα",
-    "description": "Παραδοσιακό τυρί από ορό γάλακτος — φρέσκο, απαλό και κρεμώδες, ή ξερό για τρίψιμο.",
-    "imageAlt": "Μυζήθρα",
-    "image": "myzithra",
+    "name": "Φρέσκια Μυζήθρα",
+    "description": "Απαλή, δροσερή και αυθεντικά ελληνική",
+    "imageAlt": "Φρέσκια Μυζήθρα",
     "hero": {
       "label": "Τα Προϊόντα μας",
-      "title": "Μυζήθρα",
-      "subtitle": "Παραδοσιακό τυρί από ορό γάλακτος — φρέσκο, απαλό και κρεμώδες, ή ξερό για τρίψιμο."
+      "title": "Φρέσκια Μυζήθρα",
+      "subtitle": "Απαλή, δροσερή και αυθεντικά ελληνική"
     },
     "overview": {
-      "label": "Φρέσκο ή Ξερό",
-      "title": "Το τυρί των δύο μορφών",
-      "para1": "Η Μυζήθρα παρασκευάζεται από ορό γάλακτος και διατίθεται σε δύο μορφές: φρέσκια, απαλή και κρεμώδης, ή ξερή, αλμυρή και σκληρή, ιδανική για τρίψιμο.",
-      "para2": "Η φρέσκια ταιριάζει με μέλι και φρούτα ή σε σαλάτες. Ξερή δίνει ένταση σε ζυμαρικά, σαλάτες και πίτες — ένα παραδοσιακό, πολυσχιμαστό τυρί."
+      "label": "Το Προϊόν",
+      "title": "Απαλή, δροσερή και αυθεντικά ελληνική",
+      "para1": "Η Φρέσκια Μυζήθρα ΡΙΖΟΣ ξεχωρίζει για τη δροσερή, απαλή γεύση και τη μαλακή υφή της. Ένα παραδοσιακό ελληνικό τυροκομικό προϊόν με ήπιο χαρακτήρα, ιδανικό για όσους αγαπούν τις απλές και αυθεντικές γεύσεις.",
+      "para2": ""
     },
     "features": {
-      "title": "Τι το ξεχωρίζει",
+      "title": "Χαρακτηριστικά",
       "items": [
-        { "title": "Δύο Μορφές", "description": "Φρέσκια, κρεμώδης ή ξερή, για τρίψιμο." },
-        { "title": "Από Ορό Γάλακτος", "description": "Παραδοσιακό τυρί από ορό, με φυσική παρασκευή." },
-        { "title": "Φρέσκια: Απαλή", "description": "Μαλακή, κρεμώδης υφή για σαλάτες και γλυκά." },
-        { "title": "Ξερή: Για Τρίψιμο", "description": "Σκληρή, αλμυρή — τέλεια για ζυμαρικά και πίτες." }
+        {
+          "title": "Γευστικά χαρακτηριστικά",
+          "description": "Ήπια και ευχάριστη γεύση, με απαλή, αφράτη υφή και διακριτικό άρωμα."
+        },
+        {
+          "title": "Απολαύστε τη",
+          "description": "Ιδανική για σαλάτες, πίτες και αλμυρές δημιουργίες, αλλά και σκέτη με φρέσκο ψωμί. Συνδυάζεται υπέροχα με μέλι, φρούτα ή ξηρούς καρπούς για ένα απλό και απολαυστικό επιδόρπιο."
+        },
+        {
+          "title": "Για επαγγελματίες",
+          "description": "Μια ευέλικτη επιλογή για εστιατόρια, ξενοδοχεία, αρτοποιεία και επαγγελματικές κουζίνες, με πολλές εφαρμογές τόσο σε αλμυρές όσο και σε γλυκές συνταγές."
+        }
       ]
     },
+    "image": "myzithra",
     "cta": {
       "title": "Θέλετε να δοκιμάσετε τη Μυζήθρα;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
@@ -49,10 +57,22 @@
     "features": {
       "title": "What Makes It Special",
       "items": [
-        { "title": "Two Forms", "description": "Fresh and creamy, or dry for grating." },
-        { "title": "From Whey", "description": "Traditional whey cheese, made the natural way." },
-        { "title": "Fresh: Soft", "description": "Soft, creamy texture for salads and desserts." },
-        { "title": "Dry: Grating", "description": "Firm and salty — perfect for pasta and pies." }
+        {
+          "title": "Two Forms",
+          "description": "Fresh and creamy, or dry for grating."
+        },
+        {
+          "title": "From Whey",
+          "description": "Traditional whey cheese, made the natural way."
+        },
+        {
+          "title": "Fresh: Soft",
+          "description": "Soft, creamy texture for salads and desserts."
+        },
+        {
+          "title": "Dry: Grating",
+          "description": "Firm and salty — perfect for pasta and pies."
+        }
       ]
     },
     "cta": {
@@ -80,10 +100,22 @@
     "features": {
       "title": "Was ihn besonders macht",
       "items": [
-        { "title": "Zwei Formen", "description": "Frisch und cremig, oder trocken zum Reiben." },
-        { "title": "Aus Molke", "description": "Traditioneller Molkenkäse, natürlich hergestellt." },
-        { "title": "Frisch: Weich", "description": "Weiche, cremige Textur für Salate und Desserts." },
-        { "title": "Trocken: Zum Reiben", "description": "Fest und salzig — perfekt für Pasta und Pasteten." }
+        {
+          "title": "Zwei Formen",
+          "description": "Frisch und cremig, oder trocken zum Reiben."
+        },
+        {
+          "title": "Aus Molke",
+          "description": "Traditioneller Molkenkäse, natürlich hergestellt."
+        },
+        {
+          "title": "Frisch: Weich",
+          "description": "Weiche, cremige Textur für Salate und Desserts."
+        },
+        {
+          "title": "Trocken: Zum Reiben",
+          "description": "Fest und salzig — perfekt für Pasta und Pasteten."
+        }
       ]
     },
     "cta": {

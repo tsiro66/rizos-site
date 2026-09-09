@@ -1,29 +1,24 @@
 {
   "el": {
     "name": "Ξινότυρο",
-    "description": "Παραδοσιακό ξινό τυρί από ορό γάλακτος, με ελαφρώς ξινή γεύση και τριψή υφή.",
+    "description": "Το Ξινοτύρι ΡΙΖΟΣ είναι ένα αλειφώδες αιγοπρόβειο τυρί με δροσερό χαρακτήρα και χαρακτηριστική, ευχάριστα υπόξινη γεύση.",
     "imageAlt": "Ξινότυρο",
-    "image": "ksinoturi",
     "hero": {
       "label": "Τα Προϊόντα μας",
       "title": "Ξινότυρο",
-      "subtitle": "Παραδοσιακό ξινό τυρί από ορό γάλακτος, με ελαφρώς ξινή γεύση και τριψή υφή."
+      "subtitle": "Το Ξινοτύρι ΡΙΖΟΣ είναι ένα αλειφώδες αιγοπρόβειο τυρί με δροσερό χαρακτήρα και χαρακτηριστική, ευχάριστα υπόξινη γεύση."
     },
     "overview": {
-      "label": "Φρέσκο & Ξινό",
-      "title": "Το τυρί με χαρακτήρα",
-      "para1": "Το Ξινότυρο παρασκευάζεται από ορό γάλακτος, με φυσική ζύμωση που του δίνει τη χαρακτηριστική ξινάδα και την τριψή, ελαφριά υφή. Ένα από τα παλιότερα παραδοσιακά τυριά.",
-      "para2": "Χαμηλό σε λιπαρά και θρεπτικό, συνδυάζεται με φρέσκα φρούτα, μέλι, ή σε πίτες και σαλάτες. Φτιαγμένο χωρίς πρόσθετα, όπως παλιά."
+      "label": "Το Προϊόν",
+      "title": "Απλό, αυθεντικό και γεμάτο ελληνική γεύση.",
+      "para1": "Το Ξινοτύρι ΡΙΖΟΣ είναι ένα αλειφώδες αιγοπρόβειο τυρί με δροσερό χαρακτήρα και χαρακτηριστική, ευχάριστα υπόξινη γεύση.",
+      "para2": "Απολαύστε το πάνω σε φρέσκο ή φρυγανισμένο ψωμί, με ελαιόλαδο, παξιμάδι και ρίγανη, σε σαλάτες ή ως βάση για ξεχωριστά ορεκτικά."
     },
     "features": {
-      "title": "Τι το ξεχωρίζει",
-      "items": [
-        { "title": "Από Ορό Γάλακτος", "description": "Παραδοσιακό τυρί από ορό, με φυσική ζύμωση." },
-        { "title": "Ξινή Γεύση", "description": "Χαρακτηριστική, φρέσκια ξινάδα με τριψή υφή." },
-        { "title": "Ελαφρύ & Χωνευτικό", "description": "Χαμηλό σε λιπαρά και αλάτι, εύκολο στην πέψη." },
-        { "title": "Παραδοσιακό", "description": "Φτιαγμένο όπως παλιά — χωρίς χρώματα ή συντηρητικά." }
-      ]
+      "title": "Χαρακτηριστικά",
+      "items": []
     },
+    "image": "ksinoturi",
     "cta": {
       "title": "Θέλετε να δοκιμάσετε το Ξινότυρο;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
@@ -49,10 +44,22 @@
     "features": {
       "title": "What Makes It Special",
       "items": [
-        { "title": "From Whey", "description": "Traditional cheese from whey, with natural fermentation." },
-        { "title": "Tangy Flavor", "description": "Characteristic fresh tang and crumbly texture." },
-        { "title": "Light & Digestible", "description": "Low in fat and salt, easy to digest." },
-        { "title": "Traditional", "description": "Made the old way — no colors or preservatives." }
+        {
+          "title": "From Whey",
+          "description": "Traditional cheese from whey, with natural fermentation."
+        },
+        {
+          "title": "Tangy Flavor",
+          "description": "Characteristic fresh tang and crumbly texture."
+        },
+        {
+          "title": "Light & Digestible",
+          "description": "Low in fat and salt, easy to digest."
+        },
+        {
+          "title": "Traditional",
+          "description": "Made the old way — no colors or preservatives."
+        }
       ]
     },
     "cta": {
@@ -80,10 +87,22 @@
     "features": {
       "title": "Was ihn besonders macht",
       "items": [
-        { "title": "Aus Molke", "description": "Traditioneller Käse aus Molke, mit natürlicher Fermentation." },
-        { "title": "Säuerlicher Geschmack", "description": "Charakteristische frische Säure und bröselige Textur." },
-        { "title": "Leicht & Bekömmlich", "description": "Fett- und salzarm, leicht verdaulich." },
-        { "title": "Traditionell", "description": "Wie früher hergestellt — ohne Farbstoffe oder Konservierungsstoffe." }
+        {
+          "title": "Aus Molke",
+          "description": "Traditioneller Käse aus Molke, mit natürlicher Fermentation."
+        },
+        {
+          "title": "Säuerlicher Geschmack",
+          "description": "Charakteristische frische Säure und bröselige Textur."
+        },
+        {
+          "title": "Leicht & Bekömmlich",
+          "description": "Fett- und salzarm, leicht verdaulich."
+        },
+        {
+          "title": "Traditionell",
+          "description": "Wie früher hergestellt — ohne Farbstoffe oder Konservierungsstoffe."
+        }
       ]
     },
     "cta": {

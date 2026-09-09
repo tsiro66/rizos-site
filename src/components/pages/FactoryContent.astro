@@ -15,9 +15,9 @@ interface Props {
 
 const { t } = Astro.props;
 
-const overviewImageKey = t('overview.image') as string;
-const overviewImage = overviewImageKey && imageMap[overviewImageKey] ? imageMap[overviewImageKey] : null;
-const galleryItems = t('gallery.items') as { image: string; alt: string }[];
+const stats = (t('stats') as { value: string; label: string }[]) ?? [];
+const productionImage = imageMap['factory'];
+const facilityImage = imageMap['factory2'];
 ---
 
 <!-- Hero -->
@@ -33,59 +33,64 @@ const galleryItems = t('gallery.items') as { image: string; alt: string }[];
   </div>
 </section>
 
-<!-- Overview -->
+<!-- Facts strip -->
+{
+  stats.length > 0 && (
+    <section class="bg-olive-800 py-12">
+      <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+        {stats.map((s) => (
+          <div>
+            <span class="block text-4xl md:text-5xl font-alegreya font-bold text-amber-50">{s.value}</span>
+            <span class="mt-2 block text-sm font-geologica font-semibold tracking-widest uppercase text-amber-100/80">{s.label}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+<!-- Production: text + factory.jpg -->
 <section class="py-24 bg-amber-50">
-  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-    <div>
-      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('overview.label')}</span>
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+    <div class="lg:col-span-5">
+      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('production.label')}</span>
       <h2 class="text-3xl md:text-4xl font-alegreya font-bold text-stone-900 leading-tight">
-        {t('overview.title')}
+        {t('production.title')}
       </h2>
       <p class="mt-6 text-lg font-noto-sans text-stone-600 leading-relaxed">
-        {t('overview.para1')}
+        {t('production.para1')}
       </p>
       <p class="mt-4 text-lg font-noto-sans text-stone-600 leading-relaxed">
-        {t('overview.para2')}
+        {t('production.para2')}
       </p>
     </div>
-    <div class="aspect-[4/3] rounded-2xl overflow-hidden">
-      {overviewImage ? (
-        <Image src={overviewImage} alt={t('overview.imageAlt')} width={960} format="webp" quality={80} class="w-full h-full object-cover" />
-      ) : (
-        <div class="w-full h-full bg-amber-50 flex items-center justify-center">
-          <span class="text-stone-400 font-geologica text-sm">{t('overview.imageAlt')}</span>
-        </div>
-      )}
+    <div class="lg:col-span-7">
+      <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-md">
+        <Image src={productionImage} alt={t('production.title')} width={900} format="webp" quality={80} loading="lazy" class="w-full h-full object-cover" />
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Gallery -->
-<section class="py-24 bg-amber-50">
-  <div class="max-w-6xl mx-auto px-6">
-    <div class="text-center mb-16">
-      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('gallery.label')}</span>
-      <h2 class="text-3xl md:text-4xl font-alegreya font-bold text-stone-900">
-        {t('gallery.title')}
-      </h2>
+<!-- Facility: factory2.jpg + text -->
+<section class="pb-24 bg-amber-50">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+    <div class="lg:col-span-7 order-2 lg:order-1">
+      <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-md">
+        <Image src={facilityImage} alt={t('facility.title')} width={900} format="webp" quality={80} loading="lazy" class="w-full h-full object-cover" />
+      </div>
     </div>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-      {
-        galleryItems.map((item: { image: string; alt: string }) => {
-          const img = item.image && imageMap[item.image] ? imageMap[item.image] : null;
-          return (
-            <div class="aspect-square rounded-xl overflow-hidden">
-              {img ? (
-                <Image src={img} alt={item.alt} width={600} format="webp" quality={80} class="w-full h-full object-cover" />
-              ) : (
-                <div class="w-full h-full bg-amber-50 flex items-center justify-center">
-                  <span class="text-stone-400 font-geologica text-sm">{item.alt}</span>
-                </div>
-              )}
-            </div>
-          );
-        })
-      }
+    <div class="lg:col-span-5 order-1 lg:order-2">
+      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('facility.label')}</span>
+      <h2 class="text-3xl md:text-4xl font-alegreya font-bold text-stone-900 leading-tight">
+        {t('facility.title')}
+      </h2>
+      <p class="mt-6 text-lg font-noto-sans text-stone-600 leading-relaxed">
+        {t('facility.para1')}
+      </p>
+      <p class="mt-4 text-lg font-noto-sans text-stone-600 leading-relaxed">
+        {t('facility.para2')}
+      </p>
     </div>
   </div>
 </section>

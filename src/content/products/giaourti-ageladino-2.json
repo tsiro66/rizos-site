@@ -1,29 +1,37 @@
 {
   "el": {
     "name": "Γιαούρτι Αγελαδινό 2%",
-    "description": "Στραγγιστό γιαούρτι από αγελαδινό γάλα 2% λιπαρών, ελαφρύ και κρεμώδες.",
+    "description": "Απαλή γεύση και απολαυστική υφή",
     "imageAlt": "Γιαούρτι Αγελαδινό 2%",
-    "image": "giaourti-ageladino-2%",
     "hero": {
       "label": "Τα Προϊόντα μας",
       "title": "Γιαούρτι Αγελαδινό 2%",
-      "subtitle": "Στραγγιστό γιαούρτι από αγελαδινό γάλα 2% λιπαρών, ελαφρύ και κρεμώδες."
+      "subtitle": "Απαλή γεύση και απολαυστική υφή"
     },
     "overview": {
-      "label": "Ελαφρύ & Κρεμώδες",
-      "title": "Η ελαφριλή εκδοχή του παραδοσιακού",
-      "para1": "Το Αγελαδινό Γιαούρτι 2% παρασκευάζεται από αγελαδινό γάλα χαμηλών λιπαρών, στραγγίζεται παραδοσιακά και διατηρεί την κρεμώδη υφή και τη φυσική ξινάδα.",
-      "para2": "Ελαφρύτερη επιλογή για όσους προτιμούν λιγότερα λιπαρά, χωρίς συμβιβασμό στη γεύση. Χωρίς ζελατίνη, πήκτες ή συντηρητικά."
+      "label": "Το Προϊόν",
+      "title": "Απαλή γεύση και απολαυστική υφή",
+      "para1": "Το Αγελαδινό Γιαούρτι 2% ΡΙΖΟΣ συνδυάζει την ευχάριστη, δροσερή γεύση του γιαουρτιού με μόλις 2% λιπαρά. Με απαλή υφή και ισορροπημένη γεύση, αποτελεί ιδανική επιλογή για κάθε στιγμή της ημέρας.",
+      "para2": ""
     },
     "features": {
-      "title": "Τι το ξεχωρίζει",
+      "title": "Χαρακτηριστικά",
       "items": [
-        { "title": "2% Λιπαρά", "description": "Από αγελαδινό γάλα χαμηλών λιπαρών — ελαφρύτερη επιλογή." },
-        { "title": "Στραγγιστή Υφή", "description": "Πυκνή, κρεμώδης υφή με παραδοσιακό στράγγισμα." },
-        { "title": "Χωρίς Πρόσθετα", "description": "Καμία ζελατίνη, πήκτης ή συντηρητικά." },
-        { "title": "Ιδανικό για Πρωινό", "description": "Ελαφρύ και θρεπτικό — με μέλι, φρούτα ή δημητριακά." }
+        {
+          "title": "Γευστικά χαρακτηριστικά",
+          "description": "Δροσερή και ήπια γεύση, ευχάριστο άρωμα και απαλή υφή."
+        },
+        {
+          "title": "Απολαύστε το",
+          "description": "Ιδανικό για πρωινό ή ένα ελαφρύ σνακ. Απολαμβάνεται σκέτο ή συνδυάζεται εξαιρετικά με μέλι, φρέσκα φρούτα, δημητριακά και ξηρούς καρπούς."
+        },
+        {
+          "title": "Για επαγγελματίες",
+          "description": "Ιδανική επιλογή για ξενοδοχεία, χώρους εστίασης και επαγγελματικές κουζίνες, τόσο για πρωινό και buffet όσο και ως βάση για γλυκές ή αλμυρές δημιουργίες."
+        }
       ]
     },
+    "image": "giaourti-ageladino-2%",
     "cta": {
       "title": "Θέλετε να δοκιμάσετε το Αγελαδινό Γιαούρτι 2%;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
@@ -49,10 +57,22 @@
     "features": {
       "title": "What Makes It Special",
       "items": [
-        { "title": "2% Fat", "description": "From low-fat cow's milk — a lighter choice." },
-        { "title": "Strained Texture", "description": "Thick, creamy texture from traditional straining." },
-        { "title": "No Additives", "description": "No gelatin, thickeners, or preservatives." },
-        { "title": "Great for Breakfast", "description": "Light and nourishing — with honey, fruit, or granola." }
+        {
+          "title": "2% Fat",
+          "description": "From low-fat cow's milk — a lighter choice."
+        },
+        {
+          "title": "Strained Texture",
+          "description": "Thick, creamy texture from traditional straining."
+        },
+        {
+          "title": "No Additives",
+          "description": "No gelatin, thickeners, or preservatives."
+        },
+        {
+          "title": "Great for Breakfast",
+          "description": "Light and nourishing — with honey, fruit, or granola."
+        }
       ]
     },
     "cta": {
@@ -80,10 +100,22 @@
     "features": {
       "title": "Was ihn besonders macht",
       "items": [
-        { "title": "2% Fett", "description": "Aus fettarmer Kuhmilch — die leichtere Wahl." },
-        { "title": "Abgetropfte Textur", "description": "Dicke, cremige Textur durch traditionelles Abtropfen." },
-        { "title": "Ohne Zusätze", "description": "Keine Gelatine, Verdickungsmittel oder Konservierungsstoffe." },
-        { "title": "Ideal zum Frühstück", "description": "Leicht und nahrhaft — mit Honig, Obst oder Müsli." }
+        {
+          "title": "2% Fett",
+          "description": "Aus fettarmer Kuhmilch — die leichtere Wahl."
+        },
+        {
+          "title": "Abgetropfte Textur",
+          "description": "Dicke, cremige Textur durch traditionelles Abtropfen."
+        },
+        {
+          "title": "Ohne Zusätze",
+          "description": "Keine Gelatine, Verdickungsmittel oder Konservierungsstoffe."
+        },
+        {
+          "title": "Ideal zum Frühstück",
+          "description": "Leicht und nahrhaft — mit Honig, Obst oder Müsli."
+        }
       ]
     },
     "cta": {

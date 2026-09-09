@@ -3,135 +3,99 @@
     "hero": {
       "label": "Εγκαταστάσεις",
       "title": "Οι εγκαταστάσεις μας",
-      "subtitle": "Σύγχρονοι χώροι παραγωγής με σεβασμό στην παράδοση και το περιβάλλον."
+      "subtitle": "Μια σύγχρονη μονάδα στον Τύρναβο, όπου η παράδοση του 1940 συναντά τη σύγχρονη τεχνολογία."
     },
-    "overview": {
-      "label": "Παραγωγή",
+    "stats": [
+      {
+        "value": "1940",
+        "label": "Αφετηρία της παράδοσης"
+      },
+      {
+        "value": "3",
+        "label": "Γενιές τυροκομίας"
+      },
+      {
+        "value": "100%",
+        "label": "Ελληνικό γάλα"
+      }
+    ],
+    "production": {
+      "label": "ΠΑΡΑΓΩΓΗ",
       "title": "Από το γάλα στο τελικό προϊόν",
-      "para1": "Η μονάδα μας βρίσκεται στην καρδιά της Ηπείρου, κοντά στους κτηνοτρόφους που μας προμηθεύουν φρέσκο γάλα καθημερινά. Κάθε στάδιο της παραγωγής ελέγχεται αυστηρά.",
-      "para2": "Συνδυάζουμε παραδοσιακές τεχνικές με σύγχρονο εξοπλισμό για να εξασφαλίζουμε κορυφαία ποιότητα σε κάθε παρτίδα.",
-      "imageAlt": "Φωτογραφία εγκαταστάσεων",
-      "image": "factory"
+      "para1": "Στο τυροκομείο μας στον Τύρναβο, το φρέσκο ελληνικό γάλα φτάνει καθημερινά από επιλεγμένους κτηνοτρόφους της Θεσσαλίας και περνά από αυστηρούς ελέγχους ποιότητας.",
+      "para2": "Κάθε στάδιο — από την παραλαβή μέχρι την τυροκόμηση, την ωρίμανση και τη συσκευασία — γίνεται με μεθοδικότητα, καθαριότητα και σεβασμό στην πρώτη ύλη."
     },
-    "gallery": {
-      "label": "Γκαλερί",
-      "title": "Μέσα στις εγκαταστάσεις",
-      "items": [
-        {
-          "image": "",
-          "alt": "Φωτογραφία"
-        },
-        {
-          "image": "",
-          "alt": "Φωτογραφία"
-        },
-        {
-          "image": "",
-          "alt": "Φωτογραφία"
-        },
-        {
-          "image": "",
-          "alt": "Φωτογραφία"
-        },
-        {
-          "image": "",
-          "alt": "Φωτογραφία"
-        },
-        {
-          "image": "",
-          "alt": "Φωτογραφία"
-        }
-      ]
+    "facility": {
+      "label": "ΥΠΟΔΟΜΕΣ",
+      "title": "Παράδοση με σύγχρονο εξοπλισμό",
+      "para1": "Οι εγκαταστάσεις μας συνδυάζουν τη γνώση τριών γενεών με σύγχρονο εξοπλισμό, εξασφαλίζοντας σταθερή ποιότητα σε κάθε παρτίδα τυριού και γιαουρτιού.",
+      "para2": "Αυστηρά πρότυπα υγιεινής, συνεχής ψύξη και έλεγχος σε όλη τη διαδικασία — τα προϊόντα μας φτάνουν στο τραπέζι σας όπως βγαίνουν από την παραγωγή."
     }
   },
   "en": {
     "hero": {
-      "label": "Facilities",
+      "label": "Our Facilities",
       "title": "Our Facilities",
-      "subtitle": "Modern production spaces with respect for tradition and the environment."
+      "subtitle": "A modern plant in Tyrnavos, where the tradition of 1940 meets modern technology."
     },
-    "overview": {
-      "label": "Production",
-      "title": "From milk to finished product",
-      "para1": "Our unit is located in the heart of Epirus, close to the livestock farmers who supply us with fresh milk daily. Every production stage is strictly controlled.",
-      "para2": "We combine traditional techniques with modern equipment to ensure top quality in every batch.",
-      "imageAlt": "Facilities photo",
-      "image": "factory"
+    "stats": [
+      {
+        "value": "1940",
+        "label": "Where it all began"
+      },
+      {
+        "value": "3",
+        "label": "Generations of cheesemaking"
+      },
+      {
+        "value": "100%",
+        "label": "Greek milk"
+      }
+    ],
+    "production": {
+      "label": "PRODUCTION",
+      "title": "From milk to the final product",
+      "para1": "At our dairy in Tyrnavos, fresh Greek milk arrives daily from selected farmers in Thessaly and passes strict quality checks.",
+      "para2": "Every stage — receiving, cheesemaking, ageing and packaging — is carried out methodically, with cleanliness and respect for the raw material."
     },
-    "gallery": {
-      "label": "Gallery",
-      "title": "Inside the facilities",
-      "items": [
-        {
-          "image": "",
-          "alt": "Photo"
-        },
-        {
-          "image": "",
-          "alt": "Photo"
-        },
-        {
-          "image": "",
-          "alt": "Photo"
-        },
-        {
-          "image": "",
-          "alt": "Photo"
-        },
-        {
-          "image": "",
-          "alt": "Photo"
-        },
-        {
-          "image": "",
-          "alt": "Photo"
-        }
-      ]
+    "facility": {
+      "label": "INFRASTRUCTURE",
+      "title": "Tradition with modern equipment",
+      "para1": "Our facilities combine the knowledge of three generations with modern equipment, delivering consistent quality in every batch of cheese and yogurt.",
+      "para2": "Strict hygiene standards, continuous chilling and monitoring throughout the process — our products reach your table exactly as they leave production."
     }
   },
   "de": {
     "hero": {
-      "label": "Anlagen",
+      "label": "Unsere Anlagen",
       "title": "Unsere Anlagen",
-      "subtitle": "Moderne Produktionsstätten mit Respekt vor Tradition und Umwelt."
+      "subtitle": "Ein moderner Betrieb in Tyrnavos, wo die Tradition von 1940 auf moderne Technologie trifft."
     },
-    "overview": {
-      "label": "Produktion",
+    "stats": [
+      {
+        "value": "1940",
+        "label": "Der Anfang der Tradition"
+      },
+      {
+        "value": "3",
+        "label": "Generationen Käsehandwerk"
+      },
+      {
+        "value": "100%",
+        "label": "Griechische Milch"
+      }
+    ],
+    "production": {
+      "label": "PRODUKTION",
       "title": "Von der Milch zum fertigen Produkt",
-      "para1": "Unsere Produktionsstätte befindet sich im Herzen von Epirus, nah bei den Viehzüchtern, die uns täglich mit frischer Milch versorgen. Jede Produktionsstufe wird streng kontrolliert.",
-      "para2": "Wir kombinieren traditionelle Techniken mit moderner Ausrüstung, um höchste Qualität in jeder Charge zu gewährleisten.",
-      "imageAlt": "Foto der Anlagen",
-      "image": "factory"
+      "para1": "In unserer Käserei in Tyrnavos kommt täglich frische griechische Milch von ausgewählten Erzeugern aus Thessalien an und durchläuft strenge Qualitätskontrollen.",
+      "para2": "Jeder Schritt — von der Annahme über die Käseherstellung und Reifung bis zur Verpackung — geschieht mit Sorgfalt, Sauberkeit und Respekt vor dem Rohstoff."
     },
-    "gallery": {
-      "label": "Galerie",
-      "title": "Ein Blick in die Anlagen",
-      "items": [
-        {
-          "image": "",
-          "alt": "Foto"
-        },
-        {
-          "image": "",
-          "alt": "Foto"
-        },
-        {
-          "image": "",
-          "alt": "Foto"
-        },
-        {
-          "image": "",
-          "alt": "Foto"
-        },
-        {
-          "image": "",
-          "alt": "Foto"
-        },
-        {
-          "image": "",
-          "alt": "Foto"
-        }
-      ]
+    "facility": {
+      "label": "INFRASTRUKTUR",
+      "title": "Tradition mit moderner Ausstattung",
+      "para1": "Unsere Anlagen verbinden das Wissen von drei Generationen mit modernster Ausstattung für gleichbleibende Qualität in jeder Charge Käse und Joghurt.",
+      "para2": "Strenge Hygienestandards, durchgängige Kühlung und Kontrolle im gesamten Prozess — unsere Produkte erreichen Ihren Tisch genau so, wie sie die Produktion verlassen."
     }
   }
 }

@@ -1,29 +1,24 @@
 {
   "el": {
-    "name": "Μανούρι",
-    "description": "Φρέσκο κρεμώδες τυρί από ορό γάλακτος με προσθήκη φρέσκιας κρέμας γάλακτος, μαλακό και βουτυρώδες.",
-    "imageAlt": "Μανούρι",
-    "image": "manouri",
+    "name": "Μανούρι Π.Ο.Π.",
+    "description": "Το Μανούρι Π.Ο.Π. ΡΙΖΟΣ χαρακτηρίζεται από την απαλή υφή και την πλούσια, ευχάριστη γεύση του.",
+    "imageAlt": "Μανούρι Π.Ο.Π.",
     "hero": {
       "label": "Τα Προϊόντα μας",
-      "title": "Μανούρι",
-      "subtitle": "Φρέσκο κρεμώδες τυρί από ορό γάλακτος με προσθήκη φρέσκιας κρέμας γάλακτος, μαλακό και βουτυρώδες."
+      "title": "Μανούρι Π.Ο.Π.",
+      "subtitle": "Το Μανούρι Π.Ο.Π. ΡΙΖΟΣ χαρακτηρίζεται από την απαλή υφή και την πλούσια, ευχάριστη γεύση του."
     },
     "overview": {
-      "label": "Φρέσκο & Βουτυρώδες",
-      "title": "Το κρεμώδες τυρί της παράδοσης",
-      "para1": "Το Μανούρι παρασκευάζεται από ορό γάλακτος με προσθήκη φρέσκιας κρέμας γάλακτος. Έχει μαλακή, κρεμώδη υφή και απαλή, βουτυρώδη γεύση χωρίς παλαίωση.",
-      "para2": "Σερβίρεται φρέσκο, σε φέτες, με μέλι, φρούτα ή σε σαλάτες. Είναι επίσης ιδανικό για γέμιση σε πίτες και γλυκά."
+      "label": "Το Προϊόν",
+      "title": "Ένα εκλεκτό ελληνικό τυρί που μπορεί να πρωταγωνιστήσει τόσο σε αλμυρές όσο και σε γλυκές δημιουργίες.",
+      "para1": "Το Μανούρι Π.Ο.Π. ΡΙΖΟΣ χαρακτηρίζεται από την απαλή υφή και την πλούσια, ευχάριστη γεύση του.",
+      "para2": "Η διακριτική του γεύση το κάνει ιδανικό για σαλάτες, ορεκτικά και δημιουργικά πιάτα, ενώ συνδυάζεται εξαιρετικά με μέλι, ξηρούς καρπούς και φρούτα."
     },
     "features": {
-      "title": "Τι το ξεχωρίζει",
-      "items": [
-        { "title": "Φρέσκο & Κρεμώδες", "description": "Μαλακό, βουτυρώδες τυρί χωρίς παλαίωση." },
-        { "title": "Με Φρέσκια Κρέμα", "description": "Παρασκευάζεται με προσθήκη κρέμας γάλακτος για πλούσια υφή." },
-        { "title": "Απαλή Γεύση", "description": "Ήπια, βουτυρώδη γεύση, αγαπητή σε όλες τις ηλικίες." },
-        { "title": "Πολυσχιμαστό", "description": "Με μέλι και φρούτα, σε σαλάτες, ή για γέμιση πίτες και γλυκά." }
-      ]
+      "title": "Χαρακτηριστικά",
+      "items": []
     },
+    "image": "manouri",
     "cta": {
       "title": "Θέλετε να δοκιμάσετε το Μανούρι;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
@@ -49,10 +44,22 @@
     "features": {
       "title": "What Makes It Special",
       "items": [
-        { "title": "Fresh & Creamy", "description": "Soft, buttery cheese with no aging." },
-        { "title": "With Fresh Cream", "description": "Made with added milk cream for a rich texture." },
-        { "title": "Delicate Flavor", "description": "Mild, buttery taste loved by all ages." },
-        { "title": "Versatile", "description": "With honey and fruit, in salads, or as a filling for pies and desserts." }
+        {
+          "title": "Fresh & Creamy",
+          "description": "Soft, buttery cheese with no aging."
+        },
+        {
+          "title": "With Fresh Cream",
+          "description": "Made with added milk cream for a rich texture."
+        },
+        {
+          "title": "Delicate Flavor",
+          "description": "Mild, buttery taste loved by all ages."
+        },
+        {
+          "title": "Versatile",
+          "description": "With honey and fruit, in salads, or as a filling for pies and desserts."
+        }
       ]
     },
     "cta": {
@@ -80,10 +87,22 @@
     "features": {
       "title": "Was ihn besonders macht",
       "items": [
-        { "title": "Frisch & Cremig", "description": "Weicher, butteriger Käse ohne Reifung." },
-        { "title": "Mit Frischem Rahm", "description": "Mit Milchrahmzusatz für reiche Textur." },
-        { "title": "Zarter Geschmack", "description": "Mildes, butteriges Aroma, bei allen Altersgruppen beliebt." },
-        { "title": "Vielseitig", "description": "Mit Honig und Obst, in Salaten oder als Füllung für Pasteten und Desserts." }
+        {
+          "title": "Frisch & Cremig",
+          "description": "Weicher, butteriger Käse ohne Reifung."
+        },
+        {
+          "title": "Mit Frischem Rahm",
+          "description": "Mit Milchrahmzusatz für reiche Textur."
+        },
+        {
+          "title": "Zarter Geschmack",
+          "description": "Mildes, butteriges Aroma, bei allen Altersgruppen beliebt."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Mit Honig und Obst, in Salaten oder als Füllung für Pasteten und Desserts."
+        }
       ]
     },
     "cta": {

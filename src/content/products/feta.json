@@ -1,51 +1,63 @@
 {
   "el": {
-    "name": "Φέτα Παραδοσιακή",
-    "description": "Αυθεντική φέτα από γάλα ελεύθερης βοσκής, ωριμασμένη σε ξύλινα βαρέλια.",
-    "imageAlt": "Φέτα Παραδοσιακή",
-    "image": "feta-tenekes",
-    "sizes": {
-      "label": "Διαθέσιμα Μεγέθη",
-      "items": [
-        { "weight": "250g", "note": "Ιδανική για δοκιμή ή 1-2 άτομα — μικρή συσκευασία." },
-        { "weight": "500g", "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση." },
-        { "weight": "1kg", "note": "Μεγάλη συσκευασία / τένηκες — για επαγγελματίες και μεγάλες οικογένειες." }
-      ]
-    },
+    "name": "Φέτα Π.Ο.Π.",
+    "description": "Αυθεντική ελληνική γεύση, με παράδοση από το 1940",
+    "imageAlt": "Φέτα Π.Ο.Π.",
     "hero": {
       "label": "Τα Προϊόντα μας",
-      "title": "Φέτα Παραδοσιακή",
-      "subtitle": "Αυθεντική φέτα από γάλα ελεύθερης βοσκής, ωριμασμένη σε ξύλινα βαρέλια."
+      "title": "Φέτα Π.Ο.Π.",
+      "subtitle": "Αυθεντική ελληνική γεύση, με παράδοση από το 1940"
     },
     "overview": {
-      "label": "Το Αυθεντικό",
-      "title": "Ένα τυρί με ιστορία",
-      "para1": "Η Παραδοσιακή μας Φέτα φτιάχνεται από φρέσκο γάλα ελεύθερης βοσκής προβάτων και αγελάδων, από τοπικούς κτηνοτρόφους στα βουνά της Ηπείρου. Κάθε παρτίδα ωριμάζει αργά σε ξύλινα βαρέλια, επιτρέποντας στις γεύσεις να αναπτυχθούν φυσικά.",
-      "para2": "Η ωρίμανση σε βαρέλια δίνει στη φέτα μας το χαρακτηριστικό πλούσιο άρωμα, την κρεμώδη αλλά θρυπτή υφή και το βάθος γεύσης που τη κάνει αναπόσπαστο κομμάτι της ελληνικής κουζίνας εδώ και αιώνες."
+      "label": "Το Προϊόν",
+      "title": "Αυθεντική ελληνική γεύση, με παράδοση από το 1940",
+      "para1": "Η Φέτα Π.Ο.Π. ΡΙΖΟΣ παράγεται από πρόβειο και κατσικίσιο γάλα, με σεβασμό στις προδιαγραφές της Προστατευόμενης Ονομασίας Προέλευσης και στην ελληνική τυροκομική παράδοση.",
+      "para2": "Με λευκό χρώμα, χαρακτηριστικό άρωμα και πλούσια, ευχάριστα αλμυρή γεύση, αποτελεί ένα προϊόν που εκφράζει τη φιλοσοφία της οικογένειας Ρίζου: ποιότητα, παράδοση και αυθεντική γεύση."
     },
     "features": {
-      "title": "Τι τη ξεχωρίζει",
+      "title": "Χαρακτηριστικά",
       "items": [
         {
-          "title": "Ωρίμανση σε Βαρέλι",
-          "description": "Αργή ωρίμανση σε ξύλινα βαρέλια για βαθύτερο, πιο σύνθετο προφίλ γεύσης."
+          "title": "Γευστικά χαρακτηριστικά",
+          "description": "Πλούσια και γεμάτη γεύση, με ευχάριστη αλμύρα, χαρακτηριστικό άρωμα και υφή που αναδεικνύει τον αυθεντικό χαρακτήρα της ελληνικής φέτας."
         },
         {
-          "title": "Γάλα Ελεύθερης Βοσκής",
-          "description": "Αποκλειστικά από γάλα προβάτων και αγελάδων που βόσκουν ελεύθερα στα βουνά της Ηπείρου."
+          "title": "Απολαύστε τη",
+          "description": "Ιδανική για την παραδοσιακή χωριάτικη σαλάτα, πίτες, ορεκτικά και ζεστά πιάτα, αλλά και απλά με φρέσκο ψωμί, ελαιόλαδο και ρίγανη."
         },
         {
-          "title": "Χωρίς Συντηρητικά",
-          "description": "Μόνο γάλα, πυτιά και αλάτι — τίποτα άλλο. Αγνό και φυσικό, όπως επιβάλλει η παράδοση."
+          "title": "Για επαγγελματίες",
+          "description": "Μια εξαιρετική επιλογή για εστιατόρια, ξενοδοχεία, καταστήματα delicatessen και επιχειρήσεις εστίασης που αναζητούν αυθεντική ελληνική Φέτα Π.Ο.Π."
         },
         {
-          "title": "ΠΟΠ Πιστοποίηση",
-          "description": "Παράγεται στην Ήπειρο σύμφωνα με τους αυστηρούς κανόνες της Προστατευόμενης Ονομασίας Προέλευσης."
+          "title": "Διαθέσιμες συσκευασίες",
+          "description": "Διατίθεται σε διαφορετικές συσκευασίες για λιανική και επαγγελματική χρήση."
         }
       ]
     },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "250g",
+          "note": "Ιδανική για δοκιμή ή 1-2 άτομα — μικρή συσκευασία.",
+          "image": "feta-taper"
+        },
+        {
+          "weight": "500g",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση.",
+          "image": "feta-taper"
+        },
+        {
+          "weight": "1kg",
+          "note": "Μεγάλη συσκευασία / τένηκες — για επαγγελματίες και μεγάλες οικογένειες.",
+          "image": "feta-tenekes"
+        }
+      ]
+    },
+    "image": "feta-taper",
     "cta": {
-      "title": "Θέλετε να δοκιμάσετε την Παραδοσιακή μας Φέτα;",
+      "title": "Θέλετε να δοκιμάσετε τη Φέτα Π.Ο.Π.;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
     }
@@ -54,13 +66,25 @@
     "name": "Traditional Feta",
     "description": "Authentic feta from free-range milk, aged in wooden barrels.",
     "imageAlt": "Traditional Feta",
-    "image": "feta-tenekes",
+    "image": "feta-taper",
     "sizes": {
       "label": "Available Sizes",
       "items": [
-        { "weight": "250g", "note": "Ideal for a taste or 1-2 people — small pack." },
-        { "weight": "500g", "note": "Family pack — for everyday use." },
-        { "weight": "1kg", "note": "Large pack / tin — for professionals and large families." }
+        {
+          "weight": "250g",
+          "note": "Ideal for a taste or 1-2 people — small pack.",
+          "image": "feta-taper"
+        },
+        {
+          "weight": "500g",
+          "note": "Family pack — for everyday use.",
+          "image": "feta-taper"
+        },
+        {
+          "weight": "1kg",
+          "note": "Large pack / tin — for professionals and large families.",
+          "image": "feta-tenekes"
+        }
       ]
     },
     "hero": {
@@ -105,13 +129,25 @@
     "name": "Traditioneller Feta",
     "description": "Authentischer Feta aus Weidemilch, in Holzfässern gereift.",
     "imageAlt": "Traditioneller Feta",
-    "image": "feta-tenekes",
+    "image": "feta-taper",
     "sizes": {
       "label": "Verfügbare Größen",
       "items": [
-        { "weight": "250g", "note": "Ideal zum Probieren oder für 1-2 Personen — kleine Packung." },
-        { "weight": "500g", "note": "Familienpackung — für den täglichen Gebrauch." },
-        { "weight": "1kg", "note": "Große Packung / Blech — für Profis und große Familien." }
+        {
+          "weight": "250g",
+          "note": "Ideal zum Probieren oder für 1-2 Personen — kleine Packung.",
+          "image": "feta-taper"
+        },
+        {
+          "weight": "500g",
+          "note": "Familienpackung — für den täglichen Gebrauch.",
+          "image": "feta-taper"
+        },
+        {
+          "weight": "1kg",
+          "note": "Große Packung / Blech — für Profis und große Familien.",
+          "image": "feta-tenekes"
+        }
       ]
     },
     "hero": {

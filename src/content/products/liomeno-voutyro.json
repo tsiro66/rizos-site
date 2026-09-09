@@ -1,29 +1,37 @@
 {
   "el": {
-    "name": "Λιωμένο Βούτυρο",
-    "description": "Λιωμένο (καθαρισμένο) βούτυρο από πρόβειο γάλα, με πλούσιο άρωμα και υψηλό σημείο καπνού.",
-    "imageAlt": "Λιωμένο Βούτυρο",
-    "image": "liomeno-voutyro",
+    "name": "Λιωμένο Πρόβειο Βούτυρο",
+    "description": "Πλούσιο άρωμα και παραδοσιακή γεύση",
+    "imageAlt": "Λιωμένο Πρόβειο Βούτυρο",
     "hero": {
       "label": "Τα Προϊόντα μας",
-      "title": "Λιωμένο Βούτυρο",
-      "subtitle": "Λιωμένο (καθαρισμένο) βούτυρο από πρόβειο γάλα, με πλούσιο άρωμα και υψηλό σημείο καπνού."
+      "title": "Λιωμένο Πρόβειο Βούτυρο",
+      "subtitle": "Πλούσιο άρωμα και παραδοσιακή γεύση"
     },
     "overview": {
-      "label": "Πλούσιο & Ανθεκτικό",
-      "title": "Το βούτυρο των ζυμαρικών και των πίτες",
-      "para1": "Το Λιωμένο Βούτυρο παρασκευάζεται με παραδοσιακό καθαρισμό του βουτύρου από τα στερεά, οπότε αναδίνει βαθύτερο άρωμα, αντέχει περισσότερο και έχει υψηλότερο σημείο καπνού.",
-      "para2": "Ιδανικό για φύλλο, πίτες, γλυκά του ταψιού και παραδοσιακή μαγειρική. Δίνει πλούσια, βουτυρώδη γεύση σε κάθε παρασκευή."
+      "label": "Το Προϊόν",
+      "title": "Πλούσιο άρωμα και παραδοσιακή γεύση",
+      "para1": "Το Λιωμένο Πρόβειο Βούτυρο ΡΙΖΟΣ ξεχωρίζει για την πλούσια, γεμάτη γεύση και το χαρακτηριστικό άρωμα του πρόβειου βουτύρου. Ένα προϊόν με έντονο παραδοσιακό χαρακτήρα, που χαρίζει ξεχωριστή νοστιμιά στις δημιουργίες σας.",
+      "para2": ""
     },
     "features": {
-      "title": "Τι το ξεχωρίζει",
+      "title": "Χαρακτηριστικά",
       "items": [
-        { "title": "Πλούσιο Άρωμα", "description": "Βαθύτερο, πιο έντονο βουτυρώδες άρωμα από τον καθαρισμό." },
-        { "title": "Ανθεκτικό", "description": "Διατηρείται περισσότερο από το φρέσκο βούτυρο, χωρίς ψυγείο." },
-        { "title": "Υψηλό Σημείο Καπνού", "description": "Ιδανικό για ψήσιμο και τηγάνισμα χωρίς να καίγεται." },
-        { "title": "Παραδοσιακή Μαγειρική", "description": "Τέλειο για φύλλο, πίτες, γλυκά και σαλάτες." }
+        {
+          "title": "Γευστικά χαρακτηριστικά",
+          "description": "Γεμάτη γεύση και πλούσιο, χαρακτηριστικό άρωμα, που αναδεικνύεται ιδιαίτερα κατά το μαγείρεμα και το ψήσιμο."
+        },
+        {
+          "title": "Ιδανικό για",
+          "description": "Εξαιρετική επιλογή για παραδοσιακά γλυκά, πίτες, σιροπιαστά, αρτοσκευάσματα και μαγειρευτά φαγητά, προσφέροντας πλούσιο άρωμα και αυθεντική γεύση."
+        },
+        {
+          "title": "Για επαγγελματίες",
+          "description": "Ιδανικό για ζαχαροπλαστεία, αρτοποιεία, εργαστήρια παραγωγής, εστιατόρια και επαγγελματικές κουζίνες."
+        }
       ]
     },
+    "image": "liomeno-voutyro",
     "cta": {
       "title": "Θέλετε να δοκιμάσετε το Λιωμένο Βούτυρο;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
@@ -49,10 +57,22 @@
     "features": {
       "title": "What Makes It Special",
       "items": [
-        { "title": "Rich Aroma", "description": "Deeper, fuller buttery aroma from clarification." },
-        { "title": "Long-Lasting", "description": "Keeps longer than fresh butter, without refrigeration." },
-        { "title": "High Smoke Point", "description": "Ideal for baking and frying without burning." },
-        { "title": "Traditional Cooking", "description": "Perfect for phyllo, pies, desserts, and sautés." }
+        {
+          "title": "Rich Aroma",
+          "description": "Deeper, fuller buttery aroma from clarification."
+        },
+        {
+          "title": "Long-Lasting",
+          "description": "Keeps longer than fresh butter, without refrigeration."
+        },
+        {
+          "title": "High Smoke Point",
+          "description": "Ideal for baking and frying without burning."
+        },
+        {
+          "title": "Traditional Cooking",
+          "description": "Perfect for phyllo, pies, desserts, and sautés."
+        }
       ]
     },
     "cta": {
@@ -80,10 +100,22 @@
     "features": {
       "title": "Was sie besonders macht",
       "items": [
-        { "title": "Volles Aroma", "description": "Tieferes, intensiveres Butteraroma durch das Klären." },
-        { "title": "Haltbar", "description": "Hält länger als frische Butter, ohne Kühlung." },
-        { "title": "Hoher Rauchpunkt", "description": "Ideal zum Backen und Braten, ohne zu verbrennen." },
-        { "title": "Traditionelle Küche", "description": "Perfekt für Strudelteig, Pasteten, Desserts und zum Anbraten." }
+        {
+          "title": "Volles Aroma",
+          "description": "Tieferes, intensiveres Butteraroma durch das Klären."
+        },
+        {
+          "title": "Haltbar",
+          "description": "Hält länger als frische Butter, ohne Kühlung."
+        },
+        {
+          "title": "Hoher Rauchpunkt",
+          "description": "Ideal zum Backen und Braten, ohne zu verbrennen."
+        },
+        {
+          "title": "Traditionelle Küche",
+          "description": "Perfekt für Strudelteig, Pasteten, Desserts und zum Anbraten."
+        }
       ]
     },
     "cta": {

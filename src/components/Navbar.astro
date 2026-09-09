@@ -1,5 +1,7 @@
 ---
 import { localizedPath, locales } from '../i18n/utils';
+import { Image } from 'astro:assets';
+import logo from '../assets/logo.png';
 
 interface Props {
   t: <T = unknown>(key: string) => T;
@@ -14,6 +16,8 @@ const currentPath = (() => {
   return pathname.startsWith(prefix) ? (pathname.slice(prefix.length) || '/') : pathname;
 })();
 
+const isHome = currentPath === '/';
+
 const isActive = (p: string) => currentPath === p || currentPath.startsWith(p !== '/' ? `${p}/` : '__none__');
 const navLinkClass = (p: string) => [
   'transition-colors duration-300 nav-link',
@@ -21,12 +25,17 @@ const navLinkClass = (p: string) => [
 ].join(' ');
 ---
 
-<nav id="main-nav" class="fixed top-0 left-0 right-0 z-[60] bg-amber-50 shadow-md">
-  <div class="max-w-11/12 mx-auto flex items-center justify-between px-6 py-3">
-    <a href={localizedPath('/', locale)} class="inline-flex flex-col items-center leading-none transition-colors duration-300 nav-brand text-red-800">
-      <span class="nav-tagline w-full text-[10px] font-geologica tracking-[0.03em] uppercase whitespace-nowrap text-center text-olive-700 mb-0.5">{t('nav.tagline')}</span>
-      <span class="font-geologica text-5xl font-bold uppercase tracking-wide leading-none">{t('nav.brand')}</span>
-      <span class="nav-since text-sm font-alegreya italic text-olive-700 -mt-1">— {t('nav.since')} —</span>
+<nav
+  id="main-nav"
+  data-transparent-scroll={isHome}
+  class:list={[
+    'fixed top-0 left-0 right-0 z-[60] transition-colors duration-300',
+    isHome ? 'nav-transparent bg-transparent shadow-none' : 'bg-amber-50 shadow-md',
+  ]}
+>
+  <div class="relative max-w-11/12 mx-auto flex items-center justify-between px-6 py-3">
+    <a href={localizedPath('/', locale)} class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:static md:translate-x-0 md:translate-y-0 inline-flex items-center leading-none transition-opacity duration-300 hover:opacity-90" aria-label={t('nav.brand')}>
+      <Image src={logo} alt={t('nav.brand')} height={160} format="webp" quality={90} class="h-16 w-auto" loading="eager" />
     </a>
 
     <!-- Desktop links -->
@@ -53,7 +62,7 @@ const navLinkClass = (p: string) => [
     </div>
 
     <!-- Mobile hamburger (2 lines) -->
-    <button id="mobile-menu-btn" class="md:hidden flex flex-col justify-center gap-[7px] w-9 h-9 cursor-pointer bg-transparent border-none z-[60]" aria-label="Menu">
+    <button id="mobile-menu-btn" class="ml-auto md:ml-0 md:hidden flex flex-col justify-center gap-[7px] w-9 h-9 cursor-pointer bg-transparent border-none z-[60]" aria-label="Menu">
       <span class="hamburger-line block w-full h-[2px] transition-all duration-300 bg-stone-800"></span>
       <span class="hamburger-line block w-full h-[2px] transition-all duration-300 bg-stone-800"></span>
     </button>
@@ -93,11 +102,46 @@ const navLinkClass = (p: string) => [
     const mobileMenu = document.getElementById('mobile-menu');
     let menuOpen = false;
 
+    // Transparent-at-top <-> solid-on-scroll (home only). Nav is re-rendered on
+    // view transitions but `window` persists, so drop any previous handler.
+    const transparentScroll = nav.dataset.transparentScroll === 'true';
+    function applyNavState(solid: boolean) {
+      if (solid) {
+        nav.classList.remove('nav-transparent', 'bg-transparent', 'shadow-none');
+        nav.classList.add('bg-amber-50', 'shadow-md');
+      } else {
+        nav.classList.add('nav-transparent', 'bg-transparent', 'shadow-none');
+        nav.classList.remove('bg-amber-50', 'shadow-md');
+      }
+    }
+    function updateNavOnScroll() {
+      if (menuOpen) return;
+      const solid = window.scrollY > 24;
+      applyNavState(solid);
+      const lightText = !solid;
+      hamburgerLines.forEach((l) => {
+        l.classList.toggle('bg-white', lightText);
+        l.classList.toggle('bg-stone-800', !lightText);
+      });
+    }
+    if (window.__navScrollHandler) {
+      window.removeEventListener('scroll', window.__navScrollHandler);
+      window.__navScrollHandler = undefined;
+    }
+    if (transparentScroll) {
+      window.__navScrollHandler = updateNavOnScroll;
+      window.addEventListener('scroll', updateNavOnScroll, { passive: true });
+      updateNavOnScroll();
+    } else {
+      applyNavState(true);
+    }
+
     function toggleMenu() {
       menuOpen = !menuOpen;
       if (menuOpen) {
         mobileMenu!.classList.remove('opacity-0', 'pointer-events-none');
         mobileMenu!.classList.add('opacity-100', 'pointer-events-auto');
+        applyNavState(false); // transparent so the red menu shows behind nav
         hamburgerLines.forEach(l => {
           l.classList.remove('bg-stone-800');
           l.classList.add('bg-white');
@@ -109,14 +153,12 @@ const navLinkClass = (p: string) => [
       } else {
         mobileMenu!.classList.add('opacity-0', 'pointer-events-none');
         mobileMenu!.classList.remove('opacity-100', 'pointer-events-auto');
-        hamburgerLines.forEach(l => {
-          l.classList.remove('bg-white');
-          l.classList.add('bg-stone-800');
-        });
         const lines = Array.from(hamburgerLines) as HTMLElement[];
         lines[0].style.transform = '';
         lines[1].style.transform = '';
         document.body.style.overflow = '';
+        if (transparentScroll) updateNavOnScroll();
+        else applyNavState(true);
       }
     }
 
@@ -129,4 +171,20 @@ const navLinkClass = (p: string) => [
     });
   });
 </script>
+
+<style>
+  /* Light link/switcher colors while nav floats over the hero image. */
+  #main-nav.nav-transparent .nav-link,
+  #main-nav.nav-transparent .nav-link:hover {
+    color: #fff;
+  }
+  #main-nav.nav-transparent .locale-active,
+  #main-nav.nav-transparent .locale-link,
+  #main-nav.nav-transparent .locale-link:hover {
+    color: #fff;
+  }
+  #main-nav.nav-transparent .locale-pipe {
+    color: rgb(255 255 255 / 0.4);
+  }
+</style>
 

@@ -1,11 +1,11 @@
 {
   "el": {
     "hero": {
-      "title": "Τα πιο αγνα και φυσικα προιοντα",
-      "subtitle": "Από τα βουνά της Ελλάδας στο τραπέζι σας — με σεβασμό στη φύση και την παράδοση.",
+      "title": "Από το 1940, μια παράδοση ζωντανή, τρεις γενιές με μεράκι, ποιότητα ελληνική.",
+      "subtitle": "Από το γάλα στο τραπέζι, με φροντίδα και αξία — ΡΙΖΟΣ, οκτώ δεκαετίες γεύση και ιστορία.",
       "cta": "Δείτε τα προϊόντα μας",
       "imageAlt": "Τυροκομείο Ρίζος στον Τύρναβο",
-      "image": "tyrnavos"
+      "image": "hero"
     },
     "story": {
       "eyebrow": "Η ΙΣΤΟΡΙΑ ΜΑΣ",
@@ -52,7 +52,7 @@
       "subtitle": "From the mountains of Greece to your table — with respect for nature and tradition.",
       "cta": "View Our Products",
       "imageAlt": "Rizos cheesemaking facility in Tyrnavos",
-      "image": "tyrnavos"
+      "image": "hero"
     },
     "story": {
       "eyebrow": "OUR STORY",
@@ -99,7 +99,7 @@
       "subtitle": "Von den Bergen Griechenlands auf Ihren Tisch — mit Respekt vor der Natur und Tradition.",
       "cta": "Entdecken Sie unsere Produkte",
       "imageAlt": "Rizos Käserei in Tyrnavos",
-      "image": "tyrnavos"
+      "image": "hero"
     },
     "story": {
       "eyebrow": "UNSERE GESCHICHTE",

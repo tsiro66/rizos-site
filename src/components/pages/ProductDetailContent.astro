@@ -20,10 +20,10 @@ interface Props {
 
 const { t, locale, slug } = Astro.props;
 
-const features = t('features.items') as { title: string; description: string }[];
+const features = (t('features.items') as { title: string; description: string }[]) ?? [];
 const imageKey = (t('image') as string) ?? slug;
 const sizesRaw = t('sizes.items');
-const sizes = Array.isArray(sizesRaw) ? (sizesRaw as { weight: string; note: string }[]) : null;
+const sizes = Array.isArray(sizesRaw) ? (sizesRaw as { weight: string; note: string; image?: string }[]) : null;
 const sizesLabel = sizes ? (t('sizes.label') as string) : '';
 ---
 
@@ -81,22 +81,25 @@ const sizesLabel = sizes ? (t('sizes.label') as string) : '';
         </div>
       )}
     </div>
-    <div class="overflow-hidden rounded-2xl group">
-      <Image
-        src={productImages[imageKey]}
-        alt={t('hero.title') as string}
-        width={960}
-        format="webp"
-        quality={80}
-        loading="lazy"
-        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-      />
+    <div class="overflow-hidden rounded-2xl">
+      {(sizes ?? [{ weight: '', note: '', image: imageKey }]).map((s, i) => (
+        <Image
+          src={productImages[s.image || imageKey]}
+          alt={t('hero.title') as string}
+          width={960}
+          format="webp"
+          quality={80}
+          loading="lazy"
+          class={`w-full h-auto object-cover size-image ${i === 0 ? '' : 'hidden'}`}
+          data-size-image={i}
+        />
+      ))}
     </div>
   </div>
 </section>
 
 <!-- Features -->
-<section class="py-24 bg-amber-50">
+<section class="py-24 bg-amber-50" hidden={features.length === 0}>
   <div class="max-w-6xl mx-auto px-6">
     <div class="text-center mb-16">
       <h2 class="text-3xl md:text-4xl font-alegreya font-bold text-stone-900">
@@ -176,6 +179,9 @@ const sizesLabel = sizes ? (t('sizes.label') as string) : '';
         });
         notes.forEach((n) => {
           n.classList.toggle('hidden', n.getAttribute('data-size-note') !== idx);
+        });
+        document.querySelectorAll('[data-size-image]').forEach((img) => {
+          img.classList.toggle('hidden', img.getAttribute('data-size-image') !== idx);
         });
       });
     });

@@ -1,29 +1,37 @@
 {
   "el": {
-    "name": "Γιαούρτι Αγελαδινό",
-    "description": "Παραδοσιακό στραγγιστό γιαούρτι από αγελαδινό γάλα, πλούσιο και κρεμώδες.",
-    "imageAlt": "Γιαούρτι Αγελαδινό",
-    "image": "giaourti-ageladino",
+    "name": "Γιαούρτι Αγελαδινό 5%",
+    "description": "Πλούσια γεύση και απολαυστικά κρεμώδης υφή",
+    "imageAlt": "Γιαούρτι Αγελαδινό 5%",
     "hero": {
       "label": "Τα Προϊόντα μας",
-      "title": "Γιαούρτι Αγελαδινό",
-      "subtitle": "Παραδοσιακό στραγγιστό γιαούρτι από αγελαδινό γάλα, πλούσιο και κρεμώδες."
+      "title": "Γιαούρτι Αγελαδινό 5%",
+      "subtitle": "Πλούσια γεύση και απολαυστικά κρεμώδης υφή"
     },
     "overview": {
-      "label": "Πλούσιο & Κρεμώδες",
-      "title": "Το γιαούρτι της καθημερινότητας",
-      "para1": "Το Αγελαδινό Γιαούρτι παρασκευάζεται από καθαρό αγελαδινό γάλα ελεύθερης βοσκής. Στραγγίζεται παραδοσιακά για πυκνή, κρεμώδη υφή και φυσική, ήπια ξινάδα.",
-      "para2": "Δεν περιέχει ζελατίνη, πήκτες ή συντηρητικά — μόνο γάλα και ζύμωση. Ιδανικό για πρωινό, με μέλι και καρπούς, ή ως βάση για σάλτσες και μαρινάδες."
+      "label": "Το Προϊόν",
+      "title": "Πλούσια γεύση και απολαυστικά κρεμώδης υφή",
+      "para1": "Το Αγελαδινό Γιαούρτι 5% ΡΙΖΟΣ ξεχωρίζει για την πλούσια, ισορροπημένη γεύση και την απολαυστικά κρεμώδη υφή του. Με 5% λιπαρά, προσφέρει γεμάτη γεύση και αποτελεί ιδανική επιλογή για κάθε στιγμή της ημέρας.",
+      "para2": ""
     },
     "features": {
-      "title": "Τι το ξεχωρίζει",
+      "title": "Χαρακτηριστικά",
       "items": [
-        { "title": "100% Αγελαδινό Γάλα", "description": "Καθαρό αγελαδινό γάλα ελεύθερης βοσκής από επιλεγμένους κτηνοτρόφους." },
-        { "title": "Στραγγιστή Υφή", "description": "Πυκνή, κρεμώδης υφή με παραδοσιακό στράγγισμα." },
-        { "title": "Χωρίς Πρόσθετα", "description": "Καμία ζελατίνη, πήκτης ή συντηρητικά — μόνο γάλα και ζύμωση." },
-        { "title": "Πολυσχιμαστό", "description": "Για πρωινό, μέλι, φρούτα, ή βάση για σάλτσες και μαρινάδες." }
+        {
+          "title": "Γευστικά χαρακτηριστικά",
+          "description": "Πλούσια και δροσερή γεύση, ευχάριστο άρωμα και κρεμώδης, απαλή υφή."
+        },
+        {
+          "title": "Απολαύστε το",
+          "description": "Ιδανικό για πρωινό ή σνακ, σκέτο ή σε συνδυασμό με μέλι, φρούτα, δημητριακά και ξηρούς καρπούς. Μπορεί επίσης να χρησιμοποιηθεί σε γλυκές και αλμυρές συνταγές."
+        },
+        {
+          "title": "Για επαγγελματίες",
+          "description": "Εξαιρετική επιλογή για ξενοδοχεία, εστιατόρια και χώρους εστίασης, για πρωινό, buffet αλλά και για χρήση στην επαγγελματική κουζίνα."
+        }
       ]
     },
+    "image": "giaourti-ageladino",
     "cta": {
       "title": "Θέλετε να δοκιμάσετε το Αγελαδινό Γιαούρτι;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
@@ -49,10 +57,22 @@
     "features": {
       "title": "What Makes It Special",
       "items": [
-        { "title": "100% Cow's Milk", "description": "Pure free-range cow's milk from selected livestock farmers." },
-        { "title": "Strained Texture", "description": "Thick, creamy texture from traditional straining." },
-        { "title": "No Additives", "description": "No gelatin, thickeners, or preservatives — only milk and fermentation." },
-        { "title": "Versatile", "description": "For breakfast, honey, fruit, or as a base for sauces and marinades." }
+        {
+          "title": "100% Cow's Milk",
+          "description": "Pure free-range cow's milk from selected livestock farmers."
+        },
+        {
+          "title": "Strained Texture",
+          "description": "Thick, creamy texture from traditional straining."
+        },
+        {
+          "title": "No Additives",
+          "description": "No gelatin, thickeners, or preservatives — only milk and fermentation."
+        },
+        {
+          "title": "Versatile",
+          "description": "For breakfast, honey, fruit, or as a base for sauces and marinades."
+        }
       ]
     },
     "cta": {
@@ -80,10 +100,22 @@
     "features": {
       "title": "Was ihn besonders macht",
       "items": [
-        { "title": "100% Kuhmilch", "description": "Reine Weide-Kuhmilch von ausgewählten Viehhaltern." },
-        { "title": "Abgetropfte Textur", "description": "Dicke, cremige Textur durch traditionelles Abtropfen." },
-        { "title": "Ohne Zusätze", "description": "Keine Gelatine, Verdickungsmittel oder Konservierungsstoffe — nur Milch und Fermentation." },
-        { "title": "Vielseitig", "description": "Für Frühstück, Honig, Obst oder als Basis für Saucen und Marinaden." }
+        {
+          "title": "100% Kuhmilch",
+          "description": "Reine Weide-Kuhmilch von ausgewählten Viehhaltern."
+        },
+        {
+          "title": "Abgetropfte Textur",
+          "description": "Dicke, cremige Textur durch traditionelles Abtropfen."
+        },
+        {
+          "title": "Ohne Zusätze",
+          "description": "Keine Gelatine, Verdickungsmittel oder Konservierungsstoffe — nur Milch und Fermentation."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Für Frühstück, Honig, Obst oder als Basis für Saucen und Marinaden."
+        }
       ]
     },
     "cta": {
