@@ -23,6 +23,31 @@
       "title": "Θέλετε να δοκιμάσετε το Ξινότυρο;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "500g",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
+          "image": "ksinoturi"
+        },
+        {
+          "weight": "1.5kg",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση.",
+          "image": "ksinoturi"
+        },
+        {
+          "weight": "3kg",
+          "note": "Μεγάλη συσκευασία — για επαγγελματίες.",
+          "image": "ksinoturi"
+        },
+        {
+          "weight": "8kg",
+          "note": "Τενεκές 8kg — για επαγγελματική χρήση.",
+          "image": "ksinoturi"
+        }
+      ]
     }
   },
   "en": {
@@ -66,6 +91,31 @@
       "title": "Want to try Xynotyro?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "500g",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
+          "image": "ksinoturi"
+        },
+        {
+          "weight": "1.5kg",
+          "note": "Family pack — for everyday use.",
+          "image": "ksinoturi"
+        },
+        {
+          "weight": "3kg",
+          "note": "Large pack — for professionals.",
+          "image": "ksinoturi"
+        },
+        {
+          "weight": "8kg",
+          "note": "8kg tin — for professional use.",
+          "image": "ksinoturi"
+        }
+      ]
     }
   },
   "de": {
@@ -109,6 +159,31 @@
       "title": "Möchten Sie Xynotyro probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "500g",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
+          "image": "ksinoturi"
+        },
+        {
+          "weight": "1.5kg",
+          "note": "Familienpackung — für den täglichen Gebrauch.",
+          "image": "ksinoturi"
+        },
+        {
+          "weight": "3kg",
+          "note": "Große Packung — für Profis.",
+          "image": "ksinoturi"
+        },
+        {
+          "weight": "8kg",
+          "note": "8kg-Blech — für den professionellen Einsatz.",
+          "image": "ksinoturi"
+        }
+      ]
     }
   }
 }

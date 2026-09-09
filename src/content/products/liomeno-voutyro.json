@@ -36,6 +36,16 @@
       "title": "Θέλετε να δοκιμάσετε το Λιωμένο Βούτυρο;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "17kg",
+          "note": "Τενεκές 17kg — για επαγγελματική χρήση και μαζική εστίαση.",
+          "image": "liomeno-voutyro"
+        }
+      ]
     }
   },
   "en": {
@@ -79,6 +89,16 @@
       "title": "Want to try our Clarified Butter?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "17kg",
+          "note": "17kg tin — for professional use and food service.",
+          "image": "liomeno-voutyro"
+        }
+      ]
     }
   },
   "de": {
@@ -122,6 +142,16 @@
       "title": "Möchten Sie unsere klarierte Butter probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "17kg",
+          "note": "17kg-Blech — für den professionellen Einsatz und Gemeinschaftsverpflegung.",
+          "image": "liomeno-voutyro"
+        }
+      ]
     }
   }
 }

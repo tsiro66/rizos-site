@@ -36,6 +36,21 @@
       "title": "Θέλετε να δοκιμάσετε το Αγελαδινό Γιαούρτι 2%;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "1kg",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση.",
+          "image": "giaourti-ageladino-2%"
+        },
+        {
+          "weight": "5kg",
+          "note": "Μεγάλη συσκευασία — για επαγγελματίες και μαζική εστίαση.",
+          "image": "giaourti-ageladino-2%"
+        }
+      ]
     }
   },
   "en": {
@@ -79,6 +94,21 @@
       "title": "Want to try our Cow's Yogurt 2%?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "1kg",
+          "note": "Family pack — for everyday use.",
+          "image": "giaourti-ageladino-2%"
+        },
+        {
+          "weight": "5kg",
+          "note": "Large pack — for professionals and food service.",
+          "image": "giaourti-ageladino-2%"
+        }
+      ]
     }
   },
   "de": {
@@ -122,6 +152,21 @@
       "title": "Möchten Sie unseren Kuhmilch-Joghurt 2% probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "1kg",
+          "note": "Familienpackung — für den täglichen Gebrauch.",
+          "image": "giaourti-ageladino-2%"
+        },
+        {
+          "weight": "5kg",
+          "note": "Große Packung — für Profis und Gemeinschaftsverpflegung.",
+          "image": "giaourti-ageladino-2%"
+        }
+      ]
     }
   }
 }

@@ -18,16 +18,53 @@
     "features": {
       "title": "Τι το ξεχωρίζει",
       "items": [
-        { "title": "Φρέσκα Θρυμματισμένη", "description": "Φρέσκα θρυμματισμένη — έτοιμη προς χρήση, χωρίς κόπο." },
-        { "title": "Αυθεντική Φέτα", "description": "Από 100% πρόβειο και κατσικίσιο γάλα, όπως η φέτα." },
-        { "title": "Πρακτική Χρήση", "description": "Τέλειο για σαλάτες, πίτες, γέμιση και σάντουιτς." },
-        { "title": "Σωστή Κράση", "description": "Διατηρεί την υφή και την αλμυρή γεύση της φέτας." }
+        {
+          "title": "Φρέσκα Θρυμματισμένη",
+          "description": "Φρέσκα θρυμματισμένη — έτοιμη προς χρήση, χωρίς κόπο."
+        },
+        {
+          "title": "Αυθεντική Φέτα",
+          "description": "Από 100% πρόβειο και κατσικίσιο γάλα, όπως η φέτα."
+        },
+        {
+          "title": "Πρακτική Χρήση",
+          "description": "Τέλειο για σαλάτες, πίτες, γέμιση και σάντουιτς."
+        },
+        {
+          "title": "Σωστή Κράση",
+          "description": "Διατηρεί την υφή και την αλμυρή γεύση της φέτας."
+        }
       ]
     },
     "cta": {
       "title": "Θέλετε να δοκιμάσετε το Τρίμμα Φέτας;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "500g",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
+          "image": "trima-fetas"
+        },
+        {
+          "weight": "1kg",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση.",
+          "image": "trima-fetas"
+        },
+        {
+          "weight": "6kg",
+          "note": "Τενεκές 6kg — για επαγγελματική χρήση.",
+          "image": "trima-fetas"
+        },
+        {
+          "weight": "8kg",
+          "note": "Τενεκές 8kg — για επαγγελματική χρήση.",
+          "image": "trima-fetas"
+        }
+      ]
     }
   },
   "en": {
@@ -49,16 +86,53 @@
     "features": {
       "title": "What Makes It Special",
       "items": [
-        { "title": "Freshly Crumbled", "description": "Freshly crumbled — ready to use, no prep." },
-        { "title": "Authentic Feta", "description": "From 100% sheep's and goat's milk, like our feta." },
-        { "title": "Practical", "description": "Perfect for salads, pies, fillings, and sandwiches." },
-        { "title": "True Character", "description": "Keeps the texture and salty bite of feta." }
+        {
+          "title": "Freshly Crumbled",
+          "description": "Freshly crumbled — ready to use, no prep."
+        },
+        {
+          "title": "Authentic Feta",
+          "description": "From 100% sheep's and goat's milk, like our feta."
+        },
+        {
+          "title": "Practical",
+          "description": "Perfect for salads, pies, fillings, and sandwiches."
+        },
+        {
+          "title": "True Character",
+          "description": "Keeps the texture and salty bite of feta."
+        }
       ]
     },
     "cta": {
       "title": "Want to try our Crumbled Feta?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "500g",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
+          "image": "trima-fetas"
+        },
+        {
+          "weight": "1kg",
+          "note": "Family pack — for everyday use.",
+          "image": "trima-fetas"
+        },
+        {
+          "weight": "6kg",
+          "note": "6kg tin — for professional use.",
+          "image": "trima-fetas"
+        },
+        {
+          "weight": "8kg",
+          "note": "8kg tin — for professional use.",
+          "image": "trima-fetas"
+        }
+      ]
     }
   },
   "de": {
@@ -80,16 +154,53 @@
     "features": {
       "title": "Was sie besonders macht",
       "items": [
-        { "title": "Frisch Gekrümelt", "description": "Keine Zubereitung — sofort einsatzfähig, kein Abfall." },
-        { "title": "Authentischer Feta", "description": "Aus 100% Schaf- und Ziegenmilch, wie unser Feta." },
-        { "title": "Praktisch", "description": "Perfekt für Salate, Pasteten, Füllungen und belegte Brote." },
-        { "title": "Echter Charakter", "description": "Bewahrt Textur und salzigen Biss des Feta." }
+        {
+          "title": "Frisch Gekrümelt",
+          "description": "Keine Zubereitung — sofort einsatzfähig, kein Abfall."
+        },
+        {
+          "title": "Authentischer Feta",
+          "description": "Aus 100% Schaf- und Ziegenmilch, wie unser Feta."
+        },
+        {
+          "title": "Praktisch",
+          "description": "Perfekt für Salate, Pasteten, Füllungen und belegte Brote."
+        },
+        {
+          "title": "Echter Charakter",
+          "description": "Bewahrt Textur und salzigen Biss des Feta."
+        }
       ]
     },
     "cta": {
       "title": "Möchten Sie unsere Krümelfeta probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "500g",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
+          "image": "trima-fetas"
+        },
+        {
+          "weight": "1kg",
+          "note": "Familienpackung — für den täglichen Gebrauch.",
+          "image": "trima-fetas"
+        },
+        {
+          "weight": "6kg",
+          "note": "6kg-Blech — für den professionellen Einsatz.",
+          "image": "trima-fetas"
+        },
+        {
+          "weight": "8kg",
+          "note": "8kg-Blech — für den professionellen Einsatz.",
+          "image": "trima-fetas"
+        }
+      ]
     }
   }
 }

@@ -36,6 +36,26 @@
       "title": "Θέλετε να δοκιμάσετε το Πρόβειο Βούτυρο;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "500g",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
+          "image": "proveio-voutyro"
+        },
+        {
+          "weight": "1kg",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση.",
+          "image": "proveio-voutyro"
+        },
+        {
+          "weight": "2kg",
+          "note": "Μεγάλη συσκευασία — για επαγγελματίες.",
+          "image": "proveio-voutyro"
+        }
+      ]
     }
   },
   "en": {
@@ -79,6 +99,26 @@
       "title": "Want to try our Sheep's Butter?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "500g",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
+          "image": "proveio-voutyro"
+        },
+        {
+          "weight": "1kg",
+          "note": "Family pack — for everyday use.",
+          "image": "proveio-voutyro"
+        },
+        {
+          "weight": "2kg",
+          "note": "Large pack — for professionals.",
+          "image": "proveio-voutyro"
+        }
+      ]
     }
   },
   "de": {
@@ -122,6 +162,26 @@
       "title": "Möchten Sie unsere Schafsbutter probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "500g",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
+          "image": "proveio-voutyro"
+        },
+        {
+          "weight": "1kg",
+          "note": "Familienpackung — für den täglichen Gebrauch.",
+          "image": "proveio-voutyro"
+        },
+        {
+          "weight": "2kg",
+          "note": "Große Packung — für Profis.",
+          "image": "proveio-voutyro"
+        }
+      ]
     }
   }
 }

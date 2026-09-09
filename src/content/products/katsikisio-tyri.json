@@ -23,6 +23,41 @@
       "title": "Θέλετε να δοκιμάσετε το Κατσικίσιο Τυρί;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "200g",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "400g",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "1kg",
+          "note": "Μεγάλη συσκευασία — για επαγγελματίες και μεγάλες οικογένειες.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "2kg",
+          "note": "Τενεκές 2kg — για επαγγελματική χρήση.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "4kg",
+          "note": "Τενεκές 4kg — για επαγγελματική χρήση.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "7kg",
+          "note": "Τενεκές 7kg — για επαγγελματική χρήση.",
+          "image": "katsikisio-tyri"
+        }
+      ]
     }
   },
   "en": {
@@ -66,6 +101,41 @@
       "title": "Want to try our Goat Cheese?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "200g",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "400g",
+          "note": "Family pack — for everyday use.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "1kg",
+          "note": "Large pack — for professionals and large families.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "2kg",
+          "note": "2kg tin — for professional use.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "4kg",
+          "note": "4kg tin — for professional use.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "7kg",
+          "note": "7kg tin — for professional use.",
+          "image": "katsikisio-tyri"
+        }
+      ]
     }
   },
   "de": {
@@ -109,6 +179,41 @@
       "title": "Möchten Sie unseren Ziegenkäse probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "200g",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "400g",
+          "note": "Familienpackung — für den täglichen Gebrauch.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "1kg",
+          "note": "Große Packung — für Profis und große Familien.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "2kg",
+          "note": "2kg-Blech — für den professionellen Einsatz.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "4kg",
+          "note": "4kg-Blech — für den professionellen Einsatz.",
+          "image": "katsikisio-tyri"
+        },
+        {
+          "weight": "7kg",
+          "note": "7kg-Blech — für den professionellen Einsatz.",
+          "image": "katsikisio-tyri"
+        }
+      ]
     }
   }
 }

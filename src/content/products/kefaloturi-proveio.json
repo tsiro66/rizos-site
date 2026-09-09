@@ -23,6 +23,16 @@
       "title": "Θέλετε να δοκιμάσετε το Κεφαλοτύρι Πρόβειο;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "9kg",
+          "note": "Ολόκληρο κεφάλι (~9kg) — για επαγγελματίες και ωρίμανση.",
+          "image": "kefaloturi-proveio"
+        }
+      ]
     }
   },
   "en": {
@@ -66,6 +76,16 @@
       "title": "Want to try our Sheep's Kefalotyri?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "9kg",
+          "note": "Whole wheel (~9kg) — for professionals and ageing.",
+          "image": "kefaloturi-proveio"
+        }
+      ]
     }
   },
   "de": {
@@ -109,6 +129,16 @@
       "title": "Möchten Sie unser Schaf-Kefalotyri probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "9kg",
+          "note": "Ganzer Laib (~9kg) — für Profis und Reifung.",
+          "image": "kefaloturi-proveio"
+        }
+      ]
     }
   }
 }

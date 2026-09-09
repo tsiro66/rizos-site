@@ -36,6 +36,26 @@
       "title": "Θέλετε να δοκιμάσετε τη Γραβιέρα Αγελάδινη;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "200g",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
+          "image": "graviera-ageladinh"
+        },
+        {
+          "weight": "400g",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση.",
+          "image": "graviera-ageladinh"
+        },
+        {
+          "weight": "9kg",
+          "note": "Ολόκληρο κεφάλι (~9kg) — για επαγγελματίες και ωρίμανση.",
+          "image": "graviera-ageladinh-kefali"
+        }
+      ]
     }
   },
   "en": {
@@ -79,6 +99,26 @@
       "title": "Want to try our Cow's Graviera?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "200g",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
+          "image": "graviera-ageladinh"
+        },
+        {
+          "weight": "400g",
+          "note": "Family pack — for everyday use.",
+          "image": "graviera-ageladinh"
+        },
+        {
+          "weight": "9kg",
+          "note": "Whole wheel (~9kg) — for professionals and ageing.",
+          "image": "graviera-ageladinh-kefali"
+        }
+      ]
     }
   },
   "de": {
@@ -122,6 +162,26 @@
       "title": "Möchten Sie unsere Kuh-Graviera probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "200g",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
+          "image": "graviera-ageladinh"
+        },
+        {
+          "weight": "400g",
+          "note": "Familienpackung — für den täglichen Gebrauch.",
+          "image": "graviera-ageladinh"
+        },
+        {
+          "weight": "9kg",
+          "note": "Ganzer Laib (~9kg) — für Profis und Reifung.",
+          "image": "graviera-ageladinh-kefali"
+        }
+      ]
     }
   }
 }

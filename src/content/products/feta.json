@@ -39,18 +39,38 @@
       "label": "Διαθέσιμα Μεγέθη",
       "items": [
         {
-          "weight": "250g",
-          "note": "Ιδανική για δοκιμή ή 1-2 άτομα — μικρή συσκευασία.",
+          "weight": "200g",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
           "image": "feta-taper"
         },
         {
-          "weight": "500g",
+          "weight": "400g",
           "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση.",
           "image": "feta-taper"
         },
         {
           "weight": "1kg",
-          "note": "Μεγάλη συσκευασία / τένηκες — για επαγγελματίες και μεγάλες οικογένειες.",
+          "note": "Μεγάλη συσκευασία — για επαγγελματίες και μεγάλες οικογένειες.",
+          "image": "feta-taper"
+        },
+        {
+          "weight": "2kg",
+          "note": "Τενεκές 2kg — για επαγγελματική χρήση.",
+          "image": "feta-tenekes"
+        },
+        {
+          "weight": "4kg",
+          "note": "Τενεκές 4kg — για επαγγελματική χρήση.",
+          "image": "feta-tenekes"
+        },
+        {
+          "weight": "7kg",
+          "note": "Τενεκές 7kg — για επαγγελματική χρήση.",
+          "image": "feta-tenekes"
+        },
+        {
+          "weight": "15kg",
+          "note": "Ο τενεκές 15kg — η οικονομική επιλογή για επαγγελματίες και μαζική εστίαση.",
           "image": "feta-tenekes"
         }
       ]
@@ -71,18 +91,38 @@
       "label": "Available Sizes",
       "items": [
         {
-          "weight": "250g",
-          "note": "Ideal for a taste or 1-2 people — small pack.",
+          "weight": "200g",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
           "image": "feta-taper"
         },
         {
-          "weight": "500g",
+          "weight": "400g",
           "note": "Family pack — for everyday use.",
           "image": "feta-taper"
         },
         {
           "weight": "1kg",
-          "note": "Large pack / tin — for professionals and large families.",
+          "note": "Large pack — for professionals and large families.",
+          "image": "feta-taper"
+        },
+        {
+          "weight": "2kg",
+          "note": "2kg tin — for professional use.",
+          "image": "feta-tenekes"
+        },
+        {
+          "weight": "4kg",
+          "note": "4kg tin — for professional use.",
+          "image": "feta-tenekes"
+        },
+        {
+          "weight": "7kg",
+          "note": "7kg tin — for professional use.",
+          "image": "feta-tenekes"
+        },
+        {
+          "weight": "15kg",
+          "note": "The 15kg tin — the economical choice for professionals and food service.",
           "image": "feta-tenekes"
         }
       ]
@@ -134,18 +174,38 @@
       "label": "Verfügbare Größen",
       "items": [
         {
-          "weight": "250g",
-          "note": "Ideal zum Probieren oder für 1-2 Personen — kleine Packung.",
+          "weight": "200g",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
           "image": "feta-taper"
         },
         {
-          "weight": "500g",
+          "weight": "400g",
           "note": "Familienpackung — für den täglichen Gebrauch.",
           "image": "feta-taper"
         },
         {
           "weight": "1kg",
-          "note": "Große Packung / Blech — für Profis und große Familien.",
+          "note": "Große Packung — für Profis und große Familien.",
+          "image": "feta-taper"
+        },
+        {
+          "weight": "2kg",
+          "note": "2kg-Blech — für den professionellen Einsatz.",
+          "image": "feta-tenekes"
+        },
+        {
+          "weight": "4kg",
+          "note": "4kg-Blech — für den professionellen Einsatz.",
+          "image": "feta-tenekes"
+        },
+        {
+          "weight": "7kg",
+          "note": "7kg-Blech — für den professionellen Einsatz.",
+          "image": "feta-tenekes"
+        },
+        {
+          "weight": "15kg",
+          "note": "Das 15kg-Blech — die wirtschaftliche Wahl für Profis und Gemeinschaftsverpflegung.",
           "image": "feta-tenekes"
         }
       ]

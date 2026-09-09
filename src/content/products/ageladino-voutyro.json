@@ -18,16 +18,48 @@
     "features": {
       "title": "Τι το ξεχωρίζει",
       "items": [
-        { "title": "100% Αγελαδινό Γάλα", "description": "Καθαρό αγελαδινό γάλα ελεύθερης βοσκής από επιλεγμένους κτηνοτρόφους." },
-        { "title": "Απαλή Γεύση", "description": "Ήπιο άρωμα και κρεμώδης υφή που λιώνει εύκολα." },
-        { "title": "Παραδοσιακή Παρασκευή", "description": "Φτιαγμένο με κλασικό χτύπημα κρέμας γάλακτος, χωρίς πρόσθετα." },
-        { "title": "Τέλειο για Μαγειρική", "description": "Ιδανικό για ψήσιμο, ζύμες, γλυκά και σάλτσες." }
+        {
+          "title": "100% Αγελαδινό Γάλα",
+          "description": "Καθαρό αγελαδινό γάλα ελεύθερης βοσκής από επιλεγμένους κτηνοτρόφους."
+        },
+        {
+          "title": "Απαλή Γεύση",
+          "description": "Ήπιο άρωμα και κρεμώδης υφή που λιώνει εύκολα."
+        },
+        {
+          "title": "Παραδοσιακή Παρασκευή",
+          "description": "Φτιαγμένο με κλασικό χτύπημα κρέμας γάλακτος, χωρίς πρόσθετα."
+        },
+        {
+          "title": "Τέλειο για Μαγειρική",
+          "description": "Ιδανικό για ψήσιμο, ζύμες, γλυκά και σάλτσες."
+        }
       ]
     },
     "cta": {
       "title": "Θέλετε να δοκιμάσετε το Αγελαδινό Βούτυρο;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "250g",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
+          "image": "ageladino-voutyro"
+        },
+        {
+          "weight": "1kg",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση.",
+          "image": "ageladino-voutyro"
+        },
+        {
+          "weight": "2kg",
+          "note": "Μεγάλη συσκευασία — για επαγγελματίες.",
+          "image": "ageladino-voutyro"
+        }
+      ]
     }
   },
   "en": {
@@ -49,16 +81,48 @@
     "features": {
       "title": "What Makes It Special",
       "items": [
-        { "title": "100% Cow's Milk", "description": "Pure free-range cow's milk from selected livestock farmers." },
-        { "title": "Mild Flavor", "description": "Gentle aroma and a creamy texture that melts easily." },
-        { "title": "Traditional Making", "description": "Made by classic churning of milk cream, with no additives." },
-        { "title": "Perfect for Cooking", "description": "Ideal for baking, doughs, desserts, and sauces." }
+        {
+          "title": "100% Cow's Milk",
+          "description": "Pure free-range cow's milk from selected livestock farmers."
+        },
+        {
+          "title": "Mild Flavor",
+          "description": "Gentle aroma and a creamy texture that melts easily."
+        },
+        {
+          "title": "Traditional Making",
+          "description": "Made by classic churning of milk cream, with no additives."
+        },
+        {
+          "title": "Perfect for Cooking",
+          "description": "Ideal for baking, doughs, desserts, and sauces."
+        }
       ]
     },
     "cta": {
       "title": "Want to try our Cow's Butter?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "250g",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
+          "image": "ageladino-voutyro"
+        },
+        {
+          "weight": "1kg",
+          "note": "Family pack — for everyday use.",
+          "image": "ageladino-voutyro"
+        },
+        {
+          "weight": "2kg",
+          "note": "Large pack — for professionals.",
+          "image": "ageladino-voutyro"
+        }
+      ]
     }
   },
   "de": {
@@ -80,16 +144,48 @@
     "features": {
       "title": "Was sie besonders macht",
       "items": [
-        { "title": "100% Kuhmilch", "description": "Reine Weide-Kuhmilch von ausgewählten Viehhaltern." },
-        { "title": "Milder Geschmack", "description": "Sanftes Aroma und cremige Textur, die leicht schmilzt." },
-        { "title": "Traditionelle Herstellung", "description": "Klassisch durch Schlagen des Milchrahms hergestellt, ohne Zusätze." },
-        { "title": "Perfekt zum Kochen", "description": "Ideal zum Backen, für Teige, Desserts und Saucen." }
+        {
+          "title": "100% Kuhmilch",
+          "description": "Reine Weide-Kuhmilch von ausgewählten Viehhaltern."
+        },
+        {
+          "title": "Milder Geschmack",
+          "description": "Sanftes Aroma und cremige Textur, die leicht schmilzt."
+        },
+        {
+          "title": "Traditionelle Herstellung",
+          "description": "Klassisch durch Schlagen des Milchrahms hergestellt, ohne Zusätze."
+        },
+        {
+          "title": "Perfekt zum Kochen",
+          "description": "Ideal zum Backen, für Teige, Desserts und Saucen."
+        }
       ]
     },
     "cta": {
       "title": "Möchten Sie unsere Kuhbutter probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "250g",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
+          "image": "ageladino-voutyro"
+        },
+        {
+          "weight": "1kg",
+          "note": "Familienpackung — für den täglichen Gebrauch.",
+          "image": "ageladino-voutyro"
+        },
+        {
+          "weight": "2kg",
+          "note": "Große Packung — für Profis.",
+          "image": "ageladino-voutyro"
+        }
+      ]
     }
   }
 }

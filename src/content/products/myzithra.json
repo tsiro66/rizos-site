@@ -36,6 +36,16 @@
       "title": "Θέλετε να δοκιμάσετε τη Μυζήθρα;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "18kg",
+          "note": "Τενεκές 18kg — για επαγγελματική χρήση και μαζική εστίαση.",
+          "image": "myzithra"
+        }
+      ]
     }
   },
   "en": {
@@ -79,6 +89,16 @@
       "title": "Want to try Mizithra?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "18kg",
+          "note": "18kg tin — for professional use and food service.",
+          "image": "myzithra"
+        }
+      ]
     }
   },
   "de": {
@@ -122,6 +142,16 @@
       "title": "Möchten Sie Mizithra probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "18kg",
+          "note": "18kg-Blech — für den professionellen Einsatz und Gemeinschaftsverpflegung.",
+          "image": "myzithra"
+        }
+      ]
     }
   }
 }

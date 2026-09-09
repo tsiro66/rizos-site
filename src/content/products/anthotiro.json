@@ -36,6 +36,21 @@
       "title": "Θέλετε να δοκιμάσετε το Ανθότυρο;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "300g",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
+          "image": "anthotiro"
+        },
+        {
+          "weight": "2kg",
+          "note": "Μεγάλη συσκευασία — για επαγγελματίες.",
+          "image": "anthotiro"
+        }
+      ]
     }
   },
   "en": {
@@ -79,6 +94,21 @@
       "title": "Want to try Anthotyro?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "300g",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
+          "image": "anthotiro"
+        },
+        {
+          "weight": "2kg",
+          "note": "Large pack — for professionals.",
+          "image": "anthotiro"
+        }
+      ]
     }
   },
   "de": {
@@ -122,6 +152,21 @@
       "title": "Möchten Sie Anthotyro probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "300g",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
+          "image": "anthotiro"
+        },
+        {
+          "weight": "2kg",
+          "note": "Große Packung — für Profis.",
+          "image": "anthotiro"
+        }
+      ]
     }
   }
 }
