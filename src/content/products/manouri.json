@@ -23,6 +23,26 @@
       "title": "Θέλετε να δοκιμάσετε το Μανούρι;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "300g",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
+          "image": "manouri"
+        },
+        {
+          "weight": "1kg",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή χρήση.",
+          "image": "manouri"
+        },
+        {
+          "weight": "2kg",
+          "note": "Μεγάλη συσκευασία — για επαγγελματίες.",
+          "image": "manouri"
+        }
+      ]
     }
   },
   "en": {
@@ -66,6 +86,26 @@
       "title": "Want to try Manouri?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "300g",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
+          "image": "manouri"
+        },
+        {
+          "weight": "1kg",
+          "note": "Family pack — for everyday use.",
+          "image": "manouri"
+        },
+        {
+          "weight": "2kg",
+          "note": "Large pack — for professionals.",
+          "image": "manouri"
+        }
+      ]
     }
   },
   "de": {
@@ -109,6 +149,26 @@
       "title": "Möchten Sie Manouri probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "300g",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
+          "image": "manouri"
+        },
+        {
+          "weight": "1kg",
+          "note": "Familienpackung — für den täglichen Gebrauch.",
+          "image": "manouri"
+        },
+        {
+          "weight": "2kg",
+          "note": "Große Packung — für Profis.",
+          "image": "manouri"
+        }
+      ]
     }
   }
 }

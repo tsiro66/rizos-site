@@ -36,6 +36,16 @@
       "title": "Θέλετε να δοκιμάσετε το Λευκό Τυρί;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "Δοχείο 15kg",
+          "note": "Δοχείο 15kg — για επαγγελματική χρήση και μαζική εστίαση.",
+          "image": "leuko-turi-tenekes"
+        }
+      ]
     }
   },
   "en": {
@@ -79,6 +89,16 @@
       "title": "Want to try Leuko Turi?",
       "subtitle": "Contact us for wholesale or retail orders.",
       "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "15kg Tin",
+          "note": "15kg tin — for professional use and food service.",
+          "image": "leuko-turi-tenekes"
+        }
+      ]
     }
   },
   "de": {
@@ -122,6 +142,16 @@
       "title": "Möchten Sie Leuko Turi probieren?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
       "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "15kg-Blech",
+          "note": "15kg-Blech — für den professionellen Einsatz und Gemeinschaftsverpflegung.",
+          "image": "leuko-turi-tenekes"
+        }
+      ]
     }
   }
 }
