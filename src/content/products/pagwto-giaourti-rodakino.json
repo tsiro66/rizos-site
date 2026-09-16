@@ -1,0 +1,179 @@
+{
+  "el": {
+    "name": "Παγωτό Γιαούρτι Ροδάκινο",
+    "description": "Δροσερό παγωτό γιαούρτι με ροδάκινο, από φρέσκο ελληνικό γάλα.",
+    "imageAlt": "Παγωτό Γιαούρτι Ροδάκινο",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Παγωτό Γιαούρτι Ροδάκινο",
+      "subtitle": "Δροσερό παγωτό γιαούρτι με ροδάκινο, από φρέσκο ελληνικό γάλα."
+    },
+    "overview": {
+      "label": "Το Προϊόν",
+      "title": "Δροσερή απόλαυση με φρούτο",
+      "para1": "Το Παγωτό Γιαούρτι Ροδάκινο ΡΙΖΟΣ συνδυάζει την κρεμώδη υφή του γιαουρτιού με τη φυσική γλυκύτητα και το άρωμα του ροδακίνου. Ένα δροσερό επιδόρπιο με φρουτώδη χαρακτήρα.",
+      "para2": "Φτιαγμένο από φρέσκο ελληνικό γάλα, χωρίς περιττά πρόσθετα. Ιδανικό για το κέρασμα, το επιδόρπιο ή μια δροσερή παύση μέσα στην ημέρα."
+    },
+    "features": {
+      "title": "Χαρακτηριστικά",
+      "items": [
+        [
+          "Γευστικά χαρακτηριστικά",
+          "Δροσερή και ισορροπημένη γεύση, με πλούσιο άρωμα και κρεμώδη υφή."
+        ],
+        [
+          "Από φρέσκο γάλα",
+          "Φτιαγμένο από φρέσκο ελληνικό γάλα, με μεθοδική διαδικασία παραγωγής."
+        ],
+        [
+          "Για επαγγελματίες",
+          "Ιδανικό για ζαχαροπλαστεία, εστιατόρια και χώρους εστίασης, σε πρακτικές συσκευασίες."
+        ]
+      ]
+    },
+    "image": "pagwto-giaourti-rodakino",
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Παγωτό Γιαούρτι Ροδάκινο;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "500ml",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
+          "image": "pagwto-giaourti-rodakino"
+        },
+        {
+          "weight": "2lt",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή απόλαυση.",
+          "image": "pagwto-giaourti-rodakino"
+        },
+        {
+          "weight": "3lt",
+          "note": "Μεγάλη συσκευασία — για επαγγελματίες και μαζική εστίαση.",
+          "image": "pagwto-giaourti-rodakino"
+        }
+      ]
+    }
+  },
+  "en": {
+    "name": "Peach Yogurt Ice Cream",
+    "description": "Refreshing yogurt ice cream with peach, made from fresh Greek milk.",
+    "imageAlt": "Peach Yogurt Ice Cream",
+    "hero": {
+      "label": "Our Products",
+      "title": "Peach Yogurt Ice Cream",
+      "subtitle": "Refreshing yogurt ice cream with peach, made from fresh Greek milk."
+    },
+    "overview": {
+      "label": "The Product",
+      "title": "A cool, fruity treat",
+      "para1": "Peach Yogurt Ice Cream combines the creamy texture of yogurt with the natural sweetness and aroma of peach. A refreshing dessert with a fruity character.",
+      "para2": "Made from fresh Greek milk, with no unnecessary additives. Perfect for treats, dessert, or a cool break during the day."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        [
+          "Balanced Flavor",
+          "Cool, balanced taste with a rich aroma and creamy texture."
+        ],
+        [
+          "From Fresh Milk",
+          "Made from fresh Greek milk, with a careful production process."
+        ],
+        [
+          "For Professionals",
+          "Ideal for pastry shops, restaurants, and food service — in practical packs."
+        ]
+      ]
+    },
+    "image": "pagwto-giaourti-rodakino",
+    "cta": {
+      "title": "Want to try our Peach Yogurt Ice Cream?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "500ml",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
+          "image": "pagwto-giaourti-rodakino"
+        },
+        {
+          "weight": "2lt",
+          "note": "Family pack — for everyday enjoyment.",
+          "image": "pagwto-giaourti-rodakino"
+        },
+        {
+          "weight": "3lt",
+          "note": "Large pack — for professionals and food service.",
+          "image": "pagwto-giaourti-rodakino"
+        }
+      ]
+    }
+  },
+  "de": {
+    "name": "Joghurteis mit Pfirsich",
+    "description": "Erfrischendes Joghurteis mit Pfirsich, aus frischer griechischer Milch.",
+    "imageAlt": "Joghurteis mit Pfirsich",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Joghurteis mit Pfirsich",
+      "subtitle": "Erfrischendes Joghurteis mit Pfirsich, aus frischer griechischer Milch."
+    },
+    "overview": {
+      "label": "Das Produkt",
+      "title": "Eine kühle, fruchtige Köstlichkeit",
+      "para1": "Das Joghurteis mit Pfirsich verbindet die cremige Textur von Joghurt mit der natürlichen Süße und dem Aroma des Pfirsichs. Eine erfrischende, fruchtige Köstlichkeit.",
+      "para2": "Hergestellt aus frischer griechischer Milch, ohne unnötige Zusätze. Ideal als kleine Aufmerksamkeit, Dessert oder kühle Pause zwischendurch."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        [
+          "Ausgewogener Geschmack",
+          "Kühler, ausgewogener Geschmack mit vollem Aroma und cremiger Textur."
+        ],
+        [
+          "Aus frischer Milch",
+          "Hergestellt aus frischer griechischer Milch, mit sorgfältigem Prozess."
+        ],
+        [
+          "Für Profis",
+          "Ideal für Konditoreien, Restaurants und Gemeinschaftsverpflegung — in praktischen Packungen."
+        ]
+      ]
+    },
+    "image": "pagwto-giaourti-rodakino",
+    "cta": {
+      "title": "Möchten Sie unser Joghurteis mit Pfirsich probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "500ml",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
+          "image": "pagwto-giaourti-rodakino"
+        },
+        {
+          "weight": "2lt",
+          "note": "Familienpackung — für den täglichen Genuss.",
+          "image": "pagwto-giaourti-rodakino"
+        },
+        {
+          "weight": "3lt",
+          "note": "Große Packung — für Profis und Gemeinschaftsverpflegung.",
+          "image": "pagwto-giaourti-rodakino"
+        }
+      ]
+    }
+  }
+}

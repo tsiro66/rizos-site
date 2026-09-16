@@ -1,0 +1,179 @@
+{
+  "el": {
+    "name": "Παγωτό Γιαούρτι Βύσσινο",
+    "description": "Δροσερό παγωτό γιαούρτι με βύσσινο, από φρέσκο ελληνικό γάλα.",
+    "imageAlt": "Παγωτό Γιαούρτι Βύσσινο",
+    "hero": {
+      "label": "Τα Προϊόντα μας",
+      "title": "Παγωτό Γιαούρτι Βύσσινο",
+      "subtitle": "Δροσερό παγωτό γιαούρτι με βύσσινο, από φρέσκο ελληνικό γάλα."
+    },
+    "overview": {
+      "label": "Το Προϊόν",
+      "title": "Δροσερό, φρουτώδες, αξέχαστο",
+      "para1": "Το Παγωτό Γιαούρτι Βύσσινο ΡΙΖΟΣ συνδυάζει την πλούσια, υπόξινη γεύση του βύσσινου με την κρεμώδη δροσιά του γιαουρτιού. Ένας αλληνιστικός συνδυασμός γεύσεων.",
+      "para2": "Φτιαγμένο από φρέσκο ελληνικό γάλα, με φρουτώδες άρωμα που ξεχωρίζει. Ιδανικό για επιδόρπιο ή δροσερό κέρασμα."
+    },
+    "features": {
+      "title": "Χαρακτηριστικά",
+      "items": [
+        [
+          "Γευστικά χαρακτηριστικά",
+          "Δροσερή και ισορροπημένη γεύση, με πλούσιο άρωμα και κρεμώδη υφή."
+        ],
+        [
+          "Από φρέσκο γάλα",
+          "Φτιαγμένο από φρέσκο ελληνικό γάλα, με μεθοδική διαδικασία παραγωγής."
+        ],
+        [
+          "Για επαγγελματίες",
+          "Ιδανικό για ζαχαροπλαστεία, εστιατόρια και χώρους εστίασης, σε πρακτικές συσκευασίες."
+        ]
+      ]
+    },
+    "image": "pagwto-giaourtii-vussino",
+    "cta": {
+      "title": "Θέλετε να δοκιμάσετε το Παγωτό Γιαούρτι Βύσσινο;",
+      "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
+      "btn": "Επικοινωνία"
+    },
+    "sizes": {
+      "label": "Διαθέσιμα Μεγέθη",
+      "items": [
+        {
+          "weight": "500ml",
+          "note": "Μικρή συσκευασία — ιδανική για δοκιμή ή 1-2 άτομα.",
+          "image": "pagwto-giaourtii-vussino"
+        },
+        {
+          "weight": "2lt",
+          "note": "Οικογενειακή συσκευασία — για καθημερινή απόλαυση.",
+          "image": "pagwto-giaourtii-vussino"
+        },
+        {
+          "weight": "3lt",
+          "note": "Μεγάλη συσκευασία — για επαγγελματίες και μαζική εστίαση.",
+          "image": "pagwto-giaourtii-vussino"
+        }
+      ]
+    }
+  },
+  "en": {
+    "name": "Sour Cherry Yogurt Ice Cream",
+    "description": "Refreshing yogurt ice cream with sour cherry, made from fresh Greek milk.",
+    "imageAlt": "Sour Cherry Yogurt Ice Cream",
+    "hero": {
+      "label": "Our Products",
+      "title": "Sour Cherry Yogurt Ice Cream",
+      "subtitle": "Refreshing yogurt ice cream with sour cherry, made from fresh Greek milk."
+    },
+    "overview": {
+      "label": "The Product",
+      "title": "Cool, fruity, unforgettable",
+      "para1": "Sour Cherry Yogurt Ice Cream combines the rich, tangy flavor of sour cherry with the creamy freshness of yogurt. A match made in heaven.",
+      "para2": "Made from fresh Greek milk, with a distinctive fruity aroma. Ideal for dessert or a cool treat."
+    },
+    "features": {
+      "title": "What Makes It Special",
+      "items": [
+        [
+          "Balanced Flavor",
+          "Cool, balanced taste with a rich aroma and creamy texture."
+        ],
+        [
+          "From Fresh Milk",
+          "Made from fresh Greek milk, with a careful production process."
+        ],
+        [
+          "For Professionals",
+          "Ideal for pastry shops, restaurants, and food service — in practical packs."
+        ]
+      ]
+    },
+    "image": "pagwto-giaourtii-vussino",
+    "cta": {
+      "title": "Want to try our Sour Cherry Yogurt Ice Cream?",
+      "subtitle": "Contact us for wholesale or retail orders.",
+      "btn": "Contact Us"
+    },
+    "sizes": {
+      "label": "Available Sizes",
+      "items": [
+        {
+          "weight": "500ml",
+          "note": "Small pack — ideal for a taste or 1-2 people.",
+          "image": "pagwto-giaourtii-vussino"
+        },
+        {
+          "weight": "2lt",
+          "note": "Family pack — for everyday enjoyment.",
+          "image": "pagwto-giaourtii-vussino"
+        },
+        {
+          "weight": "3lt",
+          "note": "Large pack — for professionals and food service.",
+          "image": "pagwto-giaourtii-vussino"
+        }
+      ]
+    }
+  },
+  "de": {
+    "name": "Joghurteis mit Sauerkirsche",
+    "description": "Erfrischendes Joghurteis mit Sauerkirsche, aus frischer griechischer Milch.",
+    "imageAlt": "Joghurteis mit Sauerkirsche",
+    "hero": {
+      "label": "Unsere Produkte",
+      "title": "Joghurteis mit Sauerkirsche",
+      "subtitle": "Erfrischendes Joghurteis mit Sauerkirsche, aus frischer griechischer Milch."
+    },
+    "overview": {
+      "label": "Das Produkt",
+      "title": "Kühl, fruchtig, unvergesslich",
+      "para1": "Das Joghurteis mit Sauerkirsche verbindet den reichen, leicht säuerlichen Geschmack der Sauerkirsche mit der cremigen Frische des Joghurts. Eine perfekte Kombination.",
+      "para2": "Hergestellt aus frischer griechischer Milch, mit unverwechselbarem Fruchtaroma. Ideal als Dessert oder kühle Erfrischung."
+    },
+    "features": {
+      "title": "Was ihn besonders macht",
+      "items": [
+        [
+          "Ausgewogener Geschmack",
+          "Kühler, ausgewogener Geschmack mit vollem Aroma und cremiger Textur."
+        ],
+        [
+          "Aus frischer Milch",
+          "Hergestellt aus frischer griechischer Milch, mit sorgfältigem Prozess."
+        ],
+        [
+          "Für Profis",
+          "Ideal für Konditoreien, Restaurants und Gemeinschaftsverpflegung — in praktischen Packungen."
+        ]
+      ]
+    },
+    "image": "pagwto-giaourtii-vussino",
+    "cta": {
+      "title": "Möchten Sie unser Joghurteis mit Sauerkirsche probieren?",
+      "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelsbestellungen.",
+      "btn": "Kontakt"
+    },
+    "sizes": {
+      "label": "Verfügbare Größen",
+      "items": [
+        {
+          "weight": "500ml",
+          "note": "Kleine Packung — ideal zum Probieren oder für 1-2 Personen.",
+          "image": "pagwto-giaourtii-vussino"
+        },
+        {
+          "weight": "2lt",
+          "note": "Familienpackung — für den täglichen Genuss.",
+          "image": "pagwto-giaourtii-vussino"
+        },
+        {
+          "weight": "3lt",
+          "note": "Große Packung — für Profis und Gemeinschaftsverpflegung.",
+          "image": "pagwto-giaourtii-vussino"
+        }
+      ]
+    }
+  }
+}
