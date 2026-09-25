@@ -69,32 +69,72 @@ const highlights = (
 ---
 
 <!-- ============================= Hero ============================= -->
-<section class="relative h-[95svh] md:h-svh overflow-hidden">
-  <Image
-    src={imageMap[t('hero.image') as string] ?? imageMap['tyrnavos']}
-    alt={t('hero.imageAlt')}
-    width={1920}
-    format="webp"
-    quality={80}
-    class="absolute inset-0 w-full h-full object-cover object-[56%_50%] md:object-center"
-  />
-  <div class="absolute inset-0 bg-gradient-to-r from-black/30 via-black/10 to-transparent"></div>
-  <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
-  <div class="relative z-10 flex flex-col items-center md:items-start justify-center h-full text-center md:text-left px-6 md:px-16 lg:px-24 max-w-4xl mx-auto md:mx-0 -translate-y-[16svh] md:translate-y-0">
-    <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold font-alegreya leading-tight text-white drop-shadow-lg max-w-2xl">
-      {t('hero.title')}
-    </h1>
-    {t('hero.subtitle') ? (
-      <p class="mt-6 text-base md:text-lg lg:text-xl font-noto-sans font-light text-white/85 max-w-xl leading-relaxed">
-        {t('hero.subtitle')}
-      </p>
-    ) : null}
-    <a
-      href={localizedPath('/products', locale)}
-      class="mt-10 inline-block bg-olive-800 text-white font-geologica font-semibold tracking-widest uppercase text-sm px-10 py-4 hover:bg-olive-900 transition-colors duration-300 shadow-lg"
-    >
-      {t('hero.cta')}
-    </a>
+<!-- Mobile: stacked (photo on top, solid text panel below) · Desktop: overlay -->
+<section class="md:relative md:h-svh overflow-hidden">
+  <!-- Mobile stacked -->
+  <div class="md:hidden">
+    <div class="relative h-[44svh] min-h-[300px]">
+      <Image
+        src={imageMap[t('hero.image') as string] ?? imageMap['tyrnavos']}
+        alt={t('hero.imageAlt')}
+        width={1024}
+        format="webp"
+        quality={80}
+        class="absolute inset-0 w-full h-full object-cover object-[62%_45%]"
+      />
+      <!-- Blend photo into the panel below -->
+      <div class="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-b from-transparent to-olive-900"></div>
+    </div>
+    <div class="bg-olive-900 px-6 pt-8 pb-9 text-center">
+      <h1 class="text-3xl font-bold font-alegreya leading-tight text-balance text-white max-w-xl mx-auto">
+        {t('hero.title')}
+      </h1>
+      {t('hero.subtitle') ? (
+        <p class="mt-4 text-base font-noto-sans font-light text-white/75 max-w-md mx-auto leading-relaxed">
+          {t('hero.subtitle')}
+        </p>
+      ) : null}
+      <a
+        href={localizedPath('/products', locale)}
+        class="mt-7 w-full max-w-xs inline-block bg-amber-50 text-olive-900 font-geologica font-semibold tracking-widest uppercase text-sm px-10 py-4 hover:bg-white transition-colors duration-300 shadow-lg shadow-black/30"
+      >
+        {t('hero.cta')}
+      </a>
+      <div class="mt-7" aria-hidden="true">
+        <svg class="w-6 h-6 mx-auto text-white/30 animate-bounce" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <!-- Desktop overlay -->
+  <div class="hidden md:block relative h-svh">
+    <Image
+      src={imageMap[t('hero.image') as string] ?? imageMap['tyrnavos']}
+      alt={t('hero.imageAlt')}
+      width={1920}
+      format="webp"
+      quality={80}
+      class="absolute inset-0 w-full h-full object-cover object-center"
+    />
+    <div class="absolute inset-0 bg-gradient-to-r from-black/55 via-black/20 to-transparent"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+    <div class="relative z-10 flex h-full flex-col items-start justify-center text-left px-16 lg:px-24 max-w-4xl">
+      <h1 class="text-5xl lg:text-6xl font-bold font-alegreya leading-tight text-white drop-shadow-lg max-w-2xl">
+        {t('hero.title')}
+      </h1>
+      {t('hero.subtitle') ? (
+        <p class="mt-6 text-lg lg:text-xl font-noto-sans font-light text-white/85 max-w-xl leading-relaxed">
+          {t('hero.subtitle')}
+        </p>
+      ) : null}
+      <a
+        href={localizedPath('/products', locale)}
+        class="mt-10 inline-block bg-olive-800 text-white font-geologica font-semibold tracking-widest uppercase text-sm px-10 py-4 hover:bg-olive-900 transition-colors duration-300 shadow-lg shadow-black/30"
+      >
+        {t('hero.cta')}
+      </a>
+    </div>
   </div>
 </section>
 
