@@ -31,7 +31,7 @@
         }
       ]
     },
-    "image": "leuko-turi-tenekes",
+    "image": "leuko-tyri-taper",
     "cta": {
       "title": "Θέλετε να δοκιμάσετε το Λευκό Τυρί;",
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες χονδρικής ή λιανικής.",
@@ -41,7 +41,27 @@
       "label": "Διαθέσιμα Μεγέθη",
       "items": [
         {
-          "weight": "Δοχείο 15kg",
+          "weight": "1kg",
+          "note": "Συσκευασία 1kg — ιδανική για οικιακή χρήση.",
+          "image": "leuko-tyri-taper"
+        },
+        {
+          "weight": "2kg",
+          "note": "Συσκευασία 2kg — για επαγγελματική χρήση.",
+          "image": "leuko-tyri-taper"
+        },
+        {
+          "weight": "4kg",
+          "note": "Συσκευασία 4kg — για επαγγελματική χρήση.",
+          "image": "leuko-tyri-taper"
+        },
+        {
+          "weight": "7kg",
+          "note": "Συσκευασία 7kg — για επαγγελματική χρήση.",
+          "image": "leuko-tyri-taper"
+        },
+        {
+          "weight": "15kg",
           "note": "Δοχείο 15kg — για επαγγελματική χρήση και μαζική εστίαση.",
           "image": "leuko-turi-tenekes"
         }
@@ -52,7 +72,7 @@
     "name": "Leuko Turi",
     "description": "A traditional white brined cheese with a smooth, creamy texture and mild salty flavor.",
     "imageAlt": "Leuko Turi",
-    "image": "leuko-turi-tenekes",
+    "image": "leuko-tyri-taper",
     "hero": {
       "label": "Our Products",
       "title": "Leuko Turi",
@@ -94,6 +114,26 @@
       "label": "Available Sizes",
       "items": [
         {
+          "weight": "1kg",
+          "note": "1kg pack — ideal for everyday use.",
+          "image": "leuko-tyri-taper"
+        },
+        {
+          "weight": "2kg",
+          "note": "2kg pack — for professional use.",
+          "image": "leuko-tyri-taper"
+        },
+        {
+          "weight": "4kg",
+          "note": "4kg pack — for professional use.",
+          "image": "leuko-tyri-taper"
+        },
+        {
+          "weight": "7kg",
+          "note": "7kg pack — for professional use.",
+          "image": "leuko-tyri-taper"
+        },
+        {
           "weight": "15kg Tin",
           "note": "15kg tin — for professional use and food service.",
           "image": "leuko-turi-tenekes"
@@ -105,7 +145,7 @@
     "name": "Weißkäse (Leuko Turi)",
     "description": "Traditioneller weißer Käse in Salzlake mit glatter, cremiger Textur und mildem Salzgeschmack.",
     "imageAlt": "Weißkäse",
-    "image": "leuko-turi-tenekes",
+    "image": "leuko-tyri-taper",
     "hero": {
       "label": "Unsere Produkte",
       "title": "Weißkäse (Leuko Turi)",
@@ -146,6 +186,26 @@
     "sizes": {
       "label": "Verfügbare Größen",
       "items": [
+        {
+          "weight": "1kg",
+          "note": "1kg-Packung — ideal für den täglichen Gebrauch.",
+          "image": "leuko-tyri-taper"
+        },
+        {
+          "weight": "2kg",
+          "note": "2kg-Packung — für den professionellen Einsatz.",
+          "image": "leuko-tyri-taper"
+        },
+        {
+          "weight": "4kg",
+          "note": "4kg-Packung — für den professionellen Einsatz.",
+          "image": "leuko-tyri-taper"
+        },
+        {
+          "weight": "7kg",
+          "note": "7kg-Packung — für den professionellen Einsatz.",
+          "image": "leuko-tyri-taper"
+        },
         {
           "weight": "15kg-Blech",
           "note": "15kg-Blech — für den professionellen Einsatz und Gemeinschaftsverpflegung.",

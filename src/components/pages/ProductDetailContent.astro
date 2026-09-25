@@ -176,6 +176,8 @@ const sizesLabel = sizes ? (t('sizes.label') as string) : '';
           tb.classList.toggle('border-olive-800', active);
           tb.classList.toggle('border-stone-300', !active);
           tb.classList.toggle('text-stone-700', !active);
+          tb.classList.toggle('hover:border-stone-900', !active);
+          tb.classList.toggle('hover:text-stone-900', !active);
         });
         notes.forEach((n) => {
           n.classList.toggle('hidden', n.getAttribute('data-size-note') !== idx);
