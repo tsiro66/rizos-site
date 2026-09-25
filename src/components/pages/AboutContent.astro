@@ -37,33 +37,32 @@ const timelineItems = t('timeline.items') as { year: string; title: string; role
 </section>
 
 <!-- Story + Timeline -->
-<section class="py-24 bg-amber-50">
+<section class="pb-24 bg-amber-50">
   <div class="max-w-6xl mx-auto px-6">
-    <div class="max-w-2xl">
-      <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('story.label')}</span>
-      <h2 class="text-3xl md:text-4xl font-alegreya font-bold text-stone-900 leading-tight">
-        {t('story.title')}
-      </h2>
-    </div>
-
-    <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
-      <!-- Portrait -->
-      <div class="lg:sticky lg:top-32">
-        <div class="overflow-hidden rounded-lg border border-stone-300/70 shadow-sm aspect-[2/3]">
-          <Image
-            src={imageMap['history']}
-            alt={t('story.title') as string}
-            width={1024}
-            format="webp"
-            quality={80}
-            loading="lazy"
-            class="w-full h-full object-cover"
-          />
+    <div class="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16">
+      <!-- Story header + portrait -->
+      <div class="lg:col-span-2">
+        <span class="text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-4 block">{t('story.label')}</span>
+        <h2 class="text-3xl md:text-4xl font-alegreya font-bold text-stone-900 leading-tight">
+          {t('story.title')}
+        </h2>
+        <div class="mt-8 lg:sticky lg:top-32">
+          <div class="overflow-hidden rounded-lg border border-stone-300/70 shadow-sm aspect-[2/3] lg:max-h-[calc(100svh-10rem)]">
+            <Image
+              src={imageMap['history']}
+              alt={t('story.title') as string}
+              width={1024}
+              format="webp"
+              quality={80}
+              loading="lazy"
+              class="w-full h-full object-cover"
+            />
+          </div>
         </div>
       </div>
 
       <!-- Timeline + prose -->
-      <div>
+      <div class="lg:col-span-3">
         <ol class="space-y-10">
           {timelineItems.map((item) => (
             <li class="relative pl-8 border-l border-stone-300">
