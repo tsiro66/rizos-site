@@ -38,6 +38,28 @@
         "description": "Παράγεται στον Τύρναβο με σεβασμό στην ποιότητα."
       }
     ],
+    "badges": [
+      {
+        "value": "85+",
+        "label": "Χρόνια Λειτουργίας",
+        "sub": "Συνεχής λειτουργία από το 1940."
+      },
+      {
+        "value": "3",
+        "label": "Γενιές Τυροκομίας",
+        "sub": "Οικογενειακή παράδοση και μεράκι."
+      },
+      {
+        "value": "2",
+        "label": "Χώρες Εξαγωγών",
+        "sub": "Γερμανία & Πολωνία."
+      },
+      {
+        "value": "1940",
+        "label": "Έτος Ίδρυσης",
+        "sub": "Τυροκομείο στον Τύρναβο."
+      }
+    ],
     "cta": {
       "eyebrow": "ΕΠΙΚΟΙΝΩΝΙΑ",
       "title": "Θέλετε να δοκιμάσετε τα προϊόντα μας;",
@@ -85,6 +107,28 @@
         "description": "Produced in Tyrnavos with respect for quality."
       }
     ],
+    "badges": [
+      {
+        "value": "85+",
+        "label": "Years of Operation",
+        "sub": "Continuous operation since 1940."
+      },
+      {
+        "value": "3",
+        "label": "Generations of Cheesemaking",
+        "sub": "A family tradition with true care."
+      },
+      {
+        "value": "2",
+        "label": "Export Markets",
+        "sub": "Germany & Poland."
+      },
+      {
+        "value": "1940",
+        "label": "Year Founded",
+        "sub": "Our dairy in Tyrnavos."
+      }
+    ],
     "cta": {
       "eyebrow": "GET IN TOUCH",
       "title": "Want to try our products?",
@@ -130,6 +174,28 @@
       {
         "title": "Griechisches Produkt",
         "description": "Hergestellt in Tyrnavos mit Respekt vor der Qualität."
+      }
+    ],
+    "badges": [
+      {
+        "value": "85+",
+        "label": "Jahre Erfahrung",
+        "sub": "Durchgehend in Betrieb seit 1940."
+      },
+      {
+        "value": "3",
+        "label": "Generationen Käsehandwerk",
+        "sub": "Eine Familientradition mit Hingabe."
+      },
+      {
+        "value": "2",
+        "label": "Exportmärkte",
+        "sub": "Deutschland & Polen."
+      },
+      {
+        "value": "1940",
+        "label": "Gründungsjahr",
+        "sub": "Unsere Käserei in Tyrnavos."
       }
     ],
     "cta": {
