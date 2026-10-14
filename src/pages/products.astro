@@ -7,6 +7,6 @@ import productsContent from '../content/products.json';
 const { t } = useTranslations('el', productsContent.el as Record<string, unknown>);
 ---
 
-<MainLayout title={pageTitles.products.el} t={t} locale='el'>
+<MainLayout title={pageTitles.products.el} description={productsContent.el.meta.description} t={t} locale='el'>
   <ProductsContent t={t} locale='el' />
 </MainLayout>

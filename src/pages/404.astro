@@ -1,0 +1,35 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { useTranslations, localizedPath } from '../i18n/utils';
+import siteContent from '../content/site.json';
+
+const { t } = useTranslations('el', siteContent.el as Record<string, unknown>);
+---
+
+<MainLayout title="404 — Η σελίδα δεν βρέθηκε | Ρίζος" noindex t={t} locale='el'>
+  <section class="bg-amber-50 pt-32 pb-24 min-h-[70svh] flex items-center">
+    <div class="max-w-2xl mx-auto px-6 text-center">
+      <span class="block font-geologica font-bold text-8xl md:text-9xl text-red-800 leading-none">404</span>
+      <h1 class="mt-6 text-3xl md:text-4xl font-alegreya font-bold text-stone-900">
+        Η σελίδα που ψάχνετε δεν βρέθηκε
+      </h1>
+      <p class="mt-4 text-lg font-noto-sans text-stone-600">
+        Ίσως μετακινήθηκε ή ο σύνδεσμος είναι λανθασμένος.
+      </p>
+      <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href={localizedPath('/', 'el')}
+          class="inline-block bg-olive-800 text-white font-geologica font-semibold tracking-widest uppercase text-sm px-10 py-4 hover:bg-olive-900 transition-colors duration-300 shadow-lg"
+        >
+          Αρχική
+        </a>
+        <a
+          href={localizedPath('/products', 'el')}
+          class="inline-block border border-stone-900 text-stone-900 font-geologica font-semibold tracking-widest uppercase text-sm px-10 py-4 hover:bg-stone-900 hover:text-white transition-colors duration-300"
+        >
+          Προϊόντα
+        </a>
+      </div>
+    </div>
+  </section>
+</MainLayout>

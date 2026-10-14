@@ -4,14 +4,61 @@ import Footer from '../components/Footer.astro';
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import { Font } from 'astro:assets';
+import { alternatePaths } from '../i18n/utils';
 
 interface Props {
   title?: string;
+  description?: string;
+  /** Path (from site root) of a page-specific social share image. */
+  ogImage?: string;
+  /** Set on pages that must stay out of search indexes (e.g. 404). */
+  noindex?: boolean;
   t: <T = unknown>(key: string) => T;
   locale: string;
 }
 
-const { title = 'Rizos', t, locale } = Astro.props;
+const { title = 'Rizos', description, ogImage = '/og-image.jpg', noindex = false, t, locale } = Astro.props;
+
+const site = Astro.site ?? new URL('https://rizosdairy.gr');
+const canonical = new URL(Astro.url.pathname, site);
+const socialImage = new URL(ogImage, site);
+const ogLocale = ({ el: 'el_GR', en: 'en_US', de: 'de_DE' } as Record<string, string>)[locale] ?? 'el_GR';
+
+const alternates = alternatePaths(Astro.url.pathname).map((a) => ({
+  ...a,
+  href: new URL(a.path, site).href,
+}));
+const defaultAlternate = alternates.find((a) => a.locale === 'el') ?? alternates[0];
+
+const business = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': new URL('/#business', site).href,
+  name: 'Τυροκομείο Ρίζος',
+  alternateName: 'Rizos Dairy',
+  description: 'Παραδοσιακά τυροκομικά προϊόντα από το 1940 — φέτα, γραβιέρα, πρόβειο βούτυρο και γιαούρτι από 100% ελληνικό γάλα.',
+  url: site.href,
+  logo: new URL('/favicon.svg', site).href,
+  image: socialImage.href,
+  telephone: '+306944285782',
+  email: 'tirokomikarizos1940@gmail.com',
+  foundingDate: '1940',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '2ο χιλιόμετρο Π.Ε.Ο Τυρνάβου Ελασσόνας',
+    addressLocality: 'Τύρναβος',
+    addressRegion: 'Λάρισα',
+    addressCountry: 'GR',
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '08:00',
+      closes: '16:00',
+    },
+  ],
+};
 ---
 
 <html lang={locale === 'el' ? 'el' : locale}>
@@ -19,12 +66,37 @@ const { title = 'Rizos', t, locale } = Astro.props;
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
-    <Font cssVariable='--font-geologica'/>
-    <Font cssVariable='--font-alegreya'/>
-    <Font cssVariable='--font-noto-sans'/>
+    {description && <meta name="description" content={description} />}
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical} />
+    {alternates.map((a) => (
+      <link rel="alternate" hreflang={a.locale} href={a.href} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={defaultAlternate.href} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ρίζος" />
+    <meta property="og:locale" content={ogLocale} />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Τυροκομείο Ρίζος — παραδοσιακά τυροκομικά προϊόντα από το 1940" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    {description && <meta name="twitter:description" content={description} />}
+    <meta name="twitter:image" content={socialImage} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(business)} />
+
+    <Font cssVariable='--font-geologica' />
+    <Font cssVariable='--font-alegreya' preload={true} />
+    <Font cssVariable='--font-noto-sans' />
     <ClientRouter />
   </head>
   <body>

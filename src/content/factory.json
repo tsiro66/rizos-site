@@ -30,6 +30,9 @@
       "title": "Παράδοση με σύγχρονο εξοπλισμό",
       "para1": "Οι εγκαταστάσεις μας συνδυάζουν τη γνώση τριών γενεών με σύγχρονο εξοπλισμό, εξασφαλίζοντας σταθερή ποιότητα σε κάθε παρτίδα τυριού και γιαουρτιού.",
       "para2": "Αυστηρά πρότυπα υγιεινής, συνεχής ψύξη και έλεγχος σε όλη τη διαδικασία — τα προϊόντα μας φτάνουν στο τραπέζι σας όπως βγαίνουν από την παραγωγή."
+    },
+    "meta": {
+      "description": "Οι εγκαταστάσεις του τυροκομείου Ρίζος στον Τύρναβο: σύγχρονη μονάδα παραγωγής όπου το φρέσκο ελληνικό γάλα γίνεται παραδοσιακά τυροκομικά προϊόντα με αυστηρούς ελέγχους ποιότητας."
     }
   },
   "en": {
@@ -63,6 +66,9 @@
       "title": "Tradition with modern equipment",
       "para1": "Our facilities combine the knowledge of three generations with modern equipment, delivering consistent quality in every batch of cheese and yogurt.",
       "para2": "Strict hygiene standards, continuous chilling and monitoring throughout the process — our products reach your table exactly as they leave production."
+    },
+    "meta": {
+      "description": "The Rizos dairy facilities in Tyrnavos: a modern production plant where fresh Greek milk becomes traditional dairy products under strict quality control."
     }
   },
   "de": {
@@ -96,6 +102,9 @@
       "title": "Tradition mit moderner Ausstattung",
       "para1": "Unsere Anlagen verbinden das Wissen von drei Generationen mit modernster Ausstattung für gleichbleibende Qualität in jeder Charge Käse und Joghurt.",
       "para2": "Strenge Hygienestandards, durchgängige Kühlung und Kontrolle im gesamten Prozess — unsere Produkte erreichen Ihren Tisch genau so, wie sie die Produktion verlassen."
+    },
+    "meta": {
+      "description": "Die Anlagen der Käserei Rizos in Tyrnavos: eine moderne Produktionsstätte, in der frische griechische Milch unter strenger Qualitätskontrolle zu traditionellen Milchprodukten wird."
     }
   }
 }

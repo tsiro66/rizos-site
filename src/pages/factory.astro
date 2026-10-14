@@ -7,6 +7,6 @@ import factoryContent from '../content/factory.json';
 const { t } = useTranslations('el', factoryContent.el as Record<string, unknown>);
 ---
 
-<MainLayout title={pageTitles.factory.el} t={t} locale='el'>
+<MainLayout title={pageTitles.factory.el} description={factoryContent.el.meta.description} t={t} locale='el'>
   <FactoryContent t={t} locale='el' />
 </MainLayout>

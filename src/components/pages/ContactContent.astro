@@ -27,13 +27,19 @@ const { t } = Astro.props;
     <div>
       <span class="block text-sm font-geologica font-semibold tracking-widest uppercase text-red-800 mb-3">{t('form.label')}</span>
       <h2 class="text-2xl md:text-3xl font-alegreya font-bold text-stone-900 mb-8">{t('form.title')}</h2>
-      <form class="space-y-5">
+      <form class="space-y-5" action="https://formsubmit.co/tirokomikarizos1940@gmail.com" method="POST">
+        <!-- FormSubmit: disable captcha page + honeypot for bots -->
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="text" name="_honey" class="hidden" aria-hidden="true" tabindex="-1" autocomplete="off" />
+        <input type="hidden" name="_subject" value="Νέο μήνυμα από το rizosdairy.gr" />
         <div>
           <label for="name" class="block text-sm font-geologica font-semibold tracking-widest uppercase text-stone-700 mb-2">{t('form.nameLabel')}</label>
           <input
             type="text"
             id="name"
             name="name"
+            required
+            autocomplete="name"
             placeholder={t('form.namePlaceholder')}
             class="w-full px-4 py-3 rounded-lg border border-stone-300 bg-white/40 font-noto-sans text-stone-900 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-red-800 focus:border-transparent transition"
           />
@@ -44,6 +50,8 @@ const { t } = Astro.props;
             type="email"
             id="email"
             name="email"
+            required
+            autocomplete="email"
             placeholder={t('form.emailPlaceholder')}
             class="w-full px-4 py-3 rounded-lg border border-stone-300 bg-white/40 font-noto-sans text-stone-900 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-red-800 focus:border-transparent transition"
           />
@@ -54,6 +62,7 @@ const { t } = Astro.props;
             type="tel"
             id="phone"
             name="phone"
+            autocomplete="tel"
             placeholder={t('form.phonePlaceholder')}
             class="w-full px-4 py-3 rounded-lg border border-stone-300 bg-white/40 font-noto-sans text-stone-900 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-red-800 focus:border-transparent transition"
           />
@@ -64,6 +73,7 @@ const { t } = Astro.props;
             id="message"
             name="message"
             rows="5"
+            required
             placeholder={t('form.messagePlaceholder')}
             class="w-full px-4 py-3 rounded-lg border border-stone-300 bg-white/40 font-noto-sans text-stone-900 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-red-800 focus:border-transparent transition resize-none"
           ></textarea>

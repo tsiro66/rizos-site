@@ -9,6 +9,9 @@
       "title": "Ενδιαφέρεστε για τα προϊόντα μας;",
       "subtitle": "Επικοινωνήστε μαζί μας για τιμές χονδρικής ή λιανικής.",
       "btn": "Επικοινωνία"
+    },
+    "meta": {
+      "description": "Όλα τα προϊόντα του τυροκομείου Ρίζος: φέτα Π.Ο.Π., γραβιέρες, πρόβεια και κατσικίσια τυριά, βούτυρα, γιαούρτια και παγωτό — φυσικά, χωρίς συντηρητικά, από 100% ελληνικό γάλα."
     }
   },
   "en": {
@@ -21,6 +24,9 @@
       "title": "Interested in our products?",
       "subtitle": "Contact us for wholesale or retail prices.",
       "btn": "Contact Us"
+    },
+    "meta": {
+      "description": "All Rizos dairy products: PDO feta, graviera, sheep's and goat's cheeses, butters, yogurts and ice cream — natural, preservative-free, made from 100% Greek milk."
     }
   },
   "de": {
@@ -33,6 +39,9 @@
       "title": "Interessiert an unseren Produkten?",
       "subtitle": "Kontaktieren Sie uns für Groß- oder Einzelhandelspreise.",
       "btn": "Kontakt"
+    },
+    "meta": {
+      "description": "Alle Produkte der Käserei Rizos: Feta g.U., Graviera, Schafs- und Ziegenkäse, Butter, Joghurt und Eis — natürlich, ohne Konservierungsstoffe, aus 100% griechischer Milch."
     }
   }
 }

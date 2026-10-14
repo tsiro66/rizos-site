@@ -2,6 +2,7 @@
 import MainLayout from '../../../layouts/MainLayout.astro';
 import ProductDetailContent from '../../../components/pages/ProductDetailContent.astro';
 import { useTranslations } from '../../../i18n/utils';
+import { getImage } from 'astro:assets';
 
 const productModules = import.meta.glob<{ default: Record<string, any> }>('../../../content/products/*.json', { eager: true });
 const productMap: Record<string, any> = {};
@@ -10,38 +11,17 @@ for (const [path, mod] of Object.entries(productModules)) {
   productMap[slug] = mod.default;
 }
 
-const localeTitles: Record<string, Record<string, string>> = {
-  en: {
-    feta: 'Traditional Feta | Rizos',
-    'pagwto-giaourti-rodakino': 'Peach Yogurt Ice Cream | Rizos',
-    'pagwto-giaourti-vussino': 'Sour Cherry Yogurt Ice Cream | Rizos',
-    'pagwto-krema': 'Cream Ice Cream | Rizos',
-    'pagwto-sokolata': 'Chocolate Ice Cream | Rizos',
-    'leuko-turi': 'Leuko Turi | Rizos',
-    anthotiro: 'Anthotyro | Rizos',
-    'graviera-ageladinh': "Cow's Graviera | Rizos",
-    'katsikisio-tyri': 'Goat Cheese | Rizos',
-    'kefaloturi-proveio': "Sheep's Kefalotyri | Rizos",
-    'paradosiako-proveio-giaourti-1kg': "Sheep's Yogurt 1kg | Rizos",
-    'paradosiako-proveio-giaourti-250': "Sheep's Yogurt 250g | Rizos",
-    'proveio-voutyro': "Sheep's Butter | Rizos",
-  },
-  de: {
-    feta: 'Traditioneller Feta | Rizos',
-    'pagwto-giaourti-rodakino': 'Joghurteis mit Pfirsich | Rizos',
-    'pagwto-giaourti-vussino': 'Joghurteis mit Sauerkirsche | Rizos',
-    'pagwto-krema': 'Sahne-Eis | Rizos',
-    'pagwto-sokolata': 'Schokoladeneis | Rizos',
-    'leuko-turi': 'Weißkäse (Leuko Turi) | Rizos',
-    anthotiro: 'Anthotyro | Rizos',
-    'graviera-ageladinh': 'Kuh-Graviera | Rizos',
-    'katsikisio-tyri': 'Ziegenkäse | Rizos',
-    'kefaloturi-proveio': 'Schaf-Kefalotyri | Rizos',
-    'paradosiako-proveio-giaourti-1kg': 'Schafjoghurt 1kg | Rizos',
-    'paradosiako-proveio-giaourti-250': 'Schafjoghurt 250g | Rizos',
-    'proveio-voutyro': 'Schafsbutter | Rizos',
-  },
-};
+const allImages = import.meta.glob<{ default: ImageMetadata }>('../../../assets/*.{jpg,jpeg,png,webp}', { eager: true });
+const productImageFiles = import.meta.glob<{ default: ImageMetadata }>('../../../assets/products/*.{jpg,jpeg,png,webp}', { eager: true });
+const imageMap: Record<string, ImageMetadata> = {};
+for (const mods of [allImages, productImageFiles]) {
+  for (const [path, mod] of Object.entries(mods)) {
+    const filename = path.split('/').pop()!.split('.')[0];
+    if (!imageMap[filename]) imageMap[filename] = mod.default;
+  }
+}
+
+const brandByLocale: Record<string, string> = { en: 'Rizos', de: 'Rizos' };
 
 export function getStaticPaths() {
   const modules = import.meta.glob<{ default: Record<string, any> }>('../../../content/products/*.json', { eager: true });
@@ -63,9 +43,27 @@ const { locale, slug } = Astro.params;
 const productData = productMap[slug!];
 const localeData = productData[locale!] as Record<string, unknown>;
 const { t } = useTranslations(locale!, localeData);
-const title = localeTitles[locale!]?.[slug!] ?? 'Rizos';
+const title = `${localeData.name} | Rizos`;
+const description = localeData.description as string | undefined;
+
+const site = Astro.site ?? new URL('https://rizosdairy.gr');
+const imageKey = (localeData.image as string) ?? slug!;
+const ogSrc = imageMap[imageKey]
+  ? (await getImage({ src: imageMap[imageKey], width: 1200, format: 'jpg', quality: 80 })).src
+  : '/og-image.jpg';
+const ogImage = new URL(ogSrc, site).href;
+
+const productJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: localeData.name,
+  description: description ?? title,
+  image: ogImage,
+  brand: { '@type': 'Brand', name: brandByLocale[locale!] ?? 'Rizos' },
+};
 ---
 
-<MainLayout title={title} t={t} locale={locale!}>
+<MainLayout title={title} description={description} ogImage={ogSrc} t={t} locale={locale!}>
+  <script type="application/ld+json" set:html={JSON.stringify(productJsonLd)} />
   <ProductDetailContent t={t} locale={locale!} slug={slug!} />
 </MainLayout>

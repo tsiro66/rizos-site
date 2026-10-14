@@ -51,7 +51,9 @@ const timelineItems = t('timeline.items') as { year: string; title: string; role
             <Image
               src={imageMap['history']}
               alt={t('story.title') as string}
-              width={1024}
+              width={800}
+              widths={[400, 640, 800]}
+              sizes="(min-width: 1024px) 32vw, 92vw"
               format="webp"
               quality={80}
               loading="lazy"

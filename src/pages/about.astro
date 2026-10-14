@@ -7,6 +7,6 @@ import aboutContent from '../content/about.json';
 const { t } = useTranslations('el', aboutContent.el as Record<string, unknown>);
 ---
 
-<MainLayout title={pageTitles.about.el} t={t} locale='el'>
+<MainLayout title={pageTitles.about.el} description={aboutContent.el.meta.description} t={t} locale='el'>
   <AboutContent t={t} locale='el' />
 </MainLayout>

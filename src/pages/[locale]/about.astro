@@ -11,6 +11,6 @@ const localeData = (aboutContent as Record<string, Record<string, unknown>>)[loc
 const { t } = useTranslations(locale!, localeData);
 ---
 
-<MainLayout title={(pageTitles.about as Record<string, string>)[locale!] ?? 'Rizos'} t={t} locale={locale!}>
+<MainLayout title={(pageTitles.about as Record<string, string>)[locale!] ?? 'Rizos'} description={((localeData as Record<string, any>).meta as Record<string, string> | undefined)?.description} t={t} locale={locale!}>
   <AboutContent t={t} locale={locale!} />
 </MainLayout>

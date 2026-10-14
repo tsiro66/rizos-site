@@ -50,17 +50,25 @@ const productItems = productList.map(({ slug, data }) => {
   <div class="max-w-6xl mx-auto px-6">
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-5">
       {
-        productItems.map((product) => (
+        productItems.map((product, i) => (
           <a href={localizedPath(`/products/${product.slug}`, locale)} class="group rounded-lg overflow-hidden border border-stone-300 bg-transparent hover:border-olive-800 transition-colors duration-300 block">
             <div class="aspect-square bg-amber-50 flex items-center justify-center overflow-hidden">
               {product.image && productImages[product.image] ? (
-                <Image src={productImages[product.image]} alt={product.imageAlt} />
+                <Image
+                  src={productImages[product.image]}
+                  alt={product.imageAlt}
+                  width={400}
+                  widths={[200, 400]}
+                  sizes="(min-width: 1280px) 240px, (min-width: 1024px) 270px, (min-width: 640px) 35vw, 50vw"
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                  fetchpriority={i === 0 ? 'high' : undefined}
+                />
               ) : (
                 <span class="text-stone-400 font-geologica text-sm">{product.imageAlt}</span>
               )}
             </div>
             <div class="p-4">
-              <h3 class="text-base font-alegreya font-bold text-stone-900 leading-snug">{product.name}</h3>
+              <h2 class="text-base font-alegreya font-bold text-stone-900 leading-snug">{product.name}</h2>
               <p class="mt-1.5 text-sm font-noto-sans text-stone-600 leading-snug line-clamp-2">
                 {product.description}
               </p>

@@ -31,7 +31,10 @@
       "weekdays": "Δευ - Παρ: 08:00 - 16:00",
       "weekend": "Σαβ - Κυρ: Κλειστά"
     },
-    "mapAlt": "Google Maps Embed"
+    "mapAlt": "Google Maps Embed",
+    "meta": {
+      "description": "Επικοινωνήστε με το τυροκομείο Ρίζος: τηλέφωνο +30 6944285782, email, διεύθυνση και ωράριο λειτουργίας. Παραγγελίες και συνεργασίες από το 1940."
+    }
   },
   "en": {
     "hero": {
@@ -65,7 +68,10 @@
       "weekdays": "Mon - Fri: 08:00 - 16:00",
       "weekend": "Sat - Sun: Closed"
     },
-    "mapAlt": "Google Maps Embed"
+    "mapAlt": "Google Maps Embed",
+    "meta": {
+      "description": "Contact Rizos dairy: phone +30 6944285782, email, address and opening hours. Orders and partnerships since 1940."
+    }
   },
   "de": {
     "hero": {
@@ -99,6 +105,9 @@
       "weekdays": "Mo - Fr: 08:00 - 16:00",
       "weekend": "Sa - So: Geschlossen"
     },
-    "mapAlt": "Google Maps Karte"
+    "mapAlt": "Google Maps Karte",
+    "meta": {
+      "description": "Kontakt zur Käserei Rizos: Telefon +30 6944285782, E-Mail, Adresse und Öffnungszeiten. Bestellungen und Kooperationen seit 1940."
+    }
   }
 }

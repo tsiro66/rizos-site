@@ -35,7 +35,7 @@ const navLinkClass = (p: string) => [
 >
   <div class="relative max-w-11/12 mx-auto flex items-center justify-between px-6 py-3">
     <a href={localizedPath('/', locale)} class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:static md:translate-x-0 md:translate-y-0 inline-flex items-center leading-none transition-opacity duration-300 hover:opacity-90" aria-label={t('nav.brand')}>
-      <Image src={logo} alt={t('nav.brand')} height={160} format="webp" quality={90} class="h-16 w-auto" loading="eager" />
+      <Image src={logo} alt={t('nav.brand')} width={320} height={144} format="webp" quality={90} class="h-16 w-auto" loading="eager" />
     </a>
 
     <!-- Desktop links -->
@@ -62,7 +62,7 @@ const navLinkClass = (p: string) => [
     </div>
 
     <!-- Mobile hamburger (2 lines) -->
-    <button id="mobile-menu-btn" class="ml-auto md:ml-0 md:hidden flex flex-col justify-center gap-[7px] w-9 h-9 cursor-pointer bg-transparent border-none z-[60]" aria-label="Menu">
+    <button id="mobile-menu-btn" class="ml-auto md:ml-0 md:hidden flex flex-col justify-center gap-[7px] w-9 h-9 cursor-pointer bg-transparent border-none z-[60]" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu">
       <span class="hamburger-line block w-full h-[2px] transition-all duration-300 bg-stone-800"></span>
       <span class="hamburger-line block w-full h-[2px] transition-all duration-300 bg-stone-800"></span>
     </button>
@@ -96,6 +96,8 @@ const navLinkClass = (p: string) => [
   document.addEventListener('astro:page-load', () => {
     const nav = document.getElementById('main-nav');
     if (!nav) return;
+    const navEl = nav as HTMLElement;
+    const w = window as typeof window & { __navScrollHandler?: () => void };
 
     const hamburgerLines = nav.querySelectorAll('.hamburger-line');
     const menuBtn = document.getElementById('mobile-menu-btn');
@@ -108,11 +110,11 @@ const navLinkClass = (p: string) => [
     const transparentScroll = nav.dataset.transparentScroll === 'true';
     function applyNavState(solid: boolean) {
       if (solid) {
-        nav.classList.remove('nav-transparent', 'bg-transparent', 'shadow-none');
-        nav.classList.add('bg-amber-50', 'shadow-md');
+        navEl.classList.remove('nav-transparent', 'bg-transparent', 'shadow-none');
+        navEl.classList.add('bg-amber-50', 'shadow-md');
       } else {
-        nav.classList.add('nav-transparent', 'bg-transparent', 'shadow-none');
-        nav.classList.remove('bg-amber-50', 'shadow-md');
+        navEl.classList.add('nav-transparent', 'bg-transparent', 'shadow-none');
+        navEl.classList.remove('bg-amber-50', 'shadow-md');
       }
     }
     function updateNavOnScroll() {
@@ -122,8 +124,8 @@ const navLinkClass = (p: string) => [
       const solid = window.scrollY > (transparentScroll ? 24 : 0);
       if (transparentScroll) applyNavState(solid);
       else {
-        nav.classList.toggle('shadow-md', solid);
-        nav.classList.toggle('shadow-none', !solid);
+        navEl.classList.toggle('shadow-md', solid);
+        navEl.classList.toggle('shadow-none', !solid);
       }
       const lightText = transparentScroll && !solid;
       hamburgerLines.forEach((l) => {
@@ -131,16 +133,17 @@ const navLinkClass = (p: string) => [
         l.classList.toggle('bg-stone-800', !lightText);
       });
     }
-    if (window.__navScrollHandler) {
-      window.removeEventListener('scroll', window.__navScrollHandler);
-      window.__navScrollHandler = undefined;
+    if (w.__navScrollHandler) {
+      window.removeEventListener('scroll', w.__navScrollHandler);
+      w.__navScrollHandler = undefined;
     }
-    window.__navScrollHandler = updateNavOnScroll;
+    w.__navScrollHandler = updateNavOnScroll;
     window.addEventListener('scroll', updateNavOnScroll, { passive: true });
     updateNavOnScroll();
 
     function toggleMenu() {
       menuOpen = !menuOpen;
+      menuBtn?.setAttribute('aria-expanded', String(menuOpen));
       if (menuOpen) {
         mobileMenu!.classList.remove('opacity-0', 'pointer-events-none');
         mobileMenu!.classList.add('opacity-100', 'pointer-events-auto');

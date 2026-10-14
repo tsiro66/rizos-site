@@ -56,6 +56,21 @@ export function useTranslations(locale: string, data?: Record<string, unknown>) 
 }
 
 export function localizedPath(path: string, locale: string): string {
-  if (locale === 'el') return path;
-  return `/${locale}${path}`;
+  // Cloudflare Workers assets serves `/dir` -> 307 -> `/dir/`. Emit the
+  // canonical trailing-slash form directly so no navigation pays a redirect.
+  const withSlash = path === '/' ? '/' : path.endsWith('/') ? path : `${path}/`;
+  if (locale === 'el') return withSlash;
+  return `/${locale}${withSlash}`;
+}
+
+/** Strip a known locale prefix from a pathname, e.g. `/en/products/` -> `/products/`. */
+export function stripLocalePrefix(pathname: string): string {
+  const stripped = pathname.replace(/^\/(en|de)(?=\/|$)/, '');
+  return stripped || '/';
+}
+
+/** All locale variants of the current page, for `hreflang` alternates. */
+export function alternatePaths(pathname: string): { locale: string; path: string }[] {
+  const base = stripLocalePrefix(pathname);
+  return locales.map((l) => ({ locale: l, path: l === 'el' ? base : `/${l}${base}` }));
 }

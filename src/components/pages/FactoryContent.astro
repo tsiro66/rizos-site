@@ -66,7 +66,7 @@ const facilityImage = imageMap['factory2'];
     </div>
     <div class="lg:col-span-7">
       <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-md">
-        <Image src={productionImage} alt={t('production.title')} width={900} format="webp" quality={80} loading="lazy" class="w-full h-full object-cover" />
+        <Image src={productionImage} alt={t('production.title')} width={900} widths={[480, 900]} sizes="(min-width: 1024px) 55vw, 92vw" format="webp" quality={80} loading="lazy" class="w-full h-full object-cover" />
       </div>
     </div>
   </div>
@@ -77,7 +77,7 @@ const facilityImage = imageMap['factory2'];
   <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
     <div class="lg:col-span-7 order-2 lg:order-1">
       <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-md">
-        <Image src={facilityImage} alt={t('facility.title')} width={900} format="webp" quality={80} loading="lazy" class="w-full h-full object-cover" />
+        <Image src={facilityImage} alt={t('facility.title')} width={900} widths={[480, 900]} sizes="(min-width: 1024px) 55vw, 92vw" format="webp" quality={80} loading="lazy" class="w-full h-full object-cover" />
       </div>
     </div>
     <div class="lg:col-span-5 order-1 lg:order-2">

@@ -66,6 +66,9 @@
       "subtitle": "Επικοινωνήστε μαζί μας για παραγγελίες, συνεργασίες ή οποιαδήποποτε ερώτηση.",
       "btn1": "Επικοινωνία",
       "btn2": "Όλα τα Προϊόντα"
+    },
+    "meta": {
+      "description": "Τυροκομείο Ρίζος από το 1940 — αγνά και φυσικά τυροκομικά προϊόντα, από τα βουνά της Ελλάδας στο τραπέζι σας. Φέτα Π.Ο.Π., γραβιέρα, πρόβειο βούτυρο και γιαούρτι από τον Τύρναβο."
     }
   },
   "en": {
@@ -135,6 +138,9 @@
       "subtitle": "Contact us for orders, partnerships or any questions.",
       "btn1": "Contact Us",
       "btn2": "All Products"
+    },
+    "meta": {
+      "description": "Rizos dairy since 1940 — pure and natural traditional Greek products, from the mountains of Greece to your table. PDO feta, graviera, sheep's butter and yogurt from Tyrnavos."
     }
   },
   "de": {
@@ -204,6 +210,9 @@
       "subtitle": "Kontaktieren Sie uns für Bestellungen, Partnerschaften oder Fragen.",
       "btn1": "Kontakt",
       "btn2": "Alle Produkte"
+    },
+    "meta": {
+      "description": "Rizos Käserei seit 1940 — reine und natürliche traditionelle griechische Produkte, von den Bergen Griechenlands auf Ihren Tisch. Feta g.U., Graviera, Schafsbutter und -joghurt aus Tyrnavos."
     }
   }
 }

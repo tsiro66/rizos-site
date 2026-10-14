@@ -2,9 +2,18 @@
 import { defineConfig, fontProviders } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://rizosdairy.gr',
+  trailingSlash: 'always',
+  integrations: [
+    sitemap({
+      // Never list the 404 page in the sitemap
+      filter: (page) => !page.includes('/404'),
+    }),
+  ],
   i18n: {
     defaultLocale: 'el',
     locales: ['el', 'en', 'de'],
@@ -21,6 +30,7 @@ export default defineConfig({
       cssVariable: '--font-geologica',
       provider: fontProviders.google(),
       weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+      styles: ['normal'],
       subsets: ['latin', 'greek'],
       display: 'swap',
     },
@@ -29,6 +39,7 @@ export default defineConfig({
       cssVariable: '--font-alegreya',
       provider: fontProviders.google(),
       weights: [400, 500, 600, 700, 800, 900],
+      styles: ['normal'],
       subsets: ['latin', 'greek'],
       display: 'swap',
     },
@@ -37,6 +48,7 @@ export default defineConfig({
       cssVariable: '--font-noto-sans',
       provider: fontProviders.google(),
       weights: [400, 500, 700],
+      styles: ['normal'],
       subsets: ['latin', 'greek'],
       display: 'swap',
     },

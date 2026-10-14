@@ -87,9 +87,12 @@ const sizesLabel = sizes ? (t('sizes.label') as string) : '';
           src={productImages[s.image || imageKey]}
           alt={t('hero.title') as string}
           width={960}
+          widths={[480, 960]}
+          sizes="(min-width: 768px) 45vw, 92vw"
           format="webp"
           quality={80}
-          loading="lazy"
+          loading={i === 0 ? 'eager' : 'lazy'}
+          fetchpriority={i === 0 ? 'high' : undefined}
           class={`w-full h-auto object-cover size-image ${i === 0 ? '' : 'hidden'}`}
           data-size-image={i}
         />

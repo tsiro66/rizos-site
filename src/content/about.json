@@ -69,6 +69,9 @@
           "text": "Τη σκυτάλη παίρνει ο Σωτήριος Ρίζος, απόφοιτος της Αμερικανικής Γεωργικής Σχολής Θεσσαλονίκης και Τεχνολόγος Τροφίμων. Η τρίτη γενιά συνδυάζει την οικογενειακή εμπειρία με τη σύγχρονη επιστημονική γνώση, συνεχίζοντας να δημιουργεί τυροκομικά προϊόντα με σεβασμό στην ποιότητα και την παράδοση."
         }
       ]
+    },
+    "meta": {
+      "description": "Η ιστορία του τυροκομείου Ρίζος: τρεις γενιές τυροκομίας από το 1940 — από την Αβδέλλα Γρεβενών στα βουνά της Πίνδου, στις σύγχρονες εγκαταστάσεις του Τυρνάβου."
     }
   },
   "en": {
@@ -106,6 +109,9 @@
           "text": "Food Technologist combining modern science with inherited tradition — 80+ years of history."
         }
       ]
+    },
+    "meta": {
+      "description": "The story of Rizos dairy: three generations of cheese-making since 1940 — from Avdella in the Pindus mountains to our modern facilities in Tyrnavos."
     }
   },
   "de": {
@@ -143,6 +149,9 @@
           "text": "Lebensmitteltechnologe, der moderne Wissenschaft mit ererbter Tradition verbindet — über 80 Jahre Geschichte."
         }
       ]
+    },
+    "meta": {
+      "description": "Die Geschichte der Käserei Rizos: drei Generationen Käsemacherei seit 1940 — von Avdella im Pindos-Gebirge bis zu unseren modernen Anlagen in Tyrnavos."
     }
   }
 }

@@ -2,6 +2,7 @@
 import MainLayout from '../../layouts/MainLayout.astro';
 import ProductDetailContent from '../../components/pages/ProductDetailContent.astro';
 import { useTranslations } from '../../i18n/utils';
+import { getImage } from 'astro:assets';
 
 const productModules = import.meta.glob<{ default: Record<string, any> }>('../../content/products/*.json', { eager: true });
 const productMap: Record<string, any> = {};
@@ -10,21 +11,15 @@ for (const [path, mod] of Object.entries(productModules)) {
   productMap[slug] = mod.default;
 }
 
-const elTitles: Record<string, string> = {
-  feta: 'Φέτα Παραδοσιακή | Ρίζος',
-  'pagwto-giaourti-rodakino': 'Παγωτό Γιαούρτι Ροδάκινο | Ρίζος',
-  'pagwto-giaourti-vussino': 'Παγωτό Γιαούρτι Βύσσινο | Ρίζος',
-  'pagwto-krema': 'Παγωτό Κρέμα | Ρίζος',
-  'pagwto-sokolata': 'Παγωτό Σοκολάτα | Ρίζος',
-  'leuko-turi': 'Λευκό Τυρί | Ρίζος',
-  anthotiro: 'Ανθότυρο | Ρίζος',
-  'graviera-ageladinh': 'Γραβιέρα Αγελάδινη | Ρίζος',
-  'katsikisio-tyri': 'Κατσικίσιο Τυρί | Ρίζος',
-  'kefaloturi-proveio': 'Κεφαλοτύρι Πρόβειο | Ρίζος',
-  'paradosiako-proveio-giaourti-1kg': 'Πρόβειο Γιαούρτι 1kg | Ρίζος',
-  'paradosiako-proveio-giaourti-250': 'Πρόβειο Γιαούρτι 250g | Ρίζος',
-  'proveio-voutyro': 'Πρόβειο Βούτυρο | Ρίζος',
-};
+const allImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/*.{jpg,jpeg,png,webp}', { eager: true });
+const productImageFiles = import.meta.glob<{ default: ImageMetadata }>('../../assets/products/*.{jpg,jpeg,png,webp}', { eager: true });
+const imageMap: Record<string, ImageMetadata> = {};
+for (const mods of [allImages, productImageFiles]) {
+  for (const [path, mod] of Object.entries(mods)) {
+    const filename = path.split('/').pop()!.split('.')[0];
+    if (!imageMap[filename]) imageMap[filename] = mod.default;
+  }
+}
 
 export function getStaticPaths() {
   const modules = import.meta.glob<{ default: Record<string, any> }>('../../content/products/*.json', { eager: true });
@@ -39,9 +34,27 @@ const { slug } = Astro.params;
 const productData = productMap[slug!];
 const localeData = productData.el as Record<string, unknown>;
 const { t } = useTranslations('el', localeData);
-const title = elTitles[slug!] ?? 'Ρίζος';
+const title = `${localeData.name} | Ρίζος`;
+const description = localeData.description as string | undefined;
+
+const site = Astro.site ?? new URL('https://rizosdairy.gr');
+const imageKey = (localeData.image as string) ?? slug!;
+const ogSrc = imageMap[imageKey]
+  ? (await getImage({ src: imageMap[imageKey], width: 1200, format: 'jpg', quality: 80 })).src
+  : '/og-image.jpg';
+const ogImage = new URL(ogSrc, site).href;
+
+const productJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: localeData.name,
+  description: description ?? title,
+  image: ogImage,
+  brand: { '@type': 'Brand', name: 'Ρίζος' },
+};
 ---
 
-<MainLayout title={title} t={t} locale='el'>
-  <ProductDetailContent t={t} locale='el' slug={slug} />
+<MainLayout title={title} description={description} ogImage={ogSrc} t={t} locale='el'>
+  <script type="application/ld+json" set:html={JSON.stringify(productJsonLd)} />
+  <ProductDetailContent t={t} locale='el' slug={slug!} />
 </MainLayout>

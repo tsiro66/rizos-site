@@ -7,6 +7,6 @@ import contactContent from '../content/contact.json';
 const { t } = useTranslations('el', contactContent.el as Record<string, unknown>);
 ---
 
-<MainLayout title={pageTitles.contact.el} t={t} locale='el'>
+<MainLayout title={pageTitles.contact.el} description={contactContent.el.meta.description} t={t} locale='el'>
   <ContactContent t={t} locale='el' />
 </MainLayout>
