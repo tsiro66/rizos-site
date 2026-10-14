@@ -1,0 +1,16 @@
+// Separate config for the tiny www -> apex redirect worker.
+// Deploy with: wrangler deploy -c wrangler.www.jsonc
+{
+	"compatibility_date": "2026-05-12",
+	"name": "rizosdairy-www-redirect",
+	"main": "workers/www-redirect.ts",
+	"routes": [
+		{
+			"pattern": "www.rizosdairy.gr",
+			"custom_domain": true
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
