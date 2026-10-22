@@ -1,5 +1,7 @@
 ---
 import { localizedPath } from '../i18n/utils';
+import { Image } from 'astro:assets';
+import logo from '../assets/logo.png';
 
 interface Props {
   t: <T = unknown>(key: string) => T;
@@ -15,8 +17,8 @@ const { t, locale } = Astro.props;
     <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
       <!-- Brand -->
       <div>
-        <a href={localizedPath('/', locale)} class="inline-block text-red-400">
-          <span class="font-geologica text-5xl font-bold uppercase tracking-wide leading-none text-red-400">{t('nav.brand')}</span>
+        <a href={localizedPath('/', locale)} class="inline-block" aria-label={t('nav.brand')}>
+          <Image src={logo} alt={t('nav.brand')} width={320} height={144} format="webp" quality={90} class="h-20 w-auto" />
         </a>
         <p class="font-alegreya text-lg text-white/70 max-w-xs leading-relaxed mt-5">
           {t('footer.description')}
@@ -40,6 +42,7 @@ const { t, locale } = Astro.props;
         <ul class="space-y-3 list-none m-0 p-0 font-alegreya text-lg text-white/80">
           <li>{t('footer.email')}</li>
           <li>{t('footer.phone')}</li>
+          <li>{t('footer.address')}</li>
           <li>{t('footer.country')}</li>
         </ul>
       </div>

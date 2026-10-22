@@ -1,5 +1,6 @@
 ---
 import { localizedPath } from '../../i18n/utils';
+import { sortProducts } from '../../content/productOrder';
 import { Image } from 'astro:assets';
 
 const allImages = {
@@ -26,7 +27,7 @@ interface Props {
 
 const { t, locale } = Astro.props;
 
-const productItems = productList.map(({ slug, data }) => {
+const productItems = sortProducts(productList, locale).map(({ slug, data }) => {
   const localeData = data[locale] as { name: string; description: string; imageAlt: string; image: string };
   return { slug, ...localeData };
 });
